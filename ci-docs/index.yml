@@ -1,0 +1,108 @@
+### YamlMime:Landing
+metadata:
+  title: Dynamics 365 Customer Insights के लिए सहायता केंद्र
+  author: m-hartmann
+  description: मदद सामग्री के साथ शुरू करने के लिए प्रासंगिक लेख का पता लगाएं.
+  ms.author: mhart
+  ms.date: 10/29/2020
+  ms.service: customer-insights
+  ms.topic: landing-page
+  ms.openlocfilehash: f175ea858213022afc87fce77213893c7d050d30
+  ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+  ms.translationtype: HT
+  ms.contentlocale: hi-IN
+  ms.lasthandoff: 11/03/2020
+  ms.locfileid: "4405974"
+title: Dynamics 365 Customer Insights दस्तावेज़ीकरण
+summary: Customer Insights की सुविधाओं और क्षमताओं के बारे में शुरू करने और जानने के लिए सहायक संसाधनों का पता लगाएं.
+landingContent:
+- title: Customer Insights पेश है
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Customer Insights अवलोकन
+      url: overview.md
+    - text: रिलीज़ की योजना
+      url: https://docs.microsoft.com/dynamics365-release-plan/2020wave2/customer-data-platform/dynamics365-customer-insights/planned-features
+    - text: अपना परिवेश एक्सेस करें
+      url: https://home.ci.ai.dynamics.com/
+- title: ऑडिएंस इनसाइट्स के साथ शुरू करें
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: परीक्षण के लिए साइन अप करें
+      url: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
+    - text: नया क्या है
+      url: audience-insights/whats-new-audience-insights.md
+    - text: ऑडिएंस इनसाइट दस्तावेज़ीकरण
+      url: audience-insights/index.yml
+- title: संपर्क में रहें
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Dynamics 365 समुदाय में शामिल हों
+      url: https://go.microsoft.com/fwlink/?linkid=2073991
+    - text: अपने विचार साझा करें
+      url: https://go.microsoft.com/fwlink/?linkid=2074172
+    - text: किसी समस्या की रिपोर्ट करें
+      url: https://go.microsoft.com/fwlink/?linkid=2079641
+- title: ऑडिएंस इनसाइट ट्यूटोरियल
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: कोई नया परिवेश बनाएँ
+      url: audience-insights/home.md
+    - text: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
+      url: https://docs.microsoft.com/learn/modules/unified-customer-profile/
+    - text: ऐप के साथ कार्य करें
+      url: https://docs.microsoft.com/learn/modules/working-with-customer-insights/
+- title: निर्यात ऑडियंस इनसाइट्स डेटा
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: निर्यात गंत्व्यों को स्थापित करें
+      url: audience-insights/export-destinations.md
+    - text: Dynamics 365 ऐप में ग्राहक कार्ड
+      url: audience-insights/customer-card-add-in.md
+    - text: Power BI कनेक्टर
+      url: audience-insights/export-power-bi.md
+- title: व्यवस्थित ऑडिएंस इनसाइट
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: सिस्टम कॉन्फ़िगर करें
+      url: audience-insights/system.md
+    - text: उपयोगकर्ता अनुमतियों को निर्दिष्ट करें
+      url: audience-insights/permissions.md
+    - text: अनेक परिवेश प्रबंधित करें
+      url: audience-insights/manage-environments.md
+- title: एंगेजमेंट इनसाइट (पूर्वावलोकन) के बारे में
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: क्षमता अवलोकन
+      url: engagement-insights/overview.md
+    - text: नियम और शर्तें
+      url: engagement-insights/glossary.md
+    - text: शुरू करें
+      url: engagement-insights/get-started.md
+- title: संलग्नता की जानकारी के लिए रिपोर्ट (पूर्वावलोकन)
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: रिपोर्ट देखें
+      url: engagement-insights/view-reports.md
+    - text: कस्टम रिपोर्ट बनाएँ
+      url: engagement-insights/custom-reports.md
+    - text: एकीकृत प्रोफाइल रिपोर्ट देखें
+      url: engagement-insights/profile-reports.md
+- title: संलग्नता की जानकारी के लिए कार्यक्रम (पूर्वावलोकन)
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: परिष्कृत घटनाएँ बनाएँ
+      url: engagement-insights/refined-events.md
+    - text: निर्यात की घटनाएं
+      url: engagement-insights/export-events.md
+    - text: व्यक्तिगत डेटा हटाएं और निर्यात करें
+      url: engagement-insights/delete-export-personal-data.md
