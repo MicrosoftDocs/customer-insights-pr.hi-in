@@ -1,0 +1,226 @@
+- name: Dynamics 365 Customer Insights
+  href: index.yml
+- name: उत्पाद अवलोकन
+  href: overview.md
+- name: अपना परिवेश एक्सेस करें
+  href: 'https://home.ci.ai.dynamics.com/'
+- name: ऑडिएंस इनसाइट
+  items:
+    - name: सहायता केंद्र
+      href: audience-insights/index.yml
+    - name: क्षमता अवलोकन
+      href: audience-insights/overview.md
+    - name: निःशुल्क परीक्षण
+      href: 'https://dynamics.microsoft.com/get-started/?appname=customerinsights'
+    - name: नई और अपडेट की गयी विशेषताएं
+      href: audience-insights/whats-new-audience-insights.md
+    - name: शुरू करें
+      items:
+        - name: कोई नया परिवेश बनाएँ
+          href: audience-insights/home.md
+        - name: डेटा करें
+          href: 'https://docs.microsoft.com/learn/modules/ingest-data-customer-insights/'
+        - name: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
+          href: 'https://docs.microsoft.com/learn/modules/unified-customer-profile/'
+        - name: ऐप के साथ कार्य करें
+          href: 'https://docs.microsoft.com/learn/modules/working-with-customer-insights/'
+        - name: डेटा और पूर्वानुमानों को समृद्ध करें
+          href: 'https://docs.microsoft.com/learn/modules/enrich-data/'
+    - name: डेटा स्रोत
+      items:
+        - name: डेटा स्रोत ओवरव्यू
+          href: audience-insights/data-sources.md
+        - name: Power Query कनेक्टर के माध्यम से डेटा स्रोत जोड़ें
+          href: audience-insights/connect-power-query.md
+        - name: डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें
+          href: audience-insights/connect-common-data-model.md
+        - name: Common Data Service प्रबंधित डेटा लेक जोड़ें
+          href: audience-insights/connect-common-data-service-lake.md
+        - name: डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश
+          href: audience-insights/incremental-refresh-data-sources.md
+        - name: वास्तविक-समय डेटा इनजेशन
+          href: audience-insights/real-time-data-ingestion.md
+        - name: निकायों और डेटासेट को समझें
+          href: audience-insights/entities.md
+    - name: डेटा एकीकरण
+      items:
+        - name: एकीकरण अवलोकन
+          href: audience-insights/data-unification.md
+        - name: मानचित्र निकाय और विशेषताएँ
+          href: audience-insights/map-entities.md
+        - name: निकायों का मिलान करें
+          href: audience-insights/match-entities.md
+        - name: निकायों को विलीन करें
+          href: audience-insights/merge-entities.md
+        - name: एकीकृत ग्राहक प्रोफाइल्स की समीक्षा करें
+          href: audience-insights/customer-profiles.md
+        - name: एकीकृत ग्राहक प्रोफाइल्स को फ़िल्टर करें
+          href: audience-insights/search-filter-index.md
+        - name: संबंध और संबद्ध निकाय बनाएं
+          href: audience-insights/relationships.md
+        - name: ग्राहक गतिविधियों को सूचीबद्ध करें
+          href: audience-insights/activities.md
+    - name: डेटा संवर्धन
+      items:
+        - name: ग्राहक प्रोफ़ाइलें को बेहतर करें
+          href: audience-insights/enrichment-hub.md
+        - name: ब्रांड और ब्याज समानताएँ
+          href: audience-insights/enrichment-microsoft-graph.md
+        - name: HERE Technologies के साथ समृद्ध करें
+          href: audience-insights/enrichment-here.md
+        - name: लीड स्पेस के साथ संवर्धित
+          href: audience-insights/enrichment-leadspace.md
+        - name: एक्सपीरियन के साथ बेहतर बनाना
+          href: audience-insights/enrichment-experian.md
+        - name: SFTP कस्टम आयात के साथ समृद्ध करें
+          href: audience-insights/enrichment-SFTP-custom-import.md
+    - name: खंड और माप
+      items:
+        - name: खंड और ग्राहक समूह बनाएं
+          href: audience-insights/segments.md
+        - name: खंडों पर इनसाइट प्राप्त करें
+          href: audience-insights/segment-insights.md
+        - name: समान ग्राहकों का पता लगाएं
+          href: audience-insights/find-similar-customer-segments.md
+        - name: उपायों और KPI को निर्दिष्ट करें
+          href: audience-insights/measures.md
+    - name: पूर्वानुमान
+      items:
+        - name: मूल्यों के अनुमानों का इस्तेमाल करके डेटा पूरा करें
+          href: audience-insights/predictions.md
+        - name: सदस्यता छोड़ने का पूर्वानुमान लगाएं
+          href: audience-insights/predict-subscription-churn.md
+        - name: सदस्यता चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
+          href: audience-insights/sample-guide-predict-subscription-churn.md
+        - name: ट्रांजैक्शनल चर्न का पूर्वानुमान करें
+          href: audience-insights/predict-transactional-churn.md
+        - name: लेन-देन संबंधी चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
+          href: audience-insights/sample-guide-predict-transactional-churn.md
+        - name: कस्टम मशीन लर्निंग मॉडल लागू करें
+          href: audience-insights/custom-models.md
+        - name: Azure मशीन लर्निंग के साथ प्रयोग
+          href: audience-insights/azure-machine-learning-experiments.md
+        - name: Azure मशीन लर्निंग स्टूडियो के साथ प्रयोग
+          href: audience-insights/machine-learning-studio-experiments.md
+    - name: निर्यात विकल्प
+      items:
+        - name: निर्यात गंतव्य खोजें
+          href: audience-insights/export-destinations.md
+        - name: Azure ब्लॉब संग्रहण
+          href: audience-insights/export-azure-blob-storage.md
+        - name: DotDigital
+          href: audience-insights/export-dotdigital.md
+        - name: Dynamics 365 Customer Service (ऐड-इन)
+          href: audience-insights/customer-card-add-in.md
+        - name: Dynamics 365 Marketing
+          href: audience-insights/export-dynamics365-marketing.md
+        - name: Dynamics 365 विक्रय
+          href: audience-insights/export-dynamics365-sales.md
+        - name: Dynamics 365 Sales हब (एड-इन)
+          href: audience-insights/customer-card-add-in.md
+        - name: Facebook विज्ञापन प्रबंधक
+          href: audience-insights/export-facebook.md
+        - name: Google Ads
+          href: audience-insights/export-google-ads.md
+        - name: LiveRamp
+          href: audience-insights/export-liveramp.md
+        - name: Mailchimp
+          href: audience-insights/export-mailchimp.md
+        - name: Microsoft Teams (बोट)
+          href: audience-insights/export-teams-bot.md
+        - name: Marketo
+          href: audience-insights/export-marketo.md
+        - name: Power BI
+          href: audience-insights/export-power-bi.md
+        - name: Power Apps
+          href: audience-insights/export-power-apps.md
+        - name: Power Automate
+          href: audience-insights/export-power-automate.md
+        - name: SFTP
+          href: audience-insights/export-sftp.md
+    - name: व्यवस्थापन
+      items:
+        - name: सिस्टम कॉन्फ़िगरेशन सेट अप करें
+          href: audience-insights/system.md
+        - name: उपयोगकर्ता अनुमतियाँ असाइन करें
+          href: audience-insights/permissions.md
+        - name: अनेक परिवेश प्रबंधित करें
+          href: audience-insights/manage-environments.md
+        - name: सर्विस प्रिंसिपल का उपयोग करके ADLS स्टोरेज खाते से कनेक्ट करें
+          href: audience-insights/connect-service-principal.md
+        - name: समर्थित भाषाएँ
+          href: audience-insights/supported-languages.md
+    - name: विस्तारणीयता
+      items:
+        - name: Common Data Model में निकाय स्कीमा की समीक्षा करें
+          href: audience-insights/entity-schemas.md
+        - name: API के साथ काम करें
+          href: audience-insights/apis.md
+        - name: API संदर्भ
+          href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
+    - name: सेवा सीमाएँ
+      href: audience-insights/service-limits.md
+    - name: GDPR के तहत DSR अनुरोध
+      href: audience-insights/gdpr.md
+- name: एंगेजमेंट इनसाइट (पूर्वावलोकन)
+  items:
+    - name: सहायता केंद्र
+      href: engagement-insights/index.yml
+    - name: क्षमता अवलोकन
+      href: engagement-insights/overview.md
+    - name: निःशुल्क परीक्षण
+      href: 'https://pi.dynamics.com/'
+    - name: त्वरित प्रारंभ
+      items:
+        - name: सार्वजनिक पूर्वावलोकन के लिए तुरंत आरंभ
+          href: engagement-insights/quickstart.md
+    - name: शुरू करें
+      items:
+        - name: शुरू करें
+          href: engagement-insights/get-started.md
+        - name: एक कार्यस्थान बनाएँ
+          href: engagement-insights/create-workspace.md
+        - name: अपनी वेबसाइट तैयार करें
+          href: engagement-insights/instrument-website.md
+        - name: अवधारणाएं और शब्दावली
+          href: engagement-insights/glossary.md
+    - name: इवेंट
+      items:
+        - name: इवेंट बनाएं और संशोधित करें
+          href: engagement-insights/refined-events.md
+        - name: निर्यात की घटनाएं
+          href: engagement-insights/export-events.md
+    - name: रिपोर्ट
+      items:
+        - name: रिपोर्ट देखें
+          href: engagement-insights/view-reports.md
+        - name: कस्टम रिपोर्ट बनाएँ
+          href: engagement-insights/custom-reports.md
+        - name: एकीकृत प्रोफ़ाइल रिपोर्ट बनाएं
+          href: engagement-insights/profile-reports.md
+    - name: डेवलपर संसाधन
+      items:
+        - name: डेवलपर संसाधन का अवलोकन
+          href: engagement-insights/developer-resources.md
+        - name: Web SDK ट्यूटोरियल
+          href: engagement-insights/advanced-SDK-implementation.md
+        - name: वेब SDK नमूना
+          href: engagement-insights/websdk-sample.md
+    - name: व्यवस्थापन
+      items:
+        - name: भूमिकाएँ और अनुमतियाँ
+          href: engagement-insights/user-roles.md
+        - name: परिवेशों और कार्यक्षेत्रों का प्रबंधन करें
+          href: engagement-insights/manage-environments-workspaces.md
+        - name: कनेक्शनों को कॉन्फ़िगर करें
+          href: engagement-insights/configure-connections.md
+        - name: कुकी और उपयोगकर्ता की सहमति प्रबंधित करें
+          href: engagement-insights/user-consent-storage.md
+    - name: GDPR
+      items:
+        - name: व्यक्तिगत डेटा हटाएं और निर्यात करें
+          href: engagement-insights/delete-export-personal-data.md
+    - name: सेवा सीमाएँ
+      href: engagement-insights/quotas.md
+- name: सहायता से संपर्क करें
+  href: 'https://go.microsoft.com/fwlink/?linkid=2145734'
