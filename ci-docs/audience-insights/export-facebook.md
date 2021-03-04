@@ -5,16 +5,16 @@ ms.date: 06/05/2020
 ms.reviewer: philk
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 8260e3b5e529f3d54678d9d6e11aebb2795e27fd
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: c839f9dc7e403412c0e3d936392d45a43bc63545
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643685"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269976"
 ---
 # <a name="connector-for-facebook-ads-manager-preview"></a>Facebook विज्ञापन प्रबंधक के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -62,7 +62,16 @@ ms.locfileid: "4643685"
 
 आप [मांग पर डेटा निर्यात](export-destinations.md) कर सकते हैं. निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).
 
+## <a name="known-limitations"></a>ज्ञात सीमाएँ
+
+- Facebook विज्ञापन प्रबंधक को प्रति निर्यात 10 मिलियन ग्राहक प्रोफ़ाइल 
+- Facebook विज्ञापन प्रबंधक में निर्यात सेगमेंट तक सीमित है
+- कुल 10 मिलियन प्रोफ़ाइल वाले सेगमेंट को निर्यात करने में 90 मिनट तक लग सकते हैं
+
 ## <a name="data-privacy-and-compliance"></a>डेटा गोपनीयता और अनुपालन
 
 जब आप Dynamics 365 Customer Insights को Facebook विज्ञापन प्रबंधक पर डेटा संचारित करने के लिए सक्षम करते हैं, तो आप Dynamics 365 Customer Insights के लिए अनुपालन सीमा के बाहर डेटा के स्थानांतरित करने की अनुमति देते हैं, जिसमें संभावित संवेदनशील डेटा जैसे व्यक्तिगत डेटा शामिल हैं. Microsoft आपके निर्देश पर इस तरह के डेटा को स्थानांतरित करेगा, लेकिन आप यह सुनिश्चित करने के लिए उत्तरदायी हैं कि Facebook विज्ञापन आपके पास मौजूद किसी भी गोपनीयता या सुरक्षा दायित्वों को पूरा करता है. अधिक जानकारी के लिए, [Microsoft गोपनीयता कथन](https://go.microsoft.com/fwlink/?linkid=396732) देखें.
 आपका Dynamics 365 Customer Insights एडमिनिस्ट्रेटर इस कार्यक्षमता का उपयोग बंद करने के लिए किसी भी समय इस निर्यात गंतव्य को हटा सकता है.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

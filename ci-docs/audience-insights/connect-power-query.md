@@ -5,16 +5,16 @@ ms.date: 09/29/2020
 ms.reviewer: adkuppa
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 8a170cc5b64b4b383501021232c83948e838a0e2
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: d51a7efa5fd9f7336d1662500eb804a674738493
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4405945"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5267771"
 ---
 # <a name="connect-to-a-power-query-data-source"></a>Power Query डेटा स्रोत से कनेक्ट करें
 
@@ -28,7 +28,10 @@ Power Query डेटा इंजेस्ट करने के लिए क
 
 1. **डेटा आयात करें** विधि चुनें और **अगला** का चयन करें.
 
-1. डेटा स्रोत के लिए एक **नाम** प्रदान करें और डेटा स्रोत बनाने के लिए **अगला** चुनें.
+1. डेटा स्रोत के लिए एक **नाम** प्रदान करें और डेटा स्रोत बनाने के लिए **अगला** चुनें. नाम दिशानिर्देश: 
+   - अक्षर के साथ शुरू करें.
+   - केवल अक्षर और संख्याओं का उपयोग करें. विशेष वर्ण और खाली जगह की अनुमति नहीं है.
+   - 3 से 64 वर्णों के बीच उपयोग करें.
 
 1. [उपलब्ध कनेक्टरों](#available-power-query-data-sources) में से एक चुनें. इस उदाहरण के लिए, हमने **पाठ/CSV** कनेक्टर चुना है.
 
@@ -77,3 +80,6 @@ Power Query डेटा इंजेस्ट करने के लिए क
 3. [एक नया डेटा स्रोत बनाएँ](#create-a-new-data-source) सेक्शन में वर्णित अनुसार अपने परिवर्तनों और रूपांतरणों को **Power Query - क्वेरी संपादित करें** संवाद में लागू करें.
 
 4. अपने परिवर्तनों को सहेजने के लिए अपने संपादन को पूरा करने के बाद Power Query में **सहेजें** चुनें.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

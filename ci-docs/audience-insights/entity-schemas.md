@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 2cf01029ef6b64fe566022d09ce65bca3603189c
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: 9e7a6e944d37d25f4c25846644278b39b3ddd08e
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643910"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269286"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>सामान्य डेटा मॉडल में निकाय स्कीमा
 
@@ -45,3 +45,6 @@ ms.locfileid: "4643910"
 आप [सामान्य डेटा मॉडल निकाय नेविगेटर](https://microsoft.github.io/CDM/) में निकायों को देख सकते हैं. **GitHub! से लोड करें** को चुनें बटन चुनें और उसे **foundationCommon** > **crmCommon** > **समाधान** > **customerInsights** में ले जाएँ जहाँ आपको निकायों के बारे में Customer Insights और उनकी परिभाषाएँ मिलेंगी.
 > [!div class="mx-imgBorder"]
 > ![निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर](media/CDM-entity-navigator.png "निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

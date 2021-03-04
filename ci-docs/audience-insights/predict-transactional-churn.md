@@ -5,16 +5,16 @@ ms.date: 11/12/2020
 ms.reviewer: zacook
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: f3cbbf99a6cecba2aab2cf85428d53e5df8346e4
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: af461d290c69687fb47bacfcff446a0c62978383
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644405"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5268320"
 ---
 # <a name="transactional-churn-prediction-preview"></a>ट्रांजैक्शनल चर्ण पूर्वानुमान (पूर्वावलोकन)
 
@@ -97,11 +97,13 @@ ms.locfileid: "4644405"
 
 1. अपनी ग्राहक गतिविधि निकाय के भीतर विशेषताओं के लिए शब्दार्थ फ़ील्ड को मैप करें और **अगला** चुनें. फ़ील्ड के विवरण के लिए, [पूर्वापेक्षाएँ](#prerequisites) पर एक नज़र डालें.
 
+   :::image type="content" source="media/map-transaction-data-fields.png" alt-text="लेन-देन वाले डेटा के लिए ग्राहक फ़ील्ड को मैप करें.":::
+
 1. वह गतिविधि प्रकार चुनें जो आपके द्वारा कॉन्फ़िगर की जा रही ग्राहक गतिविधि के प्रकार से मेल खाता हो. **नया बनाएं** चुनें और उपलब्ध गतिविधि प्रकार चुनें या एक नया प्रकार बनाएं.
 
 1. आपको संबंध को अपने ग्राहक गतिविधि निकाय से ग्राहक निकाय में कॉन्फ़िगर करना होगा.
     1. उस फ़ील्ड का चयन करें, जो ग्राहक गतिविधि तालिका में ग्राहक का पहचान करते हैं. यह सीधे आपके ग्राहक निकाय की प्राथमिक ग्राहक ID से संबंधित हो सकता है.
-    1. वह ग्राहक निकाय चुनें जो आपके प्राथमिक ग्राहक निकाय से मेल खाता है
+    1. उस ग्राहक निकाय का चयन करें जो आपके प्राथमिक ग्राहक निकाय से मेल खाता है
     1. ऐसा नाम दर्ज करें जो संबंध का वर्णन करता है.
 
 1. **सहेजें** चुनें.
@@ -185,3 +187,6 @@ ms.locfileid: "4644405"
 1. आप जिस पूर्वानुमान को हटाना चाहते हैं, उसके बगल में लंबवत दीर्घवृत्त चुनें.
 
 1. **हटाएँ** चुनें.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

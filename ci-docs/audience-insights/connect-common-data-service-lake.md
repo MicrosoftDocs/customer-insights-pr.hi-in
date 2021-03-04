@@ -4,17 +4,17 @@ description: Common Data Service प्रबंधित डेटा संग
 ms.date: 09/29/2020
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ms.reviewer: adkuppa
-ms.openlocfilehash: 029857e2bbb5f6357a5c01138ceaad78887b7518
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: 18b6cd3fdaf5b738877a73b520b91dbc6ded40de
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643400"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5267816"
 ---
 # <a name="connect-to-data-in-a-common-data-service-managed-data-lake"></a>Common Data Service प्रबंधित डेटा संग्रह में डेटा से कनेक्ट करें
 
@@ -34,7 +34,10 @@ ms.locfileid: "4643400"
 
 3. **Common Data Service से कनेक्ट करें** को चुनें और **अगला** चुनें.
 
-4. डेटा स्रोत के लिए एक **नाम** दर्ज करें एवं **अगला** चुनें.
+4. डेटा स्रोत के लिए एक **नाम** दर्ज करें एवं **अगला** चुनें. नाम दिशानिर्देश: 
+   - अक्षर के साथ शुरू करें.
+   - केवल अक्षर और संख्याओं का उपयोग करें. विशेष वर्ण और खाली जगह की अनुमति नहीं है.
+   - 3 से 64 वर्णों के बीच उपयोग करें.
 
 5. अपने Common Data Service संगठन के लिए **सर्वर पता** उपलब्ध कराएं, और चुनें **साइन इन**.
 
@@ -65,3 +68,6 @@ ms.locfileid: "4643400"
 3. सूची से **संपादन करें** विकल्प चुनें.
 
 4. निकायों की उपलब्ध सूची से अतिरिक्त संस्थाओं का चयन करें और **सहेजें** चुनें.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

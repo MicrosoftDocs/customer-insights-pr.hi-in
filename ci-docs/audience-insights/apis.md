@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 5a03e916676800afdd8692da865a1060952d5c4f
-ms.sourcegitcommit: b50c754481d0af6d0cf4b550775d7b31d95846ef
+ms.openlocfilehash: 966db1a22e7dece1bcd89733880bce059151157f
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 12/06/2020
-ms.locfileid: "4689132"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5267526"
 ---
 # <a name="work-with-customer-insights-apis"></a>Customer Insights API के साथ काम करें
 
@@ -140,3 +140,6 @@ NuGet.org से C# क्लाइंट लाइब्रेरी का उ
 
 1. प्रतिक्रिया शायद `object` प्रकार की होगी, क्योंकि विधि कई प्रकारों को लौटा सकती है (उदाहरण के लिए, `IList<InstanceInfo>` and ``ApiErrorResult`). लौटाने के प्रकार की जांच करने के लिए, आप उस परिचालन के लिए वस्तुओं को सुरक्षित रूप से [API विवरण पृष्ठ](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights) पर निर्दिष्ट प्रकारों में डाल सकते हैं.    
    यदि अनुरोध पर अधिक जानकारी चाहिए, तो अधूरी प्रतिक्रिया ऑब्जेक्ट तक पहुंचने के लिए **http संदेश विधियों** का उपयोग करें.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

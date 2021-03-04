@@ -1,20 +1,20 @@
 ---
 title: एक सर्विस प्रिंसिपल के साथ एक Azure Data Lake Storage Gen2 खाते से कनेक्ट करें
-description: ऑडियंस इनसाइट्स से जुड़ते समय अपने स्वयं के Data Lake से कनेक्ट करने के लिए ऑडियंस इनसाइट्स के लिए एक Azure service principal का उपयोग करें.
-ms.date: 11/24/2020
+description: ऑडिएंस इनसाइट्स से जुड़ते समय अपने खुद के Data Lake से कनेक्ट करने के लिए ऑडिएंस इनसाइट्स के लिए एक Azure service principal का उपयोग करें.
+ms.date: 02/10/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: c2fae278d34fa02b9168ac70dfa8dd351653245e
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: eebbac1370a847869d98beaf70db49b809d762e7
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644090"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5267724"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-gen2-account-with-an-azure-service-principal-for-audience-insights"></a>ऑडियंस इनसाइट्स के लिए एक Azure service principal के साथ एक Azure Data Lake Storage Gen2 खाते से कनेक्ट करें
 
@@ -22,7 +22,9 @@ Azure सेवाओं का उपयोग करने वाले स्
 
 आप सर्विस प्रिंसिपल का उपयोग सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर को जोड़ें या संपादित करें](connect-common-data-model.md) या [एक नया बनाएं या मौजूदा परिवेश को अपडेट करें](manage-environments.md#create-an-environment-in-an-existing-organization) करने के लिए कर सकते हैं.
 
-आपको सर्विस प्रिंसिपल बनाने के लिए अपनी Azure सदस्यता के लिए व्यवस्थापक अनुमतियों की आवश्यकता है.
+> [!IMPORTANT]
+> - Azure Data Lake Gen2 स्टोरेज खाता, जो सेवा सिद्धांत का उपयोग करने का इरादा रखता है, उसके पास [पदानुक्रमित नाम स्थान (HNS) सक्षम होना चाहिए](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-namespace).
+> - आपको सर्विस प्रिंसिपल बनाने के लिए अपनी Azure सदस्यता के लिए व्यवस्थापक अनुमतियों की आवश्यकता है.
 
 ## <a name="create-azure-service-principal-for-audience-insights"></a>ऑडियंस इनसाइट्स के लिए Azure service principal बनाएं
 
@@ -83,7 +85,7 @@ Azure सेवाओं का उपयोग करने वाले स्
 
 चयनित दृष्टिकोण के बारे में आवश्यक जानकारी प्रदान करने के लिए नीचे दिए गए चरणों का पालन करें.
 
-### <a name="resounce-based-storage-account-connection"></a>संसाधन-आधारित स्टोरेज खाता कनेक्शन
+### <a name="resource-based-storage-account-connection"></a>संसाधन-आधारित स्टोरेज खाता कनेक्शन
 
 1. [Azure व्यवस्थापक पोर्टल](https://portal.azure.com) पर जाएं, अपनी सदस्यता पर साइन इन करें और स्टोरेज खाता खोलें.
 
@@ -108,7 +110,8 @@ Azure सेवाओं का उपयोग करने वाले स्
 1. स्टोरेज खाते के **सदस्यता**, **संसाधन समूह**, और **नाम** की समीक्षा करें ताकि यह सुनिश्चित किया जा सके कि आप ऑडियंस इनसाइट्स में सही मानों का चयन करते हैं.
 
 1. ऑडियंस इनसाइट्स में, स्टोरेज खाता संलग्न करते समय मानों या संबंधित फ़ील्ड के लिए चुनाव करें.
-
-   :::image type="content" source="media/ADLS-SP-SubscriptionConnection.png" alt-text="स्टोरेज खाता के संसाधन ID सूचना को दर्ज करें.":::
    
 1. स्टोरेज खाता को संलग्न करने के लिए ऑडियंस इनसाइट्स में बचे हुए चरण जारी रखें.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

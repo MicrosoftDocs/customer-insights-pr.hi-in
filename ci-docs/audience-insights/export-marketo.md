@@ -5,16 +5,16 @@ ms.date: 11/12/2020
 ms.reviewer: philk
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 34ccee2894f1f2b552d0c6a88a6810e2dfc677a3
-ms.sourcegitcommit: 0b1d3ca11b8ba362a959da0eea15c37e9cdba084
+ms.openlocfilehash: e0245f2d01aabc86f43532822c056965ff7ae67a
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "4570405"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5267083"
 ---
 # <a name="connector-for-marketo-preview"></a>Marketo के लिए कनेक्ट (पूर्वावलोकन)
 
@@ -74,3 +74,6 @@ ms.locfileid: "4570405"
 
 जब आप Dynamics 365 Customer Insights को Marketo पर डेटा संचारित करने के लिए सक्षम करते हैं, तो आप Dynamics 365 Customer Insights के लिए अनुपालन सीमा के बाहर डेटा के स्थानांतरित करने की अनुमति देते हैं, जिसमें संभावित संवेदनशील डेटा जैसे व्यक्तिगत डेटा शामिल हैं. Microsoft आपके निर्देश पर इस तरह के डेटा को स्थानांतरित करेगा, लेकिन आप यह सुनिश्चित करने के लिए उत्तरदायी हैं कि Marketo आपके पास मौजूद किसी भी गोपनीयता या सुरक्षा दायित्वों को पूरा करता है. अधिक जानकारी के लिए, [Microsoft गोपनीयता कथन](https://go.microsoft.com/fwlink/?linkid=396732) देखें.
 आपका Dynamics 365 Customer Insights एडमिनिस्ट्रेटर इस कार्यक्षमता का उपयोग बंद करने के लिए किसी भी समय इस निर्यात गंतव्य को हटा सकता है.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

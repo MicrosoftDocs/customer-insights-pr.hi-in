@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 295c372bb452e7c40aa950506dc494d4a2de1108
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: 292da986faa7f62d8aa73ed7214075612178e2e1
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4405967"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269879"
 ---
 # <a name="relationships-between-entities"></a>निकाय के बीच संबंध
 
@@ -28,8 +28,8 @@ ms.locfileid: "4405967"
 > ![संबंध बनाना](media/relationships-entities-merge.png "संबंध बनाना")
 
 - ग्राहक इकाई और संपर्क इकाई के बीच ***CustomerToContact* संबंध** बनाया गया. संपर्क इकाई मुख्य फ़ील्ड **contactId** से तुलना करने के लिए ग्राहक इकाई को मुख्य फ़ील्ड **Contact_contactId** प्राप्त होता है.
-- ग्राहक निकाय और संपर्क खाता के बीच **_CustomerToContact_ संबंध** बनाया गया. संपर्क इकाई मुख्य फ़ील्ड **contactId** से तुलना करने के लिए ग्राहक इकाई को मुख्य फ़ील्ड **Contact_contactId** प्राप्त होता है.
-- ग्राहक निकाय और WebAccount निकाय के बीच **_CustomerToWebAccount_ संबंध** बनाया गया. WebAccount निकाय मुख्य फ़ील्ड **webaccountId** से तुलना करने के लिए ग्राहक निकाय को मुख्य फ़ील्ड **WebAccount_webaccountId** प्राप्त होता है.
+- ग्राहक निकाय और संपर्क खाता के बीच ***CustomerToContact* संबंध** बनाया गया. संपर्क इकाई मुख्य फ़ील्ड **contactId** से तुलना करने के लिए ग्राहक इकाई को मुख्य फ़ील्ड **Contact_contactId** प्राप्त होता है.
+- ग्राहक निकाय और WebAccount निकाय के बीच ***CustomerToWebAccount* संबंध** बनाया गया. WebAccount निकाय मुख्य फ़ील्ड **webaccountId** से तुलना करने के लिए ग्राहक निकाय को मुख्य फ़ील्ड **WebAccount_webaccountId** प्राप्त होता है.
 
 ## <a name="create-a-relationship"></a>संबंध बनाएँ
 
@@ -69,3 +69,6 @@ ms.locfileid: "4405967"
 ## <a name="next-step"></a>अगला स्टेप
 
 सिस्टम और कस्टम संबंध का उपयोग, एक से अधिक ऐसे डेटा स्रोतों पर आधारित सेगमेंट बनाने के लिए किया जाता है जो अब सिलो नहीं हैं. अधिक जानकारी के लिए, [खंड](segments.md) देखें.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,14 +9,14 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 24321e9e11f9fd4e800526673726e5146ed33674
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: 44f97696ec91dc488dd6a7528e186abb99c8288b
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4405929"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269654"
 ---
-# <a name="data-unification"></a>डेटा एकीकरण
+# <a name="data-unification-overview"></a>डेटा एकीकरण अवलोकन
 
 [डेटा स्रोतों को स्थापित करने](data-sources.md) के बाद, आप डेटा को एकजुट कर सकते हैं. डेटा एकीकरण में तीन चरण शामिल हैं: **नक्शा**, **मिलान**, और **विलीन**।
 
@@ -31,3 +31,6 @@ ms.locfileid: "4405929"
 - परिष्कृत सेगमेंट बनाने के लिए [निकायों के बीच संबंध स्थापित करें](relationships.md)
 - [अपने डेटा को समृद्ध करें](enrichment-hub.md) अपने ग्राहकों के बारे में व्यापक जानकारी प्राप्त करने के लिए
 - कुछ इन्जेस्ट किए गए विशेषताओं से [गतिविधियों को परिभाषित करें](activities.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,14 +9,14 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 9032d99357db86e66588eda544211a5f8eb2f23b
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: 63caa2ebdd7d637d14ac9c9cc7972095803aee2f
+ms.sourcegitcommit: 0260ed244b97c2fd0be5e9a084c4c489358e8d4f
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643865"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5477135"
 ---
-# <a name="export-destinations-preview"></a>एक्सपोर्ट गंतव्य (पूर्वावलोकन)
+# <a name="export-destinations-preview-overview"></a>एक्सपोर्ट गंतव्य (पूर्वावलोकन) अवलोकन
 
 **एक्सपोर्ट गंतव्य-स्थल** पेज आपको ऐसे सभी स्थल दिखाता है जिन्हें आपने डेटा एक्सपोर्ट करने के लिए तय किया है. आप निर्यात के लिए नए गंतव्य भी जोड़ सकते हैं. इसके अतिरिक्त, यह वर्तमान में निर्यात हुए उपलब्ध विकल्पों को दिखाता है. तुरंत अवलोकन, विवरण प्राप्त करें और पता करें कि आप प्रत्येक विस्तारण विकल्प के साथ क्या कर सकते हैं. एकीकृत प्रोफाइल, उपाय और खंडों को समर्थित ऐप में एक्सपोर्ट करें जो अपने कारोबार के लिए संगत हैं.
 
@@ -27,10 +27,13 @@ ms.locfileid: "4643865"
 - [Power Automate कनेक्टर](export-power-automate.md)
 - [Power Apps कनेक्टर](export-power-apps.md)
 - [Power BI कनेक्टर](export-power-bi.md)
+- [Autopilot](export-autopilot.md)
 - [DotDigital](export-dotdigital.md)
-- [Dynamics 365 विक्रय](export-dynamics365-sales.md)
+- [Dynamics 365 Sales](export-dynamics365-sales.md)
 - [Dynamics 365 Marketing](export-dynamics365-marketing.md)
 - [Azure ब्लॉब संग्रहण](export-azure-blob-storage.md)
+- [Azure Data Lake Storage Gen2](export-azure-data-lake-storage-gen2.md)
+- [SendGrid](export-sendgrid.md)
 - [LiveRamp&reg; कनेक्टर](export-liveramp.md)
 - [Microsoft Teams के लिए Bot](export-teams-bot.md)
 - [Mailchimp](export-mailchimp.md)
@@ -95,3 +98,6 @@ ms.locfileid: "4643865"
 2. ड्रॉपडाउन मेनू से **हटाएं** चुनें.
 
 3. पुष्टिकरण स्क्रीन पर **हटाएँ** चुनते हुए उसके हटाए जाने की पुष्टि करें.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

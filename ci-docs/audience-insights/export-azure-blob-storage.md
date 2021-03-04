@@ -5,16 +5,16 @@ ms.date: 09/18/2020
 ms.reviewer: philk
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 925b53260e7c633e17d7f172d2dd2d581e982e10
-ms.sourcegitcommit: 334633cbd58f5659d20b4f87252c1a10cc7130db
+ms.openlocfilehash: ecacf20365e78ced8859dfa54b1b16cb923c00eb
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4667141"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269194"
 ---
 # <a name="connector-for-azure-blob-storage-preview"></a>Azure ब्लॉब स्टोरेज के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -47,4 +47,7 @@ ms.locfileid: "4667141"
 
 ## <a name="export-the-data"></a>डेटा निर्यात करें
 
-आप [मांग पर डेटा निर्यात](/export-destinations.md#export-data-on-demand) कर सकते हैं. निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).
+आप [मांग पर डेटा निर्यात](export-destinations.md#export-data-on-demand) कर सकते हैं. निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

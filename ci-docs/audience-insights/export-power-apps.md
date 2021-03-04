@@ -1,20 +1,20 @@
 ---
 title: Power Apps कनेक्टर
 description: Power Apps और Power Automate से जुड़ें.
-ms.date: 08/21/2020
+ms.date: 01/19/2021
 ms.reviewer: nikeller
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: b6ec103e29e218b2f27bfc1193300ea793a6b30b
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: 5a8bbb9a09218d54228589d43c21c8894680b56e
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4405923"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5268918"
 ---
 # <a name="microsoft-power-apps-connector-preview"></a>Microsoft Power Apps कनेक्टर (पूर्वावलोकन)
 
@@ -31,7 +31,7 @@ Customer Insights [Power Apps में डेटा के कई उपलब�
 Customer Insights को डेटा कनेक्शन के रूप में जोड़ने के बाद, आप Power Apps में निम्नलिखित निकायों को चुन सकते हैं:
 
 - ग्राहक: [एकीकृत ग्राहक प्रोफ़ाइल](customer-profiles.md) से डेटा का उपयोग करने के लिए.
-- एकीकृत ग्राहक गतिविधि: अनुप्रयोग पर [गतिविधि समयसीमा](activities.md) प्रदर्शित करने के लिए.
+- UnifiedActivity: ऐप पर [गतिविधि टाइमलाइन](activities.md) प्रदर्शित करने के लिए.
 
 ## <a name="limitations"></a>सीमाएँ
 
@@ -72,3 +72,6 @@ Customer Insights को डेटा कनेक्शन के रूप म
 1. ग्राहक के लिए एकीकृत टाइमलाइन प्रदर्शित करने के लिए, गैलरी तत्व जोड़ें और आइटम गुण जोड़ें: **Filter('UnifiedActivity', CustomerId = {Customer_Id})**
 
     उदाहरण: Filter('UnifiedActivity', CustomerId = Gallery1.Selected.CustomerId)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,16 +5,16 @@ ms.date: 09/28/2020
 ms.reviewer: adkuppa
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: b7e834f5f2fd1328563139675d7f850008348734
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: d4b01be75d25fa0e120904924a193171eefec579
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4405956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5268550"
 ---
 # <a name="incremental-refresh-for-data-sources-based-on-power-query"></a>Power Query पर आधारित डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश
 
@@ -54,3 +54,6 @@ ms.locfileid: "4405956"
    - **हर अपडेट के लिए जांच करें**: निर्दिष्ट करें कि आप किस समय तक वृद्धिशील रीफ़्रेश समय सीमा चाहते हैं.
 
 1. डेटा स्रोत के निर्माण को पूरा करने के लिए **सहेजें** चुनें. प्रारंभिक डेटा रीफ़्रेश पूरा रिफ़्रेश होगा. बाद में, वृद्धिशील डेटा रीफ़्रेश होता है जैसा कि पिछले चरण में कॉन्फ़िगर किया गया था.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

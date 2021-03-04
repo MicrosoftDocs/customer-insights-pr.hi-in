@@ -1,20 +1,20 @@
 ---
 title: Dynamics 365 Sales के लिए Customer Insights डेटा निर्यात करें
 description: Dynamics 365 Sales से कनेक्शन कॉन्फ़िगर करना सीखें.
-ms.date: 08/21/2020
+ms.date: 02/01/2021
 ms.reviewer: philk
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: af0824e69dfdf620a0ac756e32a9bd3dd85e5151
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: 0013c4e6a96401d6cdbea55ed38f85f5e10dcc56
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643820"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269010"
 ---
 # <a name="connector-for-dynamics-365-sales-preview"></a>Dynamics 365 Sales के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -24,7 +24,10 @@ ms.locfileid: "4643820"
 
 ## <a name="prerequisite"></a>पूर्वावश्यकता
 
-संपर्क रिकॉर्ड [Common Data Service का उपयोग करके Dynamics 365 Sales से इन्जेस्ट किया गया](connect-power-query.md).
+1. इससे पहले कि आप Customer Insights से विक्रय में सेगमेंट निर्यात करें, संपर्क रिकॉर्ड Dynamics 365 Sales में मौजूद होने चाहिए. [Common Data Services का उपयोग करके Dynamics 365 Sales](connect-power-query.md) में संपर्क कैसे अंतर्ग्रहण करने हैं, पर अधिक पढ़ें.
+
+   > [!NOTE]
+   > ऑडियंस इनसाइट्स से विक्रय में सेगमेंट को निर्यात करने से विक्रय इंस्टेंस में नए संपर्क रिकॉर्ड नहीं बनेंगे. विक्रय से संपर्क रिकॉर्ड ऑडियंस इनसाइट्स में निहित होना चाहिए और डेटा स्रोत के रूप में उपयोग किए जाने चाहिए. सेगमेंट को निर्यात करने से पहले ID से संपर्क करने के लिए ग्राहक ID को मैप करने के लिए उन्हें एकीकृत ग्राहक निकाय में शामिल करने की भी ज़रूरत है.
 
 ## <a name="configure-the-connector-for-sales"></a>विक्रय के लिए कनेक्टर कॉन्फ़िगर करें
 
@@ -49,3 +52,6 @@ ms.locfileid: "4643820"
 ## <a name="export-the-data"></a>डेटा निर्यात करें
 
 आप [मांग पर डेटा निर्यात](export-destinations.md) कर सकते हैं. निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

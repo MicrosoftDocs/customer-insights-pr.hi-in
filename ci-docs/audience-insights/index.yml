@@ -6,16 +6,16 @@ metadata:
   description: ऑडियंस इनसाइट्स के लिए प्रमुख लिंक के साथ हब में मदद करें.
   ms.service: customer-insights
   ms.subservice: audience-insights
-  ms.topic: landing-page
+  ms.topic: hub-page
   author: m-hartmann
   ms.author: mhart
   ms.date: 10/16/2020
-  ms.openlocfilehash: 9dcbbecf793cca2ef1d79d6fad7f3b420f5a8806
-  ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+  ms.openlocfilehash: ba5229067c7c338b4f8d0503aaf80f25b6c4002c
+  ms.sourcegitcommit: a8f7d5d0008b2d7d0ff0daeb746126abfc82c253
   ms.translationtype: HT
   ms.contentlocale: hi-IN
-  ms.lasthandoff: 11/03/2020
-  ms.locfileid: "4405957"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "4745723"
 landingContent:
 - title: ऑडिएंस की इनसाइट्स के बारे में
   linkLists:
@@ -27,36 +27,36 @@ landingContent:
       url: whats-new-audience-insights.md
     - text: समुदाय साइट
       url: https://go.microsoft.com/fwlink/?linkid=2073991
-- title: सबसे कम डेटा स्रोत
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: डेटा स्रोत जोड़ें
-      url: data-sources.md
-    - text: वृद्धिशील रिफ्रेश
-      url: incremental-refresh-data-sources.md
-    - text: एंटिटी को समझें
-      url: entities.md
 - title: डेटा एकीकृत करें
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: मैप
-      url: map-entities.md
-    - text: मिलान
-      url: match-entities.md
-    - text: मर्ज करें
-      url: merge-entities.md
-- title: ग्राहक प्रोफ़ाइलें को परिशोधित करें
+    - text: डेटा स्रोत ओवरव्यू
+      url: data-sources.md
+    - text: एकीकरण अवलोकन
+      url: data-unification.md
+    - text: एंटिटी को समझें
+      url: entities.md
+- title: डेटा को समृद्ध और परिष्कृत करें
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: ग्राहक प्रोफ़ाइलें को बेहतर करें
+      url: enrichment-hub.md
     - text: संबंध को कॉन्फ़िगर करें
       url: relationships.md
     - text: ग्राहक गतिविधियों को सूचीबद्ध करें
       url: activities.md
-    - text: अपने खुद के मशीन लर्निंग मॉडल लाएं
-      url: custom-models.md
+- title: इनसाइट प्राप्त करें
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: अनुभाग बनाएं
+      url: segments.md
+    - text: उपाय बनाएं
+      url: measures.md
+    - text: पूर्वानुमानों के साथ पूरा डेटा
+      url: predictions.md
 - title: ग्राहक डेटा निर्यात करें
   linkLists:
   - linkListType: how-to-guide

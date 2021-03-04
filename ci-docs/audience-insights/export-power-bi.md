@@ -5,16 +5,16 @@ ms.date: 09/21/2020
 ms.reviewer: sthe
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: d497ca779a337c512a7254524f597cff226bcb45
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: 0607a4644ac7d7beb19e4faecf012efcd197d48c
+ms.sourcegitcommit: 0260ed244b97c2fd0be5e9a084c4c489358e8d4f
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4405926"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5477090"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -31,7 +31,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 
 1. **अधिक देखें** चुनें और **Dynamics 365 Customer Insights** खोजें
 
-1. परिणाम चुनें और **कनेक्ट करें** का चयन करें.
+1. **कनेक्ट करें** का चयन करें.
 
 1. उसी संगठनात्मक खाते के साथ **साइन इन करें** जिसका उपयोग आप Customer Insights के लिए करते हैं और **कनेक्ट करें** चुनें.
    > [!NOTE]
@@ -52,3 +52,22 @@ Power BI के लिए Customer Insights कनेक्टर को उन 
 ### <a name="work-with-a-subset-of-data"></a>डेटा के सबसेट के साथ काम करें
 
 अपने डेटा के सबसेट के साथ काम करने पर विचार करें. उदाहरण के लिए, आप Power BI को सभी ग्राहक रिकॉर्ड निर्यात करने के बजाय [सेगमेंट](segments.md) बना सकते हैं.
+
+## <a name="troubleshooting"></a>समस्या निवारण
+
+### <a name="customer-insights-environment-doesnt-show-in-power-bi"></a>Power BI में Customer Insights परिवेश नहीं दिखता है
+
+ऑडियंस इनसाइट्स में दो समान निकायों के बीच परिभाषित एक से अधिक [संबंध](relationships.md) के लिए परिवेश Power BI कनेक्टर में उपलब्ध नहीं होगा.
+
+आप डुप्लिकेट किए गए संबंधों को पहचान सकते हैं और निकाल सकते हैं.
+
+1. ऑडियंस इनसाइट्स में, Power BI में गायब हुए परिवेश पर आप **डेटा** > **संबंधों** पर जाएं.
+2. डुप्लिकेट संबंधों की पहचान करें:
+   - जांचें कि क्या एक ही दो निकायों के बीच परिभाषित एक से अधिक संबंध हैं.
+   - जांचें कि क्या दो निकायों के बीच एक संबंध बनाया गया है, जो दोनों एकीकरण प्रक्रिया में शामिल है. एकीकरण प्रक्रिया में शामिल सभी निकायों के बीच एक अंतर्निहित संबंध परिभाषित है.
+3. पहचाने गए किसी भी डुप्लिकेट संबंध को हटा दें.
+
+डुप्लिकेट किए गए संबंधों को हटाने के बाद, Power BI कनेक्टर को फिर से कॉन्फ़िगर करने का प्रयास करें. परिवेश अब उपलब्ध होना चाहिए.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -5,16 +5,16 @@ ms.date: 12/02/2020
 ms.reviewer: kishorem
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 86aa8c66a47ee61741082c95f05d2e5ce3f06f35
-ms.sourcegitcommit: 334633cbd58f5659d20b4f87252c1a10cc7130db
+ms.openlocfilehash: 64d781f52e8124fc3e83a7b84f468830c5249cfd
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4667186"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270160"
 ---
 # <a name="liverampreg-connector-preview"></a>LiveRamp&reg; कनेक्टर (पूर्वावलोकन)
 
@@ -69,3 +69,5 @@ ms.locfileid: "4667186"
 
 जब आप Dynamics 365 Customer Insights को Liveramp पर डेटा संचारित करने के लिए सक्षम करते हैं, तो आप Dynamics 365 Customer Insights के लिए अनुपालन सीमा के बाहर डेटा के स्थानांतरित करने की अनुमति देते हैं, जिसमें संभावित संवेदनशील डेटा जैसे व्यक्तिगत डेटा शामिल हैं. Microsoft आपके निर्देश पर इस तरह के डेटा को स्थानांतरित करेगा, लेकिन आप यह सुनिश्चित करने के लिए उत्तरदायी हैं कि Liveramp आपके पास मौजूद किसी भी गोपनीयता या सुरक्षा दायित्वों को पूरा करता है. अधिक जानकारी के लिए, [Microsoft गोपनीयता कथन](https://go.microsoft.com/fwlink/?linkid=396732) देखें.
 आपका Dynamics 365 Customer Insights एडमिनिस्ट्रेटर इस कार्यक्षमता का उपयोग बंद करने के लिए किसी भी समय इस निर्यात गंतव्य को हटा सकता है.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
