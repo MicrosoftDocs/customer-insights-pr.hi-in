@@ -1,0 +1,102 @@
+---
+title: ऑडियंस इनसाइट्स के साथ एंगेजमेंट इनसाइट्स से वेब डेटा को एकीकृत करें
+description: ग्राहकों के बारे में एंगेजमेंट इनसाइट्स से लेकर ऑडियंस इनसाइट्स तक वेब जानकारी लाएं.
+ms.date: 12/17/2020
+ms.service: customer-insights
+ms.subservice: audience-insights
+ms.topic: conceptual
+author: m-hartmann
+ms.author: mhart
+ms.reviewer: mukeshpo
+manager: shellyha
+ms.openlocfilehash: ba1cf6c7e85b8fe90baf34018f1309095573adf1
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.translationtype: HT
+ms.contentlocale: hi-IN
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5267678"
+---
+# <a name="integrate-web-data-from-engagement-insights-with-audience-insights"></a><span data-ttu-id="25b48-103">ऑडियंस इनसाइट्स के साथ एंगेजमेंट इनसाइट्स से वेब डेटा को एकीकृत करें</span><span class="sxs-lookup"><span data-stu-id="25b48-103">Integrate web data from engagement insights with audience insights</span></span>
+
+<span data-ttu-id="25b48-104">ग्राहक अक्सर वेब साइटों का उपयोग करके अपने दिन-प्रतिदिन के ऑनलाइन लेन-देन करते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-104">Customers often do their day to day transactions online using web sites.</span></span> <span data-ttu-id="25b48-105">Dynamics 365 Customer Insights में एंगेजमेंट इनसाइट्स क्षमता एक स्रोत के रूप में वेब डेटा को एकीकृत करने का एक आसान समाधान है.</span><span class="sxs-lookup"><span data-stu-id="25b48-105">The engagement insights capability in Dynamics 365 Customer Insights is a handy solution to integrate web data as a source.</span></span> <span data-ttu-id="25b48-106">लेन-देन, जनसांख्यिकीय या व्यवहार संबंधी डेटा के अलावा हम एकीकृत ग्राहक प्रोफ़ाइल में वेब पर गतिविधियों को देख सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-106">In addition to transactional, demographic, or behavioral data we can see activities on the web in unified customer profiles.</span></span> <span data-ttu-id="25b48-107">हम इस प्रोफ़ाइल का उपयोग ऑडियंस सक्रियता के लिए सेगमेंट, उपाय या पूर्वानुमान जैसी अतिरिक्त इनसाइट्स प्राप्त करने के लिए कर सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-107">We can use this profile to gain additional insights like segments, measures, or predictions for audience activation.</span></span>
+
+<span data-ttu-id="25b48-108">यह आलेख आपके ग्राहकों के वेब गतिविधि डेटा को आपके मौजूदा ऑडियंस इनसाइट्स परिवेश में एंगेजमेंट इनसाइट्स से लाने के चरणों का वर्णन करता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-108">This article describes the steps to bring your customers’ web activity data from engagement insights into your existing audience insights environment.</span></span>
+
+<span data-ttu-id="25b48-109">इस उदाहरण में, हम एक ऐसा परिवेश मानते हैं जिसमें एकीकृत ग्राहक प्रोफ़ाइल शामिल हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-109">In this example, we assume an environment that contains unified customer profiles.</span></span> <span data-ttu-id="25b48-110">प्रोफ़ाइल सर्वेक्षण, खुदरा विक्रय और टिकटिंग प्रणाली के स्रोतों के साथ एकीकृत थे.</span><span class="sxs-lookup"><span data-stu-id="25b48-110">The profiles were unified with sources from surveys, retail sales, and a ticketing system.</span></span> <span data-ttu-id="25b48-111">यह ग्राहकों की संबंधित गतिविधियों को भी दर्शाता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-111">It also shows the related activities of the customers.</span></span> 
+
+<span data-ttu-id="25b48-112">अब हम यह जानना चाहते हैं कि क्या कोई ग्राहक हमारी वेब संपत्ति पर जाता है और उनकी गतिविधियों को समझता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-112">We now want to know if a customer visits our web properties and understand their activities.</span></span> <span data-ttu-id="25b48-113">गतिविधियों में शामिल हैं, उदाहरण के लिए, एक ईमेल में प्राप्त लिंक से विजिट की गई वेबसाइटों या देखे गए उत्पाद पृष्ठ.</span><span class="sxs-lookup"><span data-stu-id="25b48-113">Activities include, for example, visited websites or viewed product pages from a link received in an email.</span></span>
+
+## <a name="prerequisites"></a><span data-ttu-id="25b48-114">पूर्वावश्यकताएँ</span><span class="sxs-lookup"><span data-stu-id="25b48-114">Prerequisites</span></span>
+
+<span data-ttu-id="25b48-115">एंगेजमेंट की इनसाइट्स से डेटा को एकीकृत करने के लिए, कुछ आवश्यक शर्तें पूरी करनी होंगी:</span><span class="sxs-lookup"><span data-stu-id="25b48-115">To integrate data from engagement insights, a few prerequisites need to be met:</span></span> 
+
+- <span data-ttu-id="25b48-116">एंगेजमेंट इनसाइट्स SDK को अपनी वेबसाइट के साथ एकीकृत करें.</span><span class="sxs-lookup"><span data-stu-id="25b48-116">Integrate the engagement insights SDK with your website.</span></span> <span data-ttu-id="25b48-117">अधिक जानकारी के लिए, [वेब SDK के साथ आरंभ करें](../engagement-insights/instrument-website.md) देखें.</span><span class="sxs-lookup"><span data-stu-id="25b48-117">For more information, see [Get started with the web SDK](../engagement-insights/instrument-website.md).</span></span>
+- <span data-ttu-id="25b48-118">एंगेजमेंट इनसाइट्स से वेब घटनाओं का निर्यात करने के लिए ADLS Gen 2 स्टोरेज खाते तक एक्सेस की आवश्यकता होती है जिसे ऑडियंस इनसाइट्स के लिए वेब इवेंट डेटा को अंतर्ग्रहण करने के लिए उपयोग किया जाएगा.</span><span class="sxs-lookup"><span data-stu-id="25b48-118">Exporting web events from engagement insights requires access to an ADLS Gen 2 storage account that will be used to ingest the web events data to audience insights.</span></span> <span data-ttu-id="25b48-119">अधिक जानकारी के लिए, [निर्यात के इवेंट](../engagement-insights/export-events.md) देखें.</span><span class="sxs-lookup"><span data-stu-id="25b48-119">For more information, see [Export events](../engagement-insights/export-events.md).</span></span>
+
+## <a name="configure-refined-events-in-engagement-insights"></a><span data-ttu-id="25b48-120">एंगेजमेंट इनसाइट्स में परिष्कृत इवेंट्स को कॉन्फ़िगर करें</span><span class="sxs-lookup"><span data-stu-id="25b48-120">Configure refined events in engagement insights</span></span>
+
+<span data-ttu-id="25b48-121">एडमिनिस्ट्रेटर द्वारा एंगेजमेंट इनसाइट्स वाली वेबसाइट SDK को इंस्ट्रूमेंट करने के बाद, *आधार इवेंट* तब एकत्रित किए जाते हैं जब कोई उपयोगकर्ता वेब पेज देखता है या कहीं क्लिक करता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-121">After an administrator instrumented a website with the engagement insights SDK, *base events* are gathered when a user views a web page or clicks somewhere.</span></span> <span data-ttu-id="25b48-122">आधार इवेंट में कई विवरण होते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-122">Base events tend to contain numerous details.</span></span> <span data-ttu-id="25b48-123">आपके उपयोग के मामले के आधार पर, आपको केवल आधार इवेंट में डेटा के सबसेट की आवश्यकता होती है.</span><span class="sxs-lookup"><span data-stu-id="25b48-123">Depending on your use case, you only need a subset of the data in a base event.</span></span> <span data-ttu-id="25b48-124">एंगेजमेंट इनसाइट्स आपको *परिष्कृत इवेंट* को बनाने देती है, जिसमें केवल वे आधार इवेंट के गुण होते हैं जिनको आप चुनते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-124">Engagement insights let you create *refined events* that contain only the properties of a base event that you select.</span></span>     
+
+<span data-ttu-id="25b48-125">अधिक जानकारी के लिए, [परिष्कृत इवेंट बनाएं और संशोधित करें](../engagement-insights/refined-events.md) देखें.</span><span class="sxs-lookup"><span data-stu-id="25b48-125">For more information, see [Create and modify refined events](../engagement-insights/refined-events.md).</span></span>
+
+<span data-ttu-id="25b48-126">परिष्कृत इवेंट बनाते समय विचार:</span><span class="sxs-lookup"><span data-stu-id="25b48-126">Considerations when creating refined events:</span></span> 
+
+- <span data-ttu-id="25b48-127">परिष्कृत इवेंट के लिए सार्थक नाम प्रदान करें.</span><span class="sxs-lookup"><span data-stu-id="25b48-127">Provide a meaningful name for the refined event.</span></span> <span data-ttu-id="25b48-128">इसे ऑडियंस इनसाइट्स में गतिविधि नाम के रूप में उपयोग किया जाता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-128">It's be used as an activity name in audience insights.</span></span>
+- <span data-ttu-id="25b48-129">ऑडियंस इनसाइट्स में गतिविधि बनाने के लिए कम से कम निम्नलिखित गुणों का चयन करें:</span><span class="sxs-lookup"><span data-stu-id="25b48-129">Select at least the following properties to create an activity in audience insights:</span></span> 
+    - <span data-ttu-id="25b48-130">Signal.Action.Name - गतिविधि विवरण का संकेत देना</span><span class="sxs-lookup"><span data-stu-id="25b48-130">Signal.Action.Name - indicating the activity details</span></span>
+    - <span data-ttu-id="25b48-131">Signal.User.Id - ग्राहक ID के साथ मैप करने के लिए उपयोग किया जाता है</span><span class="sxs-lookup"><span data-stu-id="25b48-131">Signal.User.Id - used to map with the customer ID</span></span>
+    - <span data-ttu-id="25b48-132">Signal.View.Uri - सेगमेंट या उपायों के लिए एक वेब पते के रूप में उपयोग किया जाता है</span><span class="sxs-lookup"><span data-stu-id="25b48-132">Signal.View.Uri - used as a web address as a basis for segments or measures</span></span>
+    - <span data-ttu-id="25b48-133">Signal.Export.Id - इवेंट के लिए प्राथमिक कुंजी के रूप में उपयोग करने के लिए</span><span class="sxs-lookup"><span data-stu-id="25b48-133">Signal.Export.Id - to use as a primary key for events</span></span> <!-- system generated, do we need to list?-->
+    - <span data-ttu-id="25b48-134">Signal.Timestamp - गतिविधि के लिए तिथि और समय निर्धारित करने के लिए</span><span class="sxs-lookup"><span data-stu-id="25b48-134">Signal.Timestamp - to determine the date and time for the activity</span></span>
+
+<span data-ttu-id="25b48-135">आपके उपयोग के मामले के लिए इवेंट और पेजों पर ध्यान केंद्रित करने के लिए फ़िल्टर का चयन करें.</span><span class="sxs-lookup"><span data-stu-id="25b48-135">Select the filters to focus on the events and pages that matter for your use case.</span></span> <span data-ttu-id="25b48-136">इस उदाहरण में, हम "ईमेल प्रचार" एक्शन नाम का उपयोग करेंगे.</span><span class="sxs-lookup"><span data-stu-id="25b48-136">In this example, we'll use the "Email promotion" action name.</span></span>
+
+## <a name="export-the-refined-web-events"></a><span data-ttu-id="25b48-137">परिष्कृत वेब इवेंट निर्यात करें</span><span class="sxs-lookup"><span data-stu-id="25b48-137">Export the Refined Web Events</span></span> 
+
+<span data-ttu-id="25b48-138">परिष्कृत इवेंट को परिभाषित करने के बाद परिभाषित किया गया है, आपको इवेंट डेटा के निर्यात को Azure Data Lake Storage में कॉन्फ़िगर करना होगा, जिसे ऑडियंस इनसाइट्स में अंतर्ग्रहण के लिए डेटा स्रोत के रूप में सेट किया जा सकता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-138">After defining the refined event is defined, you have to configure the export of the event data to an Azure Data Lake Storage, that can be set as a data source for ingestion in audience insights.</span></span> <span data-ttu-id="25b48-139">वेब गुण से इवेंट के प्रवाह के रूप में निर्यात लगातार होता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-139">Exports happen constantly as the events flow from the web property.</span></span>
+
+<span data-ttu-id="25b48-140">अधिक जानकारी के लिए, [निर्यात के इवेंट](../engagement-insights/export-events.md) देखें.</span><span class="sxs-lookup"><span data-stu-id="25b48-140">For more information, see [Export events](../engagement-insights/export-events.md).</span></span>
+
+## <a name="ingest-event-data-to-audience-insights"></a><span data-ttu-id="25b48-141">ऑडियंस इनसाइट्स के लिए अंतर्ग्रहण किया गया इवेंट डेटा</span><span class="sxs-lookup"><span data-stu-id="25b48-141">Ingest event data to audience insights</span></span>
+
+<span data-ttu-id="25b48-142">अब जब आपने परिष्कृत घटना को परिभाषित किया है और इसके निर्यात को कॉन्फ़िगर किया है, तो हम डेटा को ऑडियंस इनसाइट्स में अंतर्ग्रहण करने के लिए आगे बढ़ते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-142">Now that you have defined the refined event and configured its export, we move on to ingesting the data to audience insights.</span></span> <span data-ttu-id="25b48-143">आपको Common Data Model फ़ोल्डर के आधार पर नया डेटा स्रोत बनाने की आवश्यकता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-143">You need to create a new data source based on a Common Data Model folder.</span></span> <span data-ttu-id="25b48-144">उस स्टोरेज खाते का विवरण दर्ज करें जिसे आपके द्वारा इवेंट में निर्यात किया गया है.</span><span class="sxs-lookup"><span data-stu-id="25b48-144">Enter the details for the storage account you export the events to.</span></span> <span data-ttu-id="25b48-145">*default.cdm.json* फ़ाइल में, अंतर्ग्रहण किए जाने वाले परिष्कृत इवेंट का चयन करें और ऑडियंस इनसाइट्स में निकाय बनाएं.</span><span class="sxs-lookup"><span data-stu-id="25b48-145">In the *default.cdm.json* file, select the refined event to ingest and create the entity in audience insights.</span></span>
+
+<span data-ttu-id="25b48-146">अधिक जानकारी के लिए, [Azure Data Lake खाते का उपयोग करके Common Data Model फ़ोल्डर से कनेक्ट करें](connect-common-data-model.md) देखें</span><span class="sxs-lookup"><span data-stu-id="25b48-146">For more information, see [Connect to a Common Data Model folder using an Azure Data Lake account](connect-common-data-model.md)</span></span>
+
+
+## <a name="relate-refined-event-data-as-an-activity-of-a-customer-profile"></a><span data-ttu-id="25b48-147">ग्राहक प्रोफ़ाइल की गतिविधि के रूप में संबंधित परिष्कृत इवेंट डेटा</span><span class="sxs-lookup"><span data-stu-id="25b48-147">Relate refined event data as an activity of a customer profile</span></span>
+
+<span data-ttu-id="25b48-148">निकाय अंतर्ग्रहण को पूरा करने के बाद, आप ग्राहक प्रोफ़ाइल के लिए गतिविधि को कॉन्फ़िगर कर सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-148">After completing the entity ingestion, you can configure the activity for the customer profile.</span></span>
+
+<span data-ttu-id="25b48-149">अधिक जानकारी के लिए, [ग्राहक गतिविधियाँ](activities.md) देखें.</span><span class="sxs-lookup"><span data-stu-id="25b48-149">For more information, see [Customer activities](activities.md).</span></span>
+
+:::image type="content" source="media/web-event-activity.png" alt-text="विस्तारित संपादन गतिविधि फलक वाली गतिविधियां पृष्ठ और फ़ील्ड में भरा.":::
+
+<span data-ttu-id="25b48-151">निम्न मैपिंग के साथ नई गतिविधि कॉन्फ़िगर करें:</span><span class="sxs-lookup"><span data-stu-id="25b48-151">Configure the new activity with the following mapping:</span></span> 
+
+- <span data-ttu-id="25b48-152">**प्राथमिक कुंजी:** Signal.Export.Id, एंगेजमेंट की इनसाइट्स में हर इवेंट रिकॉर्ड के लिए उपलब्ध यूनीक ID.</span><span class="sxs-lookup"><span data-stu-id="25b48-152">**Primary Key:** Signal.Export.Id, a unique ID that is available for every event record in engagement insights.</span></span> <span data-ttu-id="25b48-153">यह गुण स्वतः उत्पन्न होता है.</span><span class="sxs-lookup"><span data-stu-id="25b48-153">This property is automatically generated.</span></span>
+
+- <span data-ttu-id="25b48-154">**Timestamp:** इवेंट गुण में Signal.Timestamp.</span><span class="sxs-lookup"><span data-stu-id="25b48-154">**Timestamp:** Signal.Timestamp in the event property.</span></span>
+
+- <span data-ttu-id="25b48-155">**घटना:** Signal.Name, इवेंट का नाम जिसे आप ट्रैक करना चाहते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-155">**Event:** Signal.Name, the event name that you want to track.</span></span>
+
+- <span data-ttu-id="25b48-156">**वेब पता:** Signal.View.Uri ने उस पृष्ठ के uri का उल्लेख किया जिसने इवेंट बनाया था.</span><span class="sxs-lookup"><span data-stu-id="25b48-156">**Web address:** Signal.View.Uri referring to the uri of the page that created the event.</span></span>
+
+- <span data-ttu-id="25b48-157">**विवरण:** Signal.Action.Name इवेंट के साथ संबद्ध करने के लिए जानकारी का दर्शाने के लिए.</span><span class="sxs-lookup"><span data-stu-id="25b48-157">**Details:** Signal.Action.Name to represent the information to associate with the event.</span></span> <span data-ttu-id="25b48-158">इस मामले में चयनित गुण इंगित करता है कि इवेंट ईमेल प्रचार के लिए है.</span><span class="sxs-lookup"><span data-stu-id="25b48-158">The selected property in this case indicates that the event is for email promotion.</span></span>
+
+- <span data-ttu-id="25b48-159">**गतिविधि प्रकार:** इस उदाहरण में, हम बाहरी गतिविधि प्रकार WebLog चुनते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-159">**Activity type:** In this example, we choose the exsting activity type WebLog.</span></span> <span data-ttu-id="25b48-160">यह चयन पूर्वानुमान मॉडल को चलाने या इस गतिविधि प्रकार के आधार पर सेगमेंट बनाने के लिए उपयोगी फ़िल्टर विकल्प है.</span><span class="sxs-lookup"><span data-stu-id="25b48-160">This selection is a useful filter option to run prediction models or create segments based on this activity type.</span></span>
+
+- <span data-ttu-id="25b48-161">**संबंध स्थापित करें:** यह महत्वपूर्ण सेटिंग मौजूदा ग्राहक प्रोफ़ाइल में गतिविधि को जोड़ती है.</span><span class="sxs-lookup"><span data-stu-id="25b48-161">**Set up relationship:** This important setting ties the activity to existing customer profiles.</span></span> <span data-ttu-id="25b48-162">**Signal.User.Id** एकत्र किए जाने वाले SDK में कॉन्फ़िगर किया गया पहचानकर्ता है और यह उपयोगकर्ता ID से संबंधित अन्य डेटा स्रोतों से संबंधित है जो ऑडियंस इनसाइट्स में कॉन्फ़िगर किए गए हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-162">**Signal.User.Id** is the identifier configured in the SDK to be collected and that relates to the user ID in other data sources that are configured in audience insights.</span></span> <span data-ttu-id="25b48-163">इस उदाहरण में, हम Signal.User.Id और RetailCustomers:CustomerRetailId के बीच संबंध को कॉन्फ़िगर करते हैं, जो वह प्राथमिक कुंजी है जो डेटा एकीकरण प्रक्रिया के मैप चरण में समाप्त हो गई थी.</span><span class="sxs-lookup"><span data-stu-id="25b48-163">In this example, we configure the relationship between Signal.User.Id and RetailCustomers:CustomerRetailId, which is the primary key that was deinfed in the map step of the data unification process.</span></span>
+
+
+<span data-ttu-id="25b48-164">गतिविधियों को संसाधित करने के बाद, आप टाइमलाइन में एंगेजमेंट इनसाइट्स से गतिविधियों को देखने के लिए ग्राहक रिकॉर्ड की समीक्षा कर सकते हैं और कस्टमर कार्ड खोल सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-164">After processing the activities, you can review customer records and open a customer card to see activities from engagement insights in the timeline.</span></span> 
+
+> [!TIP]
+> <span data-ttu-id="25b48-165">एक ग्राहक id खोजने के लिए जिसमें एंगेजमेंट इनसाइट्स गतिविधि है, **निकाय** पर जाएं और UnifiedActivity निकाय के लिए डेटा का पूर्वावलोकन करें.</span><span class="sxs-lookup"><span data-stu-id="25b48-165">To find a customer id that has an engagement insights activity, go to **Entities** and preview the data for the UnifiedActivity entity.</span></span> <span data-ttu-id="25b48-166">ActivityTypeDisplay = WebLog में ऊपर दिए गए उदाहरण में कॉन्फ़िगर की गई एंगेजमेंट इनसाइट्स गतिविधि शामिल हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-166">ActivityTypeDisplay = WebLog contain the engagement insights activity configured in the example above.</span></span> <span data-ttu-id="25b48-167">ग्राहक ID को उन रिकॉर्डों में से एक के लिए और **ग्राहक** पेज पर उस ID के लिए कॉपी करें.</span><span class="sxs-lookup"><span data-stu-id="25b48-167">Copy the customer ID for one of those records and for that ID on the **Customers** page.</span></span>
+
+## <a name="next-steps"></a><span data-ttu-id="25b48-168">अगले चरण</span><span class="sxs-lookup"><span data-stu-id="25b48-168">Next Steps</span></span>
+
+<span data-ttu-id="25b48-169">अब आप अपने ग्राहकों के साथ सार्थक संबंध बनाने के लिए [सेगमेंट](segments.md), [उपाय](measures.md), और [पूर्वानुमान](predictions.md) बना सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="25b48-169">You can now create [segments](segments.md), [measures](measures.md), and [predictions](predictions.md) to make a meaningful connection with your customers.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
