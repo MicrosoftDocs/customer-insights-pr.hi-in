@@ -2,19 +2,19 @@
 title: Power Apps कनेक्टर
 description: Power Apps और Power Automate से जुड़ें.
 ms.date: 01/19/2021
-ms.reviewer: nikeller
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: Nils-2m
+ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: 5a8bbb9a09218d54228589d43c21c8894680b56e
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 3fa91553fd50a22ab62b5a2b1e3f13b9483776a8
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5268918"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5598157"
 ---
 # <a name="microsoft-power-apps-connector-preview"></a>Microsoft Power Apps कनेक्टर (पूर्वावलोकन)
 
@@ -22,9 +22,9 @@ Power Apps के साथ अपने व्यक्तिगत अनु�
 
 ## <a name="connect-power-apps-and-dynamics-365-customer-insights"></a>Power Apps और Dynamics 365 Customer Insights को कनेक्ट करें
 
-Customer Insights [Power Apps में डेटा के कई उपलब्ध स्रोतों](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-data-sources) में से एक है.
+Customer Insights [Power Apps में डेटा के कई उपलब्ध स्रोतों](/powerapps/maker/canvas-apps/working-with-data-sources) में से एक है.
 
-[किसी अनुप्रयोग में डेटा कनेक्शन जोड़ना](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-data-connection) सीखने के लिए Power Apps प्रलेखन देखें. हम आपको यह भी सलाह देते हैं कि आप [कैनवास अनुप्रयोग में बड़े डेटासेट को संभालने के लिए Power Apps डेलिगेशन का उपयोग कैसे करता है](https://docs.microsoft.com/powerapps/maker/canvas-apps/delegation-overview) की भी समीक्षा करें.
+[किसी अनुप्रयोग में डेटा कनेक्शन जोड़ना](/powerapps/maker/canvas-apps/add-data-connection) सीखने के लिए Power Apps प्रलेखन देखें. हम आपको यह भी सलाह देते हैं कि आप [कैनवास अनुप्रयोग में बड़े डेटासेट को संभालने के लिए Power Apps डेलिगेशन का उपयोग कैसे करता है](/powerapps/maker/canvas-apps/delegation-overview) की भी समीक्षा करें.
 
 ## <a name="available-entities"></a>उपलब्ध एंटिटी
 
@@ -47,11 +47,11 @@ Customer Insights को डेटा कनेक्शन के रूप म
 
 - **UnifiedActivity** के लिए डेलीगेशन: इस निकाय के लिए डेलिगेशन केवल **ActivityId** और **CustomerId** फ़ील्ड्स के लिए काम करता है.  
 
-- डेलीगेशन के बारे में अधिक जानकारी के लिए, [Power Apps डेलीगेट करने योग्य कार्य और संचालन](https://docs.microsoft.com/connectors/commondataservice/#power-apps-delegable-functions-and-operations-for-the-cds-for-apps) देखें. 
+- डेलीगेशन के बारे में अधिक जानकारी के लिए, [Power Apps डेलीगेट करने योग्य कार्य और संचालन](/connectors/commondataservice/#power-apps-delegable-functions-and-operations-for-the-cds-for-apps) देखें. 
 
 ## <a name="example-gallery-control"></a>उदाहरण गैलरी नियंत्रण
 
-उदाहरण के लिए, आप ग्राहक प्रोफाइल को [गैलरी नियंत्रण](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-gallery) में जोड़ते हैं .
+उदाहरण के लिए, आप ग्राहक प्रोफाइल को [गैलरी नियंत्रण](/powerapps/maker/canvas-apps/add-gallery) में जोड़ते हैं .
 
 1. आपके द्वारा बनाए जा रहे अनुप्रयोग में **गैलरी** नियंत्रण जोड़ें.
 

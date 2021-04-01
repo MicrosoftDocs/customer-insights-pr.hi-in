@@ -2,19 +2,19 @@
 title: Mailchimp के लिए Customer Insights डेटा निर्यात करें
 description: Mailchimp के लिए कनेक्शन को कॉन्फ़िगर करने का तरीका जानें.
 ms.date: 10/26/2020
-ms.reviewer: philk
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: phkieffer
+ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 2b465b32fa956e3f45a23f471dc3a3183def16ef
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 9f86616731c3cc3d26370727103ea9c5d4288c8d
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5267175"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5598203"
 ---
 # <a name="connector-for-mailchimp-preview"></a>Mailchimp के लिए संबंधक (पूर्वावलोकन)
 

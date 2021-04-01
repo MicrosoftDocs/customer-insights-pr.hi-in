@@ -2,23 +2,23 @@
 title: Power क्वेरी कनेक्टर के माध्यम से डेटा को इन्जेस्ट करें
 description: Power Query पर आधारित डेटा स्रोतों के लिए कनेक्टर.
 ms.date: 09/29/2020
-ms.reviewer: adkuppa
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: adkuppa
+ms.author: adkuppa
 manager: shellyha
-ms.openlocfilehash: d51a7efa5fd9f7336d1662500eb804a674738493
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: b9a1b30e37c3792aa7bdfcfc177da9e8a32c324d
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5267771"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596915"
 ---
 # <a name="connect-to-a-power-query-data-source"></a>Power Query डेटा स्रोत से कनेक्ट करें
 
-Power Query डेटा इंजेस्ट करने के लिए कनेक्टर का एक व्यापक सेट प्रदान करता है. इनमें से अधिकांश कनेक्टर Dynamics 365 Customer Insights द्वारा समर्थित हैं. Power Query कनेक्टर पर आधारित डेटा स्रोतों को जोड़ना आम तौर पर अगले भाग में उल्लिखित चरणों का पालन करता है. हालांकि, आपके द्वारा उपयोग किए जाने वाले कनेक्टर के आधार पर, विभिन्न जानकारी की आवश्यकता होती है. अधिक जानकारी के लिए, [Power Query कनेक्टर संदर्भ](https://docs.microsoft.com/power-query/connectors/) में व्यक्तिगत कनेक्टर के बारे में दस्तावेज़ देखें.
+Power Query डेटा इंजेस्ट करने के लिए कनेक्टर का एक व्यापक सेट प्रदान करता है. इनमें से अधिकांश कनेक्टर Dynamics 365 Customer Insights द्वारा समर्थित हैं. Power Query कनेक्टर पर आधारित डेटा स्रोतों को जोड़ना आम तौर पर अगले भाग में उल्लिखित चरणों का पालन करता है. हालांकि, आपके द्वारा उपयोग किए जाने वाले कनेक्टर के आधार पर, विभिन्न जानकारी की आवश्यकता होती है. अधिक जानकारी के लिए, [Power Query कनेक्टर संदर्भ](/power-query/connectors/) में व्यक्तिगत कनेक्टर के बारे में दस्तावेज़ देखें.
 
 ## <a name="create-a-new-data-source"></a>नया डेटा स्रोत बनाएँ
 
@@ -44,7 +44,7 @@ Power Query डेटा इंजेस्ट करने के लिए क
    > [!div class="mx-imgBorder"]
    > ![क्वेरी संपादित करें संवाद](media/data-manager-configure-edit-queries.png "क्वेरी संपादित करें संवाद")
 
-1. आप अपना डेटा बदल भी सकते हैं. संपादित करने या बदलने के लिए एक निकाय का चयन करें. रूपांतरण को लागू करने के लिए Power Query विंडो में विकल्पों का उपयोग करें. प्रत्येक रूपांतरण **लागू चरण** के तहत सूचीबद्ध हो जाता है. Power Query कई पूर्व-निर्मित रूपांतरण विकल्प प्रदान करता है. अधिक जानकारी के लिए, [Power Query रूपांतरण](https://docs.microsoft.com/power-query/power-query-what-is-power-query#transformations) देखें.
+1. आप अपना डेटा बदल भी सकते हैं. संपादित करने या बदलने के लिए एक निकाय का चयन करें. रूपांतरण को लागू करने के लिए Power Query विंडो में विकल्पों का उपयोग करें. प्रत्येक रूपांतरण **लागू चरण** के तहत सूचीबद्ध हो जाता है. Power Query कई पूर्व-निर्मित रूपांतरण विकल्प प्रदान करता है. अधिक जानकारी के लिए, [Power Query रूपांतरण](/power-query/power-query-what-is-power-query#transformations) देखें.
 
 1. आप **संपादित करें** संवाद में **डेटा प्राप्त करें** का चयन करके अपने डेटा स्रोत में अतिरिक्त निकाय जोड़ सकते हैं.
 
@@ -59,7 +59,7 @@ Power Query डेटा इंजेस्ट करने के लिए क
 
 ## <a name="available-power-query-data-sources"></a>उपलब्ध Power Query डेटा स्रोत
 
-उन कनेक्टर की अप-टू-डेट सूची के लिए, जिन्हें आप Customer Insights को डेटा आयात करने के लिए चुन सकते हैं [Power Query कनेक्टर संदर्भ](https://docs.microsoft.com/power-query/connectors/) देखें. 
+उन कनेक्टर की अप-टू-डेट सूची के लिए, जिन्हें आप Customer Insights को डेटा आयात करने के लिए चुन सकते हैं [Power Query कनेक्टर संदर्भ](/power-query/connectors/) देखें. 
 
 **Customer Insights (डेटाप्रवाह)** स्तंभ में चेकमार्क वाले कनेक्टर Power Query पर आधारित नए डेटा स्रोतों को बनाने के लिए उपलब्ध हैं. विशिष्ट कनेक्टर की पूर्वावश्यकताओं, सीमाओं और अन्य विवरणों के बारे में अधिक जानने के लिए उसके दस्तावेज़ की समीक्षा करें.
 

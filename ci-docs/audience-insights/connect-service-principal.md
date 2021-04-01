@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: eebbac1370a847869d98beaf70db49b809d762e7
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: c670b0065a2833a6dc311d9e86d2b351140382ce
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5267724"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596501"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-gen2-account-with-an-azure-service-principal-for-audience-insights"></a>ऑडियंस इनसाइट्स के लिए एक Azure service principal के साथ एक Azure Data Lake Storage Gen2 खाते से कनेक्ट करें
 
@@ -23,7 +23,7 @@ Azure सेवाओं का उपयोग करने वाले स्
 आप सर्विस प्रिंसिपल का उपयोग सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर को जोड़ें या संपादित करें](connect-common-data-model.md) या [एक नया बनाएं या मौजूदा परिवेश को अपडेट करें](manage-environments.md#create-an-environment-in-an-existing-organization) करने के लिए कर सकते हैं.
 
 > [!IMPORTANT]
-> - Azure Data Lake Gen2 स्टोरेज खाता, जो सेवा सिद्धांत का उपयोग करने का इरादा रखता है, उसके पास [पदानुक्रमित नाम स्थान (HNS) सक्षम होना चाहिए](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-namespace).
+> - Azure Data Lake Gen2 स्टोरेज खाता, जो सेवा सिद्धांत का उपयोग करने का इरादा रखता है, उसके पास [पदानुक्रमित नाम स्थान (HNS) सक्षम होना चाहिए](/azure/storage/blobs/data-lake-storage-namespace).
 > - आपको सर्विस प्रिंसिपल बनाने के लिए अपनी Azure सदस्यता के लिए व्यवस्थापक अनुमतियों की आवश्यकता है.
 
 ## <a name="create-azure-service-principal-for-audience-insights"></a>ऑडियंस इनसाइट्स के लिए Azure service principal बनाएं
@@ -48,7 +48,7 @@ Azure सेवाओं का उपयोग करने वाले स्
 
 ### <a name="create-a-new-service-principal"></a>नया सर्विस प्रिंसिपल बनाएँ
 
-1. **ग्राफ के लिए Azure Active Directory PowerShell** का नवीनतम संस्करण इंस्टॉल करें. अधिक जानकारी के लिए, देखें [ग्राफ के लिए Azure Active Directory PowerShell इंस्टॉल करें](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+1. **ग्राफ के लिए Azure Active Directory PowerShell** का नवीनतम संस्करण इंस्टॉल करें. अधिक जानकारी के लिए, देखें [ग्राफ के लिए Azure Active Directory PowerShell इंस्टॉल करें](/powershell/azure/active-directory/install-adv2).
    - अपने पीसी पर, अपने कीबोर्ड पर विंडोज कुंजी का चयन करें और **विंडोज PowerShell** और **प्रशासक के रूप में चलाएं** के लिए खोज करें.
    
    - खुले PowerShell विंडो में, `Install-Module AzureAD` दर्ज करें.

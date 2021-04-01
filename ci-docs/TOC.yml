@@ -19,13 +19,13 @@
     - name: मॉड्यूल सीखें
       items:
         - name: डेटा करें
-          href: 'https://docs.microsoft.com/learn/modules/ingest-data-customer-insights/'
+          href: /learn/modules/ingest-data-customer-insights/
         - name: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
-          href: 'https://docs.microsoft.com/learn/modules/unified-customer-profile/'
+          href: /learn/modules/unified-customer-profile/
         - name: ऐप के साथ कार्य करें
-          href: 'https://docs.microsoft.com/learn/modules/working-with-customer-insights/'
+          href: /learn/modules/working-with-customer-insights/
         - name: डेटा और पूर्वानुमानों को समृद्ध करें
-          href: 'https://docs.microsoft.com/learn/modules/enrich-data/'
+          href: /learn/modules/enrich-data/
     - name: डेटा स्रोत
       items:
         - name: डेटा स्रोत ओवरव्यू
@@ -114,6 +114,12 @@
       items:
         - name: गंतव्य ओवरव्यू को निर्यात करें
           href: audience-insights/export-destinations.md
+        - name: AdRoll
+          href: audience-insights/export-adroll.md
+        - name: Adobe Campaign Standard
+          href: audience-insights/export-adobe-campaign-standard.md
+        - name: Adobe एक्सपीरियंस प्लेटफ़ॉर्म
+          href: audience-insights/export-adobe-experience-platform.md
         - name: Autopilot
           href: audience-insights/export-autopilot.md
         - name: Azure ब्लॉब स्टोरेज

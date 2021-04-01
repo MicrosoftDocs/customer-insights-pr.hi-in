@@ -2,19 +2,19 @@
 title: Power Automate कनेक्टर | Microsoft Docs
 description: Dynamics 365 Customer Insights से Microsoft Power Automate में प्रवाह बनाएं.
 ms.date: 01/20/2021
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
-ms.reviewer: philk
+author: phkieffer
+ms.author: philk
 manager: shellyha
-ms.openlocfilehash: fb1df4e9ab1f78300b8ec1f8dfdfbfbac0e71447
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: e973bb11b31c9e70b695ebec8aa2700fdaa5e44f
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5268826"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5597927"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate कनेक्टर (पूर्वावलोकन)
 
@@ -34,7 +34,7 @@ ms.locfileid: "5268826"
 [Power Automate में अपने ट्रिगर कॉन्फ़िगर करें](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
 
 ## <a name="power-automate-actions"></a>Power Automate कार्रवाइयां
-Power Automate कनेक्टर उपलब्ध ट्रिगर्स से अलग कार्रवाइयां प्रदान करता है. अधिक जानकारी के लिए, [Dynamics 365 Customer Insights Connector](https://docs.microsoft.com/connectors/customerinsights/) देखें.
+Power Automate कनेक्टर उपलब्ध ट्रिगर्स से अलग कार्रवाइयां प्रदान करता है. अधिक जानकारी के लिए, [Dynamics 365 Customer Insights Connector](/connectors/customerinsights/) देखें.
 
 ## <a name="create-a-power-automate-flow"></a>एक Power Automate प्रवाह बनाएँ
 
@@ -44,7 +44,7 @@ Power Automate कनेक्टर उपलब्ध ट्रिगर्स
 
 1. Power Automate में Customer Insights कनेक्टर (पूर्वावलोकन) खुलता है. Power Automate से **साइन इन** करें.
 
-1. उपलब्ध ट्रिगर में से किसी एक को चुनें और अपने नए प्रवाह में और चरण जोड़ें. अधिक जानकारी के लिए, [Power Automate में क्लाउड प्रवाह बनाएं](https://docs.microsoft.com/power-automate/get-started-logic-flow) देखें.
+1. उपलब्ध ट्रिगर में से किसी एक को चुनें और अपने नए प्रवाह में और चरण जोड़ें. अधिक जानकारी के लिए, [Power Automate में क्लाउड प्रवाह बनाएं](/power-automate/get-started-logic-flow) देखें.
 
 उदाहरण कि प्रवाह का उपयोग कैसे करें: 
 - यदि डेटा स्रोत रीफ्रेश विफल रहता है, तो Microsoft Teams चैनल पर एक संदेश पोस्ट करें. 

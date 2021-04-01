@@ -5,16 +5,16 @@ ms.date: 05/05/2020
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
-ms.reviewer: zacook
+author: zacookmsft
+ms.author: zacook
+ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 577232c7e901dfd54a195c3e9cfac5d1f0f866e6
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 3342328b9eead9bdcb8b41f119a1d0a5823001c8
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5268274"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5595903"
 ---
 # <a name="complete-your-partial-data-with-predictions"></a>प्रिडिक्शन्स के साथ अपना आंशिक डेटा पूरा करें
 
@@ -31,7 +31,7 @@ ms.locfileid: "5268274"
 
 आपके संगठन द्वारा इस अनुमान सुविधा उपयोग करने से पहले, निम्नलिखित पूर्व-आवश्यकताएँ पूरी करनी होंगी:
 
-1. आपके संगठन का एक उदाहरण है [Common Data Service में स्थापित](https://docs.microsoft.com/ai-builder/build-model#prerequisites) और यह Customer Insights के रूप में एक ही संगठन में है.
+1. आपके संगठन का एक उदाहरण है [Common Data Service में स्थापित](/ai-builder/build-model#prerequisites) और यह Customer Insights के रूप में एक ही संगठन में है.
 
 2. आपका परिवेश आपके Common Data Service उदाहरण से जुड़ा हुआ है.
 
@@ -120,7 +120,7 @@ ms.locfileid: "5268274"
 
 4. **AI Builder में अनुकूलित करें** चुनें.
 
-5. अपने मॉडल को AI Builder में अपडेट करें. [ AI builder में मॉडल के प्रबंधन के बारे में और अधिक जानें ](https://docs.microsoft.com/ai-builder/manage-model#retrain-and-republish-existing-models).
+5. अपने मॉडल को AI Builder में अपडेट करें. [ AI builder में मॉडल के प्रबंधन के बारे में और अधिक जानें ](/ai-builder/manage-model#retrain-and-republish-existing-models).
 
 आपके पूर्वानुमान को अगली बार चलाने पर आपके द्वारा बनाए गए अपडेट मॉडल का इस्तेमाल किया जाएगा.
 

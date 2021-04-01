@@ -2,19 +2,19 @@
 title: एक Azure ब्लॉब स्टोरेज के लिए Customer Insights डेटा निर्यात करें
 description: Azure Blob स्टोरेज से कनेक्शन को कॉन्फ़िगर करना सीखें.
 ms.date: 09/18/2020
-ms.reviewer: philk
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: phkieffer
+ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ecacf20365e78ced8859dfa54b1b16cb923c00eb
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 0986ee5caf5fa079994ca584fb2c4d9294ddb80b
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5269194"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596179"
 ---
 # <a name="connector-for-azure-blob-storage-preview"></a>Azure ब्लॉब स्टोरेज के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -27,8 +27,8 @@ ms.locfileid: "5269194"
 1. **Azure ब्लॉब स्टोरेज** के अंतर्गत, **सेट करें** चुनें.
 
 1. आपके Azure ब्लॉब स्टोरेज खाते के लिए **खाता नाम**, **खाता कुंजी**, और **कंटेनर** दर्ज करें.
-    - Azure Blob संग्रहण खाते का नाम और खाता कुंजी का पता लगाने के बारे में अधिक जानने के लिए, [Azure पोर्टल में संग्रहण खाता सेटिंग व्यवस्थित करें](https://docs.microsoft.com/azure/storage/common/storage-account-manage) देखें.
-    - कंटेनर बनाने के बारे में जानने के लिए, [कंटेनर बनाएँ](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) देखें.
+    - Azure Blob संग्रहण खाते का नाम और खाता कुंजी का पता लगाने के बारे में अधिक जानने के लिए, [Azure पोर्टल में संग्रहण खाता सेटिंग व्यवस्थित करें](/azure/storage/common/storage-account-manage) देखें.
+    - कंटेनर बनाने के बारे में जानने के लिए, [कंटेनर बनाएँ](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) देखें.
 
 1. अपने गंतव्य-स्थल को **प्रदर्शन नाम** फील्ड में पहचान करने योग्य नाम दें.
 
@@ -42,7 +42,7 @@ ms.locfileid: "5269194"
 
 - स्रोत निकायों और सिस्टम द्वारा उत्पन्न स्रोत निकायों के लिए: `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`
   - उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`
-- निर्यात किए गए निकायों के लिए model.json, %ExportDestinationName% स्तर पर रहेगा
+- model.json निर्यात किए गए निकायों के लिए %ExportDestinationName% स्तर पर रहेगा
   - उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`
 
 ## <a name="export-the-data"></a>डेटा निर्यात करें

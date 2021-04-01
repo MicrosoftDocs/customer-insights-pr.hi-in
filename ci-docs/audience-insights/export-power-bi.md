@@ -2,19 +2,19 @@
 title: Power BI कनेक्टर
 description: Power BI में Dynamics 365 Customer Insights कनेक्टर का उपयोग करना सीखें.
 ms.date: 09/21/2020
-ms.reviewer: sthe
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: stefanie-msft
+ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 0607a4644ac7d7beb19e4faecf012efcd197d48c
-ms.sourcegitcommit: 0260ed244b97c2fd0be5e9a084c4c489358e8d4f
+ms.openlocfilehash: e43e2f9dbc84ebfbf2154990a752740f973296cb
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5477090"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596041"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -23,7 +23,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
 - आपके पास एकीकृत ग्राहक प्रोफाइल हैं.
-- [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) का नवीनतम संस्करण आपके कंप्यूटर पर स्थापित है. [Power BI Desktop के बारे में अधिक जानें](https://docs.microsoft.com/power-bi/desktop-what-is-desktop)
+- आपके कंप्यूटर पर [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) का नवीनतम वर्जन इंस्टॉल है. [Power BI Desktop के बारे में अधिक जानें](/power-bi/desktop-what-is-desktop)
 
 ## <a name="configure-the-connector-for-power-bi"></a>Power BI के लिए कनेक्टर कॉन्फ़िगर करें
 
@@ -47,7 +47,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 
 ## <a name="large-data-sets"></a>बड़े डेटा सेट
 
-Power BI के लिए Customer Insights कनेक्टर को उन डेटा सेटों के लिए काम करने के लिए डिज़ाइन किया गया है जिनमें 1 मिलियन तक ग्राहक प्रोफ़ाइल हैं. बड़े डेटा सेट को आयात करने से काम बन सकता है, लेकिन इसमें लंबा समय लगता है. इसके अतिरिक्त, Power BI सीमाओं के कारण यह प्रक्रिया एक टाइम-आउट में चल सकती है. अधिक जानकारी के लिए देखें [Power BI: बड़े डेटा सेट के लिए सिफारिशें।](https://docs.microsoft.com/power-bi/admin/service-premium-what-is#large-datasets). 
+Power BI के लिए Customer Insights कनेक्टर को उन डेटा सेटों के लिए काम करने के लिए डिज़ाइन किया गया है जिनमें 1 मिलियन तक ग्राहक प्रोफ़ाइल हैं. बड़े डेटा सेट को आयात करने से काम बन सकता है, लेकिन इसमें लंबा समय लगता है. इसके अतिरिक्त, Power BI सीमाओं के कारण यह प्रक्रिया एक टाइम-आउट में चल सकती है. अधिक जानकारी के लिए देखें [Power BI: बड़े डेटा सेट के लिए सिफारिशें।](/power-bi/admin/service-premium-what-is#large-datasets). 
 
 ### <a name="work-with-a-subset-of-data"></a>डेटा के सबसेट के साथ काम करें
 
@@ -70,4 +70,3 @@ Power BI के लिए Customer Insights कनेक्टर को उन 
 डुप्लिकेट किए गए संबंधों को हटाने के बाद, Power BI कनेक्टर को फिर से कॉन्फ़िगर करने का प्रयास करें. परिवेश अब उपलब्ध होना चाहिए.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
