@@ -2,52 +2,52 @@
 title: एक Azure ब्लॉब स्टोरेज के लिए Customer Insights डेटा निर्यात करें
 description: Azure Blob स्टोरेज से कनेक्शन को कॉन्फ़िगर करना सीखें.
 ms.date: 09/18/2020
-ms.reviewer: philk
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: phkieffer
+ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ecacf20365e78ced8859dfa54b1b16cb923c00eb
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 0986ee5caf5fa079994ca584fb2c4d9294ddb80b
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5269194"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596179"
 ---
-# <a name="connector-for-azure-blob-storage-preview"></a><span data-ttu-id="9e4c3-103">Azure ब्लॉब स्टोरेज के लिए कनेक्टर (पूर्वावलोकन)</span><span class="sxs-lookup"><span data-stu-id="9e4c3-103">Connector for Azure Blob storage (preview)</span></span>
+# <a name="connector-for-azure-blob-storage-preview"></a><span data-ttu-id="2e23e-103">Azure ब्लॉब स्टोरेज के लिए कनेक्टर (पूर्वावलोकन)</span><span class="sxs-lookup"><span data-stu-id="2e23e-103">Connector for Azure Blob storage (preview)</span></span>
 
-<span data-ttu-id="9e4c3-104">अपने Customer Insights डेटा को Azure ब्लॉब स्टोरेज में संग्रहित करें या अपने डेटा को अन्य एप्लिकेशन में हस्तांतरित करने के लिए इसका उपयोग करें.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-104">Store your Customer Insights data in an Azure Blob storage or use it to transfer your data to other applications.</span></span>
+<span data-ttu-id="2e23e-104">अपने Customer Insights डेटा को Azure ब्लॉब स्टोरेज में संग्रहित करें या अपने डेटा को अन्य एप्लिकेशन में हस्तांतरित करने के लिए इसका उपयोग करें.</span><span class="sxs-lookup"><span data-stu-id="2e23e-104">Store your Customer Insights data in an Azure Blob storage or use it to transfer your data to other applications.</span></span>
 
-## <a name="configure-the-connector-for-azure-blob-storage"></a><span data-ttu-id="9e4c3-105">Azure ब्लॉब स्टोरेज के लिए कनेक्टर को कॉन्फ़िगर करें</span><span class="sxs-lookup"><span data-stu-id="9e4c3-105">Configure the connector for Azure Blob storage</span></span>
+## <a name="configure-the-connector-for-azure-blob-storage"></a><span data-ttu-id="2e23e-105">Azure ब्लॉब स्टोरेज के लिए कनेक्टर को कॉन्फ़िगर करें</span><span class="sxs-lookup"><span data-stu-id="2e23e-105">Configure the connector for Azure Blob storage</span></span>
 
-1. <span data-ttu-id="9e4c3-106">ऑडिएंस इनसाइट्स में, **व्यवस्थापक** > **निर्यात गंतव्य** पर जाएं.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-106">In audience insights, go to **Admin** > **Export destinations**.</span></span>
+1. <span data-ttu-id="2e23e-106">ऑडिएंस इनसाइट्स में, **व्यवस्थापक** > **निर्यात गंतव्य** पर जाएं.</span><span class="sxs-lookup"><span data-stu-id="2e23e-106">In audience insights, go to **Admin** > **Export destinations**.</span></span>
 
-1. <span data-ttu-id="9e4c3-107">**Azure ब्लॉब स्टोरेज** के अंतर्गत, **सेट करें** चुनें.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-107">Under **Azure Blob Storage**, select **Set up**.</span></span>
+1. <span data-ttu-id="2e23e-107">**Azure ब्लॉब स्टोरेज** के अंतर्गत, **सेट करें** चुनें.</span><span class="sxs-lookup"><span data-stu-id="2e23e-107">Under **Azure Blob Storage**, select **Set up**.</span></span>
 
-1. <span data-ttu-id="9e4c3-108">आपके Azure ब्लॉब स्टोरेज खाते के लिए **खाता नाम**, **खाता कुंजी**, और **कंटेनर** दर्ज करें.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-108">Enter **Account name**, **Account key**, and **Container** for your Azure Blob storage account.</span></span>
-    - <span data-ttu-id="9e4c3-109">Azure Blob संग्रहण खाते का नाम और खाता कुंजी का पता लगाने के बारे में अधिक जानने के लिए, [Azure पोर्टल में संग्रहण खाता सेटिंग व्यवस्थित करें](https://docs.microsoft.com/azure/storage/common/storage-account-manage) देखें.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-109">To learn more about how to find the Azure Blob storage account name and account key, see [Manage storage account settings in the Azure portal](https://docs.microsoft.com/azure/storage/common/storage-account-manage).</span></span>
-    - <span data-ttu-id="9e4c3-110">कंटेनर बनाने के बारे में जानने के लिए, [कंटेनर बनाएँ](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) देखें.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-110">To learn how to create a container, see [Create a container](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).</span></span>
+1. <span data-ttu-id="2e23e-108">आपके Azure ब्लॉब स्टोरेज खाते के लिए **खाता नाम**, **खाता कुंजी**, और **कंटेनर** दर्ज करें.</span><span class="sxs-lookup"><span data-stu-id="2e23e-108">Enter **Account name**, **Account key**, and **Container** for your Azure Blob storage account.</span></span>
+    - <span data-ttu-id="2e23e-109">Azure Blob संग्रहण खाते का नाम और खाता कुंजी का पता लगाने के बारे में अधिक जानने के लिए, [Azure पोर्टल में संग्रहण खाता सेटिंग व्यवस्थित करें](/azure/storage/common/storage-account-manage) देखें.</span><span class="sxs-lookup"><span data-stu-id="2e23e-109">To learn more about how to find the Azure Blob storage account name and account key, see [Manage storage account settings in the Azure portal](/azure/storage/common/storage-account-manage).</span></span>
+    - <span data-ttu-id="2e23e-110">कंटेनर बनाने के बारे में जानने के लिए, [कंटेनर बनाएँ](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) देखें.</span><span class="sxs-lookup"><span data-stu-id="2e23e-110">To learn how to create a container, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).</span></span>
 
-1. <span data-ttu-id="9e4c3-111">अपने गंतव्य-स्थल को **प्रदर्शन नाम** फील्ड में पहचान करने योग्य नाम दें.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-111">Give your destination a recognizable name in the **Display name** field.</span></span>
+1. <span data-ttu-id="2e23e-111">अपने गंतव्य-स्थल को **प्रदर्शन नाम** फील्ड में पहचान करने योग्य नाम दें.</span><span class="sxs-lookup"><span data-stu-id="2e23e-111">Give your destination a recognizable name in the **Display name** field.</span></span>
 
-1. <span data-ttu-id="9e4c3-112">**अगला** चुनें.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-112">Select **Next**.</span></span>
+1. <span data-ttu-id="2e23e-112">**अगला** चुनें.</span><span class="sxs-lookup"><span data-stu-id="2e23e-112">Select **Next**.</span></span>
 
-1. <span data-ttu-id="9e4c3-113">उस प्रत्येक निकाय के सामने दिए गए बॉक्स को चुनें जिसे आप इस गंतव्य-स्थल में एक्सपोर्ट करना चाहते हैं.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-113">Select the box next to each of the entities you want to export to this destination.</span></span>
+1. <span data-ttu-id="2e23e-113">उस प्रत्येक निकाय के सामने दिए गए बॉक्स को चुनें जिसे आप इस गंतव्य-स्थल में एक्सपोर्ट करना चाहते हैं.</span><span class="sxs-lookup"><span data-stu-id="2e23e-113">Select the box next to each of the entities you want to export to this destination.</span></span>
 
-1. <span data-ttu-id="9e4c3-114">**सहेजें** चुनें.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-114">Select **Save**.</span></span>
+1. <span data-ttu-id="2e23e-114">**सहेजें** चुनें.</span><span class="sxs-lookup"><span data-stu-id="2e23e-114">Select **Save**.</span></span>
 
-<span data-ttu-id="9e4c3-115">निर्यात किया गया डेटा आपके द्वारा कॉन्फ़िगर किए गए Azure ब्लॉब स्टोरेज कंटेनर में स्टोर किया गया है.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-115">Exported data is stored in the Azure Blob storage container you configured.</span></span> <span data-ttu-id="9e4c3-116">आपके कंटेनर में निम्नलिखित फोल्डर पथ अपने आप बनेंगे:</span><span class="sxs-lookup"><span data-stu-id="9e4c3-116">The following folder paths are automatically created in your container:</span></span>
+<span data-ttu-id="2e23e-115">निर्यात किया गया डेटा आपके द्वारा कॉन्फ़िगर किए गए Azure ब्लॉब स्टोरेज कंटेनर में स्टोर किया गया है.</span><span class="sxs-lookup"><span data-stu-id="2e23e-115">Exported data is stored in the Azure Blob storage container you configured.</span></span> <span data-ttu-id="2e23e-116">आपके कंटेनर में निम्नलिखित फोल्डर पथ अपने आप बनेंगे:</span><span class="sxs-lookup"><span data-stu-id="2e23e-116">The following folder paths are automatically created in your container:</span></span>
 
-- <span data-ttu-id="9e4c3-117">स्रोत निकायों और सिस्टम द्वारा उत्पन्न स्रोत निकायों के लिए: `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`</span><span class="sxs-lookup"><span data-stu-id="9e4c3-117">For source entities and entities generated by the system: `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`</span></span>
-  - <span data-ttu-id="9e4c3-118">उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`</span><span class="sxs-lookup"><span data-stu-id="9e4c3-118">Example: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`</span></span>
-- <span data-ttu-id="9e4c3-119">निर्यात किए गए निकायों के लिए model.json, %ExportDestinationName% स्तर पर रहेगा</span><span class="sxs-lookup"><span data-stu-id="9e4c3-119">The model.json for the exported entities will reside at the %ExportDestinationName% level</span></span>
-  - <span data-ttu-id="9e4c3-120">उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`</span><span class="sxs-lookup"><span data-stu-id="9e4c3-120">Example: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`</span></span>
+- <span data-ttu-id="2e23e-117">स्रोत निकायों और सिस्टम द्वारा उत्पन्न स्रोत निकायों के लिए: `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`</span><span class="sxs-lookup"><span data-stu-id="2e23e-117">For source entities and entities generated by the system: `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`</span></span>
+  - <span data-ttu-id="2e23e-118">उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`</span><span class="sxs-lookup"><span data-stu-id="2e23e-118">Example: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`</span></span>
+- <span data-ttu-id="2e23e-119">model.json निर्यात किए गए निकायों के लिए %ExportDestinationName% स्तर पर रहेगा</span><span class="sxs-lookup"><span data-stu-id="2e23e-119">The model.json for the exported entities will reside at the %ExportDestinationName% level</span></span>
+  - <span data-ttu-id="2e23e-120">उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`</span><span class="sxs-lookup"><span data-stu-id="2e23e-120">Example: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`</span></span>
 
-## <a name="export-the-data"></a><span data-ttu-id="9e4c3-121">डेटा निर्यात करें</span><span class="sxs-lookup"><span data-stu-id="9e4c3-121">Export the data</span></span>
+## <a name="export-the-data"></a><span data-ttu-id="2e23e-121">डेटा निर्यात करें</span><span class="sxs-lookup"><span data-stu-id="2e23e-121">Export the data</span></span>
 
-<span data-ttu-id="9e4c3-122">आप [मांग पर डेटा निर्यात](export-destinations.md#export-data-on-demand) कर सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="9e4c3-122">You can [export data on demand](export-destinations.md#export-data-on-demand).</span></span> <span data-ttu-id="9e4c3-123">निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).</span><span class="sxs-lookup"><span data-stu-id="9e4c3-123">The export will also run with every [scheduled refresh](system.md#schedule-tab).</span></span>
+<span data-ttu-id="2e23e-122">आप [मांग पर डेटा निर्यात](export-destinations.md#export-data-on-demand) कर सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="2e23e-122">You can [export data on demand](export-destinations.md#export-data-on-demand).</span></span> <span data-ttu-id="2e23e-123">निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).</span><span class="sxs-lookup"><span data-stu-id="2e23e-123">The export will also run with every [scheduled refresh](system.md#schedule-tab).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

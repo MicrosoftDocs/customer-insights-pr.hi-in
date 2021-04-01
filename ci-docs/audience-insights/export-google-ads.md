@@ -2,78 +2,78 @@
 title: Google Ads के लिए Customer Insights डेटा निर्यात करें
 description: Google Ads के लिए कनेक्शन को कॉन्फ़िगर करने का तरीका जानें.
 ms.date: 11/18/2020
-ms.reviewer: philk
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: phkieffer
+ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ba7c82e643ea0dc1897e0954e78646932cafffa3
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 6d9a25af3913e755cccec745c532b35aef3cccf9
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5268964"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5598249"
 ---
-# <a name="connector-for-google-ads-preview"></a><span data-ttu-id="d28a5-103">Google Ads के लिए कनेक्टर (पूर्वावलोकन)</span><span class="sxs-lookup"><span data-stu-id="d28a5-103">Connector for Google Ads (preview)</span></span>
+# <a name="connector-for-google-ads-preview"></a><span data-ttu-id="58fca-103">Google Ads के लिए कनेक्टर (पूर्वावलोकन)</span><span class="sxs-lookup"><span data-stu-id="58fca-103">Connector for Google Ads (preview)</span></span>
 
-<span data-ttu-id="d28a5-104">Google Ads ऑडियंस सूची में एकीकृत ग्राहक प्रोफ़ाइल के निर्यात सेगमेंट और Google खोज, जीमेल, YouTube और Google डिस्प्ले नेटवर्क पर AD देने के लिए उनका उपयोग करते हैं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-104">Export segments of unified customer profiles to Google Ads audience list and use them to advertise on Google Search, Gmail, YouTube, and Google Display Network.</span></span> 
+<span data-ttu-id="58fca-104">Google Ads ऑडियंस सूची में एकीकृत ग्राहक प्रोफ़ाइल के निर्यात सेगमेंट और Google खोज, जीमेल, YouTube और Google डिस्प्ले नेटवर्क पर AD देने के लिए उनका उपयोग करते हैं.</span><span class="sxs-lookup"><span data-stu-id="58fca-104">Export segments of unified customer profiles to Google Ads audience list and use them to advertise on Google Search, Gmail, YouTube, and Google Display Network.</span></span> 
 
-## <a name="prerequisites"></a><span data-ttu-id="d28a5-105">पूर्वावश्यकताएँ</span><span class="sxs-lookup"><span data-stu-id="d28a5-105">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="58fca-105">पूर्वावश्यकताएँ</span><span class="sxs-lookup"><span data-stu-id="58fca-105">Prerequisites</span></span>
 
--   <span data-ttu-id="d28a5-106">आपके पास [Google Ads खाता](https://ads.google.com/) और इसी प्रशासक के क्रेडेन्सियल्स हैं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-106">You have a [Google Ads account](https://ads.google.com/) and corresponding administrator credentials.</span></span>
--   <span data-ttu-id="d28a5-107">Google Ads और संबंधित आईडी में मौजूदा ऑडियंस हैं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-107">There are existing audiences in Google Ads and the corresponding IDs.</span></span> <span data-ttu-id="d28a5-108">अधिक जानकारी के लिए, [Google Ads ऑडिएंस](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.) देखें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-108">For more information, see [Google Ads audiences](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.).</span></span>
--   <span data-ttu-id="d28a5-109">आपके पास [कॉन्फ़िगर सेगमेंट](segments.md) है</span><span class="sxs-lookup"><span data-stu-id="d28a5-109">You have [configured segments](segments.md)</span></span>
--   <span data-ttu-id="d28a5-110">निर्यात किए गए खंडों में एकीकृत ग्राहक प्रोफाइल में ईमेल पते, पहला नाम और अंतिम नाम का प्रतिनिधित्व करने वाले क्षेत्र होते हैं</span><span class="sxs-lookup"><span data-stu-id="d28a5-110">Unified customer profiles in the exported segments contain fields representing an email address, first name, and last name</span></span>
+-   <span data-ttu-id="58fca-106">आपके पास [Google Ads खाता](https://ads.google.com/) और इसी प्रशासक के क्रेडेन्सियल्स हैं.</span><span class="sxs-lookup"><span data-stu-id="58fca-106">You have a [Google Ads account](https://ads.google.com/) and corresponding administrator credentials.</span></span>
+-   <span data-ttu-id="58fca-107">Google Ads और संबंधित आईडी में मौजूदा ऑडियंस हैं.</span><span class="sxs-lookup"><span data-stu-id="58fca-107">There are existing audiences in Google Ads and the corresponding IDs.</span></span> <span data-ttu-id="58fca-108">अधिक जानकारी के लिए, [Google Ads ऑडिएंस](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.) देखें.</span><span class="sxs-lookup"><span data-stu-id="58fca-108">For more information, see [Google Ads audiences](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.).</span></span>
+-   <span data-ttu-id="58fca-109">आपके पास [कॉन्फ़िगर सेगमेंट](segments.md) है</span><span class="sxs-lookup"><span data-stu-id="58fca-109">You have [configured segments](segments.md)</span></span>
+-   <span data-ttu-id="58fca-110">निर्यात किए गए खंडों में एकीकृत ग्राहक प्रोफाइल में ईमेल पते, पहला नाम और अंतिम नाम का प्रतिनिधित्व करने वाले क्षेत्र होते हैं</span><span class="sxs-lookup"><span data-stu-id="58fca-110">Unified customer profiles in the exported segments contain fields representing an email address, first name, and last name</span></span>
 
-## <a name="connect-to-google-ads"></a><span data-ttu-id="d28a5-111">Google Ads से कनेक्ट करें</span><span class="sxs-lookup"><span data-stu-id="d28a5-111">Connect to Google Ads</span></span>
+## <a name="connect-to-google-ads"></a><span data-ttu-id="58fca-111">Google Ads से कनेक्ट करें</span><span class="sxs-lookup"><span data-stu-id="58fca-111">Connect to Google Ads</span></span>
 
-1. <span data-ttu-id="d28a5-112">**व्यवस्थापक** > **गंतव्य निर्यात करें** पर जाएँ.</span><span class="sxs-lookup"><span data-stu-id="d28a5-112">Go to **Admin** > **Export destinations**.</span></span>
+1. <span data-ttu-id="58fca-112">**व्यवस्थापक** > **गंतव्य निर्यात करें** पर जाएँ.</span><span class="sxs-lookup"><span data-stu-id="58fca-112">Go to **Admin** > **Export destinations**.</span></span>
 
-1. <span data-ttu-id="d28a5-113">**Google Ads** अंतर्गत, **सेट अप** चुनें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-113">Under **Google Ads**, select **Set up**.</span></span>
+1. <span data-ttu-id="58fca-113">**Google Ads** अंतर्गत, **सेट अप** चुनें.</span><span class="sxs-lookup"><span data-stu-id="58fca-113">Under **Google Ads**, select **Set up**.</span></span>
 
-1. <span data-ttu-id="d28a5-114">अपने गंतव्य-स्थल को **प्रदर्शन नाम** में पहचान करने योग्य नाम दें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-114">Give your export destination a recognizable name in the **Display name** field.</span></span>
+1. <span data-ttu-id="58fca-114">अपने गंतव्य-स्थल को **प्रदर्शन नाम** में पहचान करने योग्य नाम दें.</span><span class="sxs-lookup"><span data-stu-id="58fca-114">Give your export destination a recognizable name in the **Display name** field.</span></span>
 
-1. <span data-ttu-id="d28a5-115">अपनी **[Google Ads ग्राहक ID](https://support.google.com/google-ads/answer/1704344)** दर्ज करें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-115">Enter your **[Google Ads customer ID](https://support.google.com/google-ads/answer/1704344)**.</span></span>
+1. <span data-ttu-id="58fca-115">अपनी **[Google Ads ग्राहक ID](https://support.google.com/google-ads/answer/1704344)** दर्ज करें.</span><span class="sxs-lookup"><span data-stu-id="58fca-115">Enter your **[Google Ads customer ID](https://support.google.com/google-ads/answer/1704344)**.</span></span>
 
-1. <span data-ttu-id="d28a5-116">अपने **[Google AD अनुमोदित डेवलपर टोकन](https://developers.google.com/google-ads/api/docs/first-call/dev-token)** दर्ज करें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-116">Enter your **[Google Ads approved developer token](https://developers.google.com/google-ads/api/docs/first-call/dev-token)**.</span></span>
+1. <span data-ttu-id="58fca-116">अपने **[Google AD अनुमोदित डेवलपर टोकन](https://developers.google.com/google-ads/api/docs/first-call/dev-token)** दर्ज करें.</span><span class="sxs-lookup"><span data-stu-id="58fca-116">Enter your **[Google Ads approved developer token](https://developers.google.com/google-ads/api/docs/first-call/dev-token)**.</span></span>
 
-1. <span data-ttu-id="d28a5-117">**डेटा गोपनीयता और अनुपालन** की पुष्टि करने के लिए **मैं सहमत हूँ** चुनें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-117">Select **I agree** to confirm the **Data privacy and compliance**.</span></span>
+1. <span data-ttu-id="58fca-117">**डेटा गोपनीयता और अनुपालन** की पुष्टि करने के लिए **मैं सहमत हूँ** चुनें.</span><span class="sxs-lookup"><span data-stu-id="58fca-117">Select **I agree** to confirm the **Data privacy and compliance**.</span></span>
 
-1. <span data-ttu-id="d28a5-118">अपने **[Google Ads ऑडियंस ID](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)** और Google Ads से कनेक्शन शुरू करने के लिए **कनेक्ट** चुनें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-118">Enter your **[Google Ads audience ID](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)** and select **Connect** to initialize the connection to Google Ads.</span></span>
+1. <span data-ttu-id="58fca-118">अपने **[Google Ads ऑडियंस ID](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)** और Google Ads से कनेक्शन शुरू करने के लिए **कनेक्ट** चुनें.</span><span class="sxs-lookup"><span data-stu-id="58fca-118">Enter your **[Google Ads audience ID](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)** and select **Connect** to initialize the connection to Google Ads.</span></span>
 
-1. <span data-ttu-id="d28a5-119">**Google Ads के साथ प्रमाणीकरण** चुनें और अपने Google Ads परिचय पत्र प्रदान करें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-119">Select **Authenticate with Google Ads** and provide your Google Ads credentials.</span></span>
+1. <span data-ttu-id="58fca-119">**Google Ads के साथ प्रमाणीकरण** चुनें और अपने Google Ads परिचय पत्र प्रदान करें.</span><span class="sxs-lookup"><span data-stu-id="58fca-119">Select **Authenticate with Google Ads** and provide your Google Ads credentials.</span></span>
 
-1. <span data-ttu-id="d28a5-120">**अपने आप को निर्यात उपयोगकर्ता के रूप में जोड़ें** और अपने Customer Insights क्रेडेंशियल्स प्रदान करें .</span><span class="sxs-lookup"><span data-stu-id="d28a5-120">Select **Add yourself as export user** and provide your Customer Insights credentials.</span></span>
+1. <span data-ttu-id="58fca-120">**अपने आप को निर्यात उपयोगकर्ता के रूप में जोड़ें** और अपने Customer Insights क्रेडेंशियल्स प्रदान करें .</span><span class="sxs-lookup"><span data-stu-id="58fca-120">Select **Add yourself as export user** and provide your Customer Insights credentials.</span></span>
 
    :::image type="content" source="media/export-segments-googleads.PNG" alt-text="Google Ads कनेक्शन के लिए निर्यात स्क्रीनशॉट":::
 
-1. <span data-ttu-id="d28a5-122">निर्यात कॉन्फ़िगर करने के लिए **अगला** चयन करें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-122">Select **Next** to configure the export.</span></span>
+1. <span data-ttu-id="58fca-122">निर्यात कॉन्फ़िगर करने के लिए **अगला** चयन करें.</span><span class="sxs-lookup"><span data-stu-id="58fca-122">Select **Next** to configure the export.</span></span>
 
-## <a name="configure-the-connector"></a><span data-ttu-id="d28a5-123">कनेक्टर कॉन्फ़िगर करें</span><span class="sxs-lookup"><span data-stu-id="d28a5-123">Configure the connector</span></span>
+## <a name="configure-the-connector"></a><span data-ttu-id="58fca-123">कनेक्टर कॉन्फ़िगर करें</span><span class="sxs-lookup"><span data-stu-id="58fca-123">Configure the connector</span></span>
 
-1. <span data-ttu-id="d28a5-124">**डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है.</span><span class="sxs-lookup"><span data-stu-id="d28a5-124">In the **Data matching** section, in the **Email** field, select the field in your unified customer profile that represents a customer's email address.</span></span> <span data-ttu-id="d28a5-125">**पहले नाम** और **अंतिम नाम** फ़ील्ड के लिए एक ही कदम दोहराएं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-125">Repeat the same steps for \*\*First name" and **Last name** fields.</span></span>
+1. <span data-ttu-id="58fca-124">**डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है.</span><span class="sxs-lookup"><span data-stu-id="58fca-124">In the **Data matching** section, in the **Email** field, select the field in your unified customer profile that represents a customer's email address.</span></span> <span data-ttu-id="58fca-125">**पहले नाम** और **अंतिम नाम** फ़ील्ड के लिए एक ही कदम दोहराएं.</span><span class="sxs-lookup"><span data-stu-id="58fca-125">Repeat the same steps for \*\*First name" and **Last name** fields.</span></span>
 
-1. <span data-ttu-id="d28a5-126">उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-126">Select the segments you want to export.</span></span> <span data-ttu-id="d28a5-127">आप कुल मिलाकर 1 मिलियन ग्राहक प्रोफ़ाइल को Google Ads में निर्यात कर सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-127">You can export up to 1 million customer profiles in total to Google Ads.</span></span>
+1. <span data-ttu-id="58fca-126">उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं.</span><span class="sxs-lookup"><span data-stu-id="58fca-126">Select the segments you want to export.</span></span> <span data-ttu-id="58fca-127">आप कुल मिलाकर 1 मिलियन ग्राहक प्रोफ़ाइल को Google Ads में निर्यात कर सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="58fca-127">You can export up to 1 million customer profiles in total to Google Ads.</span></span>
 
-1. <span data-ttu-id="d28a5-128">**सहेजें** चुनें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-128">Select **Save**.</span></span>
+1. <span data-ttu-id="58fca-128">**सहेजें** चुनें.</span><span class="sxs-lookup"><span data-stu-id="58fca-128">Select **Save**.</span></span>
 
-## <a name="export-the-data"></a><span data-ttu-id="d28a5-129">डेटा निर्यात करें</span><span class="sxs-lookup"><span data-stu-id="d28a5-129">Export the data</span></span>
+## <a name="export-the-data"></a><span data-ttu-id="58fca-129">डेटा निर्यात करें</span><span class="sxs-lookup"><span data-stu-id="58fca-129">Export the data</span></span>
 
-<span data-ttu-id="d28a5-130">आप [मांग पर डेटा निर्यात](export-destinations.md) कर सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-130">You can [export data on demand](export-destinations.md).</span></span> <span data-ttu-id="d28a5-131">निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).</span><span class="sxs-lookup"><span data-stu-id="d28a5-131">The export will also run with every [scheduled refresh](system.md#schedule-tab).</span></span> <span data-ttu-id="d28a5-132">Google Ads में अब आप [Google Ads ऑडियंस](https://support.google.com/google-ads/answer/7558048?hl=en/) के तहत अपने सेगमेंट पा सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-132">In Google Ads, you can now find your segments under [Google Ads audiences](https://support.google.com/google-ads/answer/7558048?hl=en/).</span></span>
+<span data-ttu-id="58fca-130">आप [मांग पर डेटा निर्यात](export-destinations.md) कर सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="58fca-130">You can [export data on demand](export-destinations.md).</span></span> <span data-ttu-id="58fca-131">निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).</span><span class="sxs-lookup"><span data-stu-id="58fca-131">The export will also run with every [scheduled refresh](system.md#schedule-tab).</span></span> <span data-ttu-id="58fca-132">Google Ads में अब आप [Google Ads ऑडियंस](https://support.google.com/google-ads/answer/7558048?hl=en/) के तहत अपने सेगमेंट पा सकते हैं.</span><span class="sxs-lookup"><span data-stu-id="58fca-132">In Google Ads, you can now find your segments under [Google Ads audiences](https://support.google.com/google-ads/answer/7558048?hl=en/).</span></span>
 
-## <a name="known-limitations"></a><span data-ttu-id="d28a5-133">ज्ञात सीमाएँ</span><span class="sxs-lookup"><span data-stu-id="d28a5-133">Known limitations</span></span>
+## <a name="known-limitations"></a><span data-ttu-id="58fca-133">ज्ञात सीमाएँ</span><span class="sxs-lookup"><span data-stu-id="58fca-133">Known limitations</span></span>
 
-- <span data-ttu-id="d28a5-134">Google Ads को प्रति निर्यात 1 मिलियन प्रोफ़ाइल तक.</span><span class="sxs-lookup"><span data-stu-id="d28a5-134">Up to 1 million profiles per export to Google Ads.</span></span>
-- <span data-ttu-id="d28a5-135">Google Ads को निर्यात करना सेगमेंटों तक सीमित है.</span><span class="sxs-lookup"><span data-stu-id="d28a5-135">Exporting to Google Ads is limited to segments.</span></span>
-- <span data-ttu-id="d28a5-136">प्रदाता पक्ष पर सीमाओं के कारण कुल 1 मिलियन प्रोफाइल वाले निर्यात खंडों में 5 मिनट तक का समय लग सकता है.</span><span class="sxs-lookup"><span data-stu-id="d28a5-136">Exporting segments with a total of 1 million profiles can take up to 5 minutes because of limitations on the provider side.</span></span> 
-- <span data-ttu-id="d28a5-137">Google Ads में मिलान में 48 घंटे तक का समय लग सकता है.</span><span class="sxs-lookup"><span data-stu-id="d28a5-137">The matching in Google Ads can take up to 48 hours.</span></span>
+- <span data-ttu-id="58fca-134">Google Ads को प्रति निर्यात 1 मिलियन प्रोफ़ाइल तक.</span><span class="sxs-lookup"><span data-stu-id="58fca-134">Up to 1 million profiles per export to Google Ads.</span></span>
+- <span data-ttu-id="58fca-135">Google Ads को निर्यात करना सेगमेंटों तक सीमित है.</span><span class="sxs-lookup"><span data-stu-id="58fca-135">Exporting to Google Ads is limited to segments.</span></span>
+- <span data-ttu-id="58fca-136">प्रदाता पक्ष पर सीमाओं के कारण कुल 1 मिलियन प्रोफाइल वाले निर्यात खंडों में 5 मिनट तक का समय लग सकता है.</span><span class="sxs-lookup"><span data-stu-id="58fca-136">Exporting segments with a total of 1 million profiles can take up to 5 minutes because of limitations on the provider side.</span></span> 
+- <span data-ttu-id="58fca-137">Google Ads में मिलान में 48 घंटे तक का समय लग सकता है.</span><span class="sxs-lookup"><span data-stu-id="58fca-137">The matching in Google Ads can take up to 48 hours.</span></span>
 
-## <a name="data-privacy-and-compliance"></a><span data-ttu-id="d28a5-138">डेटा गोपनीयता और अनुपालन</span><span class="sxs-lookup"><span data-stu-id="d28a5-138">Data privacy and compliance</span></span>
+## <a name="data-privacy-and-compliance"></a><span data-ttu-id="58fca-138">डेटा गोपनीयता और अनुपालन</span><span class="sxs-lookup"><span data-stu-id="58fca-138">Data privacy and compliance</span></span>
 
-<span data-ttu-id="d28a5-139">जब आप Dynamics 365 Customer Insights को Google Ads पर डेटा संचारित करने के लिए सक्षम करते हैं, तो आप Dynamics 365 Customer Insights के लिए अनुपालन सीमा के बाहर डेटा के स्थानांतरित करने की अनुमति देते हैं, जिसमें संभावित संवेदनशील डेटा जैसे व्यक्तिगत डेटा शामिल हैं.</span><span class="sxs-lookup"><span data-stu-id="d28a5-139">When you enable Dynamics 365 Customer Insights to transmit data to Google Ads, you allow transfer of data outside of the compliance boundary for Dynamics 365 Customer Insights, including potentially sensitive data such as Personal Data.</span></span> <span data-ttu-id="d28a5-140">Microsoft आपके निर्देश पर इस तरह के डेटा को स्थानांतरित करेगा, लेकिन आप यह सुनिश्चित करने के लिए उत्तरदायी हैं कि Google Ads विज्ञापन आपके पास मौजूद किसी भी गोपनीयता या सुरक्षा दायित्वों को पूरा करता है.</span><span class="sxs-lookup"><span data-stu-id="d28a5-140">Microsoft will transfer such data at your instruction, but you are responsible for ensuring that Google Ads meet any privacy or security obligations you may have.</span></span> <span data-ttu-id="d28a5-141">अधिक जानकारी के लिए, [Microsoft गोपनीयता कथन](https://go.microsoft.com/fwlink/?linkid=396732) देखें.</span><span class="sxs-lookup"><span data-stu-id="d28a5-141">For more information, see [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=396732).</span></span>
-<span data-ttu-id="d28a5-142">आपका Dynamics 365 Customer Insights एडमिनिस्ट्रेटर इस कार्यक्षमता का उपयोग बंद करने के लिए किसी भी समय इस निर्यात गंतव्य को हटा सकता है.</span><span class="sxs-lookup"><span data-stu-id="d28a5-142">Your Dynamics 365 Customer Insights Administrator can remove this export destination at any time to discontinue use of this functionality.</span></span>
+<span data-ttu-id="58fca-139">जब आप Dynamics 365 Customer Insights को Google Ads पर डेटा संचारित करने के लिए सक्षम करते हैं, तो आप Dynamics 365 Customer Insights के लिए अनुपालन सीमा के बाहर डेटा के स्थानांतरित करने की अनुमति देते हैं, जिसमें संभावित संवेदनशील डेटा जैसे व्यक्तिगत डेटा शामिल हैं.</span><span class="sxs-lookup"><span data-stu-id="58fca-139">When you enable Dynamics 365 Customer Insights to transmit data to Google Ads, you allow transfer of data outside of the compliance boundary for Dynamics 365 Customer Insights, including potentially sensitive data such as Personal Data.</span></span> <span data-ttu-id="58fca-140">Microsoft आपके निर्देश पर इस तरह के डेटा को स्थानांतरित करेगा, लेकिन आप यह सुनिश्चित करने के लिए उत्तरदायी हैं कि Google Ads विज्ञापन आपके पास मौजूद किसी भी गोपनीयता या सुरक्षा दायित्वों को पूरा करता है.</span><span class="sxs-lookup"><span data-stu-id="58fca-140">Microsoft will transfer such data at your instruction, but you are responsible for ensuring that Google Ads meet any privacy or security obligations you may have.</span></span> <span data-ttu-id="58fca-141">अधिक जानकारी के लिए, [Microsoft गोपनीयता कथन](https://go.microsoft.com/fwlink/?linkid=396732) देखें.</span><span class="sxs-lookup"><span data-stu-id="58fca-141">For more information, see [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=396732).</span></span>
+<span data-ttu-id="58fca-142">आपका Dynamics 365 Customer Insights एडमिनिस्ट्रेटर इस कार्यक्षमता का उपयोग बंद करने के लिए किसी भी समय इस निर्यात गंतव्य को हटा सकता है.</span><span class="sxs-lookup"><span data-stu-id="58fca-142">Your Dynamics 365 Customer Insights Administrator can remove this export destination at any time to discontinue use of this functionality.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

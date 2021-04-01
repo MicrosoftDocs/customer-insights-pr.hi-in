@@ -7,12 +7,12 @@ metadata:
   ms.date: 10/29/2020
   ms.service: customer-insights
   ms.topic: landing-page
-  ms.openlocfilehash: f175ea858213022afc87fce77213893c7d050d30
-  ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+  ms.openlocfilehash: e9c4aa3347d6f477751804790bd3dc9b20eb5dbe
+  ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
   ms.translationtype: HT
   ms.contentlocale: hi-IN
-  ms.lasthandoff: 11/03/2020
-  ms.locfileid: "4405974"
+  ms.lasthandoff: 03/15/2021
+  ms.locfileid: "5598463"
 title: Dynamics 365 Customer Insights दस्तावेज़ीकरण
 summary: Customer Insights की सुविधाओं और क्षमताओं के बारे में शुरू करने और जानने के लिए सहायक संसाधनों का पता लगाएं.
 landingContent:
@@ -23,7 +23,7 @@ landingContent:
     - text: Customer Insights अवलोकन
       url: overview.md
     - text: रिलीज़ की योजना
-      url: https://docs.microsoft.com/dynamics365-release-plan/2020wave2/customer-data-platform/dynamics365-customer-insights/planned-features
+      url: /dynamics365-release-plan/2020wave2/customer-data-platform/dynamics365-customer-insights/planned-features
     - text: अपना परिवेश एक्सेस करें
       url: https://home.ci.ai.dynamics.com/
 - title: ऑडिएंस इनसाइट्स के साथ शुरू करें
@@ -53,9 +53,9 @@ landingContent:
     - text: कोई नया परिवेश बनाएँ
       url: audience-insights/home.md
     - text: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
-      url: https://docs.microsoft.com/learn/modules/unified-customer-profile/
+      url: /learn/modules/unified-customer-profile/
     - text: ऐप के साथ कार्य करें
-      url: https://docs.microsoft.com/learn/modules/working-with-customer-insights/
+      url: /learn/modules/working-with-customer-insights/
 - title: निर्यात ऑडियंस इनसाइट्स डेटा
   linkLists:
   - linkListType: how-to-guide
