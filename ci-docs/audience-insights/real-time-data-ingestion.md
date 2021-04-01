@@ -2,19 +2,19 @@
 title: रीयल-टाइम डेटा इन्जेस्चन और सीमाएं
 description: ऑडियंस इनसाइट्स में रीयल-टाइम क्षमताओं के बारे में सामान्य जानकारी.
 ms.date: 10/27/2020
-ms.reviewer: nikeller
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
+author: Nils-2m
+ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: 7421ed9d2cb399d546815b2d1b0ea5ec51ca6b6d
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 3c84cfe7441eb026c1fd45eda1f72421388d01d7
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270282"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5598571"
 ---
 # <a name="real-time-data-ingestion-preview"></a>वास्तविक-समय डेटा अंतर्ग्रहण (पूर्वावलोकन)
 
@@ -54,7 +54,7 @@ ms.locfileid: "5270282"
 
 रीयल-टाइम API से कनेक्ट करने के दो तरीके हैं:
 
-- [अप्रत्यक्ष रूप से](#connect-via-the-dynamics-365-customer-insights-connector), [Dynamics 365 Customer Insights कनेक्टर](https://docs.microsoft.com/connectors/customerinsights/) का उपयोग करते हुए
+- [अप्रत्यक्ष रूप से](#connect-via-the-dynamics-365-customer-insights-connector), [Dynamics 365 Customer Insights कनेक्टर](/connectors/customerinsights/) का उपयोग करते हुए
 - [सीधे](#connect-directly-to-the-real-time-api), कोड के साथ
 
 दोनों तरीके निम्नलिखित पूर्वआश्यकताएं साझा करते हैं:
@@ -66,13 +66,13 @@ ms.locfileid: "5270282"
 
 ## <a name="connect-via-the-dynamics-365-customer-insights-connector"></a>Dynamics 365 Customer Insights कनेक्टर के माध्यम से कनेक्ट करें
 
-वास्तविक-समय API किसी भी कोड को लिखने और लगाए जाने की आवश्यकता के बिना, एक समर्पित Power Platform कनेक्टर, [Dynamics 365 Customer Insights कनेक्टर](https://docs.microsoft.com/connectors/customerinsights/) से डेटा को इनजेस्ट कर सकता है.    
-कनेक्टर, API के समान वास्तविकृसमय की क्रियाएं कर सकता है. आपको प्रीमियम कनेक्टर्स के लिए एक वैध लाइसेंस की आवश्यकता है. अधिक जानकारी के लिए, [Power Apps और Power Automate लाइसेंसिंग FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq) देखें.
+वास्तविक-समय API किसी भी कोड को लिखने और लगाए जाने की आवश्यकता के बिना, एक समर्पित Power Platform कनेक्टर, [Dynamics 365 Customer Insights कनेक्टर](/connectors/customerinsights/) से डेटा को इनजेस्ट कर सकता है.    
+कनेक्टर, API के समान वास्तविकृसमय की क्रियाएं कर सकता है. आपको प्रीमियम कनेक्टर्स के लिए एक वैध लाइसेंस की आवश्यकता है. अधिक जानकारी के लिए, [Power Apps और Power Automate लाइसेंसिंग FAQ](/power-platform/admin/powerapps-flow-licensing-faq) देखें.
 
-- Power Platform [Power Apps और/या Power Automate](https://docs.microsoft.com/connectors/)
-- Azure [लॉजिक अनुप्रयोग](https://docs.microsoft.com/azure/connectors/apis-list)
+- Power Platform [Power Apps और/या Power Automate](/connectors/)
+- Azure [लॉजिक अनुप्रयोग](/azure/connectors/apis-list)
 
-प्रवाह बनाने के बारे में विवरण के लिए, [Power Automate दस्तावेज़ीकरण](https://docs.microsoft.com/power-automate/) देखें.
+प्रवाह बनाने के बारे में विवरण के लिए, [Power Automate दस्तावेज़ीकरण](/power-automate/) देखें.
 
 ## <a name="connect-directly-to-the-real-time-api"></a>सीधे वास्तविक-समय API से कनेक्ट करें
 

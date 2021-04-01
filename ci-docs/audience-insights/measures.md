@@ -6,15 +6,15 @@ ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: m-hartmann
-ms.author: mhart
-ms.reviewer: wameng
+ms.author: wameng
+ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 5bcee3b4c51880740715575b18fd7a4dbf87e6d0
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 202ea22d290be04e54ce9676b6b693162354607f
+ms.sourcegitcommit: d3eb07dcc72624a2d5cfc95c7ea9faaa2c1b6001
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5269930"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5654734"
 ---
 # <a name="define-and-manage-measures"></a>उपाय निर्धारित और प्रबंधित करें
 
@@ -72,8 +72,8 @@ ms.locfileid: "5269930"
    1. उन डेटा विशेषताओं को जोड़ने के लिए **आयामों को संपादित करें** चुनें, जिनके द्वारा आप माप मानों को समूहित करना चाहते हैं. उदाहरण के लिए, शहर या लिंग। डिफ़ॉल्ट रूप से, *ग्राहक-स्तरीय उपाय* बनाने के लिए *CustomerID* आयाम का चयन किया जाता है. यदि आप *व्यवसाय-स्तरीय उपाय* बनाना चाहते हैं तो आप डिफ़ॉल्ट आयाम को हटा सकते हैं.
    1. उपाय में आयाम जोड़ने के लिए **पूर्ण** का चयन करें.
 
-1. यदि आपके द्वारा मैप किए गए डेटा निकाय और ग्राहक निकाय के बीच कई पथ हैं, तो आपको पहचान किए गए [निकाय संबंध पथ](relationships.md) में से एक को चुनना होगा. उपाय परिणाम चयनित पथ के आधार पर भिन्न हो सकते हैं.
-   1. **डेटा वरीयताओं** का चयन करें और अपने पथ की पहचान करने के लिए जिस निकाय पथ का उपयोग किया जाना चाहिए उसे चुनें.
+1. यदि आपके द्वारा मैप किए गए डेटा निकाय और *ग्राहक* निकाय के बीच कई पथ हैं, तो आपको पहचान किए गए [निकाय संबंध पथ](relationships.md) में से एक को चुनना होगा. उपाय परिणाम चयनित पथ के आधार पर भिन्न हो सकते हैं. 
+   1. **डेटा वरीयताओं** का चयन करें और अपने पथ की पहचान करने के लिए जिस निकाय पथ का उपयोग किया जाना चाहिए उसे चुनें. यदि *ग्राहक* निकाय के लिए केवल एक ही पथ है, तो यह नियंत्रण नहीं दिखेगा.
    1. अपने चयन को लागू करने के लिए **पूर्ण** का चयन करें. 
 
    :::image type="content" source="media/measures-data-preferences.png" alt-text="माप के लिए निकाय पथ का चयन करें.":::

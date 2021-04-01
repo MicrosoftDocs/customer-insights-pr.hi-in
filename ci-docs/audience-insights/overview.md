@@ -2,19 +2,19 @@
 title: Dynamics 365 Customer Insights अवलोकन के लिए ऑडियंस इनसाइट्स
 description: Dynamics 365 Customer Insights के लिए ऑडियंस इनसाइट्स का अवलोकन.
 ms.date: 01/18/2021
-ms.reviewer: nimagen
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: overview
-author: m-hartmann
-ms.author: mhart
+author: NimrodMagen
+ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 735aae12abebd2d6d9b6aedb5835164834f480c0
-ms.sourcegitcommit: 0260ed244b97c2fd0be5e9a084c4c489358e8d4f
+ms.openlocfilehash: 146994b739748c615ca002add4e64216da6c1dea
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476997"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5598632"
 ---
 # <a name="audience-insights-for-dynamics-365-customer-insights-overview"></a>Dynamics 365 Customer Insights अवलोकन के लिए ऑडियंस इनसाइट्स
 
@@ -25,7 +25,7 @@ ms.locfileid: "5476997"
 - **डेटा साइलोस को हटा दें और ग्राहक डेटा को एकीकृत करें**
 
   - अपने डेटा को आसानी से कनेक्ट और एकीकृत करें—लोकप्रिय से लेन-देन, अवलोकन, और व्यवहार संबंधी डेटा लाएं [पूर्व निर्मित कनेक्टर्स का उपयोग करके डेटा स्रोत](data-sources.md).
-  - ग्राहक डेटा को समझदारी से परिवर्तित करें [आम डेटा मॉडल](https://docs.microsoft.com/common-data-model/) के अनुरूप एकीकृत ग्राहक प्रोफाइल का निर्माण करें. AI/ML-चालित सुझाव के साथ ग्राहक पहचान को तय करें.
+  - ग्राहक डेटा को समझदारी से परिवर्तित करें [आम डेटा मॉडल](/common-data-model/) के अनुरूप एकीकृत ग्राहक प्रोफाइल का निर्माण करें. AI/ML-चालित सुझाव के साथ ग्राहक पहचान को तय करें.
 
 - **Microsoft ग्राफ़ के भीतर मौजूद ऑडियंस इंटेलिजेंस के साथ बेहतर बनें**
 
@@ -42,7 +42,7 @@ ms.locfileid: "5476997"
 - **डेटा विश्लेषक / व्यवस्थापक:**
 
   - अपने सभी ग्राहक डेटा को इन्जेस्ट करने के लिए कनेक्टर्स के एक समृद्ध संग्रह तक पहुंच.
-  - ग्राहक डेटा को एकीकृत करने और उसे [सामान्य डेटा मॉडल](https://docs.microsoft.com/common-data-model/) प्रारूप में बदलने की क्षमता.
+  - ग्राहक डेटा को एकीकृत करने और उसे [सामान्य डेटा मॉडल](/common-data-model/) प्रारूप में बदलने की क्षमता.
   - Microsoft ग्राफ़ के भीतर निहित दर्शकों की बुद्धिमत्ता जैसे ब्रांड आत्मीयता और रुचियों की अंतर्दृष्टि के साथ ग्राहक जानकारी को समृद्ध करें.
   - आसानी से ऑडिएंस इनसाइट को कॉन्फ़िगर करने और संभावित मुद्दों की पहचान करने में मदद करने के लिए "क्लिक्स-नॉट-कोड" कॉन्फ़िगरेशन और डिबगिंग अनुभव.
   - AI- संचालित सुझाव के साथ असमान स्रोतों में ग्राहक डेटा को शुद्ध और मानकीकृत करें.  

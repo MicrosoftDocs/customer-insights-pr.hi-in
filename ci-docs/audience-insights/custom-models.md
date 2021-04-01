@@ -1,19 +1,20 @@
 ---
 title: कस्टम मशीन लर्निंग मॉडल | Microsoft Docs
 description: Dynamics 365 Customer Insights में Azure मशीन लर्निंग से कस्टम मॉडल के साथ काम करें.
-ms.date: 11/19/2020
-ms.reviewer: zacook
-ms.service: dynamics-365-ai
+ms.date: 03/22/2021
+ms.reviewer: mhart
+ms.service: customer-insights
+ms.subservice: audience-insights
 ms.topic: tutorial
-author: m-hartmann
-ms.author: mhart
+author: zacookmsft
+ms.author: zacook
 manager: shellyha
-ms.openlocfilehash: 34489faaecc5da1ce3dd68d799b3e0e0d9672ab7
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 87fb517e9f0b380f9721f77470dceb3bcb7e5616
+ms.sourcegitcommit: 55c00ea61c78db7b3b54894c01afb3246dff31c8
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5267236"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5700670"
 ---
 # <a name="custom-machine-learning-models"></a>कस्टम मशीन लर्निंग मॉडल
 
@@ -21,13 +22,18 @@ ms.locfileid: "5267236"
 
 ## <a name="responsible-ai"></a>जिम्मेदार AI
 
-पूर्वानुमानें बेहतर ग्राहक अनुभव बनाने, व्यावसायिक क्षमताओं और राजस्व धाराओं में सुधार करने की क्षमताएं प्रदान करती हैं. हम दृढ़ता से आपको सलाह देते हैं कि आप अपने पूर्वानुमान के मान को इसके प्रभाव और पूर्वाग्रहों के खिलाफ संतुलित करें जिसे नैतिक तरीके से पेश किया जा सकता है. Microsoft कैसा है [जिम्मेदार AI का संबोधन](https://www.microsoft.com/ai/responsible-ai?activetab=pivot1%3aprimaryr6) के बारे में अधिक जानें. आप [जिम्मेदार मशीन लर्निंग के लिए तकनीकों और प्रक्रियाओं](https://docs.microsoft.com/azure/machine-learning/concept-responsible-ml) के बारे में भी जान सकते हैं जो Azure मशीन लर्निंग के लिए विशिष्ट है .
+पूर्वानुमानें बेहतर ग्राहक अनुभव बनाने, व्यावसायिक क्षमताओं और राजस्व धाराओं में सुधार करने की क्षमताएं प्रदान करती हैं. हम दृढ़ता से आपको सलाह देते हैं कि आप अपने पूर्वानुमान के मान को इसके प्रभाव और पूर्वाग्रहों के खिलाफ संतुलित करें जिसे नैतिक तरीके से पेश किया जा सकता है. Microsoft कैसा है [जिम्मेदार AI का संबोधन](https://www.microsoft.com/ai/responsible-ai?activetab=pivot1%3aprimaryr6) के बारे में अधिक जानें. आप [जिम्मेदार मशीन लर्निंग के लिए तकनीकों और प्रक्रियाओं](/azure/machine-learning/concept-responsible-ml) के बारे में भी जान सकते हैं जो Azure मशीन लर्निंग के लिए विशिष्ट है .
 
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
-- वर्तमान में, यह सुविधा [मशीन लर्निंग स्टूडियो (क्लासिक)](https://studio.azureml.net) और [Azure मशीन लर्निंग बैच पाइपलाइन](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines) के माध्यम से प्रकाशित वेब सेवाओं का समर्थन करती है.
+- वर्तमान में, यह सुविधा [मशीन लर्निंग स्टूडियो (क्लासिक)](https://studio.azureml.net) और [Azure मशीन लर्निंग बैच पाइपलाइन](/azure/machine-learning/concept-ml-pipelines) के माध्यम से प्रकाशित वेब सेवाओं का समर्थन करती है.
 
-- इस सुविधा का उपयोग करने के लिए आपको अपने Azure स्टूडियो उदाहरण से जुड़े एक Azure Data Lake Gen2 स्टोरेज खाते की आवश्यकता है. अधिक जानकारी के लिए देखें [Azure Data Lake Storage Gen2 संग्रहण खाता बनाएँ](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account)
+- इस सुविधा का उपयोग करने के लिए आपको अपने Azure स्टूडियो उदाहरण से जुड़े एक Azure Data Lake Gen2 स्टोरेज खाते की आवश्यकता है. अधिक जानकारी के लिए, [Azure Data Lake Storage जेन2 स्टोरेज खाता बनाएं](/azure/storage/blobs/data-lake-storage-quickstart-create-account) देखें.
+
+- पाइपलाइन्स के साथ Azure मशीन लर्निंग वर्कस्पेस के लिए, आपको Azure मशीन लर्निंग वर्कस्पेस के लिए स्वामी या यूज़र एक्सेस एडमिनिस्ट्रेटर की अनुमति चाहिए.
+
+   > [!NOTE]
+   > डेटा को आपके Customer Insights इंस्टेंस और कार्य प्रवाह में चयनित Azure वेब सेवाओं या पाइपलाइन्स के बीच ट्रांसफर किया जाता है. जब आप डेटा को किसी Azure सेवा में स्थानांतरित करते हैं, तो कृपया सुनिश्चित करें कि सेवा आपके संगठन के लिए उस डेटा के लिए किसी भी कानूनी या नियामक आवश्यकताओं का अनुपालन करने के लिए आवश्यक तरीके और स्थान में डेटा को संसाधित करने के लिए कॉन्फ़िगर की गई है.
 
 ## <a name="add-a-new-workflow"></a>नया कार्यप्रवाह जोड़ें
 
@@ -45,8 +51,8 @@ ms.locfileid: "5267236"
 1. अपनी वेब सेवा से जुड़े **कार्यस्थानों** का चयन करें. दो अनुभागें सूचीबद्ध हैं, एक Azure मशीन लर्निंग v1 (मशीन लर्निंग स्टूडियो (क्लासिक)) और Azure मशीन लर्निंग v2 (Azure मशीन लर्निंग) के लिए. यदि आप पक्के तौर पर यह नहीं कह सकते हैं कि आपके मशीन लर्निंग स्टूडियो (क्लासिक) वेब सेवा के लिए कौन सा कार्यक्षेत्र सही है, तो **किसी भी** का चयन करें.
 
 1. **आपके मॉडल को शामिल करने वाली वेब सेवा** ड्रॉपडाउन में मशीन लर्निंग स्टूडियो (क्लासिक) वेब सेवा या Azure मशीन लर्निंग पाइपलाइन चुनें. उसके बाद, **अगला** चुनें.
-   - [मशीन लर्निंग स्टूडियो (क्लासिक) में एक वेब सेवा का प्रकाशन](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) के बारे में अधिक जानें
-   - [Azure मशीन लर्निंग में डिजाइनर का उपयोग करके एक पाइपलाइन का प्रकाशन](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer) या [SDK](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk) के बारे में अधिक जानें. आपकी पाइपलाइन को [पाइपलाइन एंडपॉइंट](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer#submit-a-pipeline-run) के तहत प्रकाशित किया जाना चाहिए.
+   - [मशीन लर्निंग स्टूडियो (क्लासिक) में एक वेब सेवा का प्रकाशन](/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) के बारे में अधिक जानें
+   - [Azure मशीन लर्निंग में डिजाइनर का उपयोग करके एक पाइपलाइन का प्रकाशन](/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer) या [SDK](/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk) के बारे में अधिक जानें. आपकी पाइपलाइन को [पाइपलाइन एंडपॉइंट](/azure/machine-learning/how-to-run-batch-predictions-designer#submit-a-pipeline-run) के तहत प्रकाशित किया जाना चाहिए.
 
 1. प्रत्येक **वेब सेवा इनपुट** के लिए, ऑडियंस इनसाइट्स से मिलते-जुलते **निकाय** का चयन करें और **अगला** का चयन करें.
    > [!NOTE]
@@ -54,7 +60,7 @@ ms.locfileid: "5267236"
 
    > [!div class="mx-imgBorder"]
    > ![कार्यप्रवाह कॉन्फ़िगर करें](media/intelligence-screen2-updated.png "कार्यप्रवाह कॉन्फ़िगर करें")
-   
+
 1. **मॉडल आउटपुट पैरामीटर** चरण में, निम्नलिखित गुणों को सेट करें:
    - मशीन लर्निंग स्टूडियो (क्लासिक)
       1. उस आउटपुट **निकाय का नाम** दर्ज करें जिसमें आप चाहते हैं कि वेब सेवा आउटपुट परिणाम प्रवाहित हो.
@@ -62,12 +68,12 @@ ms.locfileid: "5267236"
       1. उस आउटपुट **निकाय का नाम** दर्ज करें जिसमें आप चाहते हैं कि पाइपलाइन आउटपुट परिणाम प्रवाहित हो.
       1. ड्रॉपडाउन से अपने बैच पाइपलाइन के **आउटपुट डेटा स्टोर पैरामीटर के नाम** का चयन करें.
       1. ड्रॉपडाउन से अपने बैच पाइपलाइन के **आउटपुट पाथ पैरामीटर के नाम** का चयन करें.
-      
+
       > [!div class="mx-imgBorder"]
       > ![मॉडल आउटपुट पैरामीटर फलक](media/intelligence-screen3-outputparameters.png "मॉडल आउटपुट पैरामीटर फलक")
 
 1. **परिणामों में ग्राहक ID** ड्रॉप-डाउन सूची से मिलते-जुलते विशेषता का चयन करें जो ग्राहकों की पहचान करती है और **सहेजें** का चयन करें.
-   
+
    > [!div class="mx-imgBorder"]
    > ![ग्राहक डेटा फलक से परिणामों को संबंधित करें](media/intelligence-screen4-relatetocustomer.png "ग्राहक डेटा फलक से परिणामों को संबंधित करें")
 
@@ -95,7 +101,7 @@ ms.locfileid: "5267236"
       1. अपनी टेस्ट पाइपलाइन के लिए **आउटपुट पाथ पैरामीटर का नाम** चुनें.
 
 1. **परिणामों में ग्राहक ID** ड्रॉप-डाउन सूची से मिलते-जुलते विशेषता का चयन करें जो ग्राहकों की पहचान करती है और **सहेजें** का चयन करें.
-   आपको ग्राहक निकाय के ग्राहक ID कॉलम के समान मानों के साथ अनुमान आउटपुट से एक विशेषता का चयन करना होगा. अगर आपके डेटा सेट में ऐसा कोई कॉलम नहीं है, तो ऐसी विशेषता चुनें जो पंक्ति को विशिष्ट रूप से पहचानती हो.
+   ग्राहक निकाय के ग्राहक आईडी कॉलम के जैसे ही मानों वाले अनुमान आउटपुट से एट्रिब्यूट चुनें. अगर आपके डेटा सेट में ऐसा कोई कॉलम नहीं है, तो ऐसी विशेषता चुनें जो पंक्ति को विशिष्ट रूप से पहचानती हो.
 
 ## <a name="run-a-workflow"></a>कार्यप्रवाह चलाएँ
 
@@ -113,5 +119,28 @@ ms.locfileid: "5267236"
 
 आपका कार्यप्रवाह हटा दिया जाएगा. वह [निकाय](entities.md) जिसे आपके द्वारा कार्यप्रवाह बनाने के दौरान बनाया गया था, बना रहता है और उसे **निकाय** पेज से देखा जा सकता है.
 
+## <a name="results"></a>परिणाम
+
+कार्य प्रवाह के नतीजों को मॉडल आउटपुट पैरामीटर चरण के दौरान कॉन्फ़िगर किए गए निकाय में स्टोर किया जाता है. आप इस डेटा को [निकाय पेज](entities.md) या [API एक्सेस](apis.md) से एक्सेस कर सकते हैं.
+
+### <a name="api-access"></a>API एक्सेस
+
+विशिष्ट OData क्वेरी के लिए कस्टम मॉडल निकाय से डेटा प्राप्त करने के लिए, निम्न फॉर्मेट का उपयोग करें:
+
+`https://api.ci.ai.dynamics.com/v1/instances/<your instance id>/data/<custom model output entity name>%3Ffilter%3DCustomerId%20eq%20'<guid value>'`
+
+1. अपने Customer Insights परिवेश की ID के साथ `<your instance id>` बदलें, जिसे आप Customer Insights के एक्सेस के समय अपने ब्राउज़र के पता बार में पाते हैं.
+
+1. `<custom model output entity>` को कस्टम मॉडल कॉन्फ़िगरेशन के मॉडल आउटपुट पैरामीटर चरण के दौरान आपके द्वारा प्रदान किए गए निकाय नाम के साथ बदलें.
+
+1. `<guid value>` को उस ग्राहक की ग्राहक ID के साथ बदलें, जिसके लिए आप रिकॉर्ड एक्सेस करना चाहते हैं. आप इस ID को आमतौर पर CustomerID फ़ील्ड में [ग्राहक प्रोफ़ाइल पेज](customer-profiles.md) पर पा सकते हैं.
+
+## <a name="frequently-asked-questions"></a>सामान्य प्रश्‍न
+
+- कस्टम मॉडल कार्य प्रवाह सेट करते समय मैं अपनी पाइपलाइन क्यों नहीं देख सकता?    
+  यह समस्या अक्सर पाइपलाइन में कॉन्फ़िगरेशन की समस्या के कारण होती है. सुनिश्चित करें [इनपुट पैरामीटर कॉन्फ़िगर किया गया है](azure-machine-learning-experiments.md#dataset-configuration), और [आउटपुट डेटास्टोर और पाथ पैरामीटर](azure-machine-learning-experiments.md#import-pipeline-data-into-customer-insights) भी कॉन्फ़िगर किए गए हैं.
+
+- त्रुटि "इंटेलीजेंस कार्य प्रवाह को सेव नहीं कर सके" का क्या मतलब है?    
+  यदि यूज़र के पास कार्यक्षेत्र पर मालिक या यूज़र एक्सेस एडमिनिस्ट्रेटर विशेषाधिकार नहीं होते तो वे आमतौर पर इस त्रुटि संदेश को देखते हैं. यूज़र को कार्य प्रवाह के बाद के रन के लिए यूज़र क्रेडेंशियल्स उपयोग करने के बजाय कार्य प्रवाह को सेवा के रूप में प्रोसेस करने के लिए Customer Insights सक्षम करने में यूज़र की उच्च स्तरीय अनुमति चाहिए होती है.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
