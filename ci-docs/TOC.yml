@@ -65,7 +65,7 @@
         - name: ग्राहक प्रोफ़ाइलें को बेहतर करें
           href: audience-insights/enrichment-hub.md
         - name: ब्रांड और ब्याज समानताएँ
-          href: audience-insights/enrichment-microsoft-graph.md
+          href: audience-insights/enrichment-microsoft.md
         - name: HERE Technologies के साथ समृद्ध करें
           href: audience-insights/enrichment-here.md
         - name: लीड स्पेस के साथ संवर्धित
@@ -104,6 +104,8 @@
           href: audience-insights/predict-product-recommendation.md
         - name: उत्पाद सुझावों के पूर्वानुमान के लिए सैंपल गाइड
           href: audience-insights/sample-guide-predict-product-recommendation.md
+        - name: पूर्वानुमनों के आधार पर सेगमेंट बनाएं
+          href: audience-insights/prediction-based-segment.md
         - name: कस्टम मशीन लर्निंग मॉडल लागू करें
           href: audience-insights/custom-models.md
         - name: Azure मशीन लर्निंग के साथ प्रयोग
@@ -112,58 +114,72 @@
           href: audience-insights/machine-learning-studio-experiments.md
     - name: निर्यात विकल्प
       items:
-        - name: गंतव्य ओवरव्यू को निर्यात करें
-          href: audience-insights/export-destinations.md
-        - name: AdRoll
-          href: audience-insights/export-adroll.md
-        - name: Adobe Campaign Standard
-          href: audience-insights/export-adobe-campaign-standard.md
-        - name: Adobe एक्सपीरियंस प्लेटफ़ॉर्म
-          href: audience-insights/export-adobe-experience-platform.md
-        - name: Autopilot
-          href: audience-insights/export-autopilot.md
-        - name: Azure ब्लॉब स्टोरेज
-          href: audience-insights/export-azure-blob-storage.md
-        - name: Azure Data Lake Storage Gen2
-          href: audience-insights/export-azure-data-lake-storage-gen2.md
-        - name: DotDigital
-          href: audience-insights/export-dotdigital.md
-        - name: Dynamics 365 Customer Service (ऐड-इन)
-          href: audience-insights/customer-card-add-in.md
-        - name: Dynamics 365 Marketing
-          href: audience-insights/export-dynamics365-marketing.md
-        - name: Dynamics 365 विक्रय
-          href: audience-insights/export-dynamics365-sales.md
-        - name: Dynamics 365 Sales हब (एड-इन)
-          href: audience-insights/customer-card-add-in.md
-        - name: Facebook विज्ञापन प्रबंधक
-          href: audience-insights/export-facebook.md
-        - name: Google Ads
-          href: audience-insights/export-google-ads.md
-        - name: LiveRamp
-          href: audience-insights/export-liveramp.md
-        - name: Mailchimp
-          href: audience-insights/export-mailchimp.md
-        - name: Microsoft Teams (बोट)
-          href: audience-insights/export-teams-bot.md
-        - name: Marketo
-          href: audience-insights/export-marketo.md
-        - name: Power BI
-          href: audience-insights/export-power-bi.md
-        - name: Power Apps
-          href: audience-insights/export-power-apps.md
-        - name: Power Automate
-          href: audience-insights/export-power-automate.md
-        - name: SendGrid
-          href: audience-insights/export-sendgrid.md
-        - name: SFTP
-          href: audience-insights/export-sftp.md
+        - name: निर्यात
+          items:
+            - name: निर्यात (पूर्वावलोकन) अवलोकन
+              href: audience-insights/export-destinations.md
+            - name: AdRoll
+              href: audience-insights/export-adroll.md
+            - name: Autopilot
+              href: audience-insights/export-autopilot.md
+            - name: Azure Blob Storage
+              href: audience-insights/export-azure-blob-storage.md
+            - name: Azure Data Lake Storage Gen2
+              href: audience-insights/export-azure-data-lake-storage-gen2.md
+            - name: Adobe Campaign Standard
+              href: audience-insights/export-adobe-campaign-standard.md
+            - name: Adobe एक्सपीरियंस प्लेटफ़ॉर्म
+              href: audience-insights/export-adobe-experience-platform.md
+            - name: Campaign Monitor
+              href: audience-insights/export-campaign-monitor.md
+            - name: Constant Contact
+              href: audience-insights/export-constant-contact.md
+            - name: DotDigital
+              href: audience-insights/export-dotdigital.md
+            - name: Dynamics 365 Marketing
+              href: audience-insights/export-dynamics365-marketing.md
+            - name: Dynamics 365 Sales
+              href: audience-insights/export-dynamics365-sales.md
+            - name: Facebook विज्ञापन प्रबंधक
+              href: audience-insights/export-facebook.md
+            - name: Google Ads
+              href: audience-insights/export-google-ads.md
+            - name: LiveRamp
+              href: audience-insights/export-liveramp.md
+            - name: Mailchimp
+              href: audience-insights/export-mailchimp.md
+            - name: Marketo
+              href: audience-insights/export-marketo.md
+            - name: RollWorks
+              href: audience-insights/export-rollworks.md
+            - name: SendGrid
+              href: audience-insights/export-sendgrid.md
+            - name: Snapchat
+              href: audience-insights/export-snapchat.md
+            - name: SFTP
+              href: audience-insights/export-sftp.md
+        - name: अन्य उपयोग
+          items:
+            - name: Dynamics 365 Customer Service (ऐड-इन)
+              href: audience-insights/customer-card-add-in.md
+            - name: Dynamics 365 Sales हब (एड-इन)
+              href: audience-insights/customer-card-add-in.md
+            - name: Microsoft Teams (बोट)
+              href: audience-insights/export-teams-bot.md
+            - name: Power Apps
+              href: audience-insights/export-power-apps.md
+            - name: Power Automate
+              href: audience-insights/export-power-automate.md
+            - name: Power BI
+              href: audience-insights/export-power-bi.md
     - name: व्यवस्थापन
       items:
         - name: सिस्टम कॉन्फ़िगरेशन सेट अप करें
           href: audience-insights/system.md
         - name: उपयोगकर्ता अनुमतियाँ असाइन करें
           href: audience-insights/permissions.md
+        - name: कनेक्शन (पूर्वावलोकन) का अवलोकन
+          href: audience-insights/connections.md
         - name: अनेक परिवेश प्रबंधित करें
           href: audience-insights/manage-environments.md
         - name: सर्विस प्रिंसिपल का उपयोग करके ADLS स्टोरेज खाते से कनेक्ट करें
@@ -212,10 +228,14 @@
       items:
         - name: रिपोर्ट देखें
           href: engagement-insights/view-reports.md
-        - name: कस्टम रिपोर्ट बनाएँ
+        - name: कस्टम रिपोर्ट बनाएं
           href: engagement-insights/custom-reports.md
         - name: एकीकृत प्रोफ़ाइल रिपोर्ट बनाएं
           href: engagement-insights/profile-reports.md
+    - name: यात्रा विश्लेषिकी
+      items:
+        - name: फ़नल रिपोर्ट बनाएं और प्रबंधित करें
+          href: engagement-insights/funnel-reports.md
     - name: डेवलपर संसाधन
       items:
         - name: डेवलपर संसाधन का अवलोकन

@@ -1,7 +1,7 @@
 ---
 title: एक Azure ब्लॉब स्टोरेज के लिए Customer Insights डेटा निर्यात करें
-description: Azure Blob स्टोरेज से कनेक्शन को कॉन्फ़िगर करना सीखें.
-ms.date: 09/18/2020
+description: कनेक्शन को कॉन्फ़िगर करने और ब्लॉब स्टोरेज विज्ञापन प्रबंधक को निर्यात करने का तरीका जानें.
+ms.date: 03/03/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,45 +9,57 @@ ms.topic: how-to
 author: phkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 0986ee5caf5fa079994ca584fb2c4d9294ddb80b
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 294feff2f77c3756fbadb36c90aab430454f5967
+ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5596179"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5760191"
 ---
-# <a name="connector-for-azure-blob-storage-preview"></a>Azure ब्लॉब स्टोरेज के लिए कनेक्टर (पूर्वावलोकन)
+# <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Azure ब्लॉब स्टोरेज (पूर्वावलोकन) के लिए सेगमेंट सूची और अन्य डेटा को निर्यात करें
 
-अपने Customer Insights डेटा को Azure ब्लॉब स्टोरेज में संग्रहित करें या अपने डेटा को अन्य एप्लिकेशन में हस्तांतरित करने के लिए इसका उपयोग करें.
+अपने Customer Insights डेटा को ब्लॉब स्टोरेज में स्टोर करें या इसका इस्तेमाल अपने डेटा को दूसरे एप्लिकेशन में भेजने के लिए करें.
 
-## <a name="configure-the-connector-for-azure-blob-storage"></a>Azure ब्लॉब स्टोरेज के लिए कनेक्टर को कॉन्फ़िगर करें
+## <a name="set-up-the-connection-to-blob-storage"></a>ब्लॉब संग्रहण में कनेक्शन सेट अप करें
 
-1. ऑडिएंस इनसाइट्स में, **व्यवस्थापक** > **निर्यात गंतव्य** पर जाएं.
+1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
-1. **Azure ब्लॉब स्टोरेज** के अंतर्गत, **सेट करें** चुनें.
+1. **कनेक्शन जोड़ें** का चयन करें और कनेक्शन को कॉन्फ़िगर करने के लिए **Azure ब्लॉब संग्रहण** चुनें.
 
-1. आपके Azure ब्लॉब स्टोरेज खाते के लिए **खाता नाम**, **खाता कुंजी**, और **कंटेनर** दर्ज करें.
-    - Azure Blob संग्रहण खाते का नाम और खाता कुंजी का पता लगाने के बारे में अधिक जानने के लिए, [Azure पोर्टल में संग्रहण खाता सेटिंग व्यवस्थित करें](/azure/storage/common/storage-account-manage) देखें.
+1. **डिस्प्ले नाम** फ़ील्ड में अपने कनेक्शन को पहचानने योग्य नाम दें. कनेक्शन का नाम और प्रकार इस कनेक्शन का वर्णन करता है. हम एक नाम चुनने की सलाह देते हैं जो कनेक्शन के उद्देश्य और लक्ष्य को बताता है।
+
+1. चुनें कि इस कनेक्शन का उपयोग कौन कर सकता है. यदि आप कोई कार्रवाई नहीं करते हैं, तो व्यवस्थापक डिफ़ॉल्ट होंगे. अधिक जानकारी के लिए, देखें [योगदानकर्ताओं को निर्यात के लिए कनेक्शन का उपयोग करने की अनुमति दें](connections.md#allow-contributors-to-use-a-connection-for-exports).
+
+1. अपने ब्लॉब स्टोरेज अकाउंट के लिए **अकाउंट का नाम**, **अकाउंट की कुंजी**, और **कंटेनर** दर्ज करें.
+    - ब्लॉब स्टोरेज अकाउंट का नाम और अकाउंट कुंजी खोजने के तरीके के बारे में अधिक जानने के लिए, देखें [Azure पोर्टल में स्टोरेज अकाउंट सेटिंग्स का प्रबंधन करें](/azure/storage/common/storage-account-manage).
     - कंटेनर बनाने के बारे में जानने के लिए, [कंटेनर बनाएँ](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) देखें.
 
-1. अपने गंतव्य-स्थल को **प्रदर्शन नाम** फील्ड में पहचान करने योग्य नाम दें.
+1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें. 
 
-1. **अगला** चुनें.
+## <a name="configure-an-export"></a>एक निर्यात कॉन्फ़िगर करें
+
+यदि आपके पास इस प्रकार के कनेक्शन का एक्सेस है तो आप इस निर्यात को कॉन्फ़िगर कर सकते हैं. अधिक जानकारी के लिए, देखें [एक निर्यात को कॉन्फ़िगर करने के लिए आवश्यक अनुमतियां](export-destinations.md#set-up-a-new-export).
+
+1. **डेटा** > **निर्यात** पर जाएँ.
+
+1. एक नया निर्यात बनाने के लिए, **डेस्टिनेशन जोड़ें** का चयन करें.
+
+1. **निर्यात के लिए कनेक्शन** में, Azure Blob Storage अनुभाग से एक कनेक्शन का चयन करें. यदि आपको इस अनुभाग का नाम दिखाई नहीं देता है, तो आपके लिए इस प्रकार का कोई कनेक्शन उपलब्ध नहीं है.
 
 1. उस प्रत्येक निकाय के सामने दिए गए बॉक्स को चुनें जिसे आप इस गंतव्य-स्थल में एक्सपोर्ट करना चाहते हैं.
 
 1. **सहेजें** चुनें.
 
-निर्यात किया गया डेटा आपके द्वारा कॉन्फ़िगर किए गए Azure ब्लॉब स्टोरेज कंटेनर में स्टोर किया गया है. आपके कंटेनर में निम्नलिखित फोल्डर पथ अपने आप बनेंगे:
+निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है.
+
+निर्यात हर [शेड्यूल रिफ़्रेश](system.md#schedule-tab) के साथ चलता है.     
+आप [मांग पर डेटा निर्यात](export-destinations.md#run-exports-on-demand) भी कर सकते हैं. 
+
+निर्यात किया गया डेटा आपके द्वारा कॉन्फ़िगर किए गए ब्लॉब स्टोरेज कंटेनर में संग्रहीत किया जाता है. आपके कंटेनर में निम्नलिखित फोल्डर पथ अपने आप बनेंगे:
 
 - स्रोत निकायों और सिस्टम द्वारा उत्पन्न स्रोत निकायों के लिए: `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`
   - उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`
-- model.json निर्यात किए गए निकायों के लिए %ExportDestinationName% स्तर पर रहेगा
+- निर्यात किए गए निकायों के लिए model.json %ExportDestinationName% स्तर पर होगा
   - उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`
-
-## <a name="export-the-data"></a>डेटा निर्यात करें
-
-आप [मांग पर डेटा निर्यात](export-destinations.md#export-data-on-demand) कर सकते हैं. निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md#schedule-tab).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

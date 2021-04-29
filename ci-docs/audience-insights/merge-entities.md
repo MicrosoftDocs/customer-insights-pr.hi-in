@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 737c593353878a5e322488d00de5dc5db5befda9
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 4ad06a0baf57e612fc0e0214dfd23d28e7d2b6be
+ms.sourcegitcommit: aaa275c60c0c77c88196277b266a91d653f8f759
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5597835"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5896513"
 ---
 # <a name="merge-entities"></a>निकायों को विलीन करें
 
@@ -83,7 +83,7 @@ ms.locfileid: "5597835"
 
 ## <a name="next-step"></a>अगला चरण
 
-अपने ग्राहकों के बारे में अधिक जानकारी प्राप्त करने के लिए कॉन्फ़िगर करें [गतिविधियाँ](activities.md), [संवर्धन](enrichment-microsoft-graph.md), या [संबंध](relationships.md).
+अपने ग्राहकों के बारे में अधिक जानकारी प्राप्त करने के लिए कॉन्फ़िगर करें [गतिविधियाँ](activities.md), [संवर्धन](enrichment-hub.md), या [संबंध](relationships.md).
 
 यदि आपने कार्यकलापों, एनरिचमेंट या संबंधों को पहले से विन्यासित कर दिया है या यदि आपने खंडों को परिभाषित किया है तो ग्राहक के नवीनतम डेटा का उपयोग करने के लिए उनकी प्रक्रिया स्वचालित रूप से की जाएगी.
 
