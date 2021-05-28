@@ -1,7 +1,7 @@
 ---
 title: API के साथ काम करें
 description: API का उपयोग करें और सीमाओं को समझें.
-ms.date: 03/10/2021
+ms.date: 05/10/2021
 ms.reviewer: wimohabb
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: wimohabb
 manager: shellyha
-ms.openlocfilehash: 59161456914df84d7e72402ed1f5faf70a5119ba
-ms.sourcegitcommit: a39e00a50ad3eda820fd756c5611081f0ca04662
+ms.openlocfilehash: 4d41d7d328dfa6699b5f5e992d3a5bf3179490d8
+ms.sourcegitcommit: 33a8e21b3bf6521bdb8346f81f79fce88091ddfd
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5873664"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016594"
 ---
 # <a name="work-with-customer-insights-apis"></a>Customer Insights API के साथ काम करें
 
@@ -90,19 +90,13 @@ API की हमारी क्लाइंट लाइब्रेरी क
 
 1. Azure पोर्टल में अपने अनुप्रयोग पंजीकरण पर, **API अनुमतियाँ** पर जाएं.
 
-1. **एक अनुमति जोड़ें** चुनें और साइड फलक में **Customer Insights** का चयन करें.
+1. **अनुमति जोड़ें** चुनें. 
+
+1. **मेरे संगठन द्वारा उपयोग किए जाने वाले API** टैब चुनें और सूची से **Customer Insights के  लिए Dynamics 365 AI** चुनें. 
 
 1. **अनुमति प्रकार** के लिए, **एप्लिकेशन अनुमतियाँ** का चयन करें और **CustomerInsights.Api.All** अनुमतियों को चुनें.
 
 1. **अनुमतियाँ जोड़ें** चयन करें.
-
-1. इस अनुप्रयोग की अनुमति पर व्यवस्थापक की सहमति देने के लिए, आपको एक सर्विस प्रिंसिपल को जोड़ना होगा.
-
-   1. Azure Active Directory (AD) PowerShell मॉड्यूल स्थापित करें: `Install-Module -Name AzureAD -AllowClobber -Scope AllUsers`
-   1. अपने AD खाते से कनेक्ट करें: `Connect-AzureAD -TenantId <your tenant id>`. आप अपनी टेनेंट ID **अवलोकन** > **Azure Active Directory** पर पा सकते हैं.
-   1. Azure AD सर्विस प्रिंसिपल को जोड़ने के लिए निम्नलिखित कमांड चलाएं: `New-AzureADServicePrincipal -AppId "38c77d00-5fcb-4cce-9d93-af4738258e3c" -DisplayName "Microsoft Dynamics 365 Customer Insights"` AppId मापदंड Customer Insights API अनुप्रयोग से संबंधित है.
-
-   :::image type="content" source="media/azureAD-service-principal.png" alt-text="सर्विस प्रिंसिपल नमूना":::
 
 1. अपने अनुप्रयोग पंजीकरण के लिए **API अनुमतियाँ** पर वापस जाएं.
 

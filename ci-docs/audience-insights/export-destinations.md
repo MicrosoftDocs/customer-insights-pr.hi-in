@@ -6,22 +6,19 @@ ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: phkieffer
+author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 354ce9ef30fe918975d06290430996c84f8bd3f7
-ms.sourcegitcommit: aaa275c60c0c77c88196277b266a91d653f8f759
+ms.openlocfilehash: c1078ed0ba259a6e9cde3c7ede3570890ae48e67
+ms.sourcegitcommit: 33a8e21b3bf6521bdb8346f81f79fce88091ddfd
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5896145"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016616"
 ---
 # <a name="exports-preview-overview"></a>निर्यात (पूर्वावलोकन) अवलोकन
 
 **निर्यात** पृष्ठ आपको सभी कॉन्फ़िगर किए गए निर्यात को दिअकाउंट है. निर्यात, विभिन्न अनुप्रयोगों के साथ विशिष्ट डेटा साझा करते हैं. वे ग्राहक प्रोफ़ाइल या निकायों, स्कीमा, और मैपिंग के विवरण शामिल कर सकते हैं. प्रत्येक निर्यात को [प्रमाणीकरण और एक्सेस के प्रबंधन के लिए एक व्यवस्थापक द्वारा सेट की गई एक कनेक्शन](connections.md) की आवश्यकता होती है.
-
-> [!NOTE]
-> मार्च 2021 तक, निर्यात ने संबंधित सेवा के लिए स्वचालित रूप से एक कनेक्शन बनाया. निर्यात को अब आपके द्वारा बना सकने से पहले [एक व्यवस्थापक द्वारा बनाए और साझा किए गए कनेक्शन](connections.md) की आवश्यकता है.
 
 निर्यात पृष्ठ को देखने के लिए **डेटा** > **निर्यात** पर जाएं. सभी उपयोगकर्ता भूमिकाओं के पास कॉन्फ़िगर किए गए निर्यात को देखने की एक्सेस होती है. कमांड बार में निर्यात को उनके नाम, कनेक्शन नाम या कनेक्शन के प्रकार से खोजने के लिए सर्च फ़ील्ड का उपयोग.
 

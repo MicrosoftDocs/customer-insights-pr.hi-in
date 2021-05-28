@@ -6,15 +6,15 @@ ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: phkieffer
+author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 01290d5fae7af1737b73373d75e334ae1ed67d37
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: b5a644e286bd44d4ebf7d1837255326c005b48d6
+ms.sourcegitcommit: 74cd4fa9cbb784d9dff174c0eec7b4dcb408d66b
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5759823"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059318"
 ---
 # <a name="export-segments-to-marketo-preview"></a>Marketo को निर्यात खंड (पूर्वावलोकन)
 
@@ -44,7 +44,7 @@ ms.locfileid: "5759823"
 
 1. चुनें कि इस कनेक्शन का उपयोग कौन कर सकता है. यदि आप कोई कार्रवाई नहीं करते हैं, तो व्यवस्थापक डिफ़ॉल्ट होंगे. अधिक जानकारी के लिए, देखें [योगदानकर्ताओं को निर्यात के लिए कनेक्शन का उपयोग करने की अनुमति दें](connections.md#allow-contributors-to-use-a-connection-for-exports).
 
-1. अपने **[Marketo क्लाइंट ID, क्लाइंट सीक्रेट और रेस्ट एंडपॉइंट होस्टनेम](https://developers.marketo.com/rest-api/authentication/)** दर्ज करें .
+1. अपने **[Marketo क्लाइंट ID, क्लाइंट सीक्रेट और रेस्ट एंडपॉइंट होस्टनेम](https://developers.marketo.com/rest-api/authentication/)** दर्ज करें . REST समापन बिंदु होस्टनाम केवल `https://`के बिना, होस्टनाम है. उदाहरण: `xyz-abc-123.mktorest.com`. 
 
 1. मैं **डेटा गोपनीयता और अनुपालन** की पुष्टि करने के लिए **सहमत हूं** चुनें और Marketo से कनेक्शन को शुरू करने के लिए **कनेक्ट** का चयन करें.
 
@@ -62,7 +62,7 @@ ms.locfileid: "5759823"
 
 1. **निर्यात के लिए कनेक्शन** में, Marketo अनुभाग से एक कनेक्शन का चयन करें. यदि आपको इस अनुभाग का नाम दिखाई नहीं देता है, तो आपके लिए इस प्रकार का कोई कनेक्शन उपलब्ध नहीं है.
 
-1. अपनी **[Marketo सूची ID](https://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists)** दर्ज करें 
+1. अपना **[Marketo सूची ID](https://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists)** दर्ज करें. सूची ID विशुद्ध रूप से संख्यात्मक मान है. उदाहरणस्वरूप, यदि आपका Marketo सूची ID ST12345A7 है तो अंकों के पहले और बाद के वर्ण को हटा दें और `12345` दर्ज करें. 
 
 1. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. 
 
@@ -74,7 +74,7 @@ ms.locfileid: "5759823"
 
 निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है.
 
-निर्यात हर [शेड्यूल रिफ़्रेश](system.md#schedule-tab) के साथ चलता है. आप [मांग पर डेटा निर्यात](export-destinations.md#run-exports-on-demand) भी कर सकते हैं. Marketo में, अब आप [Marketo सूचियों](ttps://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists) के तहत अपने सेगमेंट पा सकते हैं .
+निर्यात हर [शेड्यूल रिफ़्रेश](system.md#schedule-tab) के साथ चलता है. आप [मांग पर डेटा निर्यात](export-destinations.md#run-exports-on-demand) भी कर सकते हैं. Marketo में, अब आप [Marketo सूचियों](https://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists) के तहत अपने सेगमेंट पा सकते हैं .
 
 
 ## <a name="data-privacy-and-compliance"></a>डेटा गोपनीयता और अनुपालन

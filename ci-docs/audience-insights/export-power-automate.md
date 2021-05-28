@@ -6,15 +6,15 @@ ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: phkieffer
+author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: e973bb11b31c9e70b695ebec8aa2700fdaa5e44f
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: ce2477d957a1792e0436a0dfc15a33621b1c89a9
+ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5597927"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5976090"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate कनेक्टर (पूर्वावलोकन)
 
@@ -27,7 +27,7 @@ ms.locfileid: "5597927"
 - ट्रिगर जब डेटा स्रोत रिफ़्रेश विफल रहता है. 
 - ट्रिगर जब डेटा स्रोत रिफ़्रेश सफल होता है.
 - ट्रिगर जब अनुभाग की सीमा पार की जाती है. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
-- ट्रिगर जब व्यावसायिक उपाय सीमा के पार हो जाता है. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
+- ट्रिगर जब व्यावसायिक उपाय सीमा के पार हो जाता है. केवल बिना आयाम वाले व्यावसायिक उपाय समर्थित हैं. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
 - ट्रिगर जब (डेटा स्रोतों, खंडों, साधनों,...) का पूरा रिफ़्रेश पूरा हो जाता है.
 - जब एकीकरण प्रक्रिया (मानचित्र, मिलान, मर्ज) का रिफ्रेश पूरा होता है तब ट्रिगर करें.
 

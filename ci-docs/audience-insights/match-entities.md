@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 2eb84c44aa530346a73ba720106734d705a45f23
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 2155042d86cda0cffee1588760a06d6c7eb7077e
+ms.sourcegitcommit: fcc94f55dc2dce84eae188d582801dc47696c9cc
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5595566"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085624"
 ---
 # <a name="match-entities"></a>निकायों का मिलान करें
 
@@ -103,6 +103,18 @@ ms.locfileid: "5595566"
 
 > [!NOTE]
 > नियमों का क्रम मायने रखता है. मिलान एल्गोरिदम आपके पहले नियम के आधार पर मिलान करने का प्रयास करता है और दूसरे नियम तक केवल तब जारी रहता है जब पहले नियम से कोई मिलान पहचाना नहीं जाता है.
+
+### <a name="change-the-entity-order-in-match-rules"></a>मिलान नियमों में निकाय क्रम बदलें
+
+आप संसाधित करने का क्रम बदलने के लिए मिलान नियमों के लिए निकायों को पुन: क्रमबद्ध कर सकते हैं. बदले गए क्रम के कारण परस्पर विरोधी नियम हटा दिए जाएंगे. आपको एक अद्यतन कॉन्फ़िगरेशन के साथ हटाए गए नियमों को फिर से बनाना होगा.
+
+1. **डेटा** > **Unify** > **मिलान** पर जाएं और **संपादित करें** चुनें.
+
+1. क्रम को परिवर्तित करने के लिए **नियम संपादित करें** फलक में, ऑर्डर बदलने के लिए **ऊपर/नीचे जाएं** नियंत्रण चुनें या निकायों को खींचें और छोड़ें.
+
+   :::image type="content" source="media/reorder-match-rules.png" alt-text="वह विकल्प जिस क्रम में निकायों को मिलान चरण में संसाधित किया जाता है.":::
+
+1. नियम को सहेजने **संपन्न** का चयन करें.
 
 ## <a name="define-deduplication-on-a-match-entity"></a>मैच निकाय पर डिडुप्लीकेशन को परिभाषित करें
 
