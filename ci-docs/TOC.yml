@@ -96,30 +96,40 @@
           href: audience-insights/measures.md
     - name: पूर्वानुमान
       items:
-        - name: मूल्यों के अनुमानों का इस्तेमाल करके डेटा पूरा करें
-          href: audience-insights/predictions.md
-        - name: सदस्यता छोड़ने का पूर्वानुमान लगाएं
-          href: audience-insights/predict-subscription-churn.md
-        - name: सदस्यता चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
-          href: audience-insights/sample-guide-predict-subscription-churn.md
-        - name: ट्रांजैक्शनल चर्न का पूर्वानुमान करें
-          href: audience-insights/predict-transactional-churn.md
-        - name: लेन-देन संबंधी चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
-          href: audience-insights/sample-guide-predict-transactional-churn.md
-        - name: ग्राहक जीवनकाल मान (CLV) का पूर्वानुमान करें
-          href: audience-insights/predict-customer-lifetime-value.md
-        - name: उत्पाद संबंधी सुझावों का पूर्वानुमान करें
-          href: audience-insights/predict-product-recommendation.md
-        - name: उत्पाद सुझावों के पूर्वानुमान के लिए सैंपल गाइड
-          href: audience-insights/sample-guide-predict-product-recommendation.md
+        - name: AI की मदद से डेटा का पूर्वानुमान करें
+          items:
+            - name: पूर्वानुमान मॉडल्स का अवलोकन
+              href: audience-insights/predictions-overview.md
+            - name: ग्राहक जीवनकाल मान (CLV) का पूर्वानुमान करें
+              href: audience-insights/predict-customer-lifetime-value.md
+            - name: उत्पाद संबंधी सुझावों का पूर्वानुमान करें
+              href: audience-insights/predict-product-recommendation.md
+            - name: सदस्यता छोड़ने का पूर्वानुमान लगाएं
+              href: audience-insights/predict-subscription-churn.md
+            - name: ट्रांजैक्शनल चर्न का पूर्वानुमान करें
+              href: audience-insights/predict-transactional-churn.md
+            - name: Azure मशीन लर्निंग से कस्टम मॉडल्स का उपयोग करें
+              href: audience-insights/custom-models.md
+            - name: आंशिक रूप से अनुपलब्ध डेटा को पूरा करें
+              href: audience-insights/predictions.md
+        - name: नमूना गाइड्स
+          items:
+            - name: CLV पूर्वानुमान के लिए नमूना गाइड
+              href: audience-insights/sample-guide-predict-clv.md
+            - name: सदस्यता चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
+              href: audience-insights/sample-guide-predict-subscription-churn.md
+            - name: लेन-देन संबंधी चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
+              href: audience-insights/sample-guide-predict-transactional-churn.md
+            - name: उत्पाद सुझावों के पूर्वानुमान के लिए सैंपल गाइड
+              href: audience-insights/sample-guide-predict-product-recommendation.md
+            - name: Azure मशीन लर्निंग के साथ प्रयोग
+              href: audience-insights/azure-machine-learning-experiments.md
+            - name: Azure मशीन लर्निंग स्टूडियो के साथ प्रयोग
+              href: audience-insights/machine-learning-studio-experiments.md
+        - name: पूर्वानुमानों को प्रबंधित करें
+          href: audience-insights/manage-predictions.md
         - name: पूर्वानुमनों के आधार पर सेगमेंट बनाएं
           href: audience-insights/prediction-based-segment.md
-        - name: कस्टम मशीन लर्निंग मॉडल लागू करें
-          href: audience-insights/custom-models.md
-        - name: Azure मशीन लर्निंग के साथ प्रयोग
-          href: audience-insights/azure-machine-learning-experiments.md
-        - name: Azure मशीन लर्निंग स्टूडियो के साथ प्रयोग
-          href: audience-insights/machine-learning-studio-experiments.md
     - name: निर्यात विकल्प
       items:
         - name: निर्यात
@@ -154,12 +164,18 @@
               href: audience-insights/export-facebook.md
             - name: Google Ads
               href: audience-insights/export-google-ads.md
+            - name: LinkedIn विज्ञापन
+              href: audience-insights/export-linkedin-ads.md
             - name: LiveRamp
               href: audience-insights/export-liveramp.md
             - name: Mailchimp
               href: audience-insights/export-mailchimp.md
             - name: Marketo
               href: audience-insights/export-marketo.md
+            - name: Microsoft विज्ञापन
+              href: audience-insights/export-microsoft-advertising.md
+            - name: Omnisend
+              href: audience-insights/export-omnisend.md
             - name: RollWorks
               href: audience-insights/export-rollworks.md
             - name: SendGrid
@@ -200,6 +216,8 @@
           href: audience-insights/integrate-engagement-insights.md
         - name: Common Data Model में निकाय स्कीमा की समीक्षा करें
           href: audience-insights/entity-schemas.md
+        - name: Dataverse में Customer Insights डेटा
+          href: audience-insights/customer-insights-dataverse.md
         - name: API के साथ काम करें
           href: audience-insights/apis.md
         - name: API संदर्भ
@@ -240,6 +258,12 @@
           href: engagement-insights/custom-reports.md
         - name: एकीकृत प्रोफ़ाइल रिपोर्ट बनाएं
           href: engagement-insights/profile-reports.md
+        - name: आयाम देखें और बनाएं
+          href: engagement-insights/dimensions.md
+        - name: मैट्रिक्स देखें और बनाएं
+          href: engagement-insights/metrics.md
+        - name: अनुभाग देखें और बनाएं
+          href: engagement-insights/segments.md
     - name: यात्रा विश्लेषिकी
       items:
         - name: फ़नल रिपोर्ट बनाएं और प्रबंधित करें

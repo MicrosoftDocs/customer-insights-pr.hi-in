@@ -9,14 +9,14 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 4979f0147dea2270f11342c1bb6b0693f3c24aea
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: dce5d51ca4587b4d7a0644cc701c1826854882b5
+ms.sourcegitcommit: 831765a55775d358447cb7ffa56f2c3b85459084
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760548"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6124091"
 ---
-# <a name="export-segment-lists-to-rollworks-preview"></a>सेगमेंट सूचियां को RollWorks (पूर्वावलोकन) में निर्यात करें
+# <a name="export-segments-to-rollworks-preview"></a>अनुभागों को RollWorks (पूर्वावलोकन) में निर्यात करें
 
 RollWorks को एकीकृत ग्राहक प्रोफ़ाइल के निर्यात सेगमेंट और विज्ञापन के लिए उनका उपयोग करें. 
 

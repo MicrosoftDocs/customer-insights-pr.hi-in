@@ -9,14 +9,14 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 3a9372cc4ffa4fb112a96b1286aee9dc35059a50
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: 29f4320c798db62609283e3c48f0b47a4f0b982f
+ms.sourcegitcommit: 831765a55775d358447cb7ffa56f2c3b85459084
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760546"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6124275"
 ---
-# <a name="export-segment-lists-to-constant-contact-preview"></a>सेगमेंट सूचियां को Constant Contact (पूर्वावलोकन) में निर्यात करें
+# <a name="export-segments-to-constant-contact-preview"></a>सेगमेंट को Constant Contact (पूर्वावलोकन) में निर्यात करें
 
 Constant Contact के लिए एकीकृत ग्राहक प्रोफ़ाइल के निर्यात के अनुभाग और मार्केटिंग सें जुड़ी गतिविधियों के लिए उनका उपयोग करें. 
 
