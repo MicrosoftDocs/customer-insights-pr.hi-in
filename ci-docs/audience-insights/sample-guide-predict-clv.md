@@ -9,12 +9,12 @@ ms.topic: tutorial
 author: yashlundia
 ms.author: yalundia
 manager: shellyha
-ms.openlocfilehash: 73d294a285b4ad706bec7fe925c1daa0b839ddd6
-ms.sourcegitcommit: 7b6189e47ed1f87e7ce35d40e4cf7a6730f31ef2
+ms.openlocfilehash: 19c1fbadb79ba22c0dc11aa7c3b5b2415add70a7
+ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129947"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306351"
 ---
 # <a name="customer-lifetime-value-clv-prediction-sample-guide"></a>ग्राहक आजीवन मान (CLV) भविष्यवाणी नमूना गाइड
 
@@ -123,9 +123,9 @@ Contoso एक ऐसी कंपनी है जो उच्च गुणव
 
 1. **मिलान** टैब पर जाएँ और **क्रम सेट करें** टैब चुनें.
 
-1. **प्राथमिक** ड्रॉप-डाउन सूची में, प्राथमिक स्रोत के रूप में **eCommerceContacts : ईकॉमर्स** चुनें और सभी रिकॉर्ड शामिल करें.
+1. **मुख्य** ड्रॉपडाउन सूची में, **eCommerceContacts : eCommerce** को प्राथमिक स्रोत के रूप में चुनें और सभी रिकॉर्ड शामिल करें।
 
-1. **निकाय 2** ड्रॉप-डाउन सूची में, **loyCustomers : LoyaltyScheme** चुनें और सभी रिकॉर्ड शामिल करें.
+1. **निकाय 2** ड्रॉपडाउन सूची में, **loyCustomers: LoyaltyScheme** चुनें और सभी रिकॉर्ड शामिल करें।
 
    ![ईकॉमर्स और लॉयल्टी का एकीकरण में मिलान करें.](media/unify-match-order.png)
 
@@ -133,16 +133,16 @@ Contoso एक ऐसी कंपनी है जो उच्च गुणव
 
 1. FullName का उपयोग करके अपनी पहली शर्त जोड़ें.
 
-   - eCommerceContacts के लिए ड्रॉप-डाउन में **FullName** चुनें.
-   - loyCustomers के लिए ड्रॉप-डाउन में **FullName** चुनें.
-   - **सामान्यीकृत** ड्रॉप-डाउन का चयन करें और **प्रकार (फोन, नाम, पता, ...)** चुनें.
+   - eCommerceContacts के लिए ड्रॉपडाउन में **पूरा नाम** चुनें।
+   - loyCustomers के लिए ड्रॉपडाउन में **पूरा नाम** चुनें।
+   - **सामान्यीकृत** ड्रॉपडाउन का चयन करें और **प्रकार (फोन, नाम, पता, ...)** चुनें.
    - **सटिकता स्तर** सेट करें: **बेसिक** और **मूल्य**: **उच्च**.
 
 1. नए नियम के लिए नाम **FullName, ईमेल** दर्ज करें.
 
    - **पता जोड़ें** का चयन करके ईमेल पते के लिए दूसरी शर्त जोड़ें
-   - निकाय eCommerceContacts के लिए, ड्रॉप-डाउन में **ईमेल** चुनें.
-   - निकाय loyCustomers के लिए, ड्रॉप-डाउन में **ईमेल** चुनें.
+   - इकाई eCommerceContacts के लिए, ड्रॉपडाउन में **ईमेल** चुनें.
+   - इकाई loyCustomers के लिए, ड्रॉपडाउन में **ईमेल** चुनें.
    - सामान्यीकृत खाली छोड़ दें.
    - **सटिकता स्तर** सेट करें: **बेसिक** और **मूल्य**: **उच्च**.
 

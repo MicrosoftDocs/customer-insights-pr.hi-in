@@ -9,12 +9,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 90ebcaab896c628b04e751ad9857e924749895e7
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 2856888d6ac64d5daabcc5a234f13bc6f88bb3df
+ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5595336"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306076"
 ---
 # <a name="segment-insights-preview"></a>अनुभाग इनसाइट (पूर्वावलोकन)
 
@@ -50,7 +50,7 @@ ms.locfileid: "5595336"
 
 - विश्लेषण के लिए चयनित अनुभागों को ओवरलैप करने वाले सदस्यों की संख्या.
 - ऐसे सदस्यों की संख्या जो किसी एक अनुभाग में शामिल हैं लेकिन बाकी के अनुभागों में नहीं.
-- ओवरलैप विश्लेषण को कॉन्फ़िगर करते समय यदि आपने फ़ील्ड का चयन किया था, तो वे आपको संबंधित टैब में मिलेंगे. आप रुचि के किसी भी एट्रिब्यूट स्तर का चयन करने के लिए फ़िल्टर ड्रॉप-डाउन का उपयोग कर सकते हैं और नीचे दी गई तालिका संबंधित डेटा दिखाएगी.
+- ओवरलैप विश्लेषण को कॉन्फ़िगर करते समय यदि आपने फ़ील्ड का चयन किया था, तो वे आपको संबंधित टैब में मिलेंगे. आप रुचि के किसी भी विशेषता स्तर का चयन करने के लिए फ़िल्टर ड्रॉपडाउन का उपयोग कर सकते हैं और नीचे दी गई तालिका संबंधित डेटा दिखाएगी।
 
 ## <a name="segment-differentiators"></a>अनुभाग विभेदक
 

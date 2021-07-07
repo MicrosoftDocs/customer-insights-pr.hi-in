@@ -1,6 +1,6 @@
 ---
 title: Customer Insights डेटा को Adobe एक्सपीरियंस प्लेटफ़ॉर्म में निर्यात करें
-description: Adobe एक्सपीरियंस प्लेटफ़ॉर्म में ऑडियंस इनसाइट्स सेगमेंट का उपयोग करना सीखें.
+description: Adobe अनुभव प्लेटफ़ॉर्म में ऑडिएंस इनसाइट सेगमेंट का उपयोग करने का तरीका जानें।
 ms.date: 03/29/2021
 ms.reviewer: mhart
 ms.service: customer-insights
@@ -9,16 +9,16 @@ ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: 884f4d30f354bed29909d57be84dce4c8e46965a
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: 1045d0e373fd5ea8987684e51bd9a07b7b535ee3
+ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760103"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305526"
 ---
 # <a name="use-customer-insights-segments-in-adobe-experience-platform-preview"></a>Adobe एक्सपीरियंस प्लेटफ़ॉर्म (पूर्वावलोकन) में Customer Insights सेगमेंट का उपयोग करें
 
-ऑडियंस Insights for Dynamics 365 Customer Insights के यूज़र के रूप में, आपने प्रासंगिक ऑडियंस को लक्षित करके अपने मार्केटिंग अभियानों को अधिक कुशल बनाने के लिए सेगमेंट बनाए होंगे. Adobe एक्सपीरियंस प्लेटफ़ॉर्म में ऑडियंस इनसाइट्स से सेगमेंट उपयोग करने और Adobe Campaign स्टैंडर्ड जैसे अनुप्रयोगों के लिए, आपको इस आलेख में बताए गए कुछ चरणों का पालन करना होगा.
+Dynamics 365 Customer Insights में ऑडिएंस इनसाइट्स के उपयोगकर्ता के रूप में, आपने प्रासंगिक ऑडियंस को लक्षित करके अपने मार्केटिंग अभियानों को अधिक कुशल बनाने के लिए अनुभाग बनाए होंगे। Adobe एक्सपीरियंस प्लेटफ़ॉर्म में ऑडियंस इनसाइट्स से सेगमेंट उपयोग करने और Adobe Campaign स्टैंडर्ड जैसे अनुप्रयोगों के लिए, आपको इस आलेख में बताए गए कुछ चरणों का पालन करना होगा.
 
 :::image type="content" source="media/AEP-flow.png" alt-text="इस आलेख में उल्लिखित चरणों का प्रक्रिया आरेख.":::
 
@@ -29,7 +29,7 @@ ms.locfileid: "5760103"
 -   Adobe अभियान स्टैंडर्ड लाइसेंस
 -   Azure ब्लॉब स्टोरेज खाता
 
-## <a name="campaign-overview"></a>अभियान ओवरव्यू
+## <a name="campaign-overview"></a>अभियान पूर्वावलोकन
 
 यह समझने के लिए कि आप Adobe एक्सपीरियंस प्लेटफ़ॉर्म में ऑडियंस इनसाइट्स के सेगमेंट का उपयोग कैसे कर सकते हैं, चलिए एक काल्पनिक नमूना अभियान पर नज़र डालें.
 
@@ -55,19 +55,19 @@ ms.locfileid: "5760103"
 
 1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
-1. **कनेक्शन जोड़ें** चुनें और **Azure ब्लॉब स्टोरेज** चुनें या **Azure ब्लॉब स्टोरेज** टाइल में **सेट अप करें** का चयन करें:
+1. कनेक्शन को कॉन्फ़िगर करने के लिए **कनेक्शन जोड़ें** का चयन करें और **Azure Blob संग्रहण** चुनें या **Azure Blob संग्रहण** टाइल में **सेट अप करें** का चयन करें।
 
-   :::image type="content" source="media/export-azure-blob-storage-tile.png" alt-text="Azure ब्लॉब स्टोरेज के लिए कॉन्फ़िगरेशन टाइल."::: कनेक्शन को कॉन्फ़िगर करने के लिए.
+   :::image type="content" source="media/export-azure-blob-storage-tile.png" alt-text="Azure ब्लॉब स्टोरेज के लिए कॉन्फ़िगरेशन टाइल."::: 
 
 1. **डिस्प्ले नाम** फ़ील्ड में अपने कनेक्शन को पहचानने योग्य नाम दें. कनेक्शन का नाम और प्रकार इस कनेक्शन का वर्णन करता है. हम एक नाम चुनने की सलाह देते हैं जो कनेक्शन के उद्देश्य और लक्ष्य को बताता है।
 
 1. चुनें कि इस कनेक्शन का उपयोग कौन कर सकता है. यदि आप कोई कार्रवाई नहीं करते हैं, तो व्यवस्थापक डिफ़ॉल्ट होंगे. अधिक जानकारी के लिए, देखें [योगदानकर्ताओं को निर्यात के लिए कनेक्शन का उपयोग करने की अनुमति दें](connections.md#allow-contributors-to-use-a-connection-for-exports).
 
-1. जहां आप सेगमेंट को निर्यात करना चाहते हैं वहां अपने एज़्योर ब्लॉब स्टोरेज के अकाउंट के लिए **अकाउंट का नाम**, **अकाउंट कुंजी** और **कंटेनर** दर्ज करें.  
+1. जहां आप अनुभाग को निर्यात करना चाहते हैं वहां अपने Blob संग्रहण खाते के लिए **अकाउंट का नाम**, **अकाउंट कुंजी** और **कंटेनर** दर्ज करें।  
       
    :::image type="content" source="media/azure-blob-configuration.png" alt-text="स्टोरेज खाता कॉन्फ़िगरेशन का स्क्रीनशॉट."::: 
    
-    - ब्लॉब स्टोरेज अकाउंट का नाम और अकाउंट कुंजी खोजने के तरीके के बारे में अधिक जानने के लिए, देखें [Azure पोर्टल में स्टोरेज अकाउंट सेटिंग्स का प्रबंधन करें](/azure/storage/common/storage-account-manage).
+    - Blob संग्रहण खाते का नाम और खाता कुंजी खोजने के तरीके के बारे में अधिक जानने के लिए, [Azure पोर्टल में संग्रहण खाता सेटिंग्स का प्रबंधन करें](/azure/storage/common/storage-account-manage) देखें।
     - कंटेनर बनाने के बारे में जानने के लिए, [कंटेनर बनाएँ](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) देखें.
 
 1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें. 
@@ -80,7 +80,7 @@ ms.locfileid: "5760103"
 
 1. एक नया निर्यात बनाने के लिए, **निर्यात जोड़ें** का चयन करें.
 
-1. **निर्यात के लिए कनेक्शन** में, Azure Blob Storage अनुभाग से एक कनेक्शन का चयन करें. यदि आपको इस अनुभाग का नाम दिखाई नहीं देता है, तो आपके लिए इस प्रकार का कोई कनेक्शन उपलब्ध नहीं है.
+1. **निर्यात के लिए कनेक्शन** में, Azure Blob Storage अनुभाग से एक कनेक्शन का चयन करें. यदि आपको यह अनुभाग नाम नहीं दिखता है, तो इस प्रकार का कोई भी कनेक्शन आपके लिए उपलब्ध नहीं है।
 
 1. वह सेगमेंट चुनें, जिसे आप निर्यात करना चाहते हैं. इस उदाहरण में, यह **ChurnProneCustomers** है.
 
@@ -95,7 +95,7 @@ ms.locfileid: "5760103"
 > [!NOTE]
 > सुनिश्चित करें कि निर्यात किए गए सेगमेंट में रिकॉर्ड की संख्या आपके Adobe कैंपेन स्टैंडर्ड लाइसेंस की अनुमत सीमा के अंदर है.
 
-निर्यात किए गए डेटा को ऊपर कॉन्फ़िगर किए गए Azure ब्लॉब स्टोरेज कंटेनर में स्टोर किया जाता है. निम्न फ़ोल्डर पाथ स्वचालित रूप से आपके कंटेनर में बनाया गया है:
+निर्यात किए गए डेटा को ऊपर कॉन्फ़िगर किए गए Azure ब्लॉब स्टोरेज कंटेनर में स्टोर किया जाता है। निम्न फ़ोल्डर पाथ स्वचालित रूप से आपके कंटेनर में बनाया गया है:
 
 *%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv*
 
@@ -121,9 +121,10 @@ Adobe एक्सपीरियंस प्लेटफ़ॉर्म मे
 
 ## <a name="create-an-audience-in-adobe-campaign-standard"></a>Adobe कैंपेन स्टैंडर्ड में एक ऑडियंस बनाएं
 
-इस अभियान के लिए ईमेल भेजने के लिए, हम Adobe कैंपेन स्टैंडर्ड का उपयोग करेंगे. Adobe एक्सपीरियंस प्लेटफ़ॉर्म में डेटा आयात करने के बाद, हमें Adobe कैंपेन स्टैंडर्ड में Adobe एक्सपीरियंस प्लेटफ़ॉर्म में डेटा का उपयोग करते हुए [एक ऑडियंस बनाने](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/get-started-profiles-and-audiences.html#permission) की आवश्यकता है.
+इस अभियान के लिए ईमेल भेजने हेतु, हम Adobe अभियान मानक का उपयोग करेंगे। Adobe एक्सपीरियंस प्लेटफ़ॉर्म में डेटा आयात करने के बाद, हमें Adobe कैंपेन स्टैंडर्ड में Adobe एक्सपीरियंस प्लेटफ़ॉर्म में डेटा का उपयोग करते हुए [एक ऑडियंस बनाने](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/get-started-profiles-and-audiences.html#permission) की आवश्यकता है.
 
-Adobe एक्सपीरियंस प्लेटफ़ॉर्म में डेटा पर आधारित ऑडियंस को परिभाषित करने के लिए Adobe कैंपेन स्टैंडर्ड में [सेगमेंट बिल्डर इस्तेमाल](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/working-with-adobe-experience-platform/aep-using-segment-builder.html#building-a-segment) करने के बारे में जानें.
+
+Adobe एक्सपीरियंस प्लेटफ़ॉर्म में डेटा पर आधारित ऑडियंस को परिभाषित करने के लिए Adobe कैंपेन स्टैंडर्ड में [सेगमेंट बिल्डर इस्तेमाल](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/audience-destinations/aep-using-segment-builder.html) करने के बारे में जानें.
 
 ## <a name="create-and-send-the-email-using-adobe-campaign-standard"></a>Adobe कैंपेन स्टैंडर्ड का उपयोग करके ईमेल बनाएं और भेजें
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 manager: shellyha
-ms.openlocfilehash: b9a1b30e37c3792aa7bdfcfc177da9e8a32c324d
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 50c231070ff9930c1ea82971bf4f8541a89d5027
+ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5596915"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305893"
 ---
 # <a name="connect-to-a-power-query-data-source"></a>Power Query डेटा स्रोत से कनेक्ट करें
 
@@ -72,7 +72,7 @@ Power Query डेटा इंजेस्ट करने के लिए क
 
 1. ऑडिएंस इनसाइट्स में, **डेटा** > **डेटा स्रोत** पर जाएं.
 
-2. जिस डेटा स्रोत को आप बदलना चाहते हैं, उसके बगल में दिये लंबवत एलिप्सिस का चयन करें और ड्रॉप-डाउन मेनू से **संपादित करें** को चुनें.
+2. आप जिस डेटा स्रोत को बदलना चाहते हैं, उसके बगल में वर्टिकल एलिप्सिस का चयन करें और ड्रॉपडाउन मेनू से **संपादित करें** चुनें.
 
    > [!div class="mx-imgBorder"]
    > ![संपादित करें विकल्प](media/edit-option-data-sources.png "संपादित करें विकल्प")

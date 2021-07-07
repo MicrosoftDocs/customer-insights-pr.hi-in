@@ -9,12 +9,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 6cb7bd62bf0f61e6dc5811b20e5011e4a086c743
-ms.sourcegitcommit: 84283d523a891298fca8aaf629d9f9ab2a1bc067
+ms.openlocfilehash: 336cab8619c0b80b7b8a38035cae99620baf2873
+ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6111389"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306259"
 ---
 # <a name="segments-overview"></a>अनुभाग ओवरव्यू
 
@@ -38,7 +38,7 @@ ms.locfileid: "6111389"
 
 प्रत्येक अनुभाग को पंक्ति द्वारा दर्शाया जाता है जिसमें अनुभाग के बारे में अतिरिक्त जानकारी शामिल होती है.
 
-:::image type="content" source="media/segments-selected-segment.png" alt-text="विकल्प ड्रॉप-डाउन सूची और उपलब्ध विकल्पों के साथ चुना गया खंड.":::
+:::image type="content" source="media/segments-selected-segment.png" alt-text="विकल्प ड्रॉपडाउन सूची और उपलब्ध विकल्पों के साथ चयनित अनुभाग।":::
 
 अनुभाग को चुनने पर, निम्न क्रिया उपलब्ध होती हैं:
 
@@ -68,7 +68,7 @@ ms.locfileid: "6111389"
 
 1. जिस खंड को आप निर्यात करना चाहते हैं उसके लिए **और दिखाएं [...]** चुनें.
 
-1. एक्शन ड्रॉप-डाउन सूची से **निर्यात प्रबंधित करें** चुनें.
+1. कार्रवाई ड्रॉपडाउन सूची से **निर्यात प्रबंधित करें** चुनें।
 
 1. पृष्ठ **खंड के लिए निर्यात (पूर्वावलोकन)** खुलता है. आप सभी कॉन्फ़िगर किए गए निर्यातों को उन निर्यातों के आधार पर समूहीकृत देख सकते हैं जिनमें वर्तमान खंड है या वह शामिल नहीं है.
 

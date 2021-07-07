@@ -9,12 +9,12 @@ ms.topic: how-to
 author: diegogranados117
 ms.author: digranad
 manager: shellyha
-ms.openlocfilehash: b935be08199f20e83bceb3317985b0e1dc120016
-ms.sourcegitcommit: 6b07c9c3102761be162e4842f3c9fbc19f948a9b
+ms.openlocfilehash: dccb8dcca8f65f64973e46fed9d83034d58282e2
+ms.sourcegitcommit: bcc47d15d4f0eacf008e4dbc09baac7f062b3ca8
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6095716"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6315880"
 ---
 # <a name="manage-predictions"></a>पूर्वानुमानों को प्रबंधित करें
 
@@ -35,9 +35,6 @@ ms.locfileid: "6095716"
 इनपुट डेटा उपयोगिता रिपोर्ट उन त्रुटियों और चेतावनियों का एक समेकित दृश्य प्रदान करती है जिन्हें आपके आउट-ऑफ-बॉक्स पूर्वानुमान जनरेट कर सकते हैं. यह सुझाव भी देता है कि मॉडल के प्रदर्शन को कैसे बेहतर बनाया जाए.
 
 एक मॉडल द्वारा अपनी प्रशिक्षण प्रक्रिया पूरी करने के बाद रिपोर्ट उपलब्ध होती है. यह प्रत्येक मॉडल के लिए अलग से बनाया गया है, भले ही वह सफलतापूर्वक पूरा हुआ हो या नहीं.
-
-> [!NOTE]
-> फिलहाल यह फ़ीचर सिर्फ़ ट्रांज़ैक्शन चर्न मॉडल के लिए काम करता है.
 
 ### <a name="view-the-input-data-usability-report"></a>इनपुट डेटा प्रयोज्य रिपोर्ट देखें
 

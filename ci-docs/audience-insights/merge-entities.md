@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 2cab702509596dd87c0c9b9769d1af8ba8387f9d
-ms.sourcegitcommit: fcc94f55dc2dce84eae188d582801dc47696c9cc
+ms.openlocfilehash: 86ab3cefa70e5fab4bdb27cde363adee26efee4c
+ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085578"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305641"
 ---
 # <a name="merge-entities"></a>निकायों को विलीन करें
 
@@ -34,7 +34,7 @@ ms.locfileid: "6085578"
 
 आप एकीकृत ग्राहक प्रोफ़ाइल जनरेट करने के लिए मर्ज की गई विशेषता को सिस्टम द्वारा संसाधित करने के तरीके को बदल सकते हैं. **और दिखाएं** चुनें और चयन करें कि आप क्या बदलना चाहते हैं.
 
-:::image type="content" source="media/manage-merged-attributes.png" alt-text="मर्ज की गई विशेषताओं को प्रबंधित करने के लिए अधिक दिखाएं ड्रॉप-डाउन मेनू में विकल्प.":::
+:::image type="content" source="media/manage-merged-attributes.png" alt-text="मर्ज किए गए एट्रिब्यूट को प्रबंधित करने के लिए अधिक दिखाएँ ड्रॉपडाउन मेनू में विकल्प।":::
 
 अधिक जानकारी के लिए, निम्न अनुभाग देखें.
 

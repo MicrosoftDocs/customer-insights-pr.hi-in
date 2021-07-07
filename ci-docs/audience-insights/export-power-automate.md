@@ -1,7 +1,7 @@
 ---
 title: Power Automate कनेक्टर | Microsoft Docs
 description: Dynamics 365 Customer Insights से Microsoft Power Automate में प्रवाह बनाएं.
-ms.date: 01/20/2021
+ms.date: 06/24/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ce2477d957a1792e0436a0dfc15a33621b1c89a9
-ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
+ms.openlocfilehash: 57be0a204ef920b7a4bb31cf9a5b3a77f96eca0d
+ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5976090"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305066"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate कनेक्टर (पूर्वावलोकन)
 
@@ -28,12 +28,13 @@ ms.locfileid: "5976090"
 - ट्रिगर जब डेटा स्रोत रिफ़्रेश सफल होता है.
 - ट्रिगर जब अनुभाग की सीमा पार की जाती है. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
 - ट्रिगर जब व्यावसायिक उपाय सीमा के पार हो जाता है. केवल बिना आयाम वाले व्यावसायिक उपाय समर्थित हैं. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
-- ट्रिगर जब (डेटा स्रोतों, खंडों, साधनों,...) का पूरा रिफ़्रेश पूरा हो जाता है.
+- ट्रिगर करें, जब (डेटा स्रोतों, खंडों, साधनों, ...) का पूरा रिफ़्रेश पूरा हो जाता है.
 - जब एकीकरण प्रक्रिया (मानचित्र, मिलान, मर्ज) का रिफ्रेश पूरा होता है तब ट्रिगर करें.
 
-[Power Automate में अपने ट्रिगर कॉन्फ़िगर करें](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
+[Power Automate में अपने ट्रिगर कॉन्फ़िगर करें।](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/)
 
 ## <a name="power-automate-actions"></a>Power Automate कार्रवाइयां
+
 Power Automate कनेक्टर उपलब्ध ट्रिगर्स से अलग कार्रवाइयां प्रदान करता है. अधिक जानकारी के लिए, [Dynamics 365 Customer Insights Connector](/connectors/customerinsights/) देखें.
 
 ## <a name="create-a-power-automate-flow"></a>एक Power Automate प्रवाह बनाएँ
@@ -46,7 +47,7 @@ Power Automate कनेक्टर उपलब्ध ट्रिगर्स
 
 1. उपलब्ध ट्रिगर में से किसी एक को चुनें और अपने नए प्रवाह में और चरण जोड़ें. अधिक जानकारी के लिए, [Power Automate में क्लाउड प्रवाह बनाएं](/power-automate/get-started-logic-flow) देखें.
 
-उदाहरण कि प्रवाह का उपयोग कैसे करें: 
+प्रवाह का उपयोग करने के उदाहरण: 
 - यदि डेटा स्रोत रीफ्रेश विफल रहता है, तो Microsoft Teams चैनल पर एक संदेश पोस्ट करें. 
 - जब एक सेगमेंट पर सीमा पार हो जाती है, तो डेटा मालिकों को एक ईमेल भेजें.
 

@@ -72,7 +72,7 @@
           href: audience-insights/enrichment-here.md
         - name: लीड स्पेस के साथ संवर्धित
           href: audience-insights/enrichment-leadspace.md
-        - name: एक्सपीरियन के साथ बेहतर बनाना
+        - name: Experian के साथ समृद्ध करें
           href: audience-insights/enrichment-experian.md
         - name: SFTP कस्टम आयात के साथ समृद्ध करें
           href: audience-insights/enrichment-SFTP-custom-import.md
@@ -136,6 +136,8 @@
           items:
             - name: निर्यात अवलोकन
               href: audience-insights/export-destinations.md
+            - name: सक्रिय अभियान
+              href: audience-insights/export-active-campaign.md
             - name: AdRoll
               href: audience-insights/export-adroll.md
             - name: Autopilot
@@ -144,7 +146,7 @@
               href: audience-insights/export-azure-blob-storage.md
             - name: Azure Data Lake Storage Gen2
               href: audience-insights/export-azure-data-lake-storage-gen2.md
-            - name: Azure Synapse विश्लेषण
+            - name: Azure Synapse Analytics
               href: audience-insights/export-azure-synapse-analytics.md
             - name: Adobe Campaign Standard
               href: audience-insights/export-adobe-campaign-standard.md
@@ -178,8 +180,12 @@
               href: audience-insights/export-omnisend.md
             - name: RollWorks
               href: audience-insights/export-rollworks.md
+            - name: Salesforce मार्केटिंग क्लाउड
+              href: audience-insights/export-salesforce.md
             - name: SendGrid
               href: audience-insights/export-sendgrid.md
+            - name: Sendinblue
+              href: audience-insights/export-sendinblue.md
             - name: Snapchat
               href: audience-insights/export-snapchat.md
             - name: SFTP
@@ -238,17 +244,17 @@
       items:
         - name: शुरू करें
           href: engagement-insights/get-started.md
-        - name: एक कार्यस्थान बनाएँ
+        - name: एक कार्यस्थान बनाएं
           href: engagement-insights/create-workspace.md
-        - name: अपनी वेबसाइट तैयार करें
-          href: engagement-insights/instrument-website.md
+        - name: वेबसाइटों और मोबाइल ऐप्स से इवेंट कैप्चर करें
+          href: engagement-insights/developer-resources.md
         - name: अवधारणाएं और शब्दावली
           href: engagement-insights/glossary.md
     - name: इवेंट
       items:
         - name: इवेंट बनाएं और संशोधित करें
           href: engagement-insights/refined-events.md
-        - name: निर्यात की घटनाएं
+        - name: निर्यात इवेंट्स
           href: engagement-insights/export-events.md
     - name: रिपोर्ट
       items:
@@ -272,10 +278,18 @@
       items:
         - name: डेवलपर संसाधन का अवलोकन
           href: engagement-insights/developer-resources.md
-        - name: Web SDK ट्यूटोरियल
+        - name: वेब SDK ट्यूटोरियल
           href: engagement-insights/advanced-SDK-implementation.md
         - name: वेब SDK नमूना
           href: engagement-insights/websdk-sample.md
+        - name: Android SDK ट्यूटोरियल
+          href: engagement-insights/get-started-android.md
+        - name: Android SDK नमूना
+          href: engagement-insights/androidsdk-sample.md
+        - name: iOS SDK ट्यूटोरियल
+          href: engagement-insights/get-started-ios.md
+        - name: iOS SDK नमूना
+          href: engagement-insights/iossdk-sample.md
     - name: व्यवस्थापन
       items:
         - name: भूमिकाएँ और अनुमतियाँ

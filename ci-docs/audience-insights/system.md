@@ -9,12 +9,12 @@ author: NimrodMagen
 ms.author: nimagen
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 87bf8d7b9c23633ebdc929e15ac645c55cc21e4a
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 09d449e51a3a47ec916ab3d017419c9d9be1ffcf
+ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5595382"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305712"
 ---
 # <a name="system-configuration"></a>सिस्टम कॉन्फ़िगरेशन
 
@@ -94,7 +94,7 @@ ms.locfileid: "5595382"
 
 ## <a name="api-usage-tab"></a>API उपयोग टैब
 
-रीयल-टाइम API उपयोग के बारे में विवरण प्राप्त करें और देखें कि एक निश्चित अवधि में कौन से इवेंट हुए हैं. आप **अवधि चुनें** ड्रॉप-डाउन मेनू में कोई अवधि चुनते हैं. 
+रीयल-टाइम API उपयोग के बारे में विवरण प्राप्त करें और देखें कि एक निश्चित अवधि में कौन से इवेंट हुए हैं. **एक अवधि चुनें** ड्रॉपडाउन मेनू में आप अवधि चुनें। 
 
 **API उपयोग** में तीन अनुभाग होते हैं: 
 - **API कॉल** - एक चार्ट जो चयनित अवधि में API को कॉल की कुल संख्या की कल्पना करता है.
