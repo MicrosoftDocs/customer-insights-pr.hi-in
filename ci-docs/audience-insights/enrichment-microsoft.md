@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-MS
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 1b11c325649b91ebb47cde924227eacedae64b7a
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: 3b10fb23cca03ed918aa7fd46478b568d5ebbf1a
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6305158"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6555493"
 ---
 # <a name="enrich-customer-profiles-with-brand-and-interest-affinities-preview"></a>ग्राहक प्रोफाइल को ब्रांड और रुचि आत्मीयताओं से समृद्ध करें (पूर्वावलोकन)
 
@@ -27,7 +27,7 @@ ms.locfileid: "6305158"
 रुचि संबंध समृद्धि को कॉन्फ़िगर करने के लिए **खोजें** टैब पर जाएं और **रुचियां** टाइल पर **मेरा डेटा समृद्ध करें** चुनें.
 
    > [!div class="mx-imgBorder"]
-   > ![ब्रांड और रुचि टाइलें](media/BrandsInterest-tile-Hub.png "ब्रांड और रुचि टाइलें")
+   > ![ब्रांड और रुचि टाइलें.](media/BrandsInterest-tile-Hub.png "ब्रांड और रुचि टाइलें")
 
 ## <a name="how-we-determine-affinities"></a>हम झुकाव कैसे निर्धारित करते हैं
 
@@ -123,7 +123,7 @@ ms.locfileid: "6305158"
 
 संवर्धन प्रक्रिया चलाने के बाद, समृद्ध ग्राहकों की कुल संख्या और समृद्ध ग्राहक प्रोफाइल में ब्रांड्स या रुचियों के विश्लेषण की समीक्षा करने के लिए **मेरे संवर्धन** पर जाएं.
 
-:::image type="content" source="media/my-enrichments.png" alt-text="संवर्धन की प्रक्रिया चलाने के बाद परिणामों का पूर्वावलोकन":::
+:::image type="content" source="media/my-enrichments.png" alt-text="संवर्धन की प्रक्रिया चलाने के बाद परिणामों का पूर्वावलोकन.":::
 
 चार्ट में **समृद्ध डेटा देखें** को चुनकर समृद्ध डेटा की समीक्षा करें. ब्रांड के लिए समृद्ध डेटा **BrandAffinityFromMicrosoft** निकाय में जाता है. रुचियों के लिए डेटा **InterestAffinityFromMicrosoft** निकाय में है. आपको ये निकाय **डेटा** > **निकाय** के **संवर्धन** समूह में भी सूचीबद्ध मिल सकते हैं.
 
@@ -131,9 +131,9 @@ ms.locfileid: "6305158"
 
 ब्रांड और रुचियो की एफ़िनिटी को व्यक्तिगत ग्राहक कार्ड पर देखा जा सकता है. **ग्राहकों** पर जाएँ और एक ग्राहक प्रोफ़ाइल का चयन करें. ग्राहक कार्ड में, आपको उन ब्रांड्स या रुचियों के लिए चार्ट मिलेंगे जिनके लिए उस ग्राहक की जनसांख्यिकीय प्रोफ़ाइल में लोगों से समानता है.
 
-:::image type="content" source="media/enrichment-customer-card.png" alt-text="संवर्धन डेटा वाला के साथ ग्राहक कार्ड":::
+:::image type="content" source="media/enrichment-customer-card.png" alt-text="संवर्धन डेटा वाला के साथ ग्राहक कार्ड.":::
 
-## <a name="next-steps"></a>अगले चरण
+## <a name="next-steps"></a>अगले कदम
 
 अपने समृद्ध ग्राहक डेटा के ऊपर बनाएं. [खंडों](segments.md) को बनाएं और [साधानों](measures.md) और यहां तक कि अपने ग्राहकों को व्यक्तिगत अनुभव देने के लिए [डेटा निर्यात करें](export-destinations.md).
 

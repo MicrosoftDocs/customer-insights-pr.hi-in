@@ -9,12 +9,12 @@ ms.topic: how-to
 author: Nils-2m
 ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: 3fa91553fd50a22ab62b5a2b1e3f13b9483776a8
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 2ab5a9059991611a2959a19cc688d232ec782e1e
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5598157"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554115"
 ---
 # <a name="microsoft-power-apps-connector-preview"></a>Microsoft Power Apps कनेक्टर (पूर्वावलोकन)
 
@@ -56,12 +56,12 @@ Customer Insights को डेटा कनेक्शन के रूप म
 1. आपके द्वारा बनाए जा रहे अनुप्रयोग में **गैलरी** नियंत्रण जोड़ें.
 
 > [!div class="mx-imgBorder"]
-> ![गैलरी तत्व जोड़ना](media/connector-powerapps9.png "गैलरी तत्व जोड़ें")
+> ![गैलरी तत्व जोड़ना.](media/connector-powerapps9.png "गैलरी तत्व जोड़ें")
 
 1. आइटमों के डेटा स्रोत के रूप में **ग्राहक** का चयन करें.
 
     > [!div class="mx-imgBorder"]
-    > ![कोई डेटा स्रोत चुनें](media/choose-datasource-powerapps.png "कोई डेटा स्रोत चुनें")
+    > ![कोई डेटा स्रोत चुनें.](media/choose-datasource-powerapps.png "कोई डेटा स्रोत चुनें")
 
 1. आप यह चुनने के लिए कि ग्राहक इकाई के किस फ़ील्ड को गैलरी में दिखाना है, दाईं ओर दिए गए डेटा पैनल में बदलाव कर सकते हैं.
 

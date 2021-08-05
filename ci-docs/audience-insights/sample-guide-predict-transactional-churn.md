@@ -9,12 +9,12 @@ ms.topic: tutorial
 author: diegogranados117
 ms.author: digranad
 manager: shellyha
-ms.openlocfilehash: 49dad45c951f3c00d77ddd99faec48bfccada8b0
-ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
+ms.openlocfilehash: 72f3bd1f32b813fef04dc14618331e3d707b5052
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306122"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6556263"
 ---
 # <a name="transactional-churn-prediction-preview-sample-guide"></a>लेन-देन संबंधी चर्न के पूर्वानुमान (पूर्वावलोकन) की नमूना मार्गदर्शिका
 
@@ -47,7 +47,7 @@ Contoso एक ऐसी कंपनी है जो उच्च गुणव
    - **CreatedOn**: दिनांक/समय/क्षेत्र
 
    [!div class="mx-imgBorder"]
-   ![जन्मतिथि को दिनांक में बदलें](media/ecommerce-dob-date.PNG "जन्मदिवस को तारीख में बदलना")
+   ![जन्मतिथि को दिनांक में बदलें.](media/ecommerce-dob-date.PNG "जन्मदिवस को तारीख में बदलना")
 
 1. दाईं ओर के फ़लक पर **नाम** फ़ील्ड में, अपने डेटा स्रोत का नाम **क्वेरी** से **eCommerceContacts** में बदलें
 

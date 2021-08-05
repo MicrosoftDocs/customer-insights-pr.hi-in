@@ -9,12 +9,12 @@ ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 manager: shellyha
-ms.openlocfilehash: 50c231070ff9930c1ea82971bf4f8541a89d5027
-ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
+ms.openlocfilehash: b37bb5dfeed2326784ef276a93a04bec626aaf6e
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6305893"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554685"
 ---
 # <a name="connect-to-a-power-query-data-source"></a>Power Query डेटा स्रोत से कनेक्ट करें
 
@@ -42,7 +42,7 @@ Power Query डेटा इंजेस्ट करने के लिए क
 1. **Power Query - क्वेरी संपादित करें** संवाद आपकी डेटा की समीक्षा करने और उसे परिष्कृत करने में मदद करता है. आपके चयनित डेटा स्रोत में सिस्टम द्वारा पहचाने गए निकाय बाएं फलक में दिखाई देते हैं.
 
    > [!div class="mx-imgBorder"]
-   > ![क्वेरी संपादित करें संवाद](media/data-manager-configure-edit-queries.png "क्वेरी संपादित करें संवाद")
+   > ![क्वेरी संपादित करें संवाद.](media/data-manager-configure-edit-queries.png "क्वेरी संपादित करें संवाद")
 
 1. आप अपना डेटा बदल भी सकते हैं. संपादित करने या बदलने के लिए एक निकाय का चयन करें. रूपांतरण को लागू करने के लिए Power Query विंडो में विकल्पों का उपयोग करें. प्रत्येक रूपांतरण **लागू चरण** के तहत सूचीबद्ध हो जाता है. Power Query कई पूर्व-निर्मित रूपांतरण विकल्प प्रदान करता है. अधिक जानकारी के लिए, [Power Query रूपांतरण](/power-query/power-query-what-is-power-query#transformations) देखें.
 
@@ -75,7 +75,7 @@ Power Query डेटा इंजेस्ट करने के लिए क
 2. आप जिस डेटा स्रोत को बदलना चाहते हैं, उसके बगल में वर्टिकल एलिप्सिस का चयन करें और ड्रॉपडाउन मेनू से **संपादित करें** चुनें.
 
    > [!div class="mx-imgBorder"]
-   > ![संपादित करें विकल्प](media/edit-option-data-sources.png "संपादित करें विकल्प")
+   > ![संपादित करें विकल्प.](media/edit-option-data-sources.png "संपादित करें विकल्प")
 
 3. [एक नया डेटा स्रोत बनाएँ](#create-a-new-data-source) सेक्शन में वर्णित अनुसार अपने परिवर्तनों और रूपांतरणों को **Power Query - क्वेरी संपादित करें** संवाद में लागू करें.
 

@@ -1,7 +1,7 @@
 ---
 title: सेवा सीमाएँ
 description: सीमाओं और प्रतिबंधों को समझें.
-ms.date: 10/15/2020
+ms.date: 07/08/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -9,12 +9,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: b68ab833538db7020c8be8be7658c86f083f137a
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 81253332cbea3110c0b3804db3a4d03b514f92d4
+ms.sourcegitcommit: 9a99e48e96dfb3d895db428f37c30ae55eea66b7
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5598517"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6604371"
 ---
 # <a name="service-limits-in-dynamics-365-customer-insights-audience-insights-capability"></a>Dynamics 365 Customer Insights में सेवा की सीमाएं ऑडियंस इनसाइट्स क्षमता को कम करती हैं
 
@@ -23,6 +23,7 @@ ms.locfileid: "5598517"
 | क्षेत्र  | सीमाएँ  | नोट्स |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
 | खंड और माप | 100 सेगमेंट्स या उपाय. | सक्रिय [सेगमेंट्स](segments.md) और [उपाय](measures.md) की कुल संख्या 100 से अधिक नहीं हो सकती.  |
+| संबंध | निकाय पथों में संबंधों पर गहराई के 20 स्तर. | बिल्डर इंटरफ़ेस का उपयोग करते हुए [सेगमेंट](segments.md) या [उपाय](measures.md) बनाते समय, निकाय पथ में प्रारंभ निकाय और लक्ष्य निकाय के बीच अधिकतम 20 संबंध हो सकते हैं.  |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

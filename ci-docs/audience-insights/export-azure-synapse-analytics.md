@@ -9,12 +9,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 822082d661863e737ea3d3a749a6c878db766967
-ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
+ms.openlocfilehash: 7ee57aa9e86ebf9bd1989d88750642f0b01bd4bf
+ms.sourcegitcommit: f18635c29bb25d9e424a3f5825dc2696278450cf
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5977379"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327366"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>Azure Synapse Analytics में डेटा निर्यात करें (पूर्वावलोकन)
 
@@ -74,8 +74,10 @@ Azure में:
 1. अपने निर्यात के लिए एक पहचानने योग्य **प्रदर्शन नाम** और एक **डेटाबेस नाम** प्रदान करें.
 
 1. आप किन निकायों को Azure Synapse Analytics में निर्यात करना चाहते हैं उनका चयन करें.
+   > [!NOTE]
+   > [Common Data Model फ़ोल्डर](connect-common-data-model.md) पर आधारित डेटा स्रोत समर्थित नहीं हैं.
 
-1. **सहेजें** चुनें.
+2. **सहेजें** चुनें.
 
 निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है.
 

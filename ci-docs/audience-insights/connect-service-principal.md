@@ -9,18 +9,18 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: c670b0065a2833a6dc311d9e86d2b351140382ce
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: cc94ad49f12067d513db4663bff60620d6501eb0
+ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5596501"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "6692115"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-gen2-account-with-an-azure-service-principal-for-audience-insights"></a>ऑडियंस इनसाइट्स के लिए एक Azure service principal के साथ एक Azure Data Lake Storage Gen2 खाते से कनेक्ट करें
 
 Azure सेवाओं का उपयोग करने वाले स्वचालित उपकरणों में हमेशा प्रतिबंधित अनुमतियां होनी चाहिए. एक पूरी तरह से विशेषाधिकार प्राप्त उपयोगकर्ता के रूप में एप्लिकेशन पर हस्ताक्षर करने के बजाय, Azure सर्विस प्रिंसिपल्स को प्रदान करता है. स्टोरेज खाते की कुंजी के बजाय एक Azure service principal का उपयोग करके एक Azure Data Lake Storage Gen2 खाते के साथ ऑडियंस इनसाइट्स को जोड़ने के तरीके जानने के लिए, पढ़ें. 
 
-आप सर्विस प्रिंसिपल का उपयोग सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर को जोड़ें या संपादित करें](connect-common-data-model.md) या [एक नया बनाएं या मौजूदा परिवेश को अपडेट करें](manage-environments.md#create-an-environment-in-an-existing-organization) करने के लिए कर सकते हैं.
+आप सर्विस प्रिंसिपल का उपयोग सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर को जोड़ें या संपादित करें](connect-common-data-model.md) या [एक नया बनाएं या मौजूदा परिवेश को अपडेट करें](get-started-paid.md) करने के लिए कर सकते हैं.
 
 > [!IMPORTANT]
 > - Azure Data Lake Gen2 स्टोरेज खाता, जो सेवा सिद्धांत का उपयोग करने का इरादा रखता है, उसके पास [पदानुक्रमित नाम स्थान (HNS) सक्षम होना चाहिए](/azure/storage/blobs/data-lake-storage-namespace).
@@ -81,7 +81,7 @@ Azure सेवाओं का उपयोग करने वाले स्
 
 ## <a name="enter-the-azure-resource-id-or-the-azure-subscription-details-in-the-storage-account-attachment-to-audience-insights"></a>ऑडियंस इनसाइट्स के लिए स्टोरेज खाता संलग्नक में Azure संसाधन ID या Azure सदस्यता विवरण दर्ज करें.
 
-ऑडियंस इनसाइट्स में एक Azure Data Lake स्टोरेज खाता संलग्न करें [स्टोर आउटपुट डेटा](manage-environments.md) या [इसे डेटा स्रोत के रूप में उपयोग करें](connect-common-data-service-lake.md). Azure Data Lake विकल्प चुनने से आप संसाधन-आधारित या सदस्यता-आधारित दृष्टिकोण के बीच चयन कर सकते हैं.
+ऑडियंस इनसाइट्स में एक Azure Data Lake स्टोरेज खाता संलग्न करें [स्टोर आउटपुट डेटा](manage-environments.md) या [इसे डेटा स्रोत के रूप में उपयोग करें](connect-dataverse-managed-lake.md). Azure Data Lake विकल्प चुनने से आप संसाधन-आधारित या सदस्यता-आधारित दृष्टिकोण के बीच चयन कर सकते हैं.
 
 चयनित दृष्टिकोण के बारे में आवश्यक जानकारी प्रदान करने के लिए नीचे दिए गए चरणों का पालन करें.
 

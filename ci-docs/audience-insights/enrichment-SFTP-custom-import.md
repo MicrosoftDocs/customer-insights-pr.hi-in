@@ -9,12 +9,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: f92b36ac5364ea8586f9cbba7ba03178641555c0
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: 9331cf8057850e2fbe03622831f388e73056d938
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304652"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6555401"
 ---
 # <a name="enrich-customer-profiles-with-custom-data-preview"></a>कस्टम डेटा (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल को समृद्ध करें
 
@@ -64,7 +64,7 @@ SFTP कस्टम आयात को कॉन्फ़िगर करन�
 1. एक बार सत्यापन पूरा हो जाने पर, **सहेजें** चुनकर कनेक्शन को सहेजा जा सकता है।
 
    > [!div class="mx-imgBorder"]
-   > ![Experian कनेक्शन कॉन्फिगरेशन पृष्ठ](media/enrichment-SFTP-connection.png "Experian कनेक्शन कॉन्फिगरेशन पृष्ठ")
+   > ![Experian कनेक्शन कॉन्फिगरेशन पृष्ठ.](media/enrichment-SFTP-connection.png "Experian कनेक्शन कॉन्फिगरेशन पृष्ठ")
 
 
 ## <a name="defining-field-mappings"></a>फील्ड मैपिंग को परिभाषित करना 

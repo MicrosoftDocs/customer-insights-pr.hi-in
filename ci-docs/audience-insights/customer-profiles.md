@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: c9adb4d7db74573d0512ae7a68a0e7ab51c994a0
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: 8ab55d101f98169b8f794ce580ddd0a71ede6642
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304606"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554620"
 ---
 # <a name="customer-profiles"></a>ग्राहक के प्रोफाइल
 
@@ -23,11 +23,11 @@ ms.locfileid: "6304606"
 ग्राहक, व्यक्ति या संगठन (पूर्वावलोकन करें) हो सकते हैं. हर एक ग्राहक या संगठन प्रोफ़ाइल को टाइल द्वारा प्रदर्शित किया जाता है. उस ख़ास ग्राहक या संगठन के बारे में और जानकारी देखने के लिए किसी टाइल का चयन करें. पेज के निचले भाग में दिए गए पेजिनेशन नियंत्रणों का उपयोग अतिरिक्त रिकॉर्ड देखने के लिए करें.
 
 > [!div class="mx-imgBorder"] 
-> ![B2C ग्राहक की प्रोफाइलें](media/profiles-customers.png "B2C ग्राहक की प्रोफाइलें")
+> ![B2C ग्राहक की प्रोफाइलें.](media/profiles-customers.png "B2C ग्राहक की प्रोफाइलें")
 
 संगठन (पूर्वावलोकन करें)
 > [!div class="mx-imgBorder"] 
-> ![B2B ग्राहक की प्रोफाइलें](media/profile-customers-b2b.png "B2B ग्राहक की प्रोफाइलें")
+> ![B2B ग्राहक की प्रोफाइलें.](media/profile-customers-b2b.png "B2B ग्राहक की प्रोफाइलें")
 
 > [!NOTE]
 > यदि आप नेविगेशन में **ग्राहक** का चयन करते समय टाइल्स नहीं देख सकते हैं, तो आपके व्यवस्थापक को **खोज और फ़िल्टर इंडेक्स** पर [कम से कम एक खोज योग्य एट्रिब्यूट निर्धारित करने की आवश्यकता है](search-filter-index.md).
@@ -47,7 +47,7 @@ ms.locfileid: "6304606"
 2. उन विशेषताओं के आगे दिए गए बॉक्सेस को चेक करें जिनके अनुसार आप ग्राहकों को फ़िल्टर करना चाहते हैं.
 
    > [!div class="mx-imgBorder"] 
-   > ![ग्राहक के प्रोफाइल](media/profiles-customers3.png "ग्राहक के प्रोफाइल")
+   > ![ग्राहक के प्रोफाइल.](media/profiles-customers3.png "ग्राहक के प्रोफाइल")
 
 3. **ग्राहक** पेज पर **फ़िल्टर साफ करें** का चयन करके अपने फ़िल्टर हटाएं.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: wimohabb
 manager: shellyha
-ms.openlocfilehash: 9326f821f9970ba2254ab804814e369abb677eb0
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: f98af8fb1c1d1ae050a5273286d35cf276d9fb17
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304744"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554483"
 ---
 # <a name="work-with-customer-insights-apis"></a>Customer Insights API के साथ काम करें
 
@@ -35,7 +35,7 @@ Dynamics 365 Customer Insights, Customer Insights में आपके डे�
  
    API को सक्षम करना आपके उदाहरण के लिए प्राथमिक और द्वितीयक सदस्यता कुंजी बनाता है, जिनको API अनुरोधों में उपयोग किया जाता है. आप **व्यवस्थापक** > **अनुमतियाँ** > **API** में **प्राइमरी रीजेनरेट करें** या **सेकेंडरी रीजेनरेट करें** का चयन करके कुंजियों को फिर से हासिल कर सकते हैं.
 
-   :::image type="content" source="media/enable-apis.gif" alt-text="Customer Insights APIs सक्षम करें":::
+   :::image type="content" source="media/enable-apis.gif" alt-text="Customer Insights APIs सक्षम करें.":::
 
 1. **API आजमाएं** के लिए [हमारे API एक्सप्लोर करें](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights&operation=Get-all-instances) चुनें.
 
@@ -129,7 +129,7 @@ NuGet.org से C# क्लाइंट लाइब्रेरी का उ
  
    वैकल्पिक रूप से, इस कमांड को **NuGet पैकेज प्रबंधक कंसोल में चलाएं**: `Install-Package -Id Microsoft.Dynamics.CustomerInsights.Api -Source nuget.org -ProjectName <project name> [-Version <version>]`
 
-   :::image type="content" source="media/visual-studio-nuget-package.gif" alt-text="Visual Studio प्रोजेक्ट में NuGet पैकेज जोड़ें":::
+   :::image type="content" source="media/visual-studio-nuget-package.gif" alt-text="Visual Studio प्रोजेक्ट में NuGet पैकेज जोड़ें.":::
 
 #### <a name="use-the-c-client-library"></a>C# क्लाइंट लाइब्रेरी का उपयोग करें
 
@@ -141,7 +141,7 @@ NuGet.org से C# क्लाइंट लाइब्रेरी का उ
 
 1. इस `HttpClient` को `CustomerInsights` क्लाइंट के निर्माण में पास करें.
 
-   :::image type="content" source="media/httpclient-sample.png" alt-text="httpclient का नमूना":::
+   :::image type="content" source="media/httpclient-sample.png" alt-text="httpclient का नमूना.":::
 
 1. "एक्सटेंशन विधियों" के लिए क्लाइंट के साथ कॉल करें"—उदाहरण के लिए, `GetAllInstancesAsync`. यदि अंतर्निहित `Microsoft.Rest.HttpOperationResponse` को एक्सेस करने को प्राथमिकता दी जाती है, तो "http संदेश विधियों" का उपयोग करें"—उदाहरण के लिए, `GetAllInstancesWithHttpMessagesAsync`।
 

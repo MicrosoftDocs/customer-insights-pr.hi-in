@@ -2,6 +2,8 @@
   href: index.yml
 - name: उत्पाद अवलोकन
   href: overview.md
+- name: परीक्षण बनाएँ
+  href: audience-insights/get-started-trial.md
 - name: अपना परिवेश एक्सेस करें
   href: 'https://home.ci.ai.dynamics.com/'
 - name: ऑडिएंस इनसाइट
@@ -10,12 +12,10 @@
       href: audience-insights/index.yml
     - name: क्षमता अवलोकन
       href: audience-insights/overview.md
-    - name: निःशुल्क परीक्षण
-      href: 'https://dynamics.microsoft.com/get-started/?appname=customerinsights'
     - name: नई और अपडेट की गयी विशेषताएं
       href: audience-insights/whats-new-audience-insights.md
-    - name: कोई नया परिवेश बनाएँ
-      href: audience-insights/home.md
+    - name: एक नया परिवेश बनाएं
+      href: audience-insights/get-started-paid.md
     - name: मॉड्यूल सीखें
       items:
         - name: डेटा करें
@@ -34,8 +34,8 @@
           href: audience-insights/connect-power-query.md
         - name: डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें
           href: audience-insights/connect-common-data-model.md
-        - name: Common Data Service प्रबंधित डेटा लेक जोड़ें
-          href: audience-insights/connect-common-data-service-lake.md
+        - name: Dataverse प्रबंधित डेटा लेक जोड़ें
+          href: audience-insights/connect-dataverse-managed-lake.md
         - name: डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश
           href: audience-insights/incremental-refresh-data-sources.md
         - name: वास्तविक-समय डेटा इनजेशन
@@ -76,11 +76,11 @@
           href: audience-insights/enrichment-experian.md
         - name: SFTP कस्टम आयात के साथ समृद्ध करें
           href: audience-insights/enrichment-SFTP-custom-import.md
-    - name: खंड और माप
+    - name: सेगमेंट
       items:
         - name: अनुभाग ओवरव्यू
           href: audience-insights/segments.md
-        - name: खंड और ग्राहक समूह बनाएं
+        - name: अनुभाग बनाएं
           href: audience-insights/segment-builder.md
         - name: मापों के आधार पर सुझाए गए अनुभाग
           href: audience-insights/suggested-segments.md
@@ -254,6 +254,8 @@
       items:
         - name: इवेंट बनाएं और संशोधित करें
           href: engagement-insights/refined-events.md
+        - name: पहले से प्रमाणित विज़िटर के वेब इवेंट को पहचानें
+          href: engagement-insights/unknown-to-known.md
         - name: निर्यात इवेंट्स
           href: engagement-insights/export-events.md
     - name: रिपोर्ट
@@ -304,6 +306,8 @@
       items:
         - name: व्यक्तिगत डेटा हटाएं और निर्यात करें
           href: engagement-insights/delete-export-personal-data.md
+    - name: क्षेत्रीय उपलब्धता
+      href: engagement-insights/regional-availability.md
     - name: सेवा सीमाएँ
       href: engagement-insights/quotas.md
 - name: सहायता से संपर्क करें

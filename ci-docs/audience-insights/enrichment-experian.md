@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 7c82fe92b3351a782a4fa6510300d870b742d042
-ms.sourcegitcommit: 42b3bce1e20e7cc707d232844dacfeed3d6fc096
+ms.openlocfilehash: abe9ee447745081e3c462d44e5901b6dac919adf
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "6309822"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6555355"
 ---
 # <a name="enrich-customer-profiles-with-demographics-from-experian-preview"></a>Experian से जनसांख्यिकी के साथ ग्राहक प्रोफाइल को बेहतर बनाएँ (पूर्वावलोकन)
 
@@ -39,7 +39,7 @@ Experian कॉन्फ़िगर करने के लिए, निम्
 1. Experian टाइल पर **मेरा डेटा बेहतर बनाएँ** चुनें।
 
    > [!div class="mx-imgBorder"]
-   > ![Experian टाइल](media/experian-tile.png "Experian टाइल")
+   > ![Experian टाइल.](media/experian-tile.png "Experian टाइल")
    > 
 
 1. ड्राप-डाउन सूची से [कनेक्शन](connections.md) चुनें। यदि कोई कनेक्शन उपलब्ध नहीं है तो किसी व्यवस्थापक से संपर्क करें. यदि आप एक व्यवस्थापक हैं, तो आप ड्रॉपडाउन सूची से **कनेक्शन जोड़ें** का चयन करके और Experian चुनकर एक कनेक्शन बना सकते हैं । 

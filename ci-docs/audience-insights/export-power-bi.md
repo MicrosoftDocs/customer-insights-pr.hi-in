@@ -1,7 +1,7 @@
 ---
 title: Power BI कनेक्टर
 description: Power BI में Dynamics 365 Customer Insights कनेक्टर का उपयोग करना सीखें.
-ms.date: 09/21/2020
+ms.date: 07/23/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: e43e2f9dbc84ebfbf2154990a752740f973296cb
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: faeb95bd7d2fe3cb220308cdee559b3347c5af54
+ms.sourcegitcommit: f98b6b2058f384365f222d1f9ba0cc9ce801f09d
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5596041"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661104"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -39,7 +39,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 
 1. **नेविगेटर** संवाद बॉक्स में. आप उन सभी परिवेशों की सूची देखते हैं जिनके पास आपके पास पहुंच है. एक परिवेश का विस्तार करें और किसी भी फ़ोल्डर (निकायों, साधनों, खंडों, एनरिचमेंट) को खोलें. उदाहरण के लिए, **निकाय** फ़ोल्डर खोलें, उन सभी निकायओं को देखने के लिए जिन्हें आप आयात कर सकते हैं.
 
-   ![Power BI कनेक्टर नेविगेटर](media/power-bi-navigator.png "Power BI कनेक्टर नेविगेटर")
+   ![Power BI कनेक्टर नेविगेटर.](media/power-bi-navigator.png "Power BI कनेक्टर नेविगेटर")
 
 1. शामिल करने के लिए निकायों के बगल में स्थित चेक बॉक्स चुनें और **लोड करें**. आप एकाधिक परिवेश से कई निकायों का चयन कर सकते हैं.
 
@@ -68,5 +68,11 @@ Power BI के लिए Customer Insights कनेक्टर को उन 
 3. पहचाने गए किसी भी डुप्लिकेट संबंध को हटा दें.
 
 डुप्लिकेट किए गए संबंधों को हटाने के बाद, Power BI कनेक्टर को फिर से कॉन्फ़िगर करने का प्रयास करें. परिवेश अब उपलब्ध होना चाहिए.
+
+### <a name="errors-on-date-fields-when-loading-entities-in-power-bi-desktop"></a>Power BI Desktop में निकाय लोड करते समय दिनांक फ़ील्ड में त्रुटियाँ
+
+MM/DD/YYYY जैसे दिनांक फॉर्मेट वाले फ़ील्ड वाले निकायों को लोड करते समय, बेमेल स्थानीय फॉर्मेट के कारण आपको त्रुटियों का सामना करना पड़ सकता है. यह बेमेल तब होता है जब आपकी Power BI Desktop फ़ाइल अंग्रेज़ी (संयुक्त राज्य) के स्थान पर किसी अन्य स्थान पर सेट होती है, क्योंकि ऑडियंस इनसाइट्स में दिनांक फ़ील्ड यूएस फॉर्मेट में सहेजे जाते हैं.
+
+Power BI Desktop फ़ाइल में एकल स्थान सेटिंग होती है, जिसे डेटा पुनर्प्राप्त करते समय लागू किया जाता है. इन दिनांक फ़ील्ड की सही व्याख्या करें, .BPI फ़ाइल का स्थान अंग्रेज़ी (संयुक्त राज्य) पर सेट करें. [Power BI Desktop फ़ाइल का स्थान बदलने का तरीका जानें](/power-bi/fundamentals/supported-languages-countries-regions.md#choose-the-locale-for-importing-data-into-power-bi-desktop).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 7922a6a69f863caae5401549ed6f88a61aa77d39
-ms.sourcegitcommit: 831765a55775d358447cb7ffa56f2c3b85459084
+ms.openlocfilehash: ac6642c0ce02f1a92458a16250fd3b4cdef5fd1c
+ms.sourcegitcommit: adb9c43ddaba25e511535d78a4bcf8815f154a7b
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6124229"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6362511"
 ---
 # <a name="export-segments-to-mailchimp-preview"></a>सेगमेंट को Mailchimp (पूर्वावलोकन) में निर्यात करें
 
@@ -38,7 +38,7 @@ ms.locfileid: "6124229"
 
 1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
-1. **कनेक्शन जोड़ें** का चयन करें और कनेक्शन को कॉन्फ़िगर करने के लिए **Autopilot** चुनें.
+1. कनेक्शन को कॉन्फ़िगर करने के लिए **कनेक्शन जोड़ें** चुनें और **Mailchimp** चुनें.
 
 1. **डिस्प्ले नाम** फ़ील्ड में अपने कनेक्शन को पहचानने योग्य नाम दें. कनेक्शन का नाम और प्रकार इस कनेक्शन का वर्णन करता है. हम एक नाम चुनने की सलाह देते हैं जो कनेक्शन के उद्देश्य और लक्ष्य को बताता है।
 

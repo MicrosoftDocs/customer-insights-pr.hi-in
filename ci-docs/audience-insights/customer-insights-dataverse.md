@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: wimohabb
 manager: shellyha
-ms.openlocfilehash: 7157ad930f3cea17c12bd4f95028d291483329d3
-ms.sourcegitcommit: e5425f060c8d80f9510283dc610ce70a4e709b1e
+ms.openlocfilehash: 220e01a06711a5d35b8df09e265017a6d8fd0490
+ms.sourcegitcommit: 5c9c54ffe045017c19f0042437ada2c101dcaa0f
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6259193"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6650044"
 ---
 # <a name="work-with-customer-insights-data-in-microsoft-dataverse"></a>Microsoft Dataverse में Customer Insights डेटा के साथ कार्य करें
 
@@ -24,7 +24,7 @@ Customer Insights [Microsoft Dataverse](/powerapps/maker/data-platform/data-plat
 
 **मौजूदा Dataverse परिवेश के साथ संगठन**
 
-जो संगठन पहले से ही Dataverse का उपयोग करते हैं, वे जब कोई व्यवस्थापक ऑडियंस इनसाइट्स सेट करता है [अपने मौजूदा Dataverse परिवेशों में से एक का उपयोग कर सकते हैं](manage-environments.md#create-an-environment-in-an-existing-organization). Dataverse परिवेश को URL प्रदान करके, यह उनके नए ऑडियंस इनसाइट्स परिवेश से जोड़ रहा है. सर्वोत्तम संभव प्रदर्शन सुनिश्चित करने के लिए Customer Insights और Dataverse परिवेशों को एक ही क्षेत्र में होस्ट किया जाना चाहिए.
+जो संगठन पहले से ही Dataverse का उपयोग करते हैं, वे जब कोई व्यवस्थापक ऑडियंस इनसाइट्स सेट करता है [अपने मौजूदा Dataverse परिवेशों में से एक का उपयोग कर सकते हैं](get-started-paid.md). Dataverse परिवेश को URL प्रदान करके, यह उनके नए ऑडियंस इनसाइट्स परिवेश से जोड़ रहा है. सर्वोत्तम संभव प्रदर्शन सुनिश्चित करने के लिए Customer Insights और Dataverse परिवेशों को एक ही क्षेत्र में होस्ट किया जाना चाहिए.
 
 Dataverse परिवेश संलग्न करने के लिए, ऑडियंस इनसाइट्स परिवेश बनाते समय **उन्नत सेटिंग्स** को विस्तृत करें. **Microsoft Dataverse परिवेश URL** प्रदान करें और **डेटा साझाकरण सक्षम करें** के लिए चेकबॉक्स चुनें.
 

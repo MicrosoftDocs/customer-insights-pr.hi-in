@@ -9,12 +9,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 2856888d6ac64d5daabcc5a234f13bc6f88bb3df
-ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
+ms.openlocfilehash: 0803be651662480ddf1fd22952f6a69ee1603001
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306076"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554987"
 ---
 # <a name="segment-insights-preview"></a>अनुभाग इनसाइट (पूर्वावलोकन)
 
@@ -44,7 +44,7 @@ ms.locfileid: "6306076"
 विश्लेषण पूरा करने के बाद, **अनुभाग** > **इनसाइट (पूर्वावलोकन)** में इस इनसाइट के बारे में विवरण खोजें.
 
 > [!div class="mx-imgBorder"]
-> :::image type="content" source="media/segment-overlap.png" alt-text="अनुभाग ओवरलैप इनसाइट विवरण":::
+> :::image type="content" source="media/segment-overlap.png" alt-text="अनुभाग ओवरलैप इनसाइट विवरण.":::
 
 विश्लेषण के परिणामों को देखने के लिए एक इनसाइट का चयन करें:
 
@@ -77,7 +77,7 @@ ms.locfileid: "6306076"
 विश्लेषण पूरा करने के बाद, **अनुभाग** > **इनसाइट (पूर्वावलोकन)** में इस इनसाइट के बारे में विवरण खोजें.
 
 > [!div class="mx-imgBorder"]
-> :::image type="content" source="media/segment-differentiators.png" alt-text="अनुभाग अवकलक इनसाइट विवरण":::
+> :::image type="content" source="media/segment-differentiators.png" alt-text="अनुभाग अवकलक इनसाइट विवरण.":::
 
 विश्लेषण के परिणामों को देखने के लिए एक इनसाइट का चयन करें. एक अवकलक विश्लेषण में दो टैब शामिल होते हैं. **एट्रिब्यूट** टैब में प्रोफ़ाइल एट्रिब्यूट सूची बद्ध होते हैं जिन्हें अवकलक माना जाता है. **उपाय** टैब में अवकलक सूचीबद्ध होते हैं. प्रत्येक टैब में निम्नलिखित विवरण शामिल होते हैं:
 

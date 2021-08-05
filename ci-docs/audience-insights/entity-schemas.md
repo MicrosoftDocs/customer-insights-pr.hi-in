@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: 6667e411a1b56e13105a6b59b7b5d249bc8141ea
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: e21f8a9422357fbc5c9425f91f3ba241c9dec9d8
+ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5596363"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "6692307"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>सामान्य डेटा मॉडल में निकाय स्कीमा
 
@@ -24,7 +24,7 @@ ms.locfileid: "5596363"
 
 यह साझा किया गया डेटा मॉडल, अनुप्रयोगों और डेटा एकीकरणों को डेटा की एकीकृत परिभाषा प्रदान करके ज़्यादा आसानी से सहयोग करने की अनुमति देता है. सामान्य डेटा मॉडल में मानक निकाय, संबंधों, पदानुक्रम, लक्षण और बहुत कुछ के साथ एक समृद्ध मेटाडेटा प्रणाली शामिल है. इसकी शुरुआत Dynamics 365 अनुप्रयोग से हुई है और यह 260 से अधिक मानक निकायों के साथ GitHub पर खुला स्रोत होता है. आंतरिक और बाहरी साझेदारों का एक बड़ा सिस्टम इस सामान्य डेटा मॉडल में उद्योग-विशिष्ट संकल्पनाएँ सृजित करता है.
 
-आज कई सिस्टम और प्लेटफॉर्म सामान्य डेटा मॉडल को लागू करते हैं, जिसमें Power BI डेटाप्रवाह और Azure डेटा सेवाएं शामिल हैं. यह Common Data Service, Dynamics 365, Power Apps, Power BI, और आगामी Azure डेटा सेवाओं का पहले से समर्थन करता है जो [ओपन डेटा पहल](https://www.microsoft.com/open-data-initiative) से प्रत्यक्ष रूप से लाभान्वित हो रहे हैं.
+आज Power BI डेटाप्रवाह और Azure डेटा सेवाएँ सहित अनेक प्रणालियों और प्लेटफार्म में सामान्य डेटा मॉडल को कार्यान्वित किया जाता है. यह पहले से ही [ओपन डेटा इनिशिएटिव](https://www.microsoft.com/open-data-initiative) के लिए सीधे मूल्य अर्जित करते हुए, Microsoft Dataverse, Dynamics 365, Power Apps, Power BI और आगामी Azure डेटा सेवाओं में समर्थित है.
 
 ## <a name="customer-insights-entity-schemas"></a>Customer Insights निकाय स्कीमा
 
@@ -44,7 +44,7 @@ ms.locfileid: "5596363"
 
 आप [सामान्य डेटा मॉडल निकाय नेविगेटर](https://microsoft.github.io/CDM/) में निकायों को देख सकते हैं. **GitHub! से लोड करें** को चुनें बटन चुनें और उसे **foundationCommon** > **crmCommon** > **समाधान** > **customerInsights** में ले जाएँ जहाँ आपको निकायों के बारे में Customer Insights और उनकी परिभाषाएँ मिलेंगी.
 > [!div class="mx-imgBorder"]
-> ![निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर](media/CDM-entity-navigator.png "निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर")
+> ![निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर.](media/CDM-entity-navigator.png "निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

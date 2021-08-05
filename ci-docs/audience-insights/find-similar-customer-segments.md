@@ -9,12 +9,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: f588f45ed11efffbb335003642a4b92810153017
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 96fbd18a20e0df7abd4e79ff77e2c3a396e33ccc
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5596777"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554207"
 ---
 # <a name="similar-customers-preview"></a>समान ग्राहक (पूर्वावलोकन)
 
@@ -50,7 +50,7 @@ ms.locfileid: "5596777"
 समान अनुभाग को संसाधित करने के बाद, आपको नया अनुभाग **अनुभाग** पृष्ठ पर सूचीबद्ध मिलेगा.
 
 > [!div class="mx-imgBorder"]
-> ![समान ग्राहक अनुभाग](media/expanded-segment.png "समान ग्राहक अनुभाग")
+> ![समान ग्राहक अनुभाग.](media/expanded-segment.png "समान ग्राहक अनुभाग")
 
 अनुभाग का विवरण खोलने के लिए क्रिया पट्टी पर **देखें** चुनें. इस दृश्य में [समानता स्कोर](#about-similarity-scores) में परिणाम वितरण के बारे में जानकारी शामिल होती है. आपको **अनुभाग के सदस्यों का पूर्वावलोकन** में समानता स्कोर मान भी मिलेंगे.
 

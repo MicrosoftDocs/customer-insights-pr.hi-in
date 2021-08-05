@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 987457966fe1fc034d9e3cd2a1ce33902c7a84f4
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: b377a3500c5d91962e59d46fbc259db5cc8fa7d0
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760329"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6555447"
 ---
 # <a name="export-segments-to-liverampreg-preview"></a>LiveRamp&reg; को निर्यात खंड (पूर्वावलोकन)
 
@@ -56,7 +56,7 @@ ms.locfileid: "5760329"
 
 1. **अपना प्रमुख पहचानकर्ता चुनें** फ़ील्ड में, पहचान विश्लेषण के लिए LiveRamp पर भेजने के लिए **ईमेल**, **नाम और पता** , या **फोन** चुनें.
    > [!div class="mx-imgBorder"]
-   > ![एट्रिब्यूट मैपिंग के साथ LiveRamp कनेक्टर](media/export-liveramp-segments.png "एट्रिब्यूट मैपिंग के साथ LiveRamp कनेक्टर")
+   > ![एट्रिब्यूट मैपिंग के साथ LiveRamp कनेक्टर.](media/export-liveramp-segments.png "एट्रिब्यूट मैपिंग के साथ LiveRamp कनेक्टर")
 
 1. चयनित मुख्य पहचानकर्ता के लिए अपने एकीकृत ग्राहक निकाय से संबंधित एट्रिब्यूट्स को मैप करें.
 
