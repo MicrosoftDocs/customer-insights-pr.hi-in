@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: e38fc06a948178fcbc62c08a4cf4816e1d030e79
-ms.sourcegitcommit: 656b1a6cdff37ba4f808311fd0327ab38e02ed13
+ms.openlocfilehash: b159f87276581f68e07bb73ffd257080eb3cb56422997b09a613bd7afa4e3980
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318301"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7034730"
 ---
 # <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Azure ब्लॉब स्टोरेज (पूर्वावलोकन) के लिए सेगमेंट सूची और अन्य डेटा को निर्यात करें
 

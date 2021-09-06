@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Marketing के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Dynamics 365 Marketing को निर्यात करने का तरीका जानें.
-ms.date: 03/03/2021
+ms.date: 08/24/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,18 +9,20 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: bd8189f8daee1a6aea75e75e116186f62a360ba4
-ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
+ms.openlocfilehash: b8e63a738abaf4fbb902e3edbf83f5a815978478
+ms.sourcegitcommit: 8e89575fe2acb4b289fc157fa7c4c29caf9be967
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "6692483"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7417207"
 ---
 # <a name="use-segments-in-dynamics-365-marketing-preview"></a>Dynamics 365 Marketing (पूर्वावलोकन) में सेगमेंट का उपयोग करें
 
 [!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-अभियान उत्पन्न करने और Dynamics 365 Marketing वाले ग्राहकों के विशिष्ट समूहों से संपर्क करने के लिए [सेगमेंट](segments.md) का उपयोग करें. अधिक जानकारी के लिए, देखें [Dynamics 365 Customer Insights से Dynamics 365 Marketing का उपयोग करें](/dynamics365/marketing/customer-insights-segments)
+अभियान उत्पन्न करने और Dynamics 365 Marketing वाले ग्राहकों के विशिष्ट समूहों से संपर्क करने के लिए [सेगमेंट](segments.md) का उपयोग करें. अधिक जानकारी के लिए, देखें [Dynamics 365 Customer Insights से Dynamics 365 Marketing का उपयोग करें](/dynamics365/marketing/customer-insights-segments).
+
+यदि आप Dataverse संगठन में रीयल-टाइम ग्राहक यात्रा ऑर्केस्ट्रेशन के लिए Dynamics 365 Marketing की नई क्षमताओं का उपयोग कर रहे हैं, तो आपको Dynamics 365 Marketing के लिए मानक निर्यात बनाने की आवश्यकता नहीं है. ऑडिएंस इनसाइट्स से संपर्क और सेगमेंट मार्केटिंग और Customer Insights को जोड़ने के बाद सीधे Dynamics 365 Marketing में उपलब्ध हैं. इससे पहले कि आप मौजूदा निर्यातों को हटाएं, [ऑडियंस इनसाइट्स और Dynamics 365 Marketing ग्राहक यात्रा ऑर्केस्ट्रेशन कैसे कनेक्ट करें](/dynamics365/marketing/real-time-marketing-ci-profile) पर दस्तावेज़ीकरण की समीक्षा करें.
 
 ## <a name="prerequisite-for-a-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 

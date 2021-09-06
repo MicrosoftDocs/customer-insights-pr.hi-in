@@ -1,7 +1,7 @@
 ---
-title: एक सर्विस प्रिंसिपल के साथ एक Azure Data Lake Storage Gen2 खाते से कनेक्ट करें
-description: ऑडिएंस इनसाइट्स से जुड़ते समय अपने खुद के Data Lake से कनेक्ट करने के लिए ऑडिएंस इनसाइट्स के लिए एक Azure service principal का उपयोग करें.
-ms.date: 02/10/2021
+title: सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
+description: अपने खुद के data lake से कनेक्ट करने के लिए Azure सेवा प्रमुख का उपयोग करें.
+ms.date: 07/23/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,54 +9,63 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: cc94ad49f12067d513db4663bff60620d6501eb0
-ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
+ms.openlocfilehash: 845d1f55eb99f2adf9b437124addec4f6d016fec
+ms.sourcegitcommit: 1c396394470df8e68c2fafe3106567536ff87194
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "6692115"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "7461150"
 ---
-# <a name="connect-to-an-azure-data-lake-storage-gen2-account-with-an-azure-service-principal-for-audience-insights"></a>ऑडियंस इनसाइट्स के लिए एक Azure service principal के साथ एक Azure Data Lake Storage Gen2 खाते से कनेक्ट करें
+# <a name="connect-to-an-azure-data-lake-storage-account-by-using-an-azure-service-principal"></a>Azure सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
+<!--note from editor: The Cloud Style Guide would have us just use "Azure Data Lake Storage" to mean the current version, unless the old version (Gen1) is mentioned. I've followed this guidance, even though it seems that our docs and Azure docs are all over the map on this.-->
+Azure सेवाओं का उपयोग करने वाले स्वचालित उपकरणों में हमेशा प्रतिबंधित अनुमतियां होनी चाहिए. एक पूरी तरह से विशेषाधिकार प्राप्त उपयोगकर्ता के रूप में एप्लिकेशन पर हस्ताक्षर करने के बजाय, Azure सर्विस प्रिंसिपल्स को प्रदान करता है. संग्रहण खाता कुंजियों के बजाय किसी Azure सेवा प्रमुख का उपयोग करके Dynamics 365 Customer Insights को Azure Data Lake Storage खाते से कनेक्ट करने का तरीका जानने के लिए आगे पढ़ें. 
 
-Azure सेवाओं का उपयोग करने वाले स्वचालित उपकरणों में हमेशा प्रतिबंधित अनुमतियां होनी चाहिए. एक पूरी तरह से विशेषाधिकार प्राप्त उपयोगकर्ता के रूप में एप्लिकेशन पर हस्ताक्षर करने के बजाय, Azure सर्विस प्रिंसिपल्स को प्रदान करता है. स्टोरेज खाते की कुंजी के बजाय एक Azure service principal का उपयोग करके एक Azure Data Lake Storage Gen2 खाते के साथ ऑडियंस इनसाइट्स को जोड़ने के तरीके जानने के लिए, पढ़ें. 
-
-आप सर्विस प्रिंसिपल का उपयोग सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर को जोड़ें या संपादित करें](connect-common-data-model.md) या [एक नया बनाएं या मौजूदा परिवेश को अपडेट करें](get-started-paid.md) करने के लिए कर सकते हैं.
+आप सेवा प्रमुख को सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें या संपादित करें](connect-common-data-model.md), या [परिवेश बनाएँ या अपडेट करें](get-started-paid.md) के लिए उपयोग कर सकते हैं.<!--note from editor: Suggested. Or it could be ", or create a new environment or update an existing one". I think "new" is implied with "create". The comma is necessary.-->
 
 > [!IMPORTANT]
-> - Azure Data Lake Gen2 स्टोरेज खाता, जो सेवा सिद्धांत का उपयोग करने का इरादा रखता है, उसके पास [पदानुक्रमित नाम स्थान (HNS) सक्षम होना चाहिए](/azure/storage/blobs/data-lake-storage-namespace).
+> - Data Lake Storage खाता जो सेवा प्रमुख का उपयोग करेगा<!--note from editor: Suggested. Or perhaps it could be "The Data Lake Storage account to which you want to give access to the service principal..."--> उसमें [पदानुक्रमित नामस्थान सक्षम](/azure/storage/blobs/data-lake-storage-namespace) होना चाहिए.
 > - आपको सर्विस प्रिंसिपल बनाने के लिए अपनी Azure सदस्यता के लिए व्यवस्थापक अनुमतियों की आवश्यकता है.
 
-## <a name="create-azure-service-principal-for-audience-insights"></a>ऑडियंस इनसाइट्स के लिए Azure service principal बनाएं
+## <a name="create-an-azure-service-principal-for-customer-insights"></a>Customer Insights के लिए Azure सेवा प्रमुख बनाएँ
 
-ऑडियंस इनसाइट्स के लिए एक नया सर्विस प्रिंसिपल बनाने से पहले, यह जांच लें कि क्या यह आपके संगठन में पहले से मौजूद है.
+ऑडिएंस इनसाइट्स या सहभागिता इनसाइट्स के लिए नया सेवा प्रमुख बनाने से पहले, जांचें कि यह आपके संगठन में पहले से मौजूद है या नहीं.
 
 ### <a name="look-for-an-existing-service-principal"></a>एक मौजूदा सेवा प्रिंसिपल की तलाश करें
 
 1. [Azure व्यवस्थापक पोर्टल](https://portal.azure.com) पर जाएं और अपने संगठन में हस्ताक्षर करें.
 
-2. Azure सेवाओं से **Azure Active Directory** का चयन करें.
+2. **Azure सेवाएं** से **Azure Active Directory** चुनें.
 
 3. **प्रबंधित करें** के अंतर्गत, **एंटरप्राइज़ अनुप्रयोग** चुनें.
 
-4. ऑडियंस इनसाइट्स की पहली पार्टी एप्लिकेशन ID `0bfc4568-a4ba-4c58-bd3e-5d3e76bd7fff` या `Dynamics 365 AI for Customer Insights`' के लिए नाम को खोजें.
+4. Microsoft के लिए खोज<!--note from editor: Via Microsoft Writing Style Guide.--> एप्लिकेशन ID:
+   - ऑडियंस इनसाइट: नाम `Dynamics 365 AI for Customer Insights` के साथ `0bfc4568-a4ba-4c58-bd3e-5d3e76bd7fff`
+   - सहभागिता इनसाइट्स: नाम `Dynamics 365 AI for Customer Insights engagement insights` के साथ `ffa7d2fe-fc04-4599-9f6d-7ca06dd0c4fd`
 
-5. अगर आपको कोई मिलता-जुलता रिकॉर्ड मिलता है, तो इसका मतलब है कि ऑडियंस इनसाइट्स के लिए सर्विस प्रिंसिपल मौजूद है. आपको इसे फिर से बनाने की आवश्यकता नहीं है.
+5. यदि आपको मैचिंग रिकॉर्ड मिलता है, तो इसका मतलब है कि सेवा प्रमुख पहले से मौजूद है. 
    
-   :::image type="content" source="media/ADLS-SP-AlreadyProvisioned.png" alt-text="मौजूदा सर्विस प्रिंसिपल दिखाता स्क्रीनशॉट.":::
+   :::image type="content" source="media/ADLS-SP-AlreadyProvisioned.png" alt-text="स्क्रीनशॉट एक मौजूदा सेवा प्रमुख दिखा रहा है.":::
    
 6. यदि कोई परिणाम वापस नहीं आता है, तो एक नया सर्विस प्रिंसिपल बनाएं.
 
+>[!NOTE]
+>Dynamics 365 Customer Insights की पूरी शक्ति का उपयोग करने के लिए, हमारा सुझाव है कि आप दोनों ऐप को सेवा प्रमुख में जोड़ें.<!--note from editor: Using the note format is suggested, just so this doesn't get lost by being tucked up in the step.-->
+
 ### <a name="create-a-new-service-principal"></a>नया सर्विस प्रिंसिपल बनाएँ
+<!--note from editor: Some general formatting notes: The MWSG wants bold for text the user enters (in addition to UI strings and the settings users select), but there's plenty of precedent for using code format for entering text in PowerShell so I didn't change that. Note that italic should be used for placeholders, but not much else.-->
+1. ग्राफ़ के लिए Azure Active Directory PowerShell का नवीनतम संस्करण इंस्टॉल करें. अधिक जानकारी के लिए, [Azure Active Directory PowerShell for Graph इंस्टॉल करें](/powershell/azure/active-directory/install-adv2) पर जाएँ.
 
-1. **ग्राफ के लिए Azure Active Directory PowerShell** का नवीनतम संस्करण इंस्टॉल करें. अधिक जानकारी के लिए, देखें [ग्राफ के लिए Azure Active Directory PowerShell इंस्टॉल करें](/powershell/azure/active-directory/install-adv2).
-   - अपने पीसी पर, अपने कीबोर्ड पर विंडोज कुंजी का चयन करें और **विंडोज PowerShell** और **प्रशासक के रूप में चलाएं** के लिए खोज करें.
+   1. अपने PC पर, अपने कीबोर्ड पर Windows बटन का चयन करें और **Windows PowerShell** खोजें और **व्यवस्थापक के रूप में चलाएं** चुनें.<!--note from editor: Or should this be something like "search for **Windows PowerShell** and, if asked, select **Run as administrator**."?-->
    
-   - खुले PowerShell विंडो में, `Install-Module AzureAD` दर्ज करें.
+   1. खुले PowerShell विंडो में, `Install-Module AzureAD` दर्ज करें.
 
-2. Azure AD PowerShell मॉड्यूल के साथ ऑडियंस इनसाइट्स के लिए सर्विस प्रिंसिपल बनाएं.
-   - PowerShell विंडो में, `Connect-AzureAD -TenantId "[your tenant ID]" -AzureEnvironmentName Azure`दर्ज करें. "अपनी टेनेंट ID" को अपने टेनेंट की वास्तविक ID से बदलें जहां आप सर्विस प्रिंसिपल बनाना चाहते हैं. परिवेश नाम पैरामीटर `AzureEnvironmentName` वैकल्पिक है.
+2. Azure AD PowerShell मॉड्यूल के साथ Customer Insights के लिए सेवा प्रमुख बनाएँ.
+
+   1. PowerShell विंडो में, `Connect-AzureAD -TenantId "[your tenant ID]" -AzureEnvironmentName Azure`दर्ज करें. प्रतिस्थापित *"[अपनी टैनेंट ID]"*<!--note from editor: Edit okay? Or should the quotation marks stay in the command line, in which case it would be "Replace *[your tenant ID]* --> अपने टैनेंट की वास्तविक ID के साथ जहां आप सेवा प्रमुख बनाना चाहते हैं. परिवेश नाम पैरामीटर, `AzureEnvironmentName`, वैकल्पिक है.
   
-   - `New-AzureADServicePrincipal -AppId "0bfc4568-a4ba-4c58-bd3e-5d3e76bd7fff" -DisplayName "Dynamics 365 AI for Customer Insights"`दर्ज करें. यह आदेश चयनित टेनेंट पर ऑडियंस इनसाइट्स के लिए सर्विस प्रिंसिपल बनाता है.  
+   1. `New-AzureADServicePrincipal -AppId "0bfc4568-a4ba-4c58-bd3e-5d3e76bd7fff" -DisplayName "Dynamics 365 AI for Customer Insights"`दर्ज करें. यह आदेश चयनित टेनेंट पर ऑडियंस इनसाइट्स के लिए सर्विस प्रिंसिपल बनाता है. 
+
+   1. `New-AzureADServicePrincipal -AppId "ffa7d2fe-fc04-4599-9f6d-7ca06dd0c4fd" -DisplayName "Dynamics 365 AI for Customer Insights engagement insights"`दर्ज करें. यह कमांड चयनित टैनेंट पर सहभागिता इनसाइट्स के लिए<!--note from editor: Edit okay?--> सेवा टैनेंट बनाता है.
 
 ## <a name="grant-permissions-to-the-service-principal-to-access-the-storage-account"></a>स्टोरेज खाते तक पहुंचने के लिए सर्विस प्रिंसिपल को अनुमति प्रदान करें
 
@@ -66,51 +75,49 @@ Azure सेवाओं का उपयोग करने वाले स्
 
 1. वह स्टोरेज खाता खोलें जिसकी आप ऑडियंस इनसाइट्स के लिए सर्विस प्रिंसिपल तक पहुंच चाहते हो.
 
-1. नेविगेशन फलक से **एक्सेस कंट्रोल (IAM)** चुनें और **जोड़ें** > **भूमिका असाइनमेंट जोड़ें** चुनें.
-   
-   :::image type="content" source="media/ADLS-SP-AddRoleAssignment.png" alt-text="भूमिका असाइनमेंट जोड़ते समय Azure पोर्टल दिखाता स्क्रिनशॉट.":::
-   
-1. **भूमिका असाइनमेंट को जोड़ें** फलक में, निम्नलिखित गुणों को सेट करें:
-   - भूमिका: *स्टोरेज ब्लॉब डेटा योगदानकर्ता*
-   - एक्सेस असाइन करें: *उपयोगकर्ता, समूह या सर्विस प्रिंसिपल* को
-   - चुनें: *Customer Insights के लिए Dynamics 365 AI* ( [आपके द्वारा बनाए गए सर्विस प्रिंसिपल](#create-a-new-service-principal))
+1. बाएँ फलक पर, **पहुँच नियंत्रण (IAM)** चुनें और फिर **जोड़ें** > **भूमिका असाइनमेंट जोड़ें** चुनें.
+
+   :::image type="content" source="media/ADLS-SP-AddRoleAssignment.png" alt-text="भूमिका असाइनमेंट जोड़ते समय Azure पोर्टल दिखाने वाला स्क्रीनशॉट.":::
+
+1. **भूमिका असाइनमेंट जोड़ें** फलक पर, निम्न गुण सेट करें:
+   - भूमिका: **स्टोरेज ब्लॉब डेटा योगदानकर्ता**
+   - एक्सेस असाइन करें: **उपयोगकर्ता, समूह या सर्विस प्रिंसिपल** को
+   - चुनें: **Dynamics 365 AI for Customer Insights** और **Dynamics 365 AI for Customer Insights सहभागिता इनसाइट्स** (वे दो [सेवा प्रमुख](#create-a-new-service-principal) जिनको आपने पहले इस प्रक्रिया में बनाया था)
 
 1.  **सहेजें** चुनें.
 
 बदलावों के प्रचार-प्रसार में 15 मिनट तक का समय लग सकता है.
 
-## <a name="enter-the-azure-resource-id-or-the-azure-subscription-details-in-the-storage-account-attachment-to-audience-insights"></a>ऑडियंस इनसाइट्स के लिए स्टोरेज खाता संलग्नक में Azure संसाधन ID या Azure सदस्यता विवरण दर्ज करें.
+## <a name="enter-the-azure-resource-id-or-the-azure-subscription-details-in-the-storage-account-attachment-to-audience-insights"></a>ऑडियंस इनसाइट्स के लिए स्टोरेज खाता संलग्नक में Azure संसाधन ID या Azure सदस्यता विवरण दर्ज करें
 
-ऑडियंस इनसाइट्स में एक Azure Data Lake स्टोरेज खाता संलग्न करें [स्टोर आउटपुट डेटा](manage-environments.md) या [इसे डेटा स्रोत के रूप में उपयोग करें](connect-dataverse-managed-lake.md). Azure Data Lake विकल्प चुनने से आप संसाधन-आधारित या सदस्यता-आधारित दृष्टिकोण के बीच चयन कर सकते हैं.
-
-चयनित दृष्टिकोण के बारे में आवश्यक जानकारी प्रदान करने के लिए नीचे दिए गए चरणों का पालन करें.
+आप निम्न कर सकते हैं<!--note from editor: Edit suggested only if this section is optional.--> ऑडियंस इनसाइट्स में Data Lake संग्रहण खाता अटैच करें [स्टोर आउटपुट डेटा](manage-environments.md) या [इसे डेटा स्रोत के रूप में उपयोग करें](connect-common-data-service-lake.md). यह विकल्प आपको संसाधन-आधारित या सदस्यता-आधारित दृष्टिकोण के बीच चयन करने देता है. आपके द्वारा चुने गए दृष्टिकोण के आधार पर, निम्न अनुभागों में से किसी एक में प्रक्रिया का पालन करें.<!--note from editor: Suggested.-->
 
 ### <a name="resource-based-storage-account-connection"></a>संसाधन-आधारित स्टोरेज खाता कनेक्शन
 
-1. [Azure व्यवस्थापक पोर्टल](https://portal.azure.com) पर जाएं, अपनी सदस्यता पर साइन इन करें और स्टोरेज खाता खोलें.
+1. [Azure व्यवस्थापक पोर्टल](https://portal.azure.com) पर जाएं, अपनी सदस्यता, पर साइन इन करें और स्टोरेज खाता खोलें.
 
-1. नेविगेशन फलक पर **सेटिंग्स** > **गुण** पर जाएं.
+1. बाएँ फलक पर, **सेटिंग्स** > **गुण** पर जाएँ.
 
 1. स्टोरेज खाता के संसाधन ID मान को कॉपी करें.
 
    :::image type="content" source="media/ADLS-SP-ResourceId.png" alt-text="स्टोरेज खाता के संसाधन ID को कॉपी करें.":::
 
-1. ऑडियंस इनसाइट्स में, स्टोरेज खाता कनेक्शन स्क्रीन में प्रदर्शित संसाधन फ़ील्ड में संसाधन ID डालें.
+1. ऑडियंस इनसाइट्स में, संग्रहण खाता कनेक्शन स्क्रीन पर प्रदर्शित संसाधन फ़ील्ड में संसाधन ID डालें.
 
    :::image type="content" source="media/ADLS-SP-ResourceIdConnection.png" alt-text="स्टोरेज खाता के संसाधन ID सूचना को दर्ज करें.":::   
-   
+
 1. स्टोरेज खाता को संलग्न करने के लिए ऑडियंस इनसाइट्स में बचे हुए चरण जारी रखें.
 
 ### <a name="subscription-based-storage-account-connection"></a>सदस्यता आधारित स्टोरेज खाता कनेक्शन
 
-1. [Azure व्यवस्थापक पोर्टल](https://portal.azure.com) पर जाएं, अपनी सदस्यता पर साइन इन करें और स्टोरेज खाता खोलें.
+1. [Azure व्यवस्थापक पोर्टल](https://portal.azure.com) पर जाएं, अपनी सदस्यता, पर साइन इन करें और स्टोरेज खाता खोलें.
 
-1. नेविगेशन फलक पर **सेटिंग्स** > **गुण** पर जाएं.
+1. बाएँ फलक पर, **सेटिंग्स** > **गुण** पर जाएँ.
 
 1. स्टोरेज खाते के **सदस्यता**, **संसाधन समूह**, और **नाम** की समीक्षा करें ताकि यह सुनिश्चित किया जा सके कि आप ऑडियंस इनसाइट्स में सही मानों का चयन करते हैं.
 
-1. ऑडियंस इनसाइट्स में, स्टोरेज खाता संलग्न करते समय मानों या संबंधित फ़ील्ड के लिए चुनाव करें.
-   
+1. ऑडिएंस इनसाइट्स में, संग्रहण खाता अटैच करते समय संबंधित फ़ील्ड के लिए मान चुनें.
+
 1. स्टोरेज खाता को संलग्न करने के लिए ऑडियंस इनसाइट्स में बचे हुए चरण जारी रखें.
 
 

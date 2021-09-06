@@ -1,7 +1,7 @@
 ---
 title: सामान्य डेटा मॉडल में Customer Insights निकाय स्कीमा
 description: सामान्य डेटा मॉडल में निकायों के साथ काम करें.
-ms.date: 04/17/2020
+ms.date: 08/13/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: e21f8a9422357fbc5c9425f91f3ba241c9dec9d8
-ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
+ms.openlocfilehash: 66d846c3e9404ca7993cae742ea6e16833233fba
+ms.sourcegitcommit: 205f931ec671a0ab1850f2c1c94df3307ffb62c9
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "6692307"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380745"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>सामान्य डेटा मॉडल में निकाय स्कीमा
 
@@ -42,7 +42,7 @@ ms.locfileid: "6692307"
 
 ## <a name="view-entities-using-the-common-data-model-entity-navigator"></a>सामान्य डेटा मॉडल निकाय नेविगेटर का उपयोग करते हुए निकायों को देखें
 
-आप [सामान्य डेटा मॉडल निकाय नेविगेटर](https://microsoft.github.io/CDM/) में निकायों को देख सकते हैं. **GitHub! से लोड करें** को चुनें बटन चुनें और उसे **foundationCommon** > **crmCommon** > **समाधान** > **customerInsights** में ले जाएँ जहाँ आपको निकायों के बारे में Customer Insights और उनकी परिभाषाएँ मिलेंगी.
+आप [सामान्य डेटा मॉडल निकाय नेविगेटर](https://microsoft.github.io/CDM/) में निकायों को देख सकते हैं. Customer Insights निकायों और उनकी परिभाषाओं की सूची प्राप्त करने के लिए Insights Application अनुभाग से एक निकाय चुनें.
 > [!div class="mx-imgBorder"]
 > ![निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर.](media/CDM-entity-navigator.png "निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर")
 

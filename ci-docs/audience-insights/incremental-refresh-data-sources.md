@@ -9,12 +9,12 @@ ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 manager: shellyha
-ms.openlocfilehash: 1af2e4c42dc5890556c90bb3e5ef1aeb0621fda0
-ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
+ms.openlocfilehash: d204228f8d6881cbf0e7fac6609bf50dd5296610
+ms.sourcegitcommit: 42692a815695b9fdc93b9358eae09f2c3e97293c
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6554161"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7377836"
 ---
 # <a name="incremental-refresh-for-data-sources-based-on-power-query"></a>Power Query पर आधारित डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश
 
@@ -44,8 +44,7 @@ ms.locfileid: "6554161"
 
 1. **वृद्धिशील रिफ़्रेश सेटिंग्स** पर, आप डेटा स्रोत बनाते समय आपके द्वारा चयनित सभी निकायों के लिए वृद्धिशील रीफ़्रेश कॉन्फ़िगर करेंगे.
 
-   > [!div class="mx-imgBorder"]
-   > ![वृद्धिशील रीफ़्रेश के लिए डेटा स्रोत में निकायों को कॉन्फ़िगर करें.](media/incremental-refresh-settings.png "इन्क्रीमेंटल रीफ्रेश करने के लिए डेटा स्रोत में संस्थाओं को कॉन्फ़िगर करें")
+   :::image type="content" source="media/incremental-refresh-settings.png" alt-text="वृद्धिशील रीफ़्रेश के लिए डेटा स्रोत में निकायों को कॉन्फ़िगर करें.":::
 
 1. एक निकाय चुनें और निम्नलिखित विवरण प्रदान करें:
 

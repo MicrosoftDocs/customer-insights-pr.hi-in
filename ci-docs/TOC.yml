@@ -150,7 +150,7 @@
               href: audience-insights/export-azure-synapse-analytics.md
             - name: Adobe Campaign Standard
               href: audience-insights/export-adobe-campaign-standard.md
-            - name: Adobe एक्सपीरियंस प्लेटफ़ॉर्म
+            - name: Adobe Experience Platform
               href: audience-insights/export-adobe-experience-platform.md
             - name: Campaign Monitor
               href: audience-insights/export-campaign-monitor.md
@@ -166,6 +166,8 @@
               href: audience-insights/export-facebook.md
             - name: Google Ads
               href: audience-insights/export-google-ads.md
+            - name: Klaviyo
+              href: audience-insights/export-klaviyo.md
             - name: LinkedIn विज्ञापन
               href: audience-insights/export-linkedin-ads.md
             - name: LiveRamp
@@ -310,5 +312,13 @@
       href: engagement-insights/regional-availability.md
     - name: सेवा सीमाएँ
       href: engagement-insights/quotas.md
-- name: सहायता से संपर्क करें
-  href: 'https://admin.powerplatform.microsoft.com/support'
+- name: एकीकृत ऑडिएंस और सहभागिता जानकारी
+  items:
+    - name: ऑडियंस इनसाइट्स और सहभागिता इनसाइट्स को लिंक करें
+      href: engagement-insights/integrate-audience-insights-engagement-insights.md
+    - name: सहभागिता जानकारी रिपोर्ट में ऑडिएंस इनसाइट सेगमेंट का उपयोग करें
+      href: engagement-insights/integrate-audience-insights-segments.md
+    - name: व्यवहार संबंधी डेटा को विभाजित करने के लिए जनसांख्यिकीय आयामों का उपयोग करें
+      href: engagement-insights/curate-dimensions.md
+- name: समर्थन प्राप्त करें
+  href: 'https://dynamics.microsoft.com/en-us/support/'

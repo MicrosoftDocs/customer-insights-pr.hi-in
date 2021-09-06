@@ -3,21 +3,21 @@ title: उत्पाद अवलोकन
 author: m-hartmann
 description: Dynamics 365 Customer Insights और इसकी क्षमताओं के लिए अवलोकन प्राप्त करें.
 ms.author: mhart
-ms.date: 02/16/2021
+ms.date: 07/30/2021
 ms.service: customer-insights
 ms.topic: overview
 ms.manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 1bc75959229fd2ffef9a5fd5617889888eb72e55
-ms.sourcegitcommit: b78c9680b213204e6b0ed47f0147205083f6a98f
+ms.openlocfilehash: 651bd151a77b9d7f44d5fcca15da0f131b9fb3f07ffc89bfac9c0aa6f799e9b1
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6539391"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7036513"
 ---
 # <a name="product-overview-for-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights के लिए उत्पाद अवलोकन
 
-Dynamics 365 Customer Insights Microsoft के कस्टमर डेटा प्लेटफॉर्म (सीडीपी) का एक हिस्सा है जो व्यक्तिगत ग्राहक अनुभवों को देने में मदद करता है. प्लेटफ़ॉर्म की क्षमताएं इस बात की इनसाइट्स देती हैं कि आपके ग्राहक कौन हैं और वे आपके प्लेटफ़ॉर्म से कैसे जुड़ते हैं. ग्राहकों का एकल दृश्य प्राप्त करने के लिए कई स्रोतों में ग्राहक डेटा को एकीकृत करें.
+[Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) Microsoft के कस्टमर डेटा प्लेटफॉर्म (सीडीपी) का एक हिस्सा है जो व्यक्तिगत ग्राहक अनुभवों को देने में मदद करता है. प्लेटफ़ॉर्म की क्षमताएं इस बात की इनसाइट्स देती हैं कि आपके ग्राहक कौन हैं और वे आपके प्लेटफ़ॉर्म से कैसे जुड़ते हैं. ग्राहकों का एकल दृश्य प्राप्त करने के लिए कई स्रोतों में ग्राहक डेटा को एकीकृत करें.
 
 
 - [ऑडियंस इनसाइट्स](audience-insights/overview.md) आपको अपने व्यवसाय को ग्राहक-केंद्रित संगठन में बदलने में मदद करता है. मार्केटिंग, विक्रय और सेवा पेशेवरों के पास उन इनसाइट्स का अनुभव होता है, जिनकी उन्हें अनुभवों को वैयक्तिकृत करने के लिए आवश्यकता है. 360-डिग्री ग्राहक दृश्य बनाने के लिए लेन-देन, व्यवहार और अवलोकन स्रोतों से डेटा कनेक्ट करें. उन पर कार्रवाई की जा सकती है कि इन्साइट्स देने के लिए डिज़ाइन किया गया एक सीडीपी के साथ तेजी से परिणाम देखें. 
