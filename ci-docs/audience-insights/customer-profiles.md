@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 8ab55d101f98169b8f794ce580ddd0a71ede6642
-ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
+ms.openlocfilehash: 87323d15c44ef82ae8bc3cc971be6c36356121571cb9a9630be699ac2d157bf6
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6554620"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7032806"
 ---
 # <a name="customer-profiles"></a>ग्राहक के प्रोफाइल
 
@@ -67,9 +67,9 @@ ms.locfileid: "6554620"
 
 ग्राहक खोज पेज पर लौटने के लिए **ग्राहक की ओर वापस** चुनें.
 
-## <a name="next-steps"></a>अगले चरण
+## <a name="next-steps"></a>अगले कदम
 
-[अधिक डेटा स्रोत जोड़ें](data-sources.md) या [ग्राहक खंड बनाएं](segments.md).
+अन्य एप्लिकेशन में एकीकृत प्रोफ़ाइल के साथ काम करने के लिए [अधिक डेटा स्रोत जोड़ें](data-sources.md), [एकीकृत प्रोफ़ाइल समृद्ध करें](enrichment-hub.md), या [सेगमेंट बनाएँ](segments.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
