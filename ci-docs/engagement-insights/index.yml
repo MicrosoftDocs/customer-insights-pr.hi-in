@@ -1,0 +1,86 @@
+### YamlMime:Landing
+title: Dynamics 365 Customer Insights में एंगेजमेन्ट इनसाइट्स (पूर्वावलोकन) क्षमता
+summary: अपनी वेबसाइटों के लिए डेटा एकत्र करें. अपनी साइटों पर ग्राहकों की इंटरैक्शन और उपयोग को इंटरैक्टिव रूप से समझें. ग्राहक प्रोफ़ाइल रिपोर्ट के साथ अपने रीयल-टाइम व्यवहार विश्लेषण को समृद्ध करने के लिए एंगेजमेन्ट इनसाइट्स और ऑडियंस इनसाइट्स के बीच गहन एकीकरण का उपयोग करें. समृद्ध ग्राहक डेटा के साथ रीयल-टाइम व्यवहार डेटा प्राप्त करने के लिए वेब गतिविधियों के साथ ग्राहक प्रोफ़ाइल को समृद्ध करें. अपने ग्राहक डेटा से तत्काल मान प्राप्त करने के लिए अपने व्यवसाय को बदलें.
+metadata:
+  title: एंगेजमेन्ट इनसाइट्स (पूर्वावलोकन) दस्तावेज
+  description: एंगेजमेन्ट इनसाइट्स के लिए प्रमुख लिंक के साथ हब में मदद करें.
+  ms.service: customer-insights
+  ms.subservice: engagement-insights
+  ms.topic: hub-page
+  author: m-hartmann
+  ms.author: mhart
+  ms.reviewer: mhart
+  ms.date: 07/30/2021
+  ms.openlocfilehash: 9951b1834d18acf0c4961a776d9d6247d4ae3505b5721a41314266e41f8ae928
+  ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+  ms.translationtype: HT
+  ms.contentlocale: hi-IN
+  ms.lasthandoff: 08/10/2021
+  ms.locfileid: "7036240"
+landingContent:
+- title: परिचय
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: क्षमता अवलोकन
+      url: overview.md
+    - text: नियम और शर्तें
+      url: glossary.md
+    - text: खोजना सहभागिता इनसाइट्स
+      url: https://dynamics.microsoft.com/ai/customer-insights/engagement-insights-capability/
+- title: ऑनबोर्डिंग
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: शुरू करें
+      url: get-started.md
+    - text: एक कार्यस्थान बनाएं
+      url: create-workspace.md
+    - text: अपनी वेबसाइट तैयार करें
+      url: instrument-website.md
+- title: रिपोर्ट
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: रिपोर्ट देखें
+      url: view-reports.md
+    - text: कस्टम रिपोर्ट बनाएं
+      url: custom-reports.md
+    - text: एकीकृत प्रोफाइल रिपोर्ट देखें
+      url: profile-reports.md
+    - text: फ़नल रिपोर्ट बनाएं
+      url: funnel-reports.md
+- title: इवेंट
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: परिष्कृत इवेंट्स बनाएं
+      url: refined-events.md
+    - text: निर्यात इवेंट्स
+      url: export-events.md
+    - text: व्यक्तिगत डेटा हटाएं और निर्यात करें
+      url: delete-export-personal-data.md
+- title: डेवलपर संसाधन
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: डेवलपर संसाधन
+      url: developer-resources.md
+    - text: WebSDK नमूना
+      url: websdk-sample.md
+    - text: उन्नत वेब SDK परिदृश्य
+      url: advanced-SDK-implementation.md
+    - text: Android SDK नमूना
+      url: get-started-android.md
+    - text: iOS SDK नमूना
+      url: get-started-ios.md
+- title: व्यवस्थापन
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: परिवेशों और कार्यक्षेत्रों का प्रबंधन करें
+      url: manage-environments-workspaces.md
+    - text: ऑडिएंस इनसाइट्स से कनेक्ट करें
+      url: configure-connections.md
+    - text: कुकी और उपयोगकर्ता की सहमति प्रबंधित करें
+      url: user-consent-storage.md
