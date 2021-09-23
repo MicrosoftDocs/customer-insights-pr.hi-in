@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-MS
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 726edb19a9fd97d80ae357103dc7d48ed38b005131ad44137b47d629a1c60b12
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 45c81a037258e42d8975e0372c104865a9d4cbfe
+ms.sourcegitcommit: 2acda3c5adf40bc3f5bbb4b2b4b6c22f84371da7
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7033863"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466626"
 ---
 # <a name="enrich-customer-profiles-with-brand-and-interest-affinities-preview"></a>ग्राहक प्रोफाइल को ब्रांड और रुचि आत्मीयताओं से समृद्ध करें (पूर्वावलोकन)
 
@@ -126,6 +126,8 @@ ms.locfileid: "7033863"
 :::image type="content" source="media/my-enrichments.png" alt-text="संवर्धन की प्रक्रिया चलाने के बाद परिणामों का पूर्वावलोकन.":::
 
 चार्ट में **समृद्ध डेटा देखें** को चुनकर समृद्ध डेटा की समीक्षा करें. ब्रांड के लिए समृद्ध डेटा **BrandAffinityFromMicrosoft** निकाय में जाता है. रुचियों के लिए डेटा **InterestAffinityFromMicrosoft** निकाय में है. आपको ये निकाय **डेटा** > **निकाय** के **संवर्धन** समूह में भी सूचीबद्ध मिल सकते हैं.
+
+आप समय के साथ समृद्ध ग्राहक प्रोफाइल की संख्या और समृद्ध की गई निकाय के पूर्वावलोकन के साथ चार्ट देखेंगे. समृद्ध निकाय खोलने के लिए पूर्वावलोकन टाइल में **और दिखाएँ** चुनें.
 
 ## <a name="see-enrichment-data-on-the-customer-card"></a>ग्राहक कार्ड पर संवर्द्धन डेटा देखें
 

@@ -14,8 +14,14 @@
       href: audience-insights/overview.md
     - name: नई और अपडेट की गयी विशेषताएं
       href: audience-insights/whats-new-audience-insights.md
-    - name: एक नया परिवेश बनाएं
-      href: audience-insights/get-started-paid.md
+    - name: शुरू करें
+      items:
+        - name: त्वरित प्रारंभ मार्गदर्शिका
+          href: audience-insights/get-started.md
+        - name: एक नया परिवेश बनाएं
+          href: audience-insights/get-started-paid.md
+        - name: ऑडिएंस इनसाइट्स खोजें
+          href: audience-insights/home.md
     - name: मॉड्यूल सीखें
       items:
         - name: डेटा करें
@@ -68,6 +74,8 @@
           href: audience-insights/enrichment-microsoft.md
         - name: संवर्धित पते
           href: audience-insights/enrichment-enhanced-addresses.md
+        - name: Azure Maps के साथ समृद्ध करें
+          href: audience-insights/enrichment-azure-maps.md
         - name: HERE Technologies के साथ समृद्ध करें
           href: audience-insights/enrichment-here.md
         - name: लीड स्पेस के साथ संवर्धित
@@ -230,21 +238,15 @@
           href: audience-insights/apis.md
         - name: API संदर्भ
           href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
-    - name: सेवा सीमाएँ
-      href: audience-insights/service-limits.md
-    - name: GDPR के तहत DSR अनुरोध
-      href: audience-insights/gdpr.md
-- name: एंगेजमेंट इनसाइट (पूर्वावलोकन)
+- name: एंगेजमेंट इनसाइट्स (पूर्वावलोकन)
   items:
     - name: सहायता केंद्र
       href: engagement-insights/index.yml
     - name: क्षमता अवलोकन
       href: engagement-insights/overview.md
-    - name: निःशुल्क परीक्षण
-      href: 'https://pi.dynamics.com/'
     - name: शुरू करें
       items:
-        - name: शुरू करें
+        - name: त्वरित प्रारंभ मार्गदर्शिका
           href: engagement-insights/get-started.md
         - name: एक कार्यस्थान बनाएं
           href: engagement-insights/create-workspace.md
@@ -300,18 +302,10 @@
           href: engagement-insights/user-roles.md
         - name: परिवेशों और कार्यक्षेत्रों का प्रबंधन करें
           href: engagement-insights/manage-environments-workspaces.md
-        - name: कनेक्शनों को कॉन्फ़िगर करें
-          href: engagement-insights/configure-connections.md
         - name: कुकी और उपयोगकर्ता की सहमति प्रबंधित करें
           href: engagement-insights/user-consent-storage.md
-    - name: GDPR
-      items:
-        - name: व्यक्तिगत डेटा हटाएं और निर्यात करें
-          href: engagement-insights/delete-export-personal-data.md
     - name: क्षेत्रीय उपलब्धता
       href: engagement-insights/regional-availability.md
-    - name: सेवा सीमाएँ
-      href: engagement-insights/quotas.md
 - name: एकीकृत ऑडिएंस और सहभागिता जानकारी
   items:
     - name: ऑडियंस इनसाइट्स और सहभागिता इनसाइट्स को लिंक करें
@@ -320,5 +314,9 @@
       href: engagement-insights/integrate-audience-insights-segments.md
     - name: व्यवहार संबंधी डेटा को विभाजित करने के लिए जनसांख्यिकीय आयामों का उपयोग करें
       href: engagement-insights/curate-dimensions.md
+- name: सेवा सीमाएँ
+  href: service-limits.md
+- name: DSR अधिकार और अनुरोध
+  href: dsr-rights-requests.md
 - name: समर्थन प्राप्त करें
-  href: 'https://dynamics.microsoft.com/en-us/support/'
+  href: 'https://dynamics.microsoft.com/support/'

@@ -1,19 +1,19 @@
 ---
 title: ऑडिएंस इनसाइट्स और सहभागिता इनसाइट्स के बीच लिंक बनाएँ
 description: डेटा के दो दिशाओं में साझाकरण को सक्षम करने के लिए ऑडिएंस इनसाइट्स और सहभागिता इनसाइट्स के बीच सक्रिय लिंक बनाएँ.
-ms.date: 07/22/2021
+ms.date: 09/08/2021
 ms.service: customer-insights
 ms.topic: conceptual
 author: mkisel
 ms.author: mkisel
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 870209a7e19fec464ec41462a02365771bd653bd
-ms.sourcegitcommit: 1c396394470df8e68c2fafe3106567536ff87194
+ms.openlocfilehash: 0fdbc93292291814b2e1a62fee2c5ff796ae14e2
+ms.sourcegitcommit: 4e5b7ec50c7612765a9ec2c8673e0cc43b357abb
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "7461015"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487109"
 ---
 # <a name="create-a-link-between-audience-insights-and-engagement-insights"></a>ऑडिएंस इनसाइट्स और सहभागिता इनसाइट्स के बीच लिंक बनाएँ
 
@@ -26,14 +26,14 @@ ms.locfileid: "7461015"
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
 - ऑडिएंस इनसाइट प्रोफ़ाइल को आपके स्वामित्व वाले Azure Data Lake Storage खाते में या [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro.md)&ndash;प्रबंधित डेटा लेक में संग्रहित किया जाना चाहिए. 
-
+- आपके ऑडियंस इनसाइट्स परिवेश में संबद्ध Dataverse परिवेश होना चाहिए. और अगर वह परिवेश डेटा संग्रहण के लिए Dataverse का भी उपयोग कर रहा है, तो सुनिश्चित करें कि आप ऑडियंस इनसाइट्स में **डेटा साझाकरण सक्षम करें** विकल्प पर निशान लगाते हैं. अधिक जानकारी के लिए, [ऑडियंस इनसाइट्स में सशुल्क परिवेश बनाएँ और कॉन्फ़िगर करें](../audience-insights/get-started-paid.md) देखें.
 - आपको सहभागिता इनसाइट्स और ऑडिएंस इनसाइट्स परिवेशों दोनों के लिए व्यवस्थापक अनुमतियों की आवश्यकता है.
-
 - लिंक किए गए परिवेश एक ही भौगोलिक क्षेत्र में होने चाहिए.
 
 > [!NOTE]
-> - यदि आपकी ऑडिएंस इनसाइट्स सदस्यता एक परीक्षण है, जो आंतरिक रूप से प्रबंधित data lake ऑडिएंस इनसाइट्स का उपयोग करती है, तो मदद के लिए [pirequest@microsoft.com](mailto:pirequest@microsoft.com) से संपर्क करें. 
-> - यदि आपकी ऑडिएंस इनसाइट्स परिवेश डेटा संग्रहित करने के लिए आपके खुद के Azure Data Lake Storage का उपयोग करती है, तो आपको अपने संग्रहण खाते में सहभागिता इनसाइट्स Azure सेवा प्रमुख जोड़ना होगा. विवरण के लिए, [ऑडिएंस इनसाइट्स के लिए Azure सेवा प्रमुख के साथ Azure Data Lake Storage खाते से कनेक्ट करें](../audience-insights/connect-service-principal.md) पर जाएँ. साथ ही, आपके ऑडियंस इनसाइट्स परिवेश में संबद्ध [Dataverse परिवेश](../audience-insights/get-started-paid.md) होना चाहिए. 
+> - यदि आपकी ऑडियंस इनसाइट्स सदस्यता ट्रायल है, जो आंतरिक रूप से प्रबंधित data lake ऑडियंस इनसाइट्स का उपयोग करती है, तो सहायता के लिए [pirequest@microsoft.com](mailto:pirequest@microsoft.com) से संपर्क करें. 
+> - यदि आपकी ऑडिएंस इनसाइट्स परिवेश डेटा संग्रहित करने के लिए आपके खुद के Azure Data Lake Storage का उपयोग करती है, तो आपको अपने संग्रहण खाते में सहभागिता इनसाइट्स Azure सेवा प्रमुख जोड़ना होगा. विवरण के लिए, [ऑडिएंस इनसाइट्स के लिए Azure सेवा प्रमुख के साथ Azure Data Lake Storage खाते से कनेक्ट करें](../audience-insights/connect-service-principal.md) पर जाएँ. 
+
 
 ## <a name="create-an-environment-link"></a>लिंक परिवेश बनाएँ
 
@@ -75,6 +75,7 @@ ms.locfileid: "7461015"
 
    > [!IMPORTANT]
    > अगर आप इस चरण में स्पष्ट रूप से उपयोगकर्ताओं को नहीं जोड़ते हैं, तो डेटा उपयोगकर्ताओं से सहभागिता जानकारी में छिपा दिया जाएगा.
+   > ऑडिएंस इनसाइट सेगमेंट को सहभागिता इनसाइट में दिखाने के लिए, आपको पहले [मर्ज और डाउनस्ट्रीम प्रक्रियाएं चलाना](../audience-insights/merge-entities.md) करना होगा. डाउनस्ट्रीम प्रक्रियाएं महत्वपूर्ण हैं क्योंकि वे एक अनूठी तालिका तैयार करती हैं जो ऑडिएंस इनसाइट्स सेगमेंट को सहभागिता इनसाइट्स के साथ साझा करने के लिए तैयार करती है. (यदि सिस्टम रीफ्रेश शेड्यूल किया गया है, तो इसमें स्वचालित रूप से डाउनस्ट्रीम प्रक्रियाएं शामिल हो जाएँगी.)
 
 1. अपने चयन की समीक्षा करें और फिर **समाप्त करें** चुनें.
 

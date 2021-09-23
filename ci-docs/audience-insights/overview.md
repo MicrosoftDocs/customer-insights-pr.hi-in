@@ -10,12 +10,12 @@ author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 15cc495359af1faefe32225ae490fd7e7b6b08cc7a411e0a9804da6ec704099c
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 925cb5c2ccb4279ae5db2eb927a356708d310360
+ms.sourcegitcommit: 048d65bded22abadcbbad1e22f15b05828bb977b
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7034362"
+ms.lasthandoff: 09/06/2021
+ms.locfileid: "7474059"
 ---
 # <a name="audience-insights-for-dynamics-365-customer-insights-overview"></a>Dynamics 365 Customer Insights अवलोकन के लिए ऑडियंस इनसाइट्स
 
@@ -57,11 +57,5 @@ ms.locfileid: "7034362"
 
   - अपने संगठन के लिए विशिष्ट कस्टमाइज़ करने योग्य प्रोफ़ाइल बनाएं, माप को परिभाषित करें, सेगमेंट बनाएं और अपने ग्राहक के 360-डिग्री दृश्य प्राप्त करने के लिए पूर्वानुमान बताने वाली विश्लेषिकी से लाभ उठाएं.  
   - इनसाइट्स को संसाधित करने के लिए कई Microsoft और तृतीय-पक्ष एप्लिकेशन या API के लिए आउट-ऑफ़-बॉक्स कनेक्टर का उपयोग करें.
-
-## <a name="pricing-and-licensing"></a>मूल्य-निर्धारण और लाइसेंसिंग
-
-Customer Insights को प्रति टैनेंट लाइसेंस दिया जाता है और इसमें अनेक क्षमताएं शामिल होती हैं. इनटाइटल्ड क्षमताओं में प्रोफाइल का सेट, दैनिक सिस्टम रिफ्रेश, Power Platform अनुरोध और दो परिवेश शामिल हैं. आप डिफ़ॉल्ट कोटा बढ़ाने के लिए अतिरिक्त क्षमता और लाइसेंस खरीद सकते हैं. 
-- विस्तृत क्षमता और पात्रता: [Dynamics 365 लाइसेंसिंग गाइड](https://go.microsoft.com/fwlink/?LinkId=866544)
-- मूल्य निर्धारण ओवरव्यू: [Dynamics 365 Pricing](https://dynamics.microsoft.com/pricing/#CustomerDataPlatform)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

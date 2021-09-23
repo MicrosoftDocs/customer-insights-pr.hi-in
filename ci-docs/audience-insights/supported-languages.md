@@ -1,24 +1,23 @@
 ---
-title: ऑडियंस इनसाइट्स के लिए समर्थित भाषाएं
+title: Dynamics 365 Customer Insights के लिए समर्थित भाषाएँ
 description: भाषा समर्थन को समझें और कॉन्फ़िगर करें.
-ms.date: 02/26/2021
+ms.date: 09/01/2021
 ms.service: customer-insights
-ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: e9161ebbfdf3ae6c48c12cdf7515b77ca49ae8055ae9a69f9ec314bc1247aeaf
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: f80c3019df9b5d82273842ca6f6f18bef0239687
+ms.sourcegitcommit: 5704002484cdf85ebbcf4e7e4fd12470fd8e259f
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035141"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483344"
 ---
-# <a name="supported-languages-for-audience-insights-capability"></a>ऑडियंस इनसाइट्स क्षमता के लिए समर्थित भाषाएं
+# <a name="supported-languages-for-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights के लिए समर्थित भाषाएँ
 
-ऑडियंस Insights for Dynamics 365 Customer Insights कई भाषाओं में अनुवाद किए जाते हैं. निम्नलिखित सूची में उपलब्ध भाषाओं और क्या अनुवाद किया गया है की जानकारी शामिल है. आप भाषा सेटिंग्स को कैसे बदलना है, इसके बारे में अधिक जान सकते हैं. 
+Dynamics 365 Customer Insights का कई भाषाओं में अनुवाद किया गया है. निम्नलिखित सूची में उपलब्ध भाषाओं और क्या अनुवाद किया गया है की जानकारी शामिल है. आप भाषा सेटिंग्स को कैसे बदलना है, इसके बारे में अधिक जान सकते हैं. 
 
 ## <a name="languages"></a>भाषाएं
 
@@ -69,7 +68,7 @@ ms.locfileid: "7035141"
 
 ## <a name="whats-translated"></a>क्या अनुवाद किया गया है
 
-अनुप्रयोग आपके पसंद की भाषा में मेनू, लेबल टेक्स्ट और सिस्टम संदेशों जैसे तत्वों को प्रदर्शित करने के लिए आपकी भाषा की वरीयता का उपयोग करता है.
+Customer Insights आपकी पसंदीदा भाषा में मेनू, लेबल पाठ और सिस्टम संदेशों जैसे तत्वों को दिखाने के लिए आपकी पसंद की भाषा का उपयोग करता है.
 
 क्योंकि अधिकतर सुविधाएं आपके डाटा के अनुसार होती हैं, कुछ वस्तुएं उनकी मूल भाषा में रह जाती हैं. उदाहरण के लिए:
 

@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Dynamics 365 Customer Insights में एंगेजमेन्ट इनसाइट्स (पूर्वावलोकन) क्षमता
+title: Dynamics 365 Customer Insights (पूर्वावलोकन) में सहभागिता इनसाइट्स्स क्षमता
 summary: अपनी वेबसाइटों के लिए डेटा एकत्र करें. अपनी साइटों पर ग्राहकों की इंटरैक्शन और उपयोग को इंटरैक्टिव रूप से समझें. ग्राहक प्रोफ़ाइल रिपोर्ट के साथ अपने रीयल-टाइम व्यवहार विश्लेषण को समृद्ध करने के लिए एंगेजमेन्ट इनसाइट्स और ऑडियंस इनसाइट्स के बीच गहन एकीकरण का उपयोग करें. समृद्ध ग्राहक डेटा के साथ रीयल-टाइम व्यवहार डेटा प्राप्त करने के लिए वेब गतिविधियों के साथ ग्राहक प्रोफ़ाइल को समृद्ध करें. अपने ग्राहक डेटा से तत्काल मान प्राप्त करने के लिए अपने व्यवसाय को बदलें.
 metadata:
   title: एंगेजमेन्ट इनसाइट्स (पूर्वावलोकन) दस्तावेज
@@ -10,24 +10,24 @@ metadata:
   author: m-hartmann
   ms.author: mhart
   ms.reviewer: mhart
-  ms.date: 07/30/2021
-  ms.openlocfilehash: 9951b1834d18acf0c4961a776d9d6247d4ae3505b5721a41314266e41f8ae928
-  ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+  ms.date: 09/15/2021
+  ms.openlocfilehash: bf2e40b1ca304e7b26687eaff298d2e70615cd2b
+  ms.sourcegitcommit: fecdee73e26816c42d39d160d4d5cfb6c8a91596
   ms.translationtype: HT
   ms.contentlocale: hi-IN
-  ms.lasthandoff: 08/10/2021
-  ms.locfileid: "7036240"
+  ms.lasthandoff: 09/15/2021
+  ms.locfileid: "7494186"
 landingContent:
 - title: परिचय
   linkLists:
   - linkListType: overview
     links:
-    - text: क्षमता अवलोकन
+    - text: क्षमता लाभ
       url: overview.md
-    - text: नियम और शर्तें
+    - text: पारिभाषिक शब्दावली
       url: glossary.md
-    - text: खोजना सहभागिता इनसाइट्स
-      url: https://dynamics.microsoft.com/ai/customer-insights/engagement-insights-capability/
+    - text: नई और अपडेट की गयी विशेषताएं
+      url: /dynamics365-release-plan/2021wave1/customer-data-platform/engagement-insights/planned-features
 - title: ऑनबोर्डिंग
   linkLists:
   - linkListType: how-to-guide
@@ -38,28 +38,30 @@ landingContent:
       url: create-workspace.md
     - text: अपनी वेबसाइट तैयार करें
       url: instrument-website.md
-- title: रिपोर्ट
+- title: रिपोर्ट्स देखें और फ़िल्टर करें
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: रिपोर्ट देखें
       url: view-reports.md
-    - text: कस्टम रिपोर्ट बनाएं
-      url: custom-reports.md
     - text: एकीकृत प्रोफाइल रिपोर्ट देखें
       url: profile-reports.md
-    - text: फ़नल रिपोर्ट बनाएं
-      url: funnel-reports.md
-- title: इवेंट
+    - text: रिपोर्ट फ़िल्टर करने के लिए ऑडियंस अनुभाग का उपयोग करें
+      url: integrate-audience-insights-segments.md
+- title: विश्लेषण करे
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: फ़नल रिपोर्ट बनाएं
+      url: funnel-reports.md
+    - text: व्यवहार डेटा का विश्लेषण करें
+      url: curate-dimensions.md
+    - text: कस्टम रिपोर्ट बनाएं
+      url: custom-reports.md
     - text: परिष्कृत इवेंट्स बनाएं
       url: refined-events.md
     - text: निर्यात इवेंट्स
       url: export-events.md
-    - text: व्यक्तिगत डेटा हटाएं और निर्यात करें
-      url: delete-export-personal-data.md
 - title: डेवलपर संसाधन
   linkLists:
   - linkListType: reference
@@ -81,6 +83,10 @@ landingContent:
     - text: परिवेशों और कार्यक्षेत्रों का प्रबंधन करें
       url: manage-environments-workspaces.md
     - text: ऑडिएंस इनसाइट्स से कनेक्ट करें
-      url: configure-connections.md
+      url: integrate-audience-insights-engagement-insights.md
     - text: कुकी और उपयोगकर्ता की सहमति प्रबंधित करें
       url: user-consent-storage.md
+    - text: व्यक्तिगत डेटा हटाएं और निर्यात करें
+      url: delete-export-personal-data.md
+    - text: सेवा सीमाएँ
+      url: ../service-limits.md

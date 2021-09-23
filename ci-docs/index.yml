@@ -7,12 +7,12 @@ metadata:
   ms.date: 07/30/2021
   ms.service: customer-insights
   ms.topic: landing-page
-  ms.openlocfilehash: 1446a2bcb24739187a37b2024c9a6070ab008989d722ebf84ef5259ec2ee4d5c
-  ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+  ms.openlocfilehash: e6a658f43b382934ee9b9b55c54fc1dff3f4df72
+  ms.sourcegitcommit: 3bafa27adae113948636b30c7462e0af060c7131
   ms.translationtype: HT
   ms.contentlocale: hi-IN
-  ms.lasthandoff: 08/10/2021
-  ms.locfileid: "7036559"
+  ms.lasthandoff: 09/17/2021
+  ms.locfileid: "7498599"
 title: Dynamics 365 Customer Insights दस्तावेज़ीकरण
 summary: आरंभ करने और Customer Insights की सुविधाओं और क्षमताओं के बारे में जानने के लिए सहायक संसाधन खोजें.
 landingContent:
@@ -26,36 +26,36 @@ landingContent:
       url: /dynamics365-release-plan/
     - text: CDP की खोज करें
       url: https://dynamics.microsoft.com/ai/customer-insights/
-- title: ऑडिएंस इनसाइट्स के साथ शुरू करें
+- title: Customer Insights के साथ आरंभ करें
   linkLists:
   - linkListType: get-started
     links:
     - text: परीक्षण के लिए साइन अप करें
       url: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
-    - text: नया क्या है
+    - text: ऑडिएंस इनसाइट्स में नया क्या है
       url: audience-insights/whats-new-audience-insights.md
-    - text: ऑडिएंस इनसाइट दस्तावेज़ीकरण
-      url: audience-insights/index.yml
+    - text: सहभागिता इनसाइट्स में नया क्या है
+      url: https://docs.microsoft.com/dynamics365-release-plan/2021wave1/customer-data-platform/engagement-insights/planned-features
 - title: संपर्क में रहें
   linkLists:
   - linkListType: overview
     links:
     - text: Dynamics 365 समुदाय में शामिल हों
       url: https://go.microsoft.com/fwlink/?linkid=2073991
-    - text: अपने विचार साझा करें
+    - text: अपने आइडियाज़ साझा करें
       url: https://go.microsoft.com/fwlink/?linkid=2074172
-    - text: किसी समस्या की रिपोर्ट करें
+    - text: समस्या की रिपोर्ट करें
       url: https://go.microsoft.com/fwlink/?linkid=2079641
-- title: ऑडिएंस इनसाइट ट्यूटोरियल
+- title: डेटा को क्षमताओं के बीच साझा करें
   linkLists:
-  - linkListType: tutorial
+  - linkListType: how-to-guide
     links:
-    - text: कोई नया परिवेश बनाएँ
-      url: audience-insights/home.md
-    - text: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
-      url: /learn/modules/unified-customer-profile/
-    - text: ऐप के साथ कार्य करें
-      url: /learn/modules/working-with-customer-insights/
+    - text: क्षमताओं के बीच लिंक बनाएँ
+      url: engagement-insights/integrate-audience-insights-engagement-insights.md
+    - text: रिपोर्ट में उपयोग के लिए अनुभाग बनाएँ
+      url: engagement-insights/integrate-audience-insights-segments.md
+    - text: इंटरैक्टिव विश्लेषण के लिए प्रोफ़ाइल गुणों का उपयोग करें
+      url: engagement-insights/curate-dimensions.md
 - title: निर्यात ऑडियंस इनसाइट्स डेटा
   linkLists:
   - linkListType: how-to-guide
