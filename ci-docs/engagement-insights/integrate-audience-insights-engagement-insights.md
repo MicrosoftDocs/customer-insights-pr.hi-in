@@ -8,12 +8,12 @@ author: mkisel
 ms.author: mkisel
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 0fdbc93292291814b2e1a62fee2c5ff796ae14e2
-ms.sourcegitcommit: 4e5b7ec50c7612765a9ec2c8673e0cc43b357abb
+ms.openlocfilehash: 8d93a49a29c29103e189a6d4a42294c18dc28abd
+ms.sourcegitcommit: f1e3cc51ea4cf68210eaf0210ad6e14b15ac4fe8
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487109"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7559020"
 ---
 # <a name="create-a-link-between-audience-insights-and-engagement-insights"></a>ऑडिएंस इनसाइट्स और सहभागिता इनसाइट्स के बीच लिंक बनाएँ
 
@@ -54,6 +54,9 @@ ms.locfileid: "7487109"
 ## <a name="enable-audience-insights-unified-profiles-attributes-and-segments"></a>ऑडिएंस इनसाइट्स एकीकृत प्रोफ़ाइल एट्रिब्यूट और सेगमेंट्स को सक्षम करें
 
 परिवेशों को जोड़ने के बाद, आप लिंक किए गए परिवेशों के लिए वैकल्पिक सुविधाओं का चयन कर सकते हैं. ये सुविधाएँ एकीकृत प्रोफ़ाइल एट्रिब्यूट और ग्राहक डेटा पर इंटरैक्टिव विश्लेषण के लिए ऑडिएंस इनसाइट्स से सेगमेंट सक्षम करती हैं.
+
+> [!IMPORTANT]
+> ऑडिएंस इनसाइट सेगमेंट को सहभागिता इनसाइट में दिखाने के लिए, आपको पहले [मर्ज और डाउनस्ट्रीम प्रक्रियाएं चलाना](../audience-insights/merge-entities.md) करना होगा. डाउनस्ट्रीम प्रक्रियाएं महत्वपूर्ण हैं क्योंकि वे एक अनूठी तालिका तैयार करती हैं जो ऑडिएंस इनसाइट्स सेगमेंट को सहभागिता इनसाइट्स के साथ साझा करने के लिए तैयार करती है. (यदि सिस्टम रीफ्रेश शेड्यूल किया गया है, तो इसमें स्वचालित रूप से डाउनस्ट्रीम प्रक्रियाएं शामिल हो जाएँगी.)
 
 **सहभागिता इनसाइट्स में वेब डेटा का विश्लेषण करने के लिए**
 

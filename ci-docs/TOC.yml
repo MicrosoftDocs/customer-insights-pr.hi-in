@@ -242,7 +242,7 @@
   items:
     - name: सहायता केंद्र
       href: engagement-insights/index.yml
-    - name: क्षमता अवलोकन
+    - name: एंगेजमेंट इनसाइट्स के बारे में
       href: engagement-insights/overview.md
     - name: शुरू करें
       items:
@@ -306,7 +306,7 @@
           href: engagement-insights/user-consent-storage.md
     - name: क्षेत्रीय उपलब्धता
       href: engagement-insights/regional-availability.md
-- name: एकीकृत ऑडिएंस और सहभागिता जानकारी
+- name: डेटा को क्षमताओं के बीच साझा करें
   items:
     - name: ऑडियंस इनसाइट्स और सहभागिता इनसाइट्स को लिंक करें
       href: engagement-insights/integrate-audience-insights-engagement-insights.md
@@ -318,5 +318,3 @@
   href: service-limits.md
 - name: DSR अधिकार और अनुरोध
   href: dsr-rights-requests.md
-- name: समर्थन प्राप्त करें
-  href: 'https://dynamics.microsoft.com/support/'

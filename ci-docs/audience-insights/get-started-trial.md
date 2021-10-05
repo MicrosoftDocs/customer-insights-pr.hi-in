@@ -10,12 +10,12 @@ author: MichelleDevaney
 ms.author: midevane
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: f038dedd369ac9e623146b66528efa87c47a8c23769037d8709fa9b804a0b723
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 3a235e924395a606b9332de3d205289288a597a9
+ms.sourcegitcommit: f1e3cc51ea4cf68210eaf0210ad6e14b15ac4fe8
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035417"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558825"
 ---
 # <a name="set-up-a-trial-environment"></a>एक परीक्षण परिवेश सेट अप करें 
 
@@ -95,7 +95,7 @@ Customer Insights की शक्ति का उपयोग करने क
 
 - परीक्षण डिफ़ॉल्ट रूप से 30 दिनों के लिए सक्रिय होते हैं. हालांकि, जब आप अपने परीक्षण में साइन इन करते हैं, तो आप उन्हें 23 दिन के बाद बढ़ा सकते हैं.
 - आप परीक्षण के दौरान आउटपुट डेटा स्टोर करने के लिए अपने खुद के Azure Data Lake Storage खाते का उपयोग नहीं कर सकते हैं. हालांकि, आप Data Lake Storage खाते से डेटा अंतर्ग्रहण कर सकते हैं.
-- आप Dataverse परिवेश में 3 GB तक डेटा स्टोर कर सकते हैं, जो आपके द्वारा Customer Insights परीक्षण शुरू करने पर स्वचालित रूप से प्रावधानित हो जाता है.
+- आप Dataverse परिवेश में 3 GB तक डेटा संग्रहीत कर सकते हैं जो आपके द्वारा Customer Insights ट्रायल प्रारंभ करने पर स्वचालित रूप से प्रावधानित हो जाता है.
 
 ## <a name="copy-data-from-a-trial-to-a-paid-subscription"></a>परीक्षण से सशुल्क सदस्यता में डेटा कॉपी करें
 

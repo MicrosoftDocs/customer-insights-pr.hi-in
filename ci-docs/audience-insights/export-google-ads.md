@@ -1,7 +1,7 @@
 ---
 title: Google Ads के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Google Ads को निर्यात करने का तरीका जानें.
-ms.date: 03/03/2021
+ms.date: 09/27/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,16 +9,19 @@ author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 5977b3de9fbb0d97c0912e2ada6a313b0ab92498adf9cdbed48191c0e5143567
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: c958f58c927b76364f305dad8f524dde29b2a638
+ms.sourcegitcommit: f1e3cc51ea4cf68210eaf0210ad6e14b15ac4fe8
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7031659"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558974"
 ---
 # <a name="export-segments-to-google-ads-preview"></a>Google Ads (पूर्वावलोकन) में निर्यात अनुभाग
 
 एकीकृत ग्राहक प्रोफ़ाइल के अनुभाग को Google Ads ऑडिएंस सूची में निर्यात करें और Google खोज, Gmail, YouTube, और Google प्रदर्शन नेटवर्क पर विज्ञापन देने के लिए उनका उपयोग करें। 
+
+> [!IMPORTANT]
+> वर्तमान में, आप केवल एक नया कनेक्शन बना सकते हैं और Google Ads को डेटा निर्यात कर सकते हैं यदि आपके पास पहले से ही एक स्वीकृत Google Ads डेवलपर टोकन है. नीति में बदलाव के कारण, हम जल्द ही Google Ads निर्यात को अपडेट करेंगे और एक निर्यात विकल्प प्रदान करेंगे जिसके लिए आपके अनुभव की निरंतरता सुनिश्चित करने और Google Ads को निर्यात को आसान बनाने के लिए डेवलपर टोकन की आवश्यकता नहीं होगी. हम अनुशंसा करते हैं कि नए निर्यात विकल्प पर आसानी से स्विच करने की सुविधा के लिए Google Ads के साथ अधिक कनेक्शन सेट न करें.
 
 ## <a name="prerequisites-for-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 
