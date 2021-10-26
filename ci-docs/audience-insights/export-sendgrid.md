@@ -1,7 +1,7 @@
 ---
 title: SendGrid के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और SendGrid को निर्यात करने का तरीका जानें.
-ms.date: 03/03/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 03df2ab5fce1da1f4f662e1975533f2b538b47dbdd5cf96aae4f1007163e3729
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: da3da5ea68d178deab3b9ab31dd810dee610f607
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7036103"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7617833"
 ---
 # <a name="export-segments-to-sendgrid-preview"></a>SendGrid को निर्यात खंड (पूर्वावलोकन)
 
@@ -29,10 +29,10 @@ ms.locfileid: "7036103"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- SendGrid में कुल 100'000 प्रोफ़ाइल तक.
+- SendGrid में कुल 100'000 ग्राहक प्रोफ़ाइल तक.
 - SendGrid को निर्यात करना सेगमेंटों तक सीमित है.
-- SendGrid को 100'000 प्रोफ़ाइल तक निर्यात करने में कुछ घंटे लग सकते हैं. 
-- SendGrid को निर्यात किए जा रहे प्रोफ़ाइल की संख्या SendGrid के साथ आपके अनुबंध पर निर्भर और सीमित है.
+- 100'000 तक ग्राहक प्रोफ़ाइल को SendGrid में निर्यात करने में कुछ घंटे लग सकते हैं. 
+- SendGrid में निर्यात करने योग्य, ग्राहक प्रोफ़ाइल की संख्या, SendGrid के साथ आपके अनुबंध पर निर्भर और सीमित है.
 
 ## <a name="set-up-connection-to-sendgrid"></a>SendGrid में कनेक्शन सेट अप करें
 
@@ -66,7 +66,7 @@ ms.locfileid: "7036103"
 
 1. अपनी **[SendGrid सूची ID](https://sendgrid.com/docs/ui/managing-contacts/create-and-manage-contacts/#manage-contacts)** दर्ज करें.
 
-1. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. अन्य वैकल्पिक फ़ील्ड जैसे कि **प्रथम नाम**, **अंतिम नाम**, **देश/क्षेत्र**, **राज्य**, **शहर** और **पोस्ट कोड** के लिए समान चरणों को दोहराएं.
+1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. अन्य वैकल्पिक फ़ील्ड जैसे कि **प्रथम नाम**, **अंतिम नाम**, **देश/क्षेत्र**, **राज्य**, **शहर** और **पोस्ट कोड** के लिए समान चरणों को दोहराएं.
 
 1. उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं. हम दृढ़ता से SendGrid में **कुल 100'000 से अधिक ग्राहक प्रोफ़ाइल निर्यात नहीं करने की सलाह देते हैं**. 
 

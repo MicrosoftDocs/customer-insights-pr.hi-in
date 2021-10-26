@@ -1,7 +1,7 @@
 ---
-title: डेटा एकीकरण के लिए मानचित्र निकायएं
-description: एकीकृत ग्राहक प्रोफाइल बनाने के लिए डेटा मैप करें.
-ms.date: 09/25/2020
+title: डेटा एकीकरण के लिएनिकाय और एट्रिब्यूट्स मैप करें
+description: डेटा को एकीकृत ग्राहक प्रोफ़ाइल में मैप करने के लिए निकाय, एट्रिब्यूट्स, प्राथमिक कुंजियां और सिमेंटिक प्रकार चुनें.
+ms.date: 10/18/2020
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: tutorial
@@ -9,12 +9,14 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 570683876b10cb83d8af14552ca9bea9d80613575005d49a9af37cc16b8e75c9
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+searchScope:
+- ci-map
+ms.openlocfilehash: 7ee3feea8423f35f32ff471b3ed8eb3447584089
+ms.sourcegitcommit: 37182127b93b90846cc91fbeb26dd7a18cf5610a
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7034408"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7648164"
 ---
 # <a name="map-entities-and-attributes"></a>मानचित्र निकाय और विशेषताएँ
 

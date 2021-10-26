@@ -1,7 +1,7 @@
 ---
 title: Customer Insights डेटा को RollWorks में निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और RollWorks को निर्यात करने का तरीका जानें.
-ms.date: 03/03/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: d8ce4d867835dcb7cf56c6fffff4e25d1f5c109af0e401fc0eb8b3a7427c1de4
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: f8f6a79db9cb4bb109c03a464d9f8c7f3b862ad5
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7034592"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7617446"
 ---
 # <a name="export-segments-to-rollworks-preview"></a>अनुभागों को RollWorks (पूर्वावलोकन) में निर्यात करें
 
@@ -28,11 +28,11 @@ RollWorks को एकीकृत ग्राहक प्रोफ़ाइल 
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- आप RollWorks को प्रति निर्यात में 250'000 प्रोफ़ाइल तक निर्यात कर सकते हैं.
-- आप RollWorks के लिए 100 से कम प्रोफ़ाइल वाले सेगमेंट का निर्यात नहीं कर सकते. 
+- आप प्रति निर्यात RollWorks में 250'000 तक ग्राहक प्रोफ़ाइल निर्यात कर सकते हैं.
+- आप 100 से कम ग्राहक प्रोफ़ाइल वाले सेगमेंट को RollWorks में निर्यात नहीं कर सकते. 
 - RollWorks को निर्यात करना सेगमेंट तक ही सीमित है.
-- RollWorks को 250'000 प्रोफ़ाइल तक निर्यात पूरा करनें में 10 मिनट तक का समय लग सकता है. 
-- प्रोफ़ाइल की संख्या है कि आप RollWorks करने के लिए निर्यात कर सकते है निर्भर है और RollWorks के साथ अपने अनुबंध पर सीमित है.
+- 250'000 ग्राहक प्रोफ़ाइल को RollWorks में निर्यात करने में 10 मिनट तक का समय लग सकता है. 
+- आप RollWorks में कितनी संख्या में ग्राहक प्रोफ़ाइल निर्यात कर सकते हैं, वह RollWorks के साथ आपके अनुबंध पर निर्भर और सीमित होता है.
 
 ## <a name="set-up-connection-to-rollworks"></a>RollWorks में कनेक्शन सेट अप करें
 
@@ -66,7 +66,7 @@ RollWorks को एकीकृत ग्राहक प्रोफ़ाइल 
 
 1. अपने **RollWorks विज्ञापनदाता ID** [RollWorks विज्ञापन](https://help.adroll.com/hc/articles/212011838-Advertiser-Profiles) को दर्ज करें.
 
-3. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. RollWorks करने के लिए सेगमेंट का निर्यात करना आवश्यक है.
+1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. RollWorks करने के लिए सेगमेंट का निर्यात करना आवश्यक है.
 
 1. उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं. कम से कम 100 सदस्यों वाले सेगमेंट का चयन करें. आप छोटे सेगमेंट को निर्यात नहीं कर सकते. इसके अतिरिक्त निर्यात किए जाने वाले एक सेगमेंट का अधिकतम आकार 250'000 सदस्य प्रति निर्यात है. 
 

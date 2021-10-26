@@ -1,7 +1,7 @@
 ---
 title: LiveRamp कनेक्टर
 description: कनेक्शन को कॉन्फ़िगर करने और LiveRamp को निर्यात करने का तरीका जानें.
-ms.date: 03/03/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 7940db3efacad62ba16099849b3e3ca00d2a5cc1ed31e15a34209c0797e6ae13
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: f9a0a88fb58897e4d279c181f4cdb4f6c852da60
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035647"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7618937"
 ---
 # <a name="export-segments-to-liverampreg-preview"></a>LiveRamp&reg; को निर्यात खंड (पूर्वावलोकन)
 
@@ -58,7 +58,7 @@ ms.locfileid: "7035647"
    > [!div class="mx-imgBorder"]
    > ![एट्रिब्यूट मैपिंग के साथ LiveRamp कनेक्टर.](media/export-liveramp-segments.png "एट्रिब्यूट मैपिंग के साथ LiveRamp कनेक्टर")
 
-1. चयनित मुख्य पहचानकर्ता के लिए अपने एकीकृत ग्राहक निकाय से संबंधित एट्रिब्यूट्स को मैप करें.
+1. चयन किये गए कुंजी पहचानकर्ता के लिए अपने *ग्राहक* निकाय से संबंधित एट्रिब्यूट्स को मैप करें.
 
 1. LiveRamp को भेजने के लिए अधिक विशेषताओं को मैप करने के लिए **विशेषता जोड़ें** चुनें.
 

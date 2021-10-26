@@ -1,7 +1,7 @@
 ---
 title: Azure Data Lake Storage Gen2 के लिए Customer Insights डेटा निर्यात करें
 description: Azure Data Lake Storage Gen2 के लिए कनेक्शन को कॉन्फ़िगर करने का तरीका जानें.
-ms.date: 03/03/2021
+ms.date: 10/06/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,14 +9,24 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: c4408e52550b6648e2a001041dc0acdb5063d6a6ef1b8e4bba3321bf25fefcfc
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 934c396559d4c4be8e640917d2265805753eb62d
+ms.sourcegitcommit: 693458e13e4b4d94b6205093559912f6a4dc4a1c
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7031981"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605905"
 ---
-# <a name="set-up-the-connection-to-azure-data-lake-storage-gen2-preview"></a>Azure Data Lake Storage Gen2 (पूर्वावलोकन) के लिए कनेक्शन को सेट करें
+# <a name="export-segment-list-and-other-data-to-azure-data-lake-storage-gen2-preview"></a>अनुभाग सूची और अन्य डेटा Azure Data Lake Storage Gen2 (पूर्वावलोकन) में निर्यात करें
+
+अपने Customer Insights डेटा को Data Lake Storage Gen2 खाता में स्टोर करें या इसका इस्तेमाल अपने डेटा को दूसरे एप्लिकेशन में ट्रांसफ़र करने के लिए करें.
+
+## <a name="known-limitations"></a>ज्ञात सीमाएँ
+
+1. जब आप अपने डेटा लेक के लिए स्टोरेज अकाउंट बना रहे हों तो, Azure Data Lake Storage Gen2 के लिए आप [स्टैंडर्ड प्रदर्शन और प्रीमियम प्रदर्शन टियर](/azure/storage/blobs/create-data-lake-storage-account) में से किसी एक को चुन सकते हैं. अगर आप प्रीमियम प्रदर्शन स्तर चुनते हैं, तो खाता प्रकार के रूप में प्रीमियम ब्लॉक ब्लॉब चुनें. 
+
+
+## <a name="set-up-the-connection-to-azure-data-lake-storage-gen2"></a>कनेक्शन सेट अप करें Azure Data Lake Storage Gen2 
+
 
 1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 

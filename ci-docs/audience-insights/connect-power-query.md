@@ -9,16 +9,18 @@ ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 manager: shellyha
-ms.openlocfilehash: 3be417845a41c8f25c71bfc0823f42571157759b224e46d5e114037ee3df8329
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: ab6edc3f33ebacb81f55c0882a78c5827b4384ed
+ms.sourcegitcommit: 1565f4f7b4e131ede6ae089c5d21a79b02bba645
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7033266"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643496"
 ---
 # <a name="connect-to-a-power-query-data-source"></a>Power Query डेटा स्रोत से कनेक्ट करें
 
 Power Query डेटा इंजेस्ट करने के लिए कनेक्टर का एक व्यापक सेट प्रदान करता है. इनमें से अधिकांश कनेक्टर Dynamics 365 Customer Insights द्वारा समर्थित हैं. Power Query कनेक्टर पर आधारित डेटा स्रोतों को जोड़ना आम तौर पर अगले भाग में उल्लिखित चरणों का पालन करता है. हालांकि, आपके द्वारा उपयोग किए जाने वाले कनेक्टर के आधार पर, विभिन्न जानकारी की आवश्यकता होती है. अधिक जानकारी के लिए, [Power Query कनेक्टर संदर्भ](/power-query/connectors/) में व्यक्तिगत कनेक्टर के बारे में दस्तावेज़ देखें.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWN6EK]
 
 ## <a name="create-a-new-data-source"></a>नया डेटा स्रोत बनाएँ
 

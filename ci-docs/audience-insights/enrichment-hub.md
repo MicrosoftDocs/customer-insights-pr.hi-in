@@ -1,7 +1,7 @@
 ---
 title: समृद्ध एकीकृत ग्राहक प्रोफाइल
 description: अपने ग्राहक डेटा को समृद्ध करने के लिए क्षमताओं का उपयोग करें.
-ms.date: 08/31/2021
+ms.date: 09/30/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -10,12 +10,12 @@ author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 992c45e30e2dff00f5207290940b56b2fe1c08ad
-ms.sourcegitcommit: b9a81c2acd42d774669d2db3d0430c7d81de991c
+ms.openlocfilehash: 5d5e12ee44dfa40c470738eaee5c68fdf23d1b2d
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "7469982"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7617557"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>ग्राहक प्रोफाइल के लिए संवर्धन (पूर्वावलोकन)
 
@@ -27,16 +27,26 @@ ms.locfileid: "7469982"
 
 संवर्दन बनाने या संपादित करने के लिए आपके पास योगदानकर्ता या व्यवस्थापक की अनुमति होनी चाहिए. अधिक जानकारी के लिए, [अनुमतियाँ](permissions.md) देखें.
 
-**अन्वेषण करें** टैब पर, आपको निम्नलिखित समृद्धि मिलेंगे:
+सभी समर्थित संवर्धन विकल्प आपको **डिस्कवर** टैब पर मिलेंगे.
 
-- Microsoft [Azure मानचित्र](enrichment-azure-maps.md) द्वारा उपलब्ध
+# <a name="individual-customers-b2c"></a>[व्यक्तिगत ग्राहक (B2C)](#tab/b2c)
+
 - Microsoft द्वारा प्रदान किया गया [ब्रान्ड](enrichment-microsoft.md)
 - Microsoft द्वारा प्रदान किया गया [रूचियाँ](enrichment-microsoft.md)
-- [उन्नत पते](enrichment-enhanced-addresses.md) Microsoft द्वारा प्रदत्त
-- Leadspace द्वारा प्रदान किया गया [कंपनी का डेटा](enrichment-leadspace.md)
+- [उन्नत पते](enrichment-enhanced-addresses.md) Microsoft द्वारा प्रदत्त 
 - Experian द्वारा प्रदान की गई [जनसांख्यिकी](enrichment-experian.md)
-- HERE Technologies द्वारा प्रदान की गई [स्थान डेटा](enrichment-here.md)
-- सिक्योर फाइल ट्रांसफर प्रोटोकॉल (SFTP) के माध्यम से [कस्टम डेटा](enrichment-SFTP-custom-import.md)
+- सिक्योर फाइल ट्रांसफर प्रोटोकॉल (SFTP) के माध्यम से [कस्टम डेटा](enrichment-SFTP-custom-import.md) 
+- Microsoft [Azure मानचित्र](enrichment-azure-maps.md) द्वारा उपलब्ध
+
+# <a name="business-accounts-b2b"></a>[व्यावसायिक खाते (B2B)](#tab/b2b)
+
+- Leadspace द्वारा प्रदान किया गया [कंपनी का डेटा](enrichment-leadspace.md)
+- [उन्नत पते](enrichment-enhanced-addresses.md) Microsoft द्वारा प्रदत्त 
+- HERE Technologies द्वारा प्रदान की गई [स्थान डेटा](enrichment-here.md) 
+- सिक्योर फाइल ट्रांसफर प्रोटोकॉल (SFTP) के माध्यम से [कस्टम डेटा](enrichment-SFTP-custom-import.md) 
+- Microsoft [Azure मानचित्र](enrichment-azure-maps.md) द्वारा उपलब्ध
+
+---
 
 **मेरी संवर्धन** टैब पर, आप उन समृद्धियों को देख सकते हैं जिन्हें आपने कॉन्फ़िगर किया है और उनकी विशेषताओं को संपादित कर सकतें हैं.
 
@@ -58,7 +68,7 @@ ms.locfileid: "7469982"
 
 ## <a name="enrichments-and-connections"></a>एनरिचमेंट और कनेक्शन
 
-तृतीय-पक्ष संवर्धन [कनेक्शन](connections.md) का उपयोग करके कॉन्फ़िगर किए जाते हैं, जिसे एक व्यवस्थापक क्रेडेंशियल्स के साथ सेट करता है और डेटा ट्रांसफ़र के लिए सहमति प्रदान करता है. कनेक्शन व्यवस्थापकों और योगदानकर्ताओं द्वारा संवर्धन को कॉन्फ़िगर करने के लिए इस्तेमाल किया जा सकता है.  
+तृतीय-पक्ष संवर्धन [कनेक्शन](connections.md) का उपयोग करके कॉन्फ़िगर किए जाते हैं, जिसे एक व्यवस्थापक क्रेडेंशियल्स के साथ सेट करता है और डेटा ट्रांसफ़र के लिए सहमति प्रदान करता है. कनेक्शन का इस्तेमाल व्यवस्थापकों और योगदानकर्ताओं द्वारा संवर्द्धन को कॉन्फ़िगर करने के लिए किया जा सकता है.  
 
 ## <a name="multiple-enrichments-of-the-same-type"></a>एक ही प्रकार के कई संवर्धन
 

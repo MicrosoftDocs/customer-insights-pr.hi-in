@@ -2,8 +2,14 @@
   href: index.yml
 - name: उत्पाद अवलोकन
   href: overview.md
-- name: परीक्षण बनाएँ
-  href: audience-insights/get-started-trial.md
+- name: निःशुल्क परीक्षण
+  items:
+    - name: ' निःशुल्क परीक्षण के लिए साइन अप करें '
+      href: trial-signup.md
+    - name: परीक्षण FAQ
+      href: trial-FAQ.md
+- name: भुगतान लाइसेंस से प्रारंभ करें
+  href: paid-license.md
 - name: अपना परिवेश एक्सेस करें
   href: 'https://home.ci.ai.dynamics.com/'
 - name: ऑडिएंस इनसाइट
@@ -18,10 +24,12 @@
       items:
         - name: त्वरित प्रारंभ मार्गदर्शिका
           href: audience-insights/get-started.md
-        - name: एक नया परिवेश बनाएं
-          href: audience-insights/get-started-paid.md
+        - name: कोई नया परिवेश बनाएँ
+          href: audience-insights/create-environment.md
         - name: ऑडिएंस इनसाइट्स खोजें
           href: audience-insights/home.md
+    - name: व्यावसायिक खातों के साथ काम करें
+      href: audience-insights/work-with-business-accounts.md
     - name: मॉड्यूल सीखें
       items:
         - name: डेटा करें
@@ -66,6 +74,8 @@
           href: audience-insights/relationships.md
         - name: ग्राहक गतिविधियों को सूचीबद्ध करें
           href: audience-insights/activities.md
+        - name: सिमेंटिक मैपिंग को परिभाषित करें
+          href: audience-insights/semantic-mappings.md
     - name: डेटा संवर्धन
       items:
         - name: ग्राहक प्रोफ़ाइलें को बेहतर करें
@@ -114,7 +124,7 @@
               href: audience-insights/predict-product-recommendation.md
             - name: सदस्यता छोड़ने का पूर्वानुमान लगाएं
               href: audience-insights/predict-subscription-churn.md
-            - name: ट्रांजैक्शनल चर्न का पूर्वानुमान करें
+            - name: लेन-देन मंथन की भविष्यवाणी करें
               href: audience-insights/predict-transactional-churn.md
             - name: Azure मशीन लर्निंग से कस्टम मॉडल्स का उपयोग करें
               href: audience-insights/custom-models.md
@@ -126,7 +136,7 @@
               href: audience-insights/sample-guide-predict-clv.md
             - name: सदस्यता चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
               href: audience-insights/sample-guide-predict-subscription-churn.md
-            - name: लेन-देन संबंधी चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
+            - name: लेन-देन मंथन पूर्वानुमान के लिए सैम्पल गाइड
               href: audience-insights/sample-guide-predict-transactional-churn.md
             - name: उत्पाद सुझावों के पूर्वानुमान के लिए सैंपल गाइड
               href: audience-insights/sample-guide-predict-product-recommendation.md
@@ -222,10 +232,14 @@
           href: audience-insights/connections.md
         - name: अनेक परिवेश प्रबंधित करें
           href: audience-insights/manage-environments.md
-        - name: सर्विस प्रिंसिपल का उपयोग करके ADLS स्टोरेज खाते से कनेक्ट करें
-          href: audience-insights/connect-service-principal.md
         - name: समर्थित भाषाएँ
           href: audience-insights/supported-languages.md
+        - name: सुरक्षा
+          items:
+            - name: अपना स्वयं का 'Key Vault' लाएं
+              href: audience-insights/use-azure-key-vault.md
+            - name: सर्विस प्रिंसिपल का उपयोग करके ADLS स्टोरेज खाते से कनेक्ट करें
+              href: audience-insights/connect-service-principal.md
     - name: विस्तारणीयता
       items:
         - name: एंगेजमेंट इनसाइट्स से वेब डेटा को इंटिग्रेट करें
@@ -248,6 +262,8 @@
       items:
         - name: त्वरित प्रारंभ मार्गदर्शिका
           href: engagement-insights/get-started.md
+        - name: एक परिवेश बनाएं
+          href: engagement-insights/create-new-environment.md
         - name: एक कार्यस्थान बनाएं
           href: engagement-insights/create-workspace.md
         - name: वेबसाइटों और मोबाइल ऐप्स से इवेंट कैप्चर करें

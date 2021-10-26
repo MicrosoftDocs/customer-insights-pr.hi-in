@@ -1,7 +1,7 @@
 ---
 title: Customer Insights डेटा को Snapchat में निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Snapchat को निर्यात करने का तरीका जानें.
-ms.date: 03/22/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 421dcd5ba5421597cf9dea71a9f9f25c7972a4f26fb49d4b042f8667a317ab5d
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: b7a929d65a730b60e77ae111b458c68d3cce2020
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7033403"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7618662"
 ---
 # <a name="export-segments-to-snapchat-preview"></a>अनुभागों को Snapchat (पूर्वावलोकन) में निर्यात करें
 
@@ -29,7 +29,7 @@ ms.locfileid: "7033403"
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
 - Snapchat को निर्यात करना सेगमेंट तक ही सीमित है.
-- Snapchat को 1 मिलियन प्रोफ़ाइल तक निर्यात पूरा करनें में 15 मिनट तक का समय लग सकता है. 
+- 1 मिलियन तक ग्राहक प्रोफ़ाइल को Snapchat में निर्यात करने में 15 मिनट तक का समय लग सकता है. 
 
 ## <a name="set-up-connection-to-snapchat"></a>Snapchat में कनेक्शन सेट अप करें
 
@@ -63,7 +63,7 @@ ms.locfileid: "7033403"
 
 1. [**Snapchat ऑडियंस ID**](https://businesshelp.snapchat.com/s/article/custom-audiences) दर्ज करें.
 
-1. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. Snapchat करने के लिए सेगमेंट का निर्यात करना आवश्यक है.
+1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. Snapchat करने के लिए सेगमेंट का निर्यात करना आवश्यक है.
 
 1. उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं. 
 

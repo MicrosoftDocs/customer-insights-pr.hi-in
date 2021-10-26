@@ -1,7 +1,7 @@
 ---
 title: Mailchimp के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Mailchimp को निर्यात करने का तरीका जानें.
-ms.date: 03/03/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: a6bdf43bb40345b868bf2e7d2c91de169c8ba841ba77f732f455f4c4d496a7f5
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 94a9fead56ce8c40b35d4eb41ebdc0d672798dce
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7033541"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7618615"
 ---
 # <a name="export-segments-to-mailchimp-preview"></a>सेगमेंट को Mailchimp (पूर्वावलोकन) में निर्यात करें
 
@@ -29,10 +29,10 @@ ms.locfileid: "7033541"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- Mailchimp को प्रति निर्यात 1 मिलियन प्रोफ़ाइल तक.
+- Mailchimp में प्रति निर्यात 1 मिलियन तक ग्राहक प्रोफ़ाइल.
 - Mailchimp को निर्यात करना सेगमेंटों तक सीमित है.
-- 1 मिलियन प्रोफ़ाइल वाले निर्यात अनुभागों में तीन घंटे तक का समय लग सकता है. 
-- Mailchimp को निर्यात किए जा रहे प्रोफ़ाइल की संख्या Mailchimp के साथ आपके अनुबंध पर निर्भर और सीमित है.
+- 1 मिलियन ग्राहक प्रोफ़ाइल वाले निर्यात सेगमेंट में तीन घंटे तक का समय लग सकता है. 
+- Mailchimp के साथ आपके अनुबंध पर आप Mailchimp में कितने ग्राहक प्रोफ़ाइल निर्यात कर सकते हैं, निर्भर और सीमित होता है.
 
 ## <a name="set-up-connection-to-mailchimp"></a>Mailchimp में कनेक्शन सेट अप करें
 
@@ -66,7 +66,7 @@ ms.locfileid: "7033541"
 
 1. अपनी **[Mailchimp ऑडियंस ID](https://mailchimp.com/help/find-audience-id/)** दर्ज करें
 
-3. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. 
+1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. 
 
 1. "वैकल्पिक रूप से, आप अधिक व्यक्तिगत ईमेल बनाने के लिए **पहला नाम** और **अंतिम नाम** निर्यात कर सकते हैं. इन फ़ील्ड को मैप करने के लिए **जोड़ें विशेषता** चुनें.
 

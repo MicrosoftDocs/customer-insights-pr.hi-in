@@ -9,12 +9,12 @@ author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: c958f58c927b76364f305dad8f524dde29b2a638
-ms.sourcegitcommit: f1e3cc51ea4cf68210eaf0210ad6e14b15ac4fe8
+ms.openlocfilehash: ce9579f3d31207e666665237fd8935bb86889f8d
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558974"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7617925"
 ---
 # <a name="export-segments-to-google-ads-preview"></a>Google Ads (पूर्वावलोकन) में निर्यात अनुभाग
 
@@ -35,9 +35,9 @@ ms.locfileid: "7558974"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- Google Ads को प्रति निर्यात 1 मिलियन प्रोफ़ाइल तक.
+- Google Ads में प्रति निर्यात 1 मिलियन तक ग्राहक प्रोफ़ाइल.
 - Google Ads को निर्यात करना सेगमेंटों तक सीमित है.
-- प्रदाता पक्ष पर सीमाओं के कारण कुल 1 मिलियन प्रोफाइल वाले निर्यात खंडों में 5 मिनट तक का समय लग सकता है. 
+- कुल 1 मिलियन ग्राहक प्रोफ़ाइल वाले निर्यात अनुभागों में प्रदाता पक्ष की सीमाओं के कारण 5 मिनट तक का समय लग सकता है. 
 - Google Ads में मिलान में 48 घंटे तक का समय लग सकता है.
 
 ## <a name="set-up-connection-to-google-ads"></a>Google Ads के लिए कनेक्शन सेट करें
@@ -74,7 +74,7 @@ ms.locfileid: "7558974"
 
 1. अपने **[Google Ads ऑडियंस ID](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)** और Google Ads से कनेक्शन शुरू करने के लिए **कनेक्ट** चुनें.
 
-1. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है.
+1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है.
 
 1. उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं. आप कुल मिलाकर 1 मिलियन ग्राहक प्रोफ़ाइल को Google Ads में निर्यात कर सकते हैं.
 

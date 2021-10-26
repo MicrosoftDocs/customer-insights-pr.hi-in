@@ -8,18 +8,18 @@ ms.date: 09/28/2021
 ms.service: customer-insights
 ms.topic: article
 ms.manager: shellyha
-ms.openlocfilehash: d4ae7a085ba68c482372868e75376b6f769325d7
-ms.sourcegitcommit: ce2c011f06999dba2e886b8804d3439fbf67074d
+ms.openlocfilehash: 82591919b44eaac8a251d7fdb148253d5cac23c3
+ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7564596"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645403"
 ---
 # <a name="regional-availability-for-dynamics-365-customer-insights"></a>क्षेत्रीय उपलब्धता के लिए Dynamics 365 Customer Insights
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-सहभागिता इनसाइट्स, Dynamics 365 Customer Insights, की क्षमता धीरे-धीरे अधिक क्षेत्रों का परिचय देती है, जहां ग्राहक अपना डेटा स्टोर करना चुन सकते हैं. व्यवस्थापक एक क्षेत्र चुन सकते हैं जब वे [एक नया परिवेश](manage-environments-workspaces.md#create-an-environment) बनाते हैं. 
+सहभागिता इनसाइट्स, Dynamics 365 Customer Insights, की क्षमता धीरे-धीरे अधिक क्षेत्रों का परिचय देती है, जहां ग्राहक अपना डेटा स्टोर करना चुन सकते हैं. व्यवस्थापक एक क्षेत्र चुन सकते हैं जब वे [एक नया परिवेश](create-new-environment.md) बनाते हैं. 
 
 जब आप पहली बार सहभागिता जानकारी सेट करते हैं, तो आप [निर्देशित पहले रन का अनुभव](quickstart.md) से गुजरते हुए क्षेत्र चुन सकते हैं. बाद में, प्रत्येक नया परिवेश आपको उस क्षेत्र को चुनने की अनुमति देता है जिसमें डेटा संग्रहीत किया जाएगा.
 

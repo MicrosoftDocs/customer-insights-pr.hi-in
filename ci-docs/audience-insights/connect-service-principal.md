@@ -9,18 +9,18 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: b96c7f580b4067e059e00a9cdb4e872e9acd4a5c
-ms.sourcegitcommit: 5704002484cdf85ebbcf4e7e4fd12470fd8e259f
+ms.openlocfilehash: b901d799dbd73841a6ddbae754c4e4275f61146a
+ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483527"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645174"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-account-by-using-an-azure-service-principal"></a>Azure सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
 
 Azure सेवाओं का उपयोग करने वाले स्वचालित उपकरणों में हमेशा प्रतिबंधित अनुमतियां होनी चाहिए. एक पूरी तरह से विशेषाधिकार प्राप्त उपयोगकर्ता के रूप में एप्लिकेशन पर हस्ताक्षर करने के बजाय, Azure सर्विस प्रिंसिपल्स को प्रदान करता है. संग्रहण खाता कुंजियों के बजाय किसी Azure सेवा प्रमुख का उपयोग करके Dynamics 365 Customer Insights को Azure Data Lake Storage खाते से कनेक्ट करने का तरीका जानने के लिए आगे पढ़ें. 
 
-आप सेवा प्रमुख को सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें या संपादित करें](connect-common-data-model.md), या [परिवेश बनाएँ या अपडेट करें](get-started-paid.md) के लिए उपयोग कर सकते हैं.
+आप सेवा प्रमुख को सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें या संपादित करें](connect-common-data-model.md), या [परिवेश बनाएँ या अपडेट करें](create-environment.md) के लिए उपयोग कर सकते हैं.
 
 > [!IMPORTANT]
 > - Data Lake Storage खाता जो सर्विस प्रिंसिपल का उपयोग करेगा, उसमें [पदानुक्रमित नामस्थान सक्षम](/azure/storage/blobs/data-lake-storage-namespace) होना चाहिए.

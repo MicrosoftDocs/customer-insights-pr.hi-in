@@ -1,7 +1,7 @@
 ---
 title: Marketo के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Marketo को निर्यात करने का तरीका जानें.
-ms.date: 03/03/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 0d5eaa769973c861d89287bba0ed29509ab2efc653bdd8e177cc49b3560c698e
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 71a16bd71a58b5cc0a6a2ed421561d91f782dd8e
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7033495"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7619167"
 ---
 # <a name="export-segments-to-marketo-preview"></a>Marketo को निर्यात खंड (पूर्वावलोकन)
 
@@ -29,10 +29,10 @@ ms.locfileid: "7033495"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- Marketo को प्रति निर्यात 1 मिलियन प्रोफ़ाइल तक.
+- Marketo में प्रति निर्यात 1 मिलियन तक ग्राहक प्रोफ़ाइल.
 - Marketo को निर्यात करना सेगमेंटों तक सीमित है.
-- कुल 1 मिलियन प्रोफाइल वाले निर्यात खंडों में 3 घंटे तक का समय लग सकता है. 
-- Marketo को निर्यात किए जा रहे प्रोफ़ाइल की संख्या Marketo के साथ आपके अनुबंध पर निर्भर और सीमित है.
+- कुल 1 मिलियन ग्राहक प्रोफ़ाइल वाले निर्यात सेगमेंटों में 3 घंटे तक का समय लग सकता है. 
+- आप जितने ग्राहक प्रोफ़ाइल Marketo में निर्यात कर सकते हैं, वह Marketo के साथ आपके अनुबंध पर निर्भर और सीमित होता है.
 
 ## <a name="set-up-connection-to-marketo"></a>Marketo में कनेक्शन सेट अप करें
 
@@ -64,7 +64,7 @@ ms.locfileid: "7033495"
 
 1. अपना **[Marketo सूची ID](https://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists)** दर्ज करें. सूची ID विशुद्ध रूप से संख्यात्मक मान है. उदाहरणस्वरूप, यदि आपका Marketo सूची ID ST12345A7 है तो अंकों के पहले और बाद के वर्ण को हटा दें और `12345` दर्ज करें. 
 
-1. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. 
+1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. 
 
 1. वैकल्पिक रूप से, आप अधिक व्यक्तिगत ईमेल बनाने के लिए **पहला नाम**, **अंतिम नाम**, **शहर**, **राज्य**, और **देश/प्रांत** निर्यात कर सकते हैं. इन फ़ील्ड को मैप करने के लिए **जोड़ें विशेषता** चुनें.
 

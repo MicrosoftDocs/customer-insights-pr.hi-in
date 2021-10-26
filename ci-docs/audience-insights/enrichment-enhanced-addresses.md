@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: fb3fee72b3420c636d549b600c468c574ee33a662bfafd096247dfddf40150bd
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: f56be1f4ecdac124ed76a0fb0eb1e313099248bf
+ms.sourcegitcommit: 1565f4f7b4e131ede6ae089c5d21a79b02bba645
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7032668"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643398"
 ---
 # <a name="enrichment-of-customer-profiles-with-enhanced-addresses"></a>उन्नत पतों के साथ ग्राहक प्रोफाइल का संवर्धन
 
@@ -23,6 +23,8 @@ ms.locfileid: "7032668"
 ## <a name="how-we-enhance-addresses"></a>हम पतों को कैसे संवर्धित करते हैं
 
 हमारा मॉडल एक पते के संवर्धन के लिए दो-चरणीय प्रक्रिया से गुजरता है. सर्वप्रथम, यह अपने घटकों की पहचान करने के लिए पते को पार्स करता है और उन्हें एक संरचित प्रारूप में रखता है. फिर, हम पते में मानों को सही, पूर्ण और मानकीकृत करने के लिए AI का उपयोग करते हैं.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWNewo]
 
 ### <a name="example"></a>उदाहरण
 
@@ -100,8 +102,8 @@ ms.locfileid: "7032668"
 
 आप **समृद्ध डेटा देखें** का चयन करके प्रत्येक समृद्ध प्रोफ़ाइल के विस्तृत व्यू का उपयोग कर सकते हैं.
 
-## <a name="next-steps"></a>अगले चरण
+## <a name="next-steps"></a>अगले कदम
 
-अपने समृद्ध ग्राहक डेटा के ऊपर बनाएं. [खंडों](segments.md) को बनाएं और [साधानों](measures.md) और यहां तक कि अपने ग्राहकों को व्यक्तिगत अनुभव देने के लिए [डेटा निर्यात करें](export-destinations.md).
+[!INCLUDE [next-steps-enrichment](../includes/next-steps-enrichment.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
