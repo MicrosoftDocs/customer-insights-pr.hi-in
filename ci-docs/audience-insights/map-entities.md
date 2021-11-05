@@ -11,12 +11,12 @@ ms.reviewer: mhart
 manager: shellyha
 searchScope:
 - ci-map
-ms.openlocfilehash: 7ee3feea8423f35f32ff471b3ed8eb3447584089
-ms.sourcegitcommit: 37182127b93b90846cc91fbeb26dd7a18cf5610a
+ms.openlocfilehash: 8b84ed1a860e383e4eb3f7499be6d397ba3f1db1
+ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7648164"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "7673265"
 ---
 # <a name="map-entities-and-attributes"></a>मानचित्र निकाय और विशेषताएँ
 
@@ -96,9 +96,9 @@ ms.locfileid: "7648164"
 
 संगठन (पूर्वावलोकन) के लिए, विशेषता प्रकार को "Organization.Name" में मैप किया जाना चाहिए
 > [!div class="mx-imgBorder"]
-> ![प्राथमिक कुंजी और B2B एट्रिब्यूट प्रकार](media/configure-data-map-edit-b2b.png "प्राथमिक कुंजी और B2B एट्रिब्यूट प्रकार")
+> ![प्राथमिक कुंजी और एट्रिब्यूट प्रकार B-से-B.](media/configure-data-map-edit-b2b.png "प्राथमिक कुंजी और एट्रिब्यूट प्रकार B-से-B")
 
-## <a name="next-step"></a>अगला चरण
+## <a name="next-step"></a>अगला कदम
 
 डेटा एकीकरण प्रक्रिया के हिस्से के रूप में, **मिलान** पृष्ठ पर जाएं. इस चरण के बारे में जानने के लिए [**मैच**](match-entities.md) पर जाएं.
 

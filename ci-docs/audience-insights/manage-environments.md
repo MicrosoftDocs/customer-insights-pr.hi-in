@@ -9,12 +9,12 @@ ms.reviewer: mhart
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: ce2fdd435a81bb04148057554c5958e3ab59f125
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
+ms.openlocfilehash: 2d977ef4eb585e26b36139681552db22d84759c9
+ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645128"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "7673735"
 ---
 # <a name="manage-environments"></a>परिवेश प्रबंधित करें
 
@@ -67,7 +67,8 @@ ms.locfileid: "7645128"
 
 - ग्राहक के प्रोफाइल.
 - डेटा स्रोत क्रेडेंशियल. आपको प्रत्येक डेटा स्रोत के लिए क्रेडेंशियल्स प्रदान करना होगा और डेटा स्रोतों को मैन्युअल रूप से रिफ़ेश करना होगा.
-- सामान्य डेटा मॉडल फ़ोल्डर और Dataverse प्रबंधित Data Lake से डेटा स्रोत. आपको उन डेटा स्रोतों को मैन्युअल रूप से उसी नाम से बनाना होगा जैसा कि स्रोत परिवेश में है.
+
+- Common Data Model फ़ोल्डर और Dataverse द्वारा प्रबंधित डेटा लेक से डेटा स्रोत. आपको उन डेटा स्रोतों को मैन्युअल रूप से उसी नाम से बनाना होगा जैसा कि स्रोत परिवेश में है.
 
 जब आप किसी परिवेश को कॉपी करते हैं, तो आपको एक पुष्टिकरण संदेश दिखाई देगा कि नया परिवेश बनाया गया है. डेटा स्रोतों की सूची देखने हेतु **डेटा स्रोतों पर जाएं** चुनें.
 

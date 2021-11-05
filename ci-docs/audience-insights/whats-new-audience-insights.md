@@ -9,12 +9,12 @@ author: m-hartmann
 ms.author: mhart
 ms.reviewer: midevane
 manager: shellyha
-ms.openlocfilehash: 5262ad20019e90e73ab121a5ab90e602c1a32b7e
-ms.sourcegitcommit: 693458e13e4b4d94b6205093559912f6a4dc4a1c
+ms.openlocfilehash: e501df8701493a1c5b83c4d06da3a73fd226165f
+ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606080"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "7673842"
 ---
 # <a name="whats-new-in-the-audience-insights-capability-of-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights की ऑडियंस इनसाइट्स क्षमता में नया क्या है
 
@@ -166,7 +166,7 @@ ms.locfileid: "7606080"
 - **Constant Contact के लिए निर्यात क्षेत्रों** हमने Constant Contact को शामिल करने के लिए अपने निर्यात स्थलों को बढ़ाया है। अब आप Customer Insights से Constant Contact सूचियों में सेगमेंट निर्यात कर सकते हैं और उन्हें अपने मार्केटिंग अभियानों के लिए बेसलाइन के रूप में उपयोग कर सकते हैं.   
    अधिक जानकारी के लिए, [Constant Contact को निर्यात करें](export-constant-contact.md) देखे.
 
-- **RollWorks के लिए निर्यात क्षेत्रों** हमने RollWorks को शामिल करने के लिए अपने निर्यात स्थलों को बढ़ाया है। अब आप Customer Insights से Snapchat ऑडियंस में सेगमेंट निर्यात कर सकते हैं और उन्हें अपने B2B विज्ञापन के लिए बेसलाइन के रूप में उपयोग कर सकते हैं.    
+- **RollWorks के लिए निर्यात क्षेत्रों** हमने RollWorks को शामिल करने के लिए अपने निर्यात स्थलों को बढ़ाया है। अब आप Customer Insights से RollWorks ऑडियंस को सेगमेंट निर्यात कर सकते हैं और उन्हें अपने B-से-B विज्ञापन के लिए बेसलाइन के रूप में उपयोग कर सकते हैं.    
    अधिक जानकारी के लिए, [RollWorks को निर्यात करें](export-rollworks.md) देखे.
 
 - **Snapchat के लिए निर्यात क्षेत्रों** हमने Snapchat को शामिल करने के लिए अपने निर्यात स्थलों को बढ़ाया है। अब आप Customer Insights से Snapchat ऑडियंस में सेगमेंट निर्यात कर सकते हैं और उन्हें अपने विज्ञापन के लिए बेसलाइन के रूप में उपयोग कर सकते हैं.     
