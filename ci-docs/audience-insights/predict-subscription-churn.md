@@ -9,16 +9,18 @@ ms.topic: how-to
 author: zacookmsft
 ms.author: zacook
 manager: shellyha
-ms.openlocfilehash: 409dfce02c41d7c52295409912880b9224469908805e199066faeb2b7a4f1f9d
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
-ms.translationtype: HT
+ms.openlocfilehash: f9397729d2f79d079b4dea2ee92d0823b6d987e4
+ms.sourcegitcommit: fb9f118b4e16b5aabb3e503463efca21718f5d72
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035325"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7799730"
 ---
 # <a name="subscription-churn-prediction-preview"></a>सदस्यता मंथन पूर्वानुमान (अवलोकन)
 
 सदस्यता मंथन पूर्वानुमान से यह अनुमान लगाने में मदद मिलती है कि क्या कोई ग्राहक जोखिम में है, जो अब आपकी कंपनी के सदस्यता उत्पादों या सेवाओं का उपयोग नहीं कर रहा है. आप **बुद्धिमत्ता** > **पूर्वानुमान** पृष्ठ पर नया सदस्यता मंथन पूर्वानुमान बना सकते हैं. आपके द्वारा बनाए गए अन्य पूर्वानुमानों को देखने के लिए **मेरे पूर्वानुमान** चुनें.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWOKNQ]
 
 > [!TIP]
 > नमूना डेटा का उपयोग करके सदस्यता चर्न के पूर्वानुमान के लिए ट्यूटोरियल आज़माएं: [सदस्यता चर्न पूर्वानुमान नमूना मार्गदर्शिका](sample-guide-predict-subscription-churn.md).

@@ -1,7 +1,7 @@
 ---
 title: Power क्वेरी कनेक्टर के माध्यम से डेटा को इन्जेस्ट करें
 description: Power Query पर आधारित डेटा स्रोतों के लिए कनेक्टर.
-ms.date: 09/29/2020
+ms.date: 11/01/2020
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,16 +9,16 @@ ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 manager: shellyha
-ms.openlocfilehash: ab6edc3f33ebacb81f55c0882a78c5827b4384ed
-ms.sourcegitcommit: 1565f4f7b4e131ede6ae089c5d21a79b02bba645
-ms.translationtype: HT
+ms.openlocfilehash: 5d54d33c235e646644e8874e5b0c28898dcff11a
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643496"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732220"
 ---
 # <a name="connect-to-a-power-query-data-source"></a>Power Query डेटा स्रोत से कनेक्ट करें
 
-Power Query डेटा इंजेस्ट करने के लिए कनेक्टर का एक व्यापक सेट प्रदान करता है. इनमें से अधिकांश कनेक्टर Dynamics 365 Customer Insights द्वारा समर्थित हैं. Power Query कनेक्टर पर आधारित डेटा स्रोतों को जोड़ना आम तौर पर अगले भाग में उल्लिखित चरणों का पालन करता है. हालांकि, आपके द्वारा उपयोग किए जाने वाले कनेक्टर के आधार पर, विभिन्न जानकारी की आवश्यकता होती है. अधिक जानकारी के लिए, [Power Query कनेक्टर संदर्भ](/power-query/connectors/) में व्यक्तिगत कनेक्टर के बारे में दस्तावेज़ देखें.
+Power Query डेटा इंजेस्ट करने के लिए कनेक्टर का एक व्यापक सेट प्रदान करता है. इनमें से अधिकतर कनेक्टर Dynamics 365 Customer Insights द्वारा समर्थित हैं। Power Query कनेक्टर पर आधारित डेटा स्रोतों को जोड़ना आम तौर पर अगले भाग में उल्लिखित चरणों का पालन करता है. हालांकि, आपके द्वारा उपयोग किए जाने वाले कनेक्टर के आधार पर, विभिन्न जानकारी की आवश्यकता होती है. अधिक जानकारी के लिए, [Power Query कनेक्टर संदर्भ](/power-query/connectors/) में व्यक्तिगत कनेक्टर के बारे में दस्तावेज़ देखें.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWN6EK]
 
@@ -68,7 +68,7 @@ Power Query डेटा इंजेस्ट करने के लिए क
 ## <a name="edit-power-query-data-sources"></a>Power Query डेटा स्रोत संपादित करें
 
 > [!NOTE]
-> उन डेटा स्रोतों में परिवर्तन करना संभव नहीं हो सकता है जो वर्तमान में अनुप्रयोगों की प्रक्रियाओं (उदाहरण के लिए *विभाजन*, *मिलान* , या *विलीन*) में से एक में उपयोग किए जा रहे हैं. 
+> उन डेटा स्रोतों में परिवर्तन करना संभव नहीं हो सकता है जो वर्तमान में अनुप्रयोगों की प्रक्रियाओं (उदाहरण के लिए *विभाजन*, *मिलान*, या *विलीन*) में से एक में उपयोग किए जा रहे हैं. 
 >
 > **सेटिंग** पृष्ठ का उपयोग करके, आप सक्रिय प्रक्रियाओं में से प्रत्येक की प्रगति को देख सकते हैं. जब कोई प्रक्रिया पूरी हो जाती है, तो आप **डेटा स्रोत** पृष्ठ पर वापस आ सकते हैं और अपने परिवर्तन कर सकते हैं.
 
@@ -79,6 +79,8 @@ Power Query डेटा इंजेस्ट करने के लिए क
    > [!div class="mx-imgBorder"]
    > ![संपादित करें विकल्प.](media/edit-option-data-sources.png "संपादित करें विकल्प")
 
+   [!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
+   
 3. [एक नया डेटा स्रोत बनाएँ](#create-a-new-data-source) सेक्शन में वर्णित अनुसार अपने परिवर्तनों और रूपांतरणों को **Power Query - क्वेरी संपादित करें** संवाद में लागू करें.
 
 4. अपने परिवर्तनों को सहेजने के लिए अपने संपादन को पूरा करने के बाद Power Query में **सहेजें** चुनें.

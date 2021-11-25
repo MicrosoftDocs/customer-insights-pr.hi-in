@@ -1,7 +1,7 @@
 ---
 title: डेटा एकीकरण के लिए निकायों का मिलान करें
 description: डेटासेट को संयोजित करने और एकीकृत ग्राहक प्रोफ़ाइल बनाने के लिए निकायों का मिलान करें.
-ms.date: 02/23/2021
+ms.date: 11/01/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: tutorial
@@ -11,12 +11,12 @@ ms.reviewer: mhart
 manager: shellyha
 searchScope:
 - ci-match
-ms.openlocfilehash: 67e17495fa6da1cfac7ee4ee165e798364f6cb27
-ms.sourcegitcommit: 37182127b93b90846cc91fbeb26dd7a18cf5610a
+ms.openlocfilehash: cabeddbc9d485108d166e6355175a01721b75a55
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7648210"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732636"
 ---
 # <a name="match-entities"></a>निकायों का मिलान करें
 
@@ -180,10 +180,7 @@ ms.locfileid: "7648210"
 
 आपको **निकाय** पेज पर सफल रन, एकीकृत ग्राहक प्रोफ़ाइल निकाय का परिणाम मिलेगा. आपके एकीकृत ग्राहक निकाय को **प्रोफ़ाइल** अनुभाग में **ग्राहक** कहा जाता है. पहला सफल मिलान रन एकीकृत *ग्राहक* निकाय बनाता है. बाद के सभी मिलान रन उस निकाय का विस्तार करते हैं.
 
-> [!TIP]
-> मैच प्रक्रिया चलाने के बाद, **कार्य विवरण** फलक खोलने के लिए प्रक्रिया की स्थिति चुनें. यह प्रसंस्करण समय, अंतिम प्रसंस्करण तिथि और कार्य से जुड़ी सभी त्रुटियों और चेतावनियों के बारे में ओवरव्यू देता है. यह देखने के लिए **विवरण देखें** चुनें कि मिलान प्रक्रिया में किन निकायों ने भाग लिया, उन पर कौन से नियम लागू किए गए और क्या अपडेट सफलतापूर्वक प्रकाशित किए गए.  
-> कार्यों/प्रक्रियाओं के लिए [छह प्रकार की स्थिति](system.md#status-types) हैं . इसके अतिरिक्त, अधिकांश प्रक्रियाएं [अन्य डाउनस्ट्रीम प्रक्रियाओं पर निर्भर करती हैं](system.md#refresh-policies).  
-> :::image type="content" source="media/process-detail-path.png" alt-text="कार्य स्थिति लिंक से विवरण संसाधित करने के लिए ड्रिल-डाउन पथ.":::
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
 ## <a name="review-and-validate-your-matches"></a>अपने मिलानों की समीक्षा करें और उन्हें सत्यापित करें
 

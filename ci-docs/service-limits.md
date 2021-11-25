@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Customer Insights में सेवा-सीमाएँ
+title: Dynamics 365 Customer Insights . में सेवा की सीमा
 description: सीमाओं और प्रतिबंधों को समझें.
 ms.date: 09/03/2021
 ms.service: customer-insights
@@ -9,12 +9,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: eba7871faf304d5945191b5b9bc215243b4f8a05
-ms.sourcegitcommit: 5704002484cdf85ebbcf4e7e4fd12470fd8e259f
-ms.translationtype: HT
+ms.openlocfilehash: eb25e050b8aa768e6e1d8d4c5adce6095cccc346
+ms.sourcegitcommit: 31a9b531dacd3a6465b3030c704ff5c085b7e122
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483673"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7791983"
 ---
 # <a name="service-limits-in-customer-insights-capabilities"></a>Customer Insights क्षमताएँ में सेवा सीमाएँ
 
@@ -22,11 +22,11 @@ ms.locfileid: "7483673"
 
 ## <a name="audience-insights"></a>ऑडिएंस इनसाइट
 
-### <a name="service-limits-in-dynamics-365-customer-insights-audience-insights-capability"></a>Dynamics 365 Customer Insights में सेवा की सीमाएं ऑडियंस इनसाइट्स क्षमता को कम करती हैं
+### <a name="service-limits-in-dynamics-365-customer-insights-audience-insights-capability"></a>Dynamics 365 Customer Insights ऑडिएंस अंतर्दृष्टि क्षमता में सेवा सीमाएं
 
 | क्षेत्र  | सीमाएँ  | नोट्स |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| खंड और माप | 100 सेगमेंट्स या उपाय. | सक्रिय [सेगमेंट्स](audience-insights/segments.md) और [उपाय](audience-insights/measures.md) की कुल संख्या 100 से अधिक नहीं हो सकती.  |
+| खंड, उपाय और भविष्यवाणियां | 300  | की कुल संख्या[खंडों](audience-insights/segments.md),[उपायों](audience-insights/measures.md), तथा[भविष्यवाणियों](audience-insights/predictions.md) संयुक्त 300 से अधिक नहीं हो सकता।  |
 | संबंध | निकाय पथों में संबंधों पर गहराई के 20 स्तर. | बिल्डर इंटरफ़ेस का उपयोग करते हुए [सेगमेंट](audience-insights/segments.md) या [उपाय](audience-insights/measures.md) बनाते समय, निकाय पथ में प्रारंभ निकाय और लक्ष्य निकाय के बीच अधिकतम 20 संबंध हो सकते हैं.  |
 
 

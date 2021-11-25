@@ -4,7 +4,7 @@
   href: overview.md
 - name: निःशुल्क परीक्षण
   items:
-    - name: ' निःशुल्क परीक्षण के लिए साइन अप करें '
+    - name: मुफ़्त परीक्षण के लिए साइन अप करें
       href: trial-signup.md
     - name: परीक्षण FAQ
       href: trial-FAQ.md
@@ -84,13 +84,15 @@
           href: audience-insights/enrichment-microsoft.md
         - name: संवर्धित पते
           href: audience-insights/enrichment-enhanced-addresses.md
+        - name: कंपनी डेटा बढ़ाएँ
+          href: audience-insights/enrichment-enhanced-company-data.md
         - name: Azure Maps के साथ समृद्ध करें
           href: audience-insights/enrichment-azure-maps.md
         - name: HERE Technologies के साथ समृद्ध करें
           href: audience-insights/enrichment-here.md
         - name: लीड स्पेस के साथ संवर्धित
           href: audience-insights/enrichment-leadspace.md
-        - name: Experian के साथ समृद्ध करें
+        - name: एक्सपीरियन के साथ बेहतर बनाना
           href: audience-insights/enrichment-experian.md
         - name: SFTP कस्टम आयात के साथ समृद्ध करें
           href: audience-insights/enrichment-SFTP-custom-import.md
@@ -164,11 +166,11 @@
               href: audience-insights/export-azure-blob-storage.md
             - name: Azure Data Lake Storage Gen2
               href: audience-insights/export-azure-data-lake-storage-gen2.md
-            - name: Azure Synapse Analytics
+            - name: Azure Synapse एनालिटिक्स
               href: audience-insights/export-azure-synapse-analytics.md
             - name: Adobe Campaign Standard
               href: audience-insights/export-adobe-campaign-standard.md
-            - name: Adobe Experience Platform
+            - name: Adobe एक्सपीरियंस प्लेटफ़ॉर्म
               href: audience-insights/export-adobe-experience-platform.md
             - name: Campaign Monitor
               href: audience-insights/export-campaign-monitor.md
@@ -214,7 +216,7 @@
           items:
             - name: Dynamics 365 के लिए ग्राहक कार्ड ऐड-इन
               href: audience-insights/customer-card-add-in.md
-            - name: Microsoft Teams (बोट)
+            - name: Microsoft Teams (बॉट)
               href: audience-insights/export-teams-bot.md
             - name: Power Apps
               href: audience-insights/export-power-apps.md
@@ -244,12 +246,46 @@
           href: audience-insights/integrate-engagement-insights.md
         - name: Common Data Model में निकाय स्कीमा की समीक्षा करें
           href: audience-insights/entity-schemas.md
-        - name: Dataverse में Customer Insights डेटा
+        - name: Dataverse . में Customer Insights डेटा
           href: audience-insights/customer-insights-dataverse.md
         - name: API के साथ काम करें
           href: audience-insights/apis.md
         - name: API संदर्भ
           href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
+- name: सहमति प्रबंधन (पूर्वावलोकन)
+  items:
+    - name: सहायता केंद्र
+      href: consent-management/index.yml
+    - name: क्षमता अवलोकन
+      href: consent-management/overview.md
+    - name: शुरू करें
+      items:
+        - name: शुरू करें
+          href: consent-management/get-started.md
+        - name: अवधारणाएं और शब्दावली
+          href: consent-management/glossary.md
+    - name: सहमति डेटा आयात करें
+      items:
+        - name: सहमति डेटा आयात करें
+          href: consent-management/import-consent-data.md
+        - name: सहमति डेटा सेट करें और सहमति प्राथमिकताएं लागू करें
+          href: consent-management/set-consent-rules.md
+    - name: सहमति डेटा प्रबंधित करें
+      items:
+        - name: ऑडिएंस जानकारी में सहमति नियम सक्षम करें
+          href: audience-insights/activate-consent.md
+        - name: ऑडिएंस इनसाइट सेगमेंट में डिफ़ॉल्ट सहमति नियम प्रबंधित करें
+          href: audience-insights/change-default-consent-rules.md
+    - name: सेटिंग्स और उपयोगकर्ताओं को प्रबंधित करें
+      items:
+        - name: सिस्टम सेटिंग्स कॉन्फ़िगर करें
+          href: consent-management/system-settings.md
+        - name: उपयोगकर्ताओं और अनुमतियों को प्रबंधित करें
+          href: consent-management/manage-users.md
+    - name: सहमति डेटा का उपयोग करें
+      items:
+        - name: सहमति डेटा के साथ पूर्वानुमान बनाएं
+          href: consent-management/predictions-consent-data.md
 - name: एंगेजमेंट इनसाइट्स (पूर्वावलोकन)
   items:
     - name: सहायता केंद्र

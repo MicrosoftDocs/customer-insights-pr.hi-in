@@ -1,7 +1,7 @@
 ---
 title: Microsoft से डेटा के साथ ग्राहक प्रोफाइल को बेहतर करें
 description: ब्रांड और दिलचस्पी के लिए झुकाव के साथ अपने ग्राहक डेटा को समृद्ध करने के लिए Microsoft से मालिकाना डेटा का उपयोग करें.
-ms.date: 06/14/2021
+ms.date: 11/01/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-MS
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 51b150cbf5d9cfb3a5df42e680bcfa57ec5496cb
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
+ms.openlocfilehash: c25dbb7a877da2d3fccc1a4e5b219b9792bc6402
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7617880"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732544"
 ---
 # <a name="enrich-customer-profiles-with-brand-and-interest-affinities-preview"></a>ग्राहक प्रोफाइल को ब्रांड और रुचि आत्मीयताओं से समृद्ध करें (पूर्वावलोकन)
 
@@ -116,8 +116,7 @@ ms.locfileid: "7617880"
 
 आपके ग्राहक डेटा के आकार के आधार पर, समृद्ध रन को पूरा होने में कई मिनट लग सकते हैं.
 
-> [!TIP]
-> कार्यों/प्रक्रियाओं के लिए [छह प्रकार की स्थिति](system.md#status-types) हैं . इसके अतिरिक्त, अधिकांश प्रक्रियाएं [अन्य डाउनस्ट्रीम प्रक्रियाओं पर निर्भर करती हैं](system.md#refresh-policies). आप पूरे कार्य की प्रगति पर विवरण देखने के लिए प्रक्रिया की स्थिति का चयन कर सकते हैं. **विवरण देखें** चयन करने के बाद कार्य के किसी एक कार्य के लिए, आपको अतिरिक्त जानकारी मिलेगी: संसाधन समय, अंतिम संसाधन तिथि, और कार्य से जुड़ी सभी त्रुटियां और चेतावनियां.
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
 ## <a name="enrichment-results"></a>संवर्धन के परिणाम
 

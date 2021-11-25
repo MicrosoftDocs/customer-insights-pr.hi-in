@@ -1,7 +1,7 @@
 ---
 title: उपाय बनाएं और प्रबंधित करें
 description: अपने व्यवसाय के प्रदर्शन का विश्लेषण करने और प्रतिबिंबित करने के उपायों को परिभाषित करें.
-ms.date: 09/30/2021
+ms.date: 11/01/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -9,12 +9,12 @@ author: m-hartmann
 ms.author: wameng
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: d77d1901fee4771537554c05d3963316d0fb37cb
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: f6be11bd97be71bc0c3a58eaee4d8ed45f535877
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673463"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732728"
 ---
 # <a name="define-and-manage-measures"></a>उपाय निर्धारित और प्रबंधित करें
 
@@ -238,10 +238,9 @@ ms.locfileid: "7673463"
 - उपाय **हटाएं**.
 - **सक्रिय करें** या **निष्क्रिय करें**. निष्क्रिय माप [निर्धारित रीफ्रेश](system.md#schedule-tab) के दौरान रीफ्रेश नहीं होंगे.
 
-> [!TIP]
-> कार्यों/प्रक्रियाओं के लिए [छह प्रकार की स्थिति](system.md#status-types) हैं . इसके अतिरिक्त, अधिकांश प्रक्रियाएं [अन्य डाउनस्ट्रीम प्रक्रियाओं पर निर्भर करती हैं](system.md#refresh-policies). आप पूरे कार्य की प्रगति पर विवरण देखने के लिए प्रक्रिया की स्थिति का चयन कर सकते हैं. **विवरण देखें** चयन करने के बाद कार्य के किसी एक कार्य के लिए, आपको अतिरिक्त जानकारी मिलेगी: संसाधन समय, अंतिम संसाधन तिथि, और कार्य से जुड़ी सभी त्रुटियां और चेतावनियां.
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
-## <a name="next-step"></a>अगला चरण
+## <a name="next-step"></a>अगला कदम
 
 [एक ग्राहक अनुभाग](segments.md) बनाने के लिए आप मौजूदा उपायों का उपयोग कर सकते हैं.
 

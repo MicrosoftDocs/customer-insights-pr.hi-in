@@ -1,7 +1,7 @@
 ---
 title: डेटा एकीकरण में निकायों को मर्ज करें
 description: एकीकृत ग्राहक प्रोफाइल बनाने के लिए निकायों को मर्ज करें.
-ms.date: 10/10/2021
+ms.date: 11/01/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: tutorial
@@ -11,12 +11,12 @@ ms.reviewer: mhart
 manager: shellyha
 searchScope:
 - ci-merge
-ms.openlocfilehash: 6b3002b21ea043315e50724ec103aef8a3ced98e
-ms.sourcegitcommit: 37182127b93b90846cc91fbeb26dd7a18cf5610a
-ms.translationtype: HT
+ms.openlocfilehash: c218f9c1a1b7711ee48419470bf6c352450ffc0c
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7648256"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732774"
 ---
 # <a name="merge-entities"></a>निकायों को विलीन करें
 
@@ -187,10 +187,9 @@ ms.locfileid: "7648256"
 
 और अधिक परिवर्तन करने और चरण को फिर से चलाने के लिए, आप जारी मर्ज को रद्द कर सकते हैं. **रीफ़्रेश हो रहा है...** चुनें और उस साइड फलक में **कार्य रद्द करें** को चुनें.
 
-> [!TIP]
-> मर्ज प्रक्रिया चलाने के बाद, **कार्य विवरण** फलक खोलने के लिए प्रक्रिया की स्थिति चुनें. यह प्रसंस्करण समय, अंतिम प्रसंस्करण तिथि और कार्य से जुड़ी सभी त्रुटियों और चेतावनियों के बारे में ओवरव्यू देता है. यह देखने के लिए **विवरण देखें** चुनें कि किन निकायों ने मिलान प्रक्रिया में भाग लिया, क्या विवाद का समाधान सफल हुआ और क्या अपडेट सफलतापूर्वक प्रकाशित किए गए थे.  
-> कार्यों/प्रक्रियाओं के लिए [छह प्रकार की स्थिति](system.md#status-types) हैं . इसके अतिरिक्त, अधिकांश प्रक्रियाएं [अन्य डाउनस्ट्रीम प्रक्रियाओं पर निर्भर करती हैं](system.md#refresh-policies).  
-> :::image type="content" source="media/process-detail-path.png" alt-text="कार्य स्थिति लिंक से विवरण संसाधित करने के लिए ड्रिल-डाउन पथ.":::
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
+
+:::image type="content" source="media/process-detail-path.png" alt-text="कार्य स्थिति लिंक से विवरण संसाधित करने के लिए ड्रिल-डाउन पथ.":::
 
 ## <a name="next-step"></a>अगला चरण
 

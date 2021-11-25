@@ -1,7 +1,7 @@
 ---
 title: ग्राहक गतिविधियां
 description: ग्राहक गतिविधियों को परिभाषित करें और उन्हें ग्राहक प्रोफ़ाइल पर टाइमलाइन में देखें.
-ms.date: 09/27/2021
+ms.date: 11/01/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.reviewer: mhart
@@ -9,16 +9,16 @@ ms.topic: conceptual
 author: CadeSanthaMSFT
 ms.author: cadesantha
 manager: shellyha
-ms.openlocfilehash: bcb8d42963719f5d225556c31b3fc06db8573e5b
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: c99ec2e7d5e4bf32a509bbe4c0c53999129b2305
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673139"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732454"
 ---
 # <a name="customer-activities"></a>ग्राहक गतिविधियां
 
-Dynamics 365 Customer Insights में [विभिन्न डेटा स्रोतों](data-sources.md) से ग्राहक गतिविधियों को मिलाएं ताकि एक टाइमलाइन बनाई जा सके जो गतिविधियों को कालानुक्रमिक सूचीबद्ध करती है. Dynamics 365 अनुप्रयोगों में टाइमलाइन को [कस्टमर कार्ड ऐड-इन](customer-card-add-in.md) सॉल्यूशन के साथ या Power BI डैशबोर्ड में शामिल करें.
+से ग्राहक गतिविधियों को मिलाएं [विभिन्न डेटा स्रोत](data-sources.md) Dynamics 365 Customer Insights में एक समयरेखा बनाने के लिए जो कालानुक्रमिक रूप से गतिविधियों को सूचीबद्ध करती है। के साथ Dynamics 365 ऐप में टाइमलाइन शामिल करें [ग्राहक कार्ड ऐड-इन](customer-card-add-in.md) समाधान, या Power BI डैशबोर्ड में।
 
 ## <a name="define-an-activity"></a>एक गतिविधि को निर्धारित करें
 
@@ -82,9 +82,7 @@ Dynamics 365 Customer Insights में [विभिन्न डेटा स
 
 1. **गतिविधि** पृष्ठ पर, गतिविधि को संसाधित करने के लिए **रन करें** का चयन करें. 
 
-> [!TIP]
-> कार्यों/प्रक्रियाओं के लिए [छह प्रकार की स्थिति](system.md#status-types) हैं . इसके अतिरिक्त, अधिकांश प्रक्रियाएं [अन्य डाउनस्ट्रीम प्रक्रियाओं पर निर्भर करती हैं](system.md#refresh-policies). आप पूरे कार्य की प्रगति पर विवरण देखने के लिए प्रक्रिया की स्थिति का चयन कर सकते हैं. किसी एक जॉब कार्य के लिए **विवरण देखें** को चुनने के बाद, आपको अतिरिक्त जानकारी मिलती है: संसाधन समय, अंतिम संसाधन दिनांक और कार्य से जुड़ी सभी त्रुटियां और चेतावनियाँ.
-
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
 ## <a name="manage-existing-activities"></a>मौजूदा गतिविधि प्रबंधित करें
 

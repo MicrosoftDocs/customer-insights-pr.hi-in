@@ -1,7 +1,7 @@
 ---
 title: परिवेश बनाएं और प्रबंधित करें
 description: जानें कि सेवा के लिए साइन अप कैसे करें और परिवेश का प्रबंधन कैसे करें.
-ms.date: 10/14/2021
+ms.date: 11/12/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,12 +9,12 @@ ms.reviewer: mhart
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 2d977ef4eb585e26b36139681552db22d84759c9
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: 65c6a68f550c2873ec30c6ac54f1752d880ce12c
+ms.sourcegitcommit: fb9f118b4e16b5aabb3e503463efca21718f5d72
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673735"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7799638"
 ---
 # <a name="manage-environments"></a>परिवेश प्रबंधित करें
 
@@ -39,6 +39,19 @@ ms.locfileid: "7673735"
 3. **परिवेश संपादित करें** बॉक्स में, आप परिवेश सेटिंग अपडेट कर सकते हैं.
 
 परिवेश सेटिंग्स के बारे में अधिक जानकारी के लिए [नया परिवेश बनाएं](create-environment.md) देखें.
+
+## <a name="connect-to-microsoft-dataverse"></a>Microsoft Dataverse . से जुड़ें
+   
+NS **Microsoft Dataverse** चरण आपको Customer Insights को अपने Dataverse परिवेश से जोड़ने देता है।
+
+काम में लाना[आउट-ऑफ़-बॉक्स पूर्वानुमान मॉडल](predictions-overview.md#out-of-box-models), Dataverse के साथ डेटा साझाकरण कॉन्फ़िगर करें। या आप ऑन-प्रिमाइसेस डेटा स्रोतों से डेटा अंतर्ग्रहण सक्षम कर सकते हैं, जो आपके संगठन द्वारा प्रशासित Microsoft Dataverse परिवेश URL प्रदान करता है। चुनते हैं **डेटा साझाकरण सक्षम करें** Customer Insights आउटपुट डेटा को Dataverse-प्रबंधित डेटा लेक के साथ साझा करने के लिए।
+
+:::image type="content" source="media/dataverse-data-sharing.png" alt-text="Microsoft Dataverse के साथ डेटा साझाकरण सक्षम करने के लिए कॉन्फ़िगरेशन विकल्प।":::
+
+> [!NOTE]
+> Customer Insights निम्नलिखित डेटा साझाकरण परिदृश्यों का समर्थन नहीं करता है:
+> - यदि आप सभी डेटा को अपने Azure Data Lake Storage में सहेजते हैं, तो आप डेटावर्स-प्रबंधित डेटा लेक के साथ डेटा साझाकरण सक्षम नहीं कर पाएंगे।
+> - यदि आप Dataverse के साथ डेटा साझाकरण सक्षम करते हैं, तो आप नहीं कर पाएंगे [किसी निकाय में अनुमानित या अनुपलब्ध मान बनाएँ](predictions.md).
 
 ## <a name="copy-the-environment-configuration"></a>परिवेश कॉन्फ़िगरेशन की कॉपी करें
 
@@ -68,7 +81,7 @@ ms.locfileid: "7673735"
 - ग्राहक के प्रोफाइल.
 - डेटा स्रोत क्रेडेंशियल. आपको प्रत्येक डेटा स्रोत के लिए क्रेडेंशियल्स प्रदान करना होगा और डेटा स्रोतों को मैन्युअल रूप से रिफ़ेश करना होगा.
 
-- Common Data Model फ़ोल्डर और Dataverse द्वारा प्रबंधित डेटा लेक से डेटा स्रोत. आपको उन डेटा स्रोतों को मैन्युअल रूप से उसी नाम से बनाना होगा जैसा कि स्रोत परिवेश में है.
+- सामान्य डेटा मॉडल फ़ोल्डर और डेटावर्स-प्रबंधित डेटा झील से डेटा स्रोत। आपको उन डेटा स्रोतों को मैन्युअल रूप से उसी नाम से बनाना होगा जैसा कि स्रोत परिवेश में है.
 
 जब आप किसी परिवेश को कॉपी करते हैं, तो आपको एक पुष्टिकरण संदेश दिखाई देगा कि नया परिवेश बनाया गया है. डेटा स्रोतों की सूची देखने हेतु **डेटा स्रोतों पर जाएं** चुनें.
 

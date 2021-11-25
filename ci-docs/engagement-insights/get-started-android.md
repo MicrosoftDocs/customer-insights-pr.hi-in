@@ -1,26 +1,26 @@
 ---
-title: Android SDK के साथ प्रारंभ करें
-description: जानें कि कैसे Android SDK वैयक्तिकृत और चलाया जाता है
+title: Android SDK के साथ शुरुआत करें
+description: Android SDK को वैयक्तिकृत और चलाने का तरीका जानें
 author: britl
 ms.reviewer: mhart
 ms.author: britl
-ms.date: 09/15/2021
+ms.date: 10/19/2021
 ms.service: customer-insights
 ms.subservice: engagement-insights
 ms.topic: conceptual
 ms.manager: shellyha
-ms.openlocfilehash: a060ac60db71a7b0fb8c0d7a3b0e266004fbee6a
-ms.sourcegitcommit: fecdee73e26816c42d39d160d4d5cfb6c8a91596
-ms.translationtype: HT
+ms.openlocfilehash: c678c2dafbb77926269b5602bca363c678ec6b3f
+ms.sourcegitcommit: ef823f3d7fa28d3a90cfde9409be9465ffa2cf09
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7494277"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655344"
 ---
-# <a name="get-started-with-the-android-sdk"></a>Android SDK के साथ प्रारंभ करें
+# <a name="get-started-with-the-android-sdk"></a>Android SDK के साथ शुरुआत करें
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-यह ट्यूटोरियल आपके Android ऐप को इंस्ट्रूमेंट करने की प्रक्रिया के माध्यम से Dynamics 365 Customer Insights संलग्नता इनसाइट्स SDK पर आपको दिशानिर्देश देता है। आपको अपने पोर्टल में पाँच मिनट या उससे पहले के ईवेंट दिखाई देने लगेंगे।
+यह ट्यूटोरियल आपके Android एप्लिकेशन को Dynamics 365 Customer Insights एंगेजमेंट इनसाइट्स SDK के साथ इंस्ट्रूमेंट करने की प्रक्रिया में आपका मार्गदर्शन करता है। आपको अपने पोर्टल में पाँच मिनट या उससे पहले के ईवेंट दिखाई देने लगेंगे।
 
 ## <a name="configuration-options"></a>कॉन्फ़िगरेशन विकल्प
 निम्नलिखित कॉन्फ़िगरेशन विकल्प SDK को पास किए जा सकते हैं:
@@ -31,23 +31,23 @@ ms.locfileid: "7494277"
 
 - Android Studio
 
-- न्यूनतम Android API स्तर: 16 (Jelly Bean)
+- न्यूनतम Android API स्तर: 16 (जेली बीन)
 
 - एक अंतर्ग्रहण कुंजी (प्राप्त करने के तरीके के बारे में निर्देशों के लिए नीचे देखें)
 
 ## <a name="integrate-the-sdk-into-your-application"></a>SDK को अपने एप्लीकेशन में एकीकृत करें
-कार्यक्षेत्र का चयन करके प्रक्रिया शुरू करें, Android मोबाइल प्लेटफॉर्म का चयन करें, और Android SDK डाउनलोड करें।
+कार्यक्षेत्र का चयन करके, Android मोबाइल प्लेटफ़ॉर्म का चयन करके और Android SDK डाउनलोड करके प्रक्रिया प्रारंभ करें।
 
 - अपने कार्यस्थान का चयन करने के लिए बाएं नेविगेशन फलक में कार्यस्थान स्विचर का उपयोग करें।
 
 - यदि आपके पास कोई मौजूदा कार्यस्थान नहीं है, तो **नया कार्यस्थान** चुनें और [नया कार्यस्थान](create-workspace.md) बनाने के लिए चरणों का पालन करें।
 
-- आपके द्वारा कार्यस्थान बनाने के बाद, **व्यवस्थापक** > **कार्यस्थान** पर जाएँ और फिर **इंस्टॉलेशन गाइड** चुनें। 
+- आपके द्वारा कार्यस्थान बनाने के बाद, **व्यवस्थापक** > **कार्यस्थान** पर जाएँ और फिर **इंस्टॉलेशन गाइड** चुनें।
 
 ## <a name="configure-the-sdk"></a>SDK कॉन्फ़िगर करें
 
-एक बार जब आप SDK डाउनलोड कर लेते हैं, तो आप ईवेंट को सक्षम और परिभाषित करने के लिए Android Studio में इसके साथ काम कर सकते हैं. ऐसा करने के दो तरीके हैं:
-### <a name="option-1-using-jitpack-recommended"></a>विकल्प 1: JitPack का उपयोग करना (अनुशंसित)
+एक बार जब आप एसडीके डाउनलोड कर लेते हैं, तो आप घटनाओं को सक्षम और परिभाषित करने के लिए Android Studio में इसके साथ काम कर सकते हैं। ऐसा करने के दो तरीके हैं:
+### <a name="option-1-use-jitpack-recommended"></a>विकल्प 1: जितपैक का उपयोग करें (अनुशंसित)
 1. अपने रूट `build.gradle` में JitPack रिपॉजिटरी जोड़ें:
     ```gradle
     allprojects {
@@ -61,13 +61,13 @@ ms.locfileid: "7494277"
 1. निर्भरता जोड़ें:
     ```gradle
     dependencies {
-        implementation 'com.github.microsoft:engagementinsights-sdk-android:1.0.0'
+        implementation 'com.github.microsoft:engagementinsights-sdk-android:v1.0.0'
         api 'com.google.code.gson:gson:2.8.1'
     }
     ```
 
-### <a name="option-2-using-download-link"></a>विकल्प 2: डाउनलोड लिंक का उपयोग करना
-1. [संलग्नता अंतर्दृष्टि Android SDK](https://download.pi.dynamics.com/sdk/EI-SDKs/ei-android-sdk.zip) डाउनलोड करें, और `libs` फ़ोल्डर में `eiandroidsdk-debug.aar` फ़ाइल को रखें ।
+### <a name="option-2-use-download-link"></a>विकल्प 2: डाउनलोड लिंक का उपयोग करें
+1. डाउनलोड करें [सहभागिता जानकारी Android SDK](https://download.pi.dynamics.com/sdk/EI-SDKs/ei-android-sdk.zip), और जगह`eiandroidsdk-debug.aar` में फ़ाइल`libs` फ़ोल्डर।
 
 1. अपनी प्रोजेक्ट स्तरीय `build.gradle` फ़ाइल खोलें और निम्न स्निपेट्स जोड़ें:
     ```gradle
@@ -83,22 +83,23 @@ ms.locfileid: "7494277"
     }
     ```
 
-1. `manifests` फ़ोल्डर के अंतर्गत स्थित अपनी `AndroidManifest.xml` फ़ाइल में नेटवर्क और इंटरनेट की अनुमति जोड़ें. 
+## <a name="enable-auto-instrumentation"></a>ऑटो-इंस्ट्रूमेंटेशन सक्षम करें
+
+1. `manifests` फ़ोल्डर के अंतर्गत स्थित अपनी `AndroidManifest.xml` फ़ाइल में नेटवर्क और इंटरनेट की अनुमति जोड़ें.
     ```xml
     <manifest>
         ...
         <uses-permission android:name="android.permission.INTERNET" />
         <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     ```
-    
-1. अपनी `AndroidManifest.xml` फ़ाइल के माध्यम से सहभागिता इनसाइट्स SDK कॉन्फ़िगरेशन सेट करें. 
 
-## <a name="enable-auto-instrumentation"></a>ऑटो-इंस्ट्रूमेंटेशन सक्षम करें
+1. अपनी `AndroidManifest.xml` फ़ाइल के माध्यम से सहभागिता इनसाइट्स SDK कॉन्फ़िगरेशन सेट करें.
+
 1. **इंस्टॉलेशन गाइड** से XML स्निपेट कॉपी करें। `Your-Ingestion-Key` स्वचालित रूप से पॉप्युलेट होना चाहिए।
 
    > [!NOTE]
    > आपको `${applicationId}` अनुभाग प्रतिस्थापित करने की आवश्यकता नहीं है। यह स्वचालित रूप से पॉप्युलेट होता है.
-   
+
 
    ```xml
    <application>
@@ -116,20 +117,24 @@ ms.locfileid: "7494277"
    </application>
    ```
 
-1. उपरोक्त `autoCapture` फ़ील्ड को `true` या `false` पर सेट करके `View` इवेंट की स्वतः-कैप्चर को सक्षम या अक्षम करें। इस समय `Action` इवेंट को मैन्युअल रूप से जोड़ने की आवश्यकता है.
+1. उपरोक्त `autoCapture` फ़ील्ड को `true` या `false` पर सेट करके `View` इवेंट की स्वतः-कैप्चर को सक्षम या अक्षम करें। 
 
-1. (वैकल्पिक) अन्य कॉन्फ़िगरेशन में एंडपॉइंट कलेक्टर URL सेट करना शामिल है। इन्हें `AndroidManifest.xml` में अंतर्ग्रहण कुंजी मेटाडेटा के अंतर्गत जोड़ा जा सकता है:
-    ```xml
+   >[!NOTE]
+   >`Action` ईवेंट को मैन्युअल रूप से जोड़ने की आवश्यकता है।
+
+1. (वैकल्पिक) अन्य कॉन्फ़िगरेशन में एंडपॉइंट कलेक्टर URL सेट करना शामिल है। उन्हें . में अंतर्ग्रहण कुंजी मेटाडेटा के अंतर्गत जोड़ा जा सकता है`AndroidManifest.xml`.
+
+   ```xml
         <meta-data
             android:name="com.microsoft.engagementinsights.endpointUrl"
             android:value="https://some-endpoint-url.com" />
-    ```
+   ```
 
 ## <a name="implement-custom-events"></a>कस्टम ईवेंट लागू करें
 
 SDK को शुरु करने के बाद, आप `MainActivity` परिवेश में ईवेंट और उनके गुणों के साथ काम कर सकते हैं.
 
-    
+
 Java:
 ```java
 Analytics analytics = new Analytics();
@@ -141,7 +146,7 @@ var analytics = Analytics()
 ```
 
 ### <a name="set-property-for-all-events-optional"></a>सभी इवेंट के लिए गुण सेट करें (वैकल्पिक)
-    
+
 Java:
 ```java
 analytics.setProperty("year", 2021);
