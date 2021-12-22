@@ -10,12 +10,12 @@ author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: de27da92118b83dafa0742b6a1e10ee315750c61
-ms.sourcegitcommit: 6efcba688d1db1a5d6343c229f292a26c48fc007
+ms.openlocfilehash: e44e973bf7713ed5c31dfb9849419decd4ad1c78
+ms.sourcegitcommit: 48d799535fad84e8b63c80aef48b5c5e87628f58
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7770124"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7884218"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>ग्राहक प्रोफाइल के लिए संवर्धन (पूर्वावलोकन)
 
@@ -34,7 +34,7 @@ ms.locfileid: "7770124"
 - Microsoft द्वारा प्रदान किया गया [ब्रान्ड](enrichment-microsoft.md)
 - Microsoft द्वारा प्रदान किया गया [रूचियाँ](enrichment-microsoft.md)
 - [उन्नत पते](enrichment-enhanced-addresses.md) Microsoft द्वारा प्रदत्त 
-- एक्सपीरियन द्वारा प्रदान की गई [जनसांख्यिकी](enrichment-experian.md)
+- Experian द्वारा प्रदान की गई [जनसांख्यिकी](enrichment-experian.md)
 - सिक्योर फाइल ट्रांसफर प्रोटोकॉल (SFTP) के माध्यम से [कस्टम डेटा](enrichment-SFTP-custom-import.md) 
 - Microsoft [Azure मानचित्र](enrichment-azure-maps.md) द्वारा उपलब्ध
 
@@ -46,6 +46,7 @@ ms.locfileid: "7770124"
 - HERE Technologies द्वारा प्रदान की गई [स्थान डेटा](enrichment-here.md) 
 - सिक्योर फाइल ट्रांसफर प्रोटोकॉल (SFTP) के माध्यम से [कस्टम डेटा](enrichment-SFTP-custom-import.md) 
 - Microsoft [Azure मानचित्र](enrichment-azure-maps.md) द्वारा उपलब्ध
+- [खाता जुड़ाव डेटा](enrichment-office.md) माइक्रोसॉफ्ट द्वारा प्रदान किया गया
 
 ---
 
@@ -77,7 +78,7 @@ ms.locfileid: "7770124"
 
 ## <a name="see-the-progress-of-the-enrichment-process"></a>संवर्धन प्रक्रिया की प्रगति देखें
 
-आप ऐसे संवर्द्धन के संसाधन के बारे में विवरण प्राप्त कर सकते हैं, जिसमें रीफ़्रेश होने या रीफ़्रेश पूरा होने के बाद इसकी स्थिति और संभावित समस्याएँ शामिल हैं. समझें कि संवर्धन को रीफ़्रेश करने के लिए कौन सी प्रक्रियाएँ शामिल होती हैं और प्रक्रियाओं को चलाने में कितना समय लगा. संवर्धन की स्थिति Experian, लीडस्पेस, HERE टेक्नोलॉजीज, SFTP इम्पोर्ट और Azure मैप्स के लिए समर्थित है।
+आप ऐसे संवर्द्धन के संसाधन के बारे में विवरण प्राप्त कर सकते हैं, जिसमें रीफ़्रेश होने या रीफ़्रेश पूरा होने के बाद इसकी स्थिति और संभावित समस्याएँ शामिल हैं. समझें कि संवर्धन को रीफ़्रेश करने के लिए कौन सी प्रक्रियाएँ शामिल होती हैं और प्रक्रियाओं को चलाने में कितना समय लगा. Experian, लीडस्पेस, HERE टेक्नोलॉजीज, SFTP इम्पोर्ट और Azure मानचित्र के लिए समृद्ध स्थिति समर्थित है.
 
 संवर्धन की स्थिति देखने के लिए
 

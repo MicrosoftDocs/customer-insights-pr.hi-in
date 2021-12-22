@@ -1,7 +1,7 @@
 ---
 title: सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
 description: अपने खुद के data lake से कनेक्ट करने के लिए Azure सेवा प्रमुख का उपयोग करें.
-ms.date: 09/08/2021
+ms.date: 12/06/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,26 +9,26 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: b901d799dbd73841a6ddbae754c4e4275f61146a
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
-ms.translationtype: HT
+ms.openlocfilehash: faef3583337fd495e7baf40b0a208f1d9f10281a
+ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645174"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900260"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-account-by-using-an-azure-service-principal"></a>Azure सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
 
-Azure सेवाओं का उपयोग करने वाले स्वचालित उपकरणों में हमेशा प्रतिबंधित अनुमतियां होनी चाहिए. एक पूरी तरह से विशेषाधिकार प्राप्त उपयोगकर्ता के रूप में एप्लिकेशन पर हस्ताक्षर करने के बजाय, Azure सर्विस प्रिंसिपल्स को प्रदान करता है. संग्रहण खाता कुंजियों के बजाय किसी Azure सेवा प्रमुख का उपयोग करके Dynamics 365 Customer Insights को Azure Data Lake Storage खाते से कनेक्ट करने का तरीका जानने के लिए आगे पढ़ें. 
+यह आलेख चर्चा करता है कि कैसे कनेक्ट करें Dynamics 365 Customer Insights एक साथ Azure Data Lake Storage एक Azure सेवा प्रिंसिपल के बजाय संग्रहण खाता कुंजियों का उपयोग करके खाता। 
 
-आप सेवा प्रमुख को सुरक्षित रूप से [डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें या संपादित करें](connect-common-data-model.md), या [परिवेश बनाएँ या अपडेट करें](create-environment.md) के लिए उपयोग कर सकते हैं.
+Azure सेवाओं का उपयोग करने वाले स्वचालित उपकरणों में हमेशा प्रतिबंधित अनुमतियां होनी चाहिए. एक पूरी तरह से विशेषाधिकार प्राप्त उपयोगकर्ता के रूप में एप्लिकेशन पर हस्ताक्षर करने के बजाय, Azure सर्विस प्रिंसिपल्स को प्रदान करता है. आप सुरक्षित रूप से सेवा प्रधानाचार्यों का उपयोग कर सकते हैं [एक सामान्य डेटा मॉडल फ़ोल्डर को डेटा स्रोत . के रूप में जोड़ें या संपादित करें](connect-common-data-model.md) या[परिवेश बनाना या अद्यतन करना।](create-environment.md)
 
 > [!IMPORTANT]
 > - Data Lake Storage खाता जो सर्विस प्रिंसिपल का उपयोग करेगा, उसमें [पदानुक्रमित नामस्थान सक्षम](/azure/storage/blobs/data-lake-storage-namespace) होना चाहिए.
-> - आपको सर्विस प्रिंसिपल बनाने के लिए अपनी Azure सदस्यता के लिए व्यवस्थापक अनुमतियों की आवश्यकता है.
+> - सेवा प्रिंसिपल बनाने के लिए आपको अपनी Azure सदस्यता के लिए व्यवस्थापक अनुमतियों की आवश्यकता है।
 
 ## <a name="create-an-azure-service-principal-for-customer-insights"></a>Customer Insights के लिए Azure सेवा प्रमुख बनाएँ
 
-ऑडिएंस इनसाइट्स या सहभागिता इनसाइट्स के लिए नया सेवा प्रमुख बनाने से पहले, जांचें कि यह आपके संगठन में पहले से मौजूद है या नहीं.
+Customer Insights के लिए एक नया सेवा प्रिंसिपल बनाने से पहले, जांचें कि क्या यह आपके संगठन में पहले से मौजूद है।
 
 ### <a name="look-for-an-existing-service-principal"></a>एक मौजूदा सेवा प्रिंसिपल की तलाश करें
 

@@ -1,5 +1,5 @@
 ---
-title: SFTP होस्ट के लिए Customer Insights डेटा निर्यात करें
+title: Customer Insights डेटा को SFTP होस्ट में निर्यात करें (वीडियो)
 description: कनेक्शन को कॉन्फ़िगर करने और SFTP स्थान को निर्यात करने का तरीका जानें.
 ms.date: 03/03/2021
 ms.reviewer: mhart
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: a54025588945e4db6ab800dca034520b5f08d49b
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
+ms.openlocfilehash: 568e5826175417175bd09435d697031f0ab64223
+ms.sourcegitcommit: e141a6a34a985cca68f03082a700ed27f2f3c0c1
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673918"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927559"
 ---
 # <a name="export-segments-and-other-data-to-sftp-preview"></a>अनुभागों और अन्य डेटा को SFTP (पूर्वावलोकन) में निर्यात करें
 
@@ -28,6 +28,7 @@ ms.locfileid: "7673918"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- फायरवॉल के पीछे एसएफ़टीपी गंतव्य वर्तमान में समर्थित नहीं हैं। 
 - निर्यात का रनटाइम आपके सिस्टम के प्रदर्शन पर निर्भर करता है. हम आपके सर्वर के न्यूनतम कॉन्फ़िगरेशन के रूप में दो CPU कोर और 1 Gb मेमोरी की सलाह देते हैं. 
 - दो CPU कोर और मेमोरी के 1 Gb के अनुशंसित न्यूनतम कॉन्फ़िगरेशन का उपयोग करके 100 मिलियन ग्राहक प्रोफ़ाइल के साथ निर्यात करने वाले निकायों को 90 मिनट लग सकते हैं. 
 

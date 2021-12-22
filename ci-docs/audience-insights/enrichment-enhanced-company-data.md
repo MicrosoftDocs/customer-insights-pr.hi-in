@@ -1,7 +1,7 @@
 ---
 title: कंपनी डेटा एन्हांसमेंट
 description: Microsoft के मॉडल के साथ कंपनी डेटा को समृद्ध और सामान्य करें।
-ms.date: 11/15/2021
+ms.date: 12/16/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: d11700c87f31cedc40d32b201251d8a9e2e2c312
-ms.sourcegitcommit: dfc4843cc78857f1e3ca49d7b938e3ba77969169
+ms.openlocfilehash: 616efe723313a6fbec7f1c7219c236a8f0aab3b2
+ms.sourcegitcommit: e141a6a34a985cca68f03082a700ed27f2f3c0c1
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813920"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927584"
 ---
 # <a name="enrichment-of-company-profiles-with-enhanced-company-data"></a>उन्नत कंपनी डेटा के साथ कंपनी प्रोफाइल का संवर्धन
 
@@ -83,6 +83,16 @@ Microsft
 संवर्धन प्रक्रिया पूरी होने के बाद, आप **मेरे संवर्धन** के तहत नए समृद्ध ग्राहक प्रोफ़ाइल डेटा की समीक्षा कर सकते हैं. इसके अतिरिक्त, आपको अंतिम अद्यतन का समय और समृद्ध प्रोफ़ाइल की संख्या मिलेगी.
 
 आप **समृद्ध डेटा देखें** का चयन करके प्रत्येक समृद्ध प्रोफ़ाइल के विस्तृत व्यू का उपयोग कर सकते हैं.
+
+### <a name="overview-card"></a>अवलोकन कार्ड
+
+ओवरव्यू कार्ड संवर्धन के कवरेज के बारे में विवरण दिखाता है। 
+
+* **ग्राहक संसाधित और बदले गए** : सफलतापूर्वक समृद्ध किए गए ग्राहक प्रोफाइल की संख्या।
+
+* **ग्राहक संसाधित हुए और बदले नहीं गए** : ग्राहक प्रोफाइल की संख्या जिन्हें पहचाना गया लेकिन बदला नहीं गया। यह आमतौर पर तब होता है जब इनपुट डेटा मान्य होता है और संवर्धन द्वारा सुधार नहीं किया जा सकता है।
+
+* **ग्राहक संसाधित नहीं हुए और बदले नहीं गए** : उन प्रोफाइलों की संख्या जिन्हें पहचाना नहीं गया था। आमतौर पर इनपुट डेटा के लिए जो अमान्य है या संवर्धन द्वारा समर्थित नहीं है।
 
 ## <a name="next-steps"></a>अगले कदम
 

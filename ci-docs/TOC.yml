@@ -4,7 +4,7 @@
   href: overview.md
 - name: निःशुल्क परीक्षण
   items:
-    - name: मुफ़्त परीक्षण के लिए साइन अप करें
+    - name: ' निःशुल्क परीक्षण के लिए साइन अप करें '
       href: trial-signup.md
     - name: परीक्षण FAQ
       href: trial-FAQ.md
@@ -84,7 +84,7 @@
           href: audience-insights/enrichment-microsoft.md
         - name: संवर्धित पते
           href: audience-insights/enrichment-enhanced-addresses.md
-        - name: कंपनी डेटा बढ़ाएँ
+        - name: उन्नत कंपनी डेटा
           href: audience-insights/enrichment-enhanced-company-data.md
         - name: Azure Maps के साथ समृद्ध करें
           href: audience-insights/enrichment-azure-maps.md
@@ -92,8 +92,10 @@
           href: audience-insights/enrichment-here.md
         - name: लीड स्पेस के साथ संवर्धित
           href: audience-insights/enrichment-leadspace.md
-        - name: एक्सपीरियन के साथ बेहतर बनाना
+        - name: Experian के साथ समृद्ध करें
           href: audience-insights/enrichment-experian.md
+        - name: के साथ समृद्ध करें Office 365 आंकड़े
+          href: audience-insights/enrichment-office.md
         - name: SFTP कस्टम आयात के साथ समृद्ध करें
           href: audience-insights/enrichment-SFTP-custom-import.md
     - name: सेगमेंट
@@ -144,8 +146,6 @@
               href: audience-insights/sample-guide-predict-product-recommendation.md
             - name: Azure मशीन लर्निंग के साथ प्रयोग
               href: audience-insights/azure-machine-learning-experiments.md
-            - name: Azure मशीन लर्निंग स्टूडियो के साथ प्रयोग
-              href: audience-insights/machine-learning-studio-experiments.md
         - name: पूर्वानुमानों को प्रबंधित करें
           href: audience-insights/manage-predictions.md
         - name: पूर्वानुमनों के आधार पर सेगमेंट बनाएं
@@ -166,11 +166,11 @@
               href: audience-insights/export-azure-blob-storage.md
             - name: Azure Data Lake Storage Gen2
               href: audience-insights/export-azure-data-lake-storage-gen2.md
-            - name: Azure Synapse एनालिटिक्स
+            - name: Azure Synapse Analytics
               href: audience-insights/export-azure-synapse-analytics.md
             - name: Adobe Campaign Standard
               href: audience-insights/export-adobe-campaign-standard.md
-            - name: Adobe एक्सपीरियंस प्लेटफ़ॉर्म
+            - name: Adobe Experience Platform
               href: audience-insights/export-adobe-experience-platform.md
             - name: Campaign Monitor
               href: audience-insights/export-campaign-monitor.md
@@ -216,7 +216,7 @@
           items:
             - name: Dynamics 365 के लिए ग्राहक कार्ड ऐड-इन
               href: audience-insights/customer-card-add-in.md
-            - name: Microsoft Teams (बॉट)
+            - name: Microsoft Teams (बोट)
               href: audience-insights/export-teams-bot.md
             - name: Power Apps
               href: audience-insights/export-power-apps.md
@@ -240,13 +240,15 @@
               href: audience-insights/use-azure-key-vault.md
             - name: सर्विस प्रिंसिपल का उपयोग करके ADLS स्टोरेज खाते से कनेक्ट करें
               href: audience-insights/connect-service-principal.md
+            - name: डायग्नोस्टिक लॉग निर्यात करें
+              href: audience-insights/diagnostics.md
     - name: विस्तारणीयता
       items:
         - name: एंगेजमेंट इनसाइट्स से वेब डेटा को इंटिग्रेट करें
           href: audience-insights/integrate-engagement-insights.md
         - name: Common Data Model में निकाय स्कीमा की समीक्षा करें
           href: audience-insights/entity-schemas.md
-        - name: Dataverse . में Customer Insights डेटा
+        - name: Dataverse में Customer Insights डेटा
           href: audience-insights/customer-insights-dataverse.md
         - name: API के साथ काम करें
           href: audience-insights/apis.md
@@ -258,9 +260,9 @@
       href: consent-management/index.yml
     - name: क्षमता अवलोकन
       href: consent-management/overview.md
-    - name: शुरू करें
+    - name: आरंभ करना
       items:
-        - name: शुरू करें
+        - name: आरंभ करना
           href: consent-management/get-started.md
         - name: अवधारणाएं और शब्दावली
           href: consent-management/glossary.md

@@ -1,7 +1,7 @@
 ---
 title: Customer Insights में परिवेश बनाएँ
 description: Dynamics 365 Customer Insights के लिए लाइसेंस प्राप्त सदस्यता के साथ परिवेश बनाने के चरण.
-ms.date: 10/14/2021
+ms.date: 12/06/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -10,12 +10,12 @@ author: MichelleDevaney
 ms.author: midevane
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 914af46d2d82f3556d149f2836680c902f826d50
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: 4f26220f6ba7f5b5ae00c11216129f9ad814b77d
+ms.sourcegitcommit: 626d485dae1e001e63e4d4bf78f6770766822ba0
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673393"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892340"
 ---
 # <a name="create-an-environment-in-audience-insights"></a>ऑडियंस इनसाइट में एक वातावरण बनाएं
 
@@ -77,6 +77,9 @@ Azure Data Lake Storage विकल्प के लिए, आप प्रम
 **Microsoft Dataverse** चरण से आप Customer Insights को अपने Dataverse परिवेश से जोड़ सकते हैं.
 
 [आउट-ऑफ़-बॉक्स पूर्वानुमान मॉडल](predictions-overview.md#out-of-box-models) का उपयोग करने के लिए, Dataverse के साथ डेटा साझाकरण कॉन्फ़िगर करें. या आप ऑन-प्रीमाइसेस डेटा स्रोतों से डेटा इन्जेस्चन सक्षम कर सकते हैं, जो आपके संगठन द्वारा व्यवस्थापित Microsoft Dataverse परिवेश URL प्रदान करता है. **डेटा साझाकरण सक्षम करें** को चुनें, ताकि Dataverse प्रबंधित डेटा लेक के साथ Customer Insights आउटपुट डेटा साझा किया जा सके.
+
+> [!IMPORTANT]
+> ग्राहक अंतर्दृष्टि और Dataverse डेटा साझाकरण को सक्षम करने के लिए एक ही क्षेत्र में होना चाहिए।
 
 :::image type="content" source="media/dataverse-data-sharing.png" alt-text=" Microsoft Dataverse के साथ डेटा साझा करने में सक्षम करने का कॉन्फ़िगरेशन विकल्प.":::
 

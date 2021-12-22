@@ -1,7 +1,7 @@
 ---
 title: डेटा को इन्जेस्ट करने के लिए डेटा स्रोतों का उपयोग करें
 description: विभिन्न स्रोतों से डेटा आयात करना सीखें.
-ms.date: 11/01/2021
+ms.date: 12/06/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -10,36 +10,39 @@ ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 27cbd0346b1219c7812f4b90327dd27b645c2b8e
-ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.openlocfilehash: 6846c73cb156aaa049e2656c8e327bcba1f73abc
+ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7732144"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900361"
 ---
 # <a name="data-sources-overview"></a>डेटा स्रोत ओवरव्यू
 
 [!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Customer Insights में ऑडिएंस अंतर्दृष्टि क्षमता स्रोतों के व्यापक सेट से डेटा से जुड़ती है। डेटा स्रोत से कनेक्ट करने को अक्सर *डेटा अंतर्ग्रहण* प्रक्रिया कहा जाता है. डेटा इंजेस्ट करने के बाद, आप [एकीकृत](data-unification.md) कर सकते हैं और उस पर कार्रवाई कर सकते हैं.
+Dynamics 365 Customer Insights में ऑडियंस इनसाइट्स क्षमता स्रोतों के एक व्यापक सेट से डेटा से जोड़ती है. डेटा स्रोत से कनेक्ट करने को अक्सर *डेटा अंतर्ग्रहण* प्रक्रिया कहा जाता है. डेटा इंजेस्ट करने के बाद, आप [एकीकृत](data-unification.md) कर सकते हैं और उस पर कार्रवाई कर सकते हैं.
 
 ## <a name="add-a-data-source"></a>डेटा स्रोत में जोड़ें
 
-आप किस विकल्प को चुनते हैं, इसके आधार पर डेटा स्रोत को जोड़ने के बारे में विस्तृत आलेख देखें.
+आपके द्वारा चुने गए विकल्प के आधार पर डेटा स्रोत कैसे जोड़ें, इसके लिए विस्तृत लेख देखें।
 
-आप तीन मुख्य तरीकों से एक डेटा स्रोत जोड़ सकते हैं:
+आप निम्न डेटा स्रोत जोड़ सकते हैं:
 
-- [दर्जनों Power Query कनेक्टर के माध्यम से](connect-power-query.md)
-- [सामान्य डेटा मॉडल फ़ोल्डर से](connect-common-data-model.md)
-- [अपनी Microsoft Dataverse झील से](connect-dataverse-managed-lake.md)
+- [Power Query कनेक्टर](connect-power-query.md)
+- [कॉमन डेटा मॉडल](connect-common-data-model.md)
+- [Microsoft Dataverse झील](connect-dataverse-managed-lake.md)
+
+> [!NOTE]
+> यदि आप परीक्षण संस्करण का उपयोग कर रहे हैं, तो आयात विधि अनुभाग में शामिल है a **Customer Insights डेटा लाइब्रेरी** विकल्प। विभिन्न उद्योगों के लिए उपलब्ध नमूना डेटासेट का चयन करने के लिए इस विकल्प को चुनें। अधिक जानकारी के लिए देखें [Dynamics 365 Customer Insights परीक्षण।](../trial-signup.md)
 
 ## <a name="add-data-from-on-premises-data-sources"></a>ऑन-प्रीमाइसेस डेटा स्रोतों से डेटा जोड़ें
 
-ऑडिएंस इनसाइट्स में ऑन-प्रिमाइसेस डेटा स्रोतों से डेटा अंतर्ग्रहण Microsoft Power Platform डेटा प्रवाह के आधार पर समर्थित है। Customer Insights में Dataflows को इसके द्वारा सक्षम किया जा सकता है [Microsoft Dataverse पर्यावरण URL प्रदान करना](create-environment.md) पर्यावरण की स्थापना करते समय।
+ऑडिएंस इनसाइट्स में ऑन-प्रीमाइसेस डेटा स्रोतों से डेटा को इनजेस्ट करना, Microsoft Power Platform डेटाप्रवाहों के आधार पर समर्थित है. आप Customer Insights में Dataflows को इसके द्वारा सक्षम कर सकते हैं [प्रदान करनाMicrosoft Dataverse पर्यावरण यूआरएल](create-environment.md) पर्यावरण की स्थापना करते समय।
 
-Customer Insights के साथ Dataverse परिवेश को जोड़ने के बाद बनाए गए डेटा स्रोत उपयोग करेंगे [Power Platform डेटा प्रवाह](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) डिफ़ॉल्ट रूप से। डेटा प्रवाह डेटा गेटवे का उपयोग करके ऑन-प्रिमाइसेस कनेक्टिविटी का समर्थन करते हैं. Dataverse परिवेश से संबद्ध होने से पहले मौजूद डेटा स्रोतों को निकालें और पुन: बनाएँ [ऑन-प्रिमाइसेस डेटा गेटवे का उपयोग करें।](/data-integration/gateway/service-gateway-app)
+डेटा स्रोत जो a . को जोड़ने के बाद बनाए जाते हैं Dataverse Customer Insights उपयोग के साथ परिवेश [Power Platform डेटा प्रवाह](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) डिफ़ॉल्ट रूप से। डेटा प्रवाह डेटा गेटवे का उपयोग करके ऑन-प्रिमाइसेस कनेक्टिविटी का समर्थन करते हैं. आप a . से पहले मौजूद डेटा स्रोतों को हटा सकते हैं और फिर से बना सकते हैं Dataverse पर्यावरण जुड़ा था[ऑन-प्रिमाइसेस डेटा गेटवे का उपयोग करना](/data-integration/gateway/service-gateway-app).
 
-मौजूदा Power BI या Power Apps परिवेश से डेटा गेटवे दिखाई देंगे और आप Customer Insights में पुन: उपयोग कर सकते हैं। डेटा स्रोत पृष्ठ Microsoft Power Platform वातावरण में जाने के लिए लिंक दिखाता है जहां आप ऑन-प्रिमाइसेस डेटा गेटवे देख और कॉन्फ़िगर कर सकते हैं।
+मौजूदा Power BI या Power Apps परिवेश से डेटा गेटवे दिखाई देंगे और आप Customer Insights में पुन: उपयोग कर सकते हैं. डेटा स्रोत पृष्ठ Microsoft Power Platform परिवेश पर जाने के लिए लिंक दिखाता है जहां आप ऑन-प्रीमाइसेस डेटा गेटवे देख और कॉन्फ़िगर कर सकते हैं.
 
 ## <a name="review-ingested-data"></a>अंतर्ग्रहित डेटा की समीक्षा करें
 
