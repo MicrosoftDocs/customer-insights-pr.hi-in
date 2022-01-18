@@ -5,21 +5,21 @@ description: Dynamics 365 Customer Insights में पहले रन के
 ms.author: mhart
 ms.date: 10/05/2021
 ms.service: customer-insights
-ms.topic: overview
+ms.topic: conceptual
 ms.manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 9f96a70d0cc316e8793921fedb0cc3fa4751c827
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: e17b66217415c0b554a449f0d992deec7e2d96e7
+ms.sourcegitcommit: bb1ca84bc38e81fb2ff2961c457384b7beb5b5fa
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673456"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7977674"
 ---
 # <a name="get-started-after-purchasing-customer-insights"></a>Customer Insights खरीदने के बाद शुरू करें
 
 यह आलेख बताता है कि आपके संगठन के सदस्यता खरीदने के बाद Dynamics 365 Customer Insights में अपना पहला कदम कैसे उठाया जाए. यदि आप Customer Insights खरीदना चाहते हैं, तो हमारे संपर्क विकल्प [Dynamics 365 Customer Insights वेबसाइट](https://dynamics.microsoft.com/ai/customer-insights/) पर दिए गए हैं. 
 
-Customer Insights के लिए सदस्यता लाइसेंस खरीदने के बाद, Microsoft 365 टेनेंट के वैश्विक व्यवस्थापक को एक ईमेल प्राप्त होता है जो उन्हें परिवेश बनाने के लिए आमंत्रित करता है. 
+Customer Insights के लिए सदस्यता लाइसेंस खरीदने के बाद, के वैश्विक व्यवस्थापक Microsoft 365 टैनेंट को एक ईमेल प्राप्त होता है जो उन्हें परिवेश बनाने के लिए आमंत्रित करता है। 
 
 Customer Insights को प्रति टैनेंट लाइसेंस दिया जाता है और इसमें अनेक क्षमताएं शामिल होती हैं. आप डिफ़ॉल्ट कोटा बढ़ाने के लिए अधिक क्षमता और लाइसेंस खरीद सकते हैं. 
 - [मूल्य निर्धारण ओवरव्यू](https://dynamics.microsoft.com/ai/customer-insights/pricing/)

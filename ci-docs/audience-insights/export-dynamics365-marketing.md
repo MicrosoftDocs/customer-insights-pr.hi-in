@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: b8e63a738abaf4fbb902e3edbf83f5a815978478
-ms.sourcegitcommit: 8e89575fe2acb4b289fc157fa7c4c29caf9be967
-ms.translationtype: HT
+ms.openlocfilehash: 2c673c432f308efa289625a159de608d07f8d2b3
+ms.sourcegitcommit: f988114ac7a288ccadf2db35b02dbef5cacea4d9
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417207"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7975126"
 ---
 # <a name="use-segments-in-dynamics-365-marketing-preview"></a>Dynamics 365 Marketing (पूर्वावलोकन) में सेगमेंट का उपयोग करें
 
@@ -45,7 +45,7 @@ ms.locfileid: "7417207"
 
 1. **सर्वर व्यवस्थापक खाता** अनुभाग में, **साइन इन** चुनें और एक Dynamics 365 Marketing खाता चुनें.
 
-1. Dynamics 365 कॉन्टैक्ट ID पर ग्राहक ID फ़ील्ड का मैप करें.
+1. ग्राहक निकाय में संपर्क ID फ़ील्ड को Dynamics 365 संपर्क ID से मैप करें।
 
 1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें. 
 

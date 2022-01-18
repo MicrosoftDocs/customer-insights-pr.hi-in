@@ -4,17 +4,17 @@ description: अनुभागों का अवलोकन और उन्
 ms.date: 11/01/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: how-to
+ms.topic: overview
 author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 56978c984a91e85e86956e7eac1d59609c349b6a
-ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.openlocfilehash: 740d293b21f43b50201f23fcba109318823ef3af
+ms.sourcegitcommit: bb1ca84bc38e81fb2ff2961c457384b7beb5b5fa
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7732590"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7978061"
 ---
 # <a name="segments-overview"></a>अनुभाग ओवरव्यू
 
@@ -103,7 +103,7 @@ ms.locfileid: "7732590"
 > [!NOTE]
 > वे फ़ील्ड, जो इस सूची में दिखाई देते हैं, आपके अनुभाग के एट्रिब्यूट की विशेषताओं पर आधारित होते हैं.
 >
->सूची, मिलान वाले सेगमेंट सदस्यों का पूर्वावलोकन देती है और आपके सेगमेंट के पहले 100 रिकॉर्ड दिखाती है ताकि आप उसका तुरंत मूल्यांकन कर सकें और आवश्यकता होने पर उसकी परिभाषाओं की समीक्षा कर सकें. मिलान वाले सभी रिकॉर्ड देखने के लिए आपको [सेगमेंट निर्यात करना](export-destinations.md) होगा.
+>सूची, मिलान वाले सेगमेंट सदस्यों का पूर्वावलोकन देती है और आपके सेगमेंट के पहले 100 रिकॉर्ड दिखाती है ताकि आप उसका तुरंत मूल्यांकन कर सकें और आवश्यकता होने पर उसकी परिभाषाओं की समीक्षा कर सकें. मिलान वाले सभी रिकॉर्ड देखने के लिए आपको [सेगमेंट निर्यात करना](export-destinations.md)होगा.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)] 

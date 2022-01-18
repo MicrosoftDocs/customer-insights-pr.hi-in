@@ -44,7 +44,7 @@
       items:
         - name: डेटा स्रोत ओवरव्यू
           href: audience-insights/data-sources.md
-        - name: Power Query कनेक्टर के माध्यम से डेटा स्रोत जोड़ें
+        - name: के माध्यम से डेटा स्रोत जोड़ें Power Query कनेक्टर्स
           href: audience-insights/connect-power-query.md
         - name: डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें
           href: audience-insights/connect-common-data-model.md
@@ -80,11 +80,11 @@
       items:
         - name: ग्राहक प्रोफ़ाइलें को बेहतर करें
           href: audience-insights/enrichment-hub.md
-        - name: ब्रांड और ब्याज समानताएँ
+        - name: ब्रांड और रुचियां
           href: audience-insights/enrichment-microsoft.md
         - name: संवर्धित पते
           href: audience-insights/enrichment-enhanced-addresses.md
-        - name: उन्नत कंपनी डेटा
+        - name: परिष्कृत कंपनी डेटा
           href: audience-insights/enrichment-enhanced-company-data.md
         - name: Azure Maps के साथ समृद्ध करें
           href: audience-insights/enrichment-azure-maps.md
@@ -130,6 +130,8 @@
               href: audience-insights/predict-subscription-churn.md
             - name: लेन-देन मंथन की भविष्यवाणी करें
               href: audience-insights/predict-transactional-churn.md
+            - name: ग्राहक प्रतिक्रिया में भावना का विश्लेषण करें
+              href: audience-insights/sentiment-analysis.md
             - name: Azure मशीन लर्निंग से कस्टम मॉडल्स का उपयोग करें
               href: audience-insights/custom-models.md
             - name: आंशिक रूप से अनुपलब्ध डेटा को पूरा करें

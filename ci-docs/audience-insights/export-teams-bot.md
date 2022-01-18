@@ -9,12 +9,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: cff696834e3dad00ce5b0f1b5bcb13d86354a4e7
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
-ms.translationtype: HT
+ms.openlocfilehash: 6a9575de922bc2ff9c9d2212b99b4c0c8b61ab0e
+ms.sourcegitcommit: 15b1521041149716f8031cfa6d0dc61a56a5e2ff
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7617603"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967821"
 ---
 # <a name="teams-bot-for-dynamics-365-customer-insights-preview"></a>Dynamics 365 Customer Insights के लिए Teams बॉट (पूर्वावलोकन)
 
@@ -33,6 +33,8 @@ ms.locfileid: "7617603"
 - Customer Insights और टीम एक ही संगठन में हैं.
 - आपके परिवेश में प्राथमिक लक्षित ऑडिएंस हैं जो अलग-अलग ग्राहकों पर सेट हैं. व्यावसायिक खाते समर्थित नहीं हैं.
 
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWRElj]
 ## <a name="configure-the-bot"></a>बॉट कॉन्फ़िगर करें
 
 1. ऑडिएंस इनसाइट्स में, **व्यवस्थापक** > **निर्यात गंतव्य** पर जाएं.

@@ -1,5 +1,5 @@
 ---
-title: पता वृद्धि संवर्धन (वीडियो)
+title: पता वृद्धि संवर्धन (वीडियो शामिल है)
 description: Microsoft के मॉडल के साथ ग्राहक प्रोफ़ाइल की पता जानकारी को समृद्ध और सामान्य करें.
 ms.date: 12/16/2021
 ms.reviewer: mhart
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: d2c174b7882382faf4c363198982317ee21fdd4b
-ms.sourcegitcommit: e141a6a34a985cca68f03082a700ed27f2f3c0c1
-ms.translationtype: HT
+ms.openlocfilehash: afb1a6b4805702697889bb91ca36a96a714cba3d
+ms.sourcegitcommit: 9132fdf54070cc551ab878378078e6285852818f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927513"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7934925"
 ---
 # <a name="enrichment-of-customer-profiles-with-enhanced-addresses"></a>उन्नत पतों के साथ ग्राहक प्रोफाइल का संवर्धन
 
