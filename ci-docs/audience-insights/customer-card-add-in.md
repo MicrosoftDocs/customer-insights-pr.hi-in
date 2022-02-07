@@ -9,16 +9,11 @@ ms.topic: conceptual
 author: Nils-2m
 ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: 3927b5a13a5f9b4d2b39c7f0b389bc51cafeb213
-ms.sourcegitcommit: 3811dede65946c37aa7ed3cc364251f20ffd4d17
-ms.translationtype: MT
-ms.contentlocale: hi-IN
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "7945429"
 ---
+
 # <a name="customer-card-add-in-preview"></a>ग्राहक कार्ड ऐड-इन (पूर्वावलोकन)
 
-[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 अनुप्रयोगों में सीधे अपने ग्राहकों का 360-डिग्री दृश्य प्राप्त करें. समर्थित Dynamics 365 ऐप में स्थापित ग्राहक कार्ड ऐड-इन के साथ, आप ग्राहक प्रोफ़ाइल फ़ील्ड, इनसाइट्स और गतिविधि टाइमलाइन दिखाना चुन सकते हैं. ऐड-इन कनेक्टेड Dynamics 365 ऐप में डेटा को प्रभावित किए बिना Customer Insights से डेटा फिर से प्राप्त करेगा.
 
