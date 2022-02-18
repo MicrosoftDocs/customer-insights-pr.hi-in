@@ -4,15 +4,15 @@ metadata:
   author: m-hartmann
   description: मदद सामग्री के साथ शुरू करने के लिए प्रासंगिक लेख का पता लगाएं.
   ms.author: mhart
-  ms.date: 07/30/2021
+  ms.date: 03/02/2022
   ms.service: customer-insights
   ms.topic: landing-page
-  ms.openlocfilehash: e6a658f43b382934ee9b9b55c54fc1dff3f4df72
-  ms.sourcegitcommit: 3bafa27adae113948636b30c7462e0af060c7131
+  ms.openlocfilehash: e154b37f57bb2765f48a9f6b38f86dffcb05f403
+  ms.sourcegitcommit: a371fc1e75b2321e45d3f972a3ac84c725f8cc38
   ms.translationtype: HT
   ms.contentlocale: hi-IN
-  ms.lasthandoff: 09/17/2021
-  ms.locfileid: "7498599"
+  ms.lasthandoff: 02/10/2022
+  ms.locfileid: "8107201"
 title: Dynamics 365 Customer Insights दस्तावेज़ीकरण
 summary: आरंभ करने और Customer Insights की सुविधाओं और क्षमताओं के बारे में जानने के लिए सहायक संसाधन खोजें.
 landingContent:
@@ -23,9 +23,13 @@ landingContent:
     - text: Customer Insights अवलोकन
       url: overview.md
     - text: रिलीज़ की योजना
-      url: /dynamics365-release-plan/
+      url: /dynamics365/release-plans/
     - text: CDP की खोज करें
       url: https://dynamics.microsoft.com/ai/customer-insights/
+  - linkListType: learn
+    links:
+    - text: Customer Insights सीखने का पथ
+      url: /learn/paths/build-customer-insights/
 - title: Customer Insights के साथ आरंभ करें
   linkLists:
   - linkListType: get-started
@@ -34,8 +38,26 @@ landingContent:
       url: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
     - text: ऑडिएंस इनसाइट्स में नया क्या है
       url: audience-insights/whats-new-audience-insights.md
-    - text: सहभागिता इनसाइट्स में नया क्या है
-      url: https://docs.microsoft.com/dynamics365-release-plan/2021wave1/customer-data-platform/engagement-insights/planned-features
+    - text: त्वरित प्रारंभ मार्गदर्शिका
+      url: audience-insights/get-started.md
+  - linkListType: learn
+    links:
+    - text: आरंभ करना
+      url: /learn/modules/get-started-customer-data-platform/
+- title: व्यवस्थित ऑडिएंस इनसाइट
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: सिस्टम कॉन्फ़िगर करें
+      url: audience-insights/system.md
+    - text: उपयोगकर्ता अनुमतियों को निर्दिष्ट करें
+      url: audience-insights/permissions.md
+    - text: अनेक परिवेश प्रबंधित करें
+      url: audience-insights/manage-environments.md
+  - linkListType: learn
+    links:
+    - text: व्यवस्थापित Customer Insights
+      url: /learn/modules/administer-customer-data-platform/
 - title: संपर्क में रहें
   linkLists:
   - linkListType: overview
@@ -66,16 +88,6 @@ landingContent:
       url: audience-insights/customer-card-add-in.md
     - text: Power BI कनेक्टर
       url: audience-insights/export-power-bi.md
-- title: व्यवस्थित ऑडिएंस इनसाइट
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: सिस्टम कॉन्फ़िगर करें
-      url: audience-insights/system.md
-    - text: उपयोगकर्ता अनुमतियों को निर्दिष्ट करें
-      url: audience-insights/permissions.md
-    - text: अनेक परिवेश प्रबंधित करें
-      url: audience-insights/manage-environments.md
 - title: एंगेजमेंट इनसाइट (पूर्वावलोकन) के बारे में
   linkLists:
   - linkListType: overview

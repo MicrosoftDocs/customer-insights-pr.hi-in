@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: faef3583337fd495e7baf40b0a208f1d9f10281a
-ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
-ms.translationtype: MT
+ms.openlocfilehash: 1af01e5579f85d7c8bc8976a003f53ef2dd280d1
+ms.sourcegitcommit: b7189b8621e66ee738e4164d4b3ce2af0def3f51
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900260"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8088149"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-account-by-using-an-azure-service-principal"></a>Azure सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
 
@@ -23,7 +23,7 @@ ms.locfileid: "7900260"
 Azure सेवाओं का उपयोग करने वाले स्वचालित उपकरणों में हमेशा प्रतिबंधित अनुमतियां होनी चाहिए. एक पूरी तरह से विशेषाधिकार प्राप्त उपयोगकर्ता के रूप में एप्लिकेशन पर हस्ताक्षर करने के बजाय, Azure सर्विस प्रिंसिपल्स को प्रदान करता है. आप सुरक्षित रूप से सेवा प्रधानाचार्यों का उपयोग कर सकते हैं [एक सामान्य डेटा मॉडल फ़ोल्डर को डेटा स्रोत . के रूप में जोड़ें या संपादित करें](connect-common-data-model.md) या[परिवेश बनाना या अद्यतन करना।](create-environment.md)
 
 > [!IMPORTANT]
-> - Data Lake Storage खाता जो सर्विस प्रिंसिपल का उपयोग करेगा, उसमें [पदानुक्रमित नामस्थान सक्षम](/azure/storage/blobs/data-lake-storage-namespace) होना चाहिए.
+> - डेटा लेक स्टोरेज खाता जो सर्विस प्रिंसिपल का उपयोग करेगा वह Gen2 होना चाहिए और उसके पास होना चाहिए [पदानुक्रमित नाम स्थान सक्षम है।](/azure/storage/blobs/data-lake-storage-namespace) Azure Data Lake Gen1 संग्रहण खाते समर्थित नहीं हैं।
 > - सेवा प्रिंसिपल बनाने के लिए आपको अपनी Azure सदस्यता के लिए व्यवस्थापक अनुमतियों की आवश्यकता है।
 
 ## <a name="create-an-azure-service-principal-for-customer-insights"></a>Customer Insights के लिए Azure सेवा प्रमुख बनाएँ

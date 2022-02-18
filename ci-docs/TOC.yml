@@ -2,6 +2,22 @@
   href: index.yml
 - name: उत्पाद अवलोकन
   href: overview.md
+- name: प्रशिक्षण कैटलॉग
+  items:
+    - name: आरंभ करना
+      href: /learn/modules/get-started-customer-data-platform/
+    - name: डेटा करें
+      href: /learn/modules/ingest-data-customer-insights/
+    - name: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
+      href: /learn/modules/unified-customer-profile/
+    - name: ऑडिएंस इनसाइट के साथ काम करें
+      href: /learn/modules/working-with-customer-insights/
+    - name: डेटा समृद्ध करें और भविष्यवाणियां करें
+      href: /learn/modules/enrich-data/
+    - name: बाहरी कनेक्शन प्रबंधित करें
+      href: /learn/modules/configure-third-party-connections/
+    - name: व्यवस्थापित Customer Insights
+      href: /learn/modules/administer-customer-data-platform/
 - name: निःशुल्क परीक्षण
   items:
     - name: ' निःशुल्क परीक्षण के लिए साइन अप करें '
@@ -24,22 +40,12 @@
       items:
         - name: त्वरित प्रारंभ मार्गदर्शिका
           href: audience-insights/get-started.md
-        - name: कोई नया परिवेश बनाएँ
+        - name: एक नया परिवेश बनाएं
           href: audience-insights/create-environment.md
         - name: ऑडिएंस इनसाइट्स खोजें
           href: audience-insights/home.md
     - name: व्यावसायिक खातों के साथ काम करें
       href: audience-insights/work-with-business-accounts.md
-    - name: मॉड्यूल सीखें
-      items:
-        - name: डेटा करें
-          href: /learn/modules/ingest-data-customer-insights/
-        - name: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
-          href: /learn/modules/unified-customer-profile/
-        - name: ऐप के साथ कार्य करें
-          href: /learn/modules/working-with-customer-insights/
-        - name: डेटा और पूर्वानुमानों को समृद्ध करें
-          href: /learn/modules/enrich-data/
     - name: डेटा स्रोत
       items:
         - name: डेटा स्रोत ओवरव्यू
@@ -372,3 +378,5 @@
   href: service-limits.md
 - name: DSR अधिकार और अनुरोध
   href: dsr-rights-requests.md
+- name: समर्थन प्राप्त करें
+  href: /power-platform/admin/get-help-support

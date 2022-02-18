@@ -9,13 +9,23 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
+ms.openlocfilehash: d8a35424f4271b350b8d84e72a01deb6d69652a0
+ms.sourcegitcommit: 08a5dfcc4f9d293c8e7ac4fef604bc52985b1b78
+ms.translationtype: HT
+ms.contentlocale: hi-IN
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090925"
 ---
-
 # <a name="use-segments-in-dynamics-365-sales-preview"></a>Dynamics 365 Sales (पूर्वावलोकन) में सेगमेंटों का उपयोग करें
 
 
 
 अपने ग्राहक डेटा को मार्केटिंग सूची बनाने, कार्यप्रवाह के फ़ॉलो अप और Dynamics 365 Sales के साथ प्रचार भेजने के लिए इस्तेमाल करें.
+
+## <a name="known-limitations"></a>ज्ञात सीमाएँ
+
+- Dynamics 365 Sales में निर्यात प्रति सेगमेंट 100'000 सदस्यों तक सीमित है।
+- Dynamics 365 Sales में सेगमेंट निर्यात को पूरा होने में 3 घंटे तक लग सकते हैं. 
 
 ## <a name="prerequisite-for-connection"></a>कनेक्शन के लिए पूर्वावश्यकताएँ
 
