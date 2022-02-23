@@ -9,8 +9,13 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
+ms.openlocfilehash: 8a871d65bd79d3246984e23fb52210c8dc7259b8
+ms.sourcegitcommit: 7a99f3490e6582c2bc2b38019ed1898348b0eaba
+ms.translationtype: HT
+ms.contentlocale: hi-IN
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8027054"
 ---
-
 # <a name="connect-to-a-common-data-model-folder-using-an-azure-data-lake-account"></a>किसी Azure Data Lake खाते का उपयोग करके कॉमन डेटा मॉडल फ़ोल्डर से जोड़ें
 
 यह आलेख आपके Azure Data Lake Storage Gen2 खाते का उपयोग करके एक सामान्य डेटा मॉडल फ़ोल्डर से डेटा को इन्जेस्ट करने के बारे में जानकारी प्रदान करता है.

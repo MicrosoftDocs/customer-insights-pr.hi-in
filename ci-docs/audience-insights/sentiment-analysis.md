@@ -9,8 +9,13 @@ ms.topic: conceptual
 author: wmelewong
 ms.author: wameng
 manager: shellyha
+ms.openlocfilehash: 8a4473c1c395bbcf8efa2bfa24cddb82e1784279
+ms.sourcegitcommit: 15ec8c5f54242feda9489e7665726ec5e0983dc9
+ms.translationtype: HT
+ms.contentlocale: hi-IN
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8008767"
 ---
-
 # <a name="analyze-sentiment-in-customer-feedback-preview"></a>ग्राहक प्रतिक्रिया में भावना का विश्लेषण करें (पूर्वावलोकन)
 
 ग्राहक इन दिनों उच्च गुणवत्ता वाले उत्पादों, सेवाओं और अनुभवों की अपेक्षा करते हैं। खासकर ग्राहक जो अपनी प्रतिक्रिया साझा करते हैं। संगठनों के लिए सटीकता और उच्च श्रम लागत को कम किए बिना डेटा की बढ़ती मात्रा का विश्लेषण करना बहुत चुनौतीपूर्ण है। Dynamics 365 Customer Insights ग्राहक प्रतिक्रिया के लिए एक भावना विश्लेषण मॉडल प्रदान करता है जो संगठनों को अपने डेटा का अधिक सटीक और कम लागत पर विश्लेषण करने में सक्षम बनाता है।
