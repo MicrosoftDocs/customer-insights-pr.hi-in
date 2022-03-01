@@ -1,7 +1,7 @@
 ---
 title: Customer Insights डेटा Azure Synapse Analytics में निर्यात करें
 description: Azure Synapse Analytics से कनेक्शन को कॉन्फ़िगर करने की विधि जानें.
-ms.date: 01/05/2022
+ms.date: 04/12/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 6f630b8fb03bf615ada6d40fe27a91975d0c856e
-ms.sourcegitcommit: cb71e39de9b891c24bd5cd9c014eb3eeb537ac24
+ms.openlocfilehash: 7ee57aa9e86ebf9bd1989d88750642f0b01bd4bf
+ms.sourcegitcommit: f18635c29bb25d9e424a3f5825dc2696278450cf
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7951044"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327366"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>Azure Synapse Analytics में डेटा निर्यात करें (पूर्वावलोकन)
 
@@ -49,8 +49,6 @@ Azure में:
 
 ### <a name="configure-a-connection"></a>एक कनेक्शन कॉन्फ़िगर करें
 
-कनेक्शन बनाने के लिए, Customer Insights में सेवा प्रिंसिपल और उपयोगकर्ता खाते की आवश्यकता होती है **रीडर** पर अनुमतियाँ *संसाधन समूह* जहां Synapse Analytics कार्यक्षेत्र स्थित है। इसके अतिरिक्त, सेवा प्रिंसिपल और Synapse Analytics कार्यस्थान पर उपयोगकर्ता की आवश्यकता है **सिनैप्स एडमिनिस्ट्रेटर** अनुमतियाँ। 
-
 1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
 1. **कनेक्शन जोड़ें** चुनें और **Azure Synapse विश्लेषण** चुनें या कनेक्शन कॉन्फ़िगर करने के लिए **Azure Synapse विश्लेषण** टाइल पर **सेट अप करें** चुनें.
@@ -65,7 +63,7 @@ Azure में:
 
 ### <a name="configure-an-export"></a>एक निर्यात कॉन्फ़िगर करें
 
-यदि आपके पास इस प्रकार के कनेक्शन का एक्सेस है तो आप इस निर्यात को कॉन्फ़िगर कर सकते हैं. एक साझा कनेक्शन के साथ निर्यात को कॉन्फ़िगर करने के लिए, आपको कम से कम चाहिए **सहयोगी** Customer Insights में अनुमतियाँ। अधिक जानकारी के लिए, देखें [निर्यात को कॉन्फ़िगर करने के लिए आवश्यक अनुमतियां](export-destinations.md#set-up-a-new-export).
+यदि आपके पास इस प्रकार के कनेक्शन का एक्सेस है तो आप इस निर्यात को कॉन्फ़िगर कर सकते हैं. अधिक जानकारी के लिए, देखें [निर्यात को कॉन्फ़िगर करने के लिए आवश्यक अनुमतियां](export-destinations.md#set-up-a-new-export).
 
 1. **डेटा** > **निर्यात** पर जाएँ.
 
@@ -84,8 +82,6 @@ Azure में:
 निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है.
 
 निर्यात हर [शेड्यूल रिफ़्रेश](system.md#schedule-tab) के साथ चलता है. आप [मांग पर डेटा निर्यात](export-destinations.md#run-exports-on-demand) भी कर सकते हैं.
-
-Synapse Analytics को निर्यात किए गए डेटा को क्वेरी करने के लिए, आपको चाहिए **संग्रहण ब्लॉब डेटा रीडर** निर्यात के कार्यक्षेत्र पर गंतव्य भंडारण तक पहुंच। 
 
 ### <a name="update-an-export"></a>निर्यात अपडेट करें
 

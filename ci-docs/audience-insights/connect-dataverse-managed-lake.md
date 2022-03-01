@@ -1,7 +1,7 @@
 ---
 title: Microsoft Dataverse में तालिकाएं से Connect करें
 description: Microsoft Dataverse प्रबंधित डेटा संग्रह से डेटा आयात करें.
-ms.date: 12/06/2021
+ms.date: 07/23/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,25 +9,22 @@ author: adkuppa
 ms.author: adkuppa
 manager: shellyha
 ms.reviewer: mhart
-ms.openlocfilehash: 436345d8932820eb4c517a9e9164b1377c1f62d3
-ms.sourcegitcommit: 3807202283dd116a30f900a163d8141db621e5a8
+ms.openlocfilehash: ffeccffd0e353cb5490b537552d585c184ad672f9c806e673bd04743214ad068
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8046427"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7033082"
 ---
 # <a name="connect-to-data-in-a-microsoft-dataverse-managed-data-lake"></a>Microsoft Dataverse प्रबंधित डेटा संग्रह में डेटा से कनेक्ट करें
 
+[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-
-यह लेख इस बारे में जानकारी प्रदान करता है कि कैसे Dataverse उपयोगकर्ता जल्दी से विश्लेषणात्मक संस्थाओं से जुड़ सकते हैं a Microsoft Dataverse प्रबंधित झील। 
-
-> [!NOTE]
-> आपको इस पर एक व्यवस्थापक होना चाहिए Dataverse आगे बढ़ने और प्रबंधित झील में उपलब्ध संस्थाओं की सूची देखने के लिए संगठन।
+यह आलेख इस बारे में जानकारी प्रदान करता है कि कैसे Dataverse उपयोगकर्ता Dataverse प्रबंधित लेक में अपनी विश्लेषणात्मक निकायों से जल्दी से जुड़ सकते हैं. आगे बढ़ने और प्रबंधित संग्रह में उपलब्ध निकायों की सूची देखने के लिए, आपको Dataverse संगठन पर एक व्यवस्थापक होना होगा.
 
 ## <a name="important-considerations"></a>महत्वपूर्ण विचार
 
-ऑनलाइन सेवाओं में संग्रहित डेटा, जैसे कि Azure Data Lake Storage, को डेटा से संसाधित या Dynamics 365 Customer Insights में संग्रहित किए जाने की तुलना में किसी अन्य स्थान पर संग्रहित किया जा सकता है.ऑनलाइन सेवाओं में संग्रहीत डेटा को आयात या कनेक्ट करके, आप सहमत हैं कि डेटा को स्थानांतरित और संग्रहीत किया जा सकता है Dynamics 365 Customer Insights . [माइक्रोसॉफ्ट ट्रस्ट सेंटर पर और जानें।](https://www.microsoft.com/trust-center)
+ऑनलाइन सेवाओं में संग्रहित डेटा, जैसे कि Azure Data Lake Storage, को डेटा से संसाधित या Dynamics 365 Customer Insights में संग्रहित किए जाने की तुलना में किसी अन्य स्थान पर संग्रहित किया जा सकता है. ऑनलाइन सेवाओं में संग्रहित डेटा को आयात या कनेक्ट करके, आप सहमत होते हैं कि डेटा को Dynamics 365 Customer Insights के साथ स्थानांतरित और संग्रहित किया जा सकता है. [Microsoft ट्रस्ट सेंटर में और जानें.](https://www.microsoft.com/trust-center)
 
 ## <a name="connect-to-a-dataverse-managed-lake"></a>एक Dataverse प्रबंधित लेक से जोड़ें
 
@@ -35,9 +32,12 @@ ms.locfileid: "8046427"
 
 2. **डेटा स्रोत जोड़ें** को चुनें.
 
-3. चुनते हैं **Microsoft Dataverse** और चुनें **अगला।**
+3. **Microsoft Dataverse प्रबंधित लेक से कनेक्ट करें** चुनें और **अगला** चुनें.
 
-4. डेटा स्रोत के लिए एक **नाम** दर्ज करें एवं **अगला** चुनें. 
+4. डेटा स्रोत के लिए एक **नाम** दर्ज करें एवं **अगला** चुनें. नाम दिशानिर्देश: 
+   - अक्षर के साथ शुरू करें.
+   - केवल अक्षर और संख्याओं का उपयोग करें. विशेष वर्ण और खाली जगह की अनुमति नहीं है.
+   - 3 से 64 वर्णों के बीच उपयोग करें.
 
 5. Dataverse संगठन के लिए **सर्वर पता** प्रदान करें और **साइन इन** चुनें.
 

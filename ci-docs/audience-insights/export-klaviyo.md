@@ -1,7 +1,7 @@
 ---
 title: Klaviyo में Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Klaviyo को निर्यात करने का तरीका जानें।
-ms.date: 10/08/2021
+ms.date: 08/13/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 5f7c91afed8eeb1f767f1efc58dceb7782c37bb4
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
+ms.openlocfilehash: 7c1297fd5381c00c07d6501186c51fe4798773d1
+ms.sourcegitcommit: 205f931ec671a0ab1850f2c1c94df3307ffb62c9
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7619075"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7385790"
 ---
 # <a name="export-segment-lists-to-klaviyo-preview"></a>अनुभाग सूचियाँ Klaviyo में निर्यात करें (पूर्वावलोकन)
 
@@ -28,10 +28,10 @@ ms.locfileid: "7619075"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- आप Klaviyo में प्रति निर्यात 100'000 तक ग्राहक प्रोफ़ाइल निर्यात कर सकते हैं.
+- आप Klaviyo को प्रति निर्यात 100'000 प्रोफ़ाइल तक निर्यात कर सकते हैं.
 - Klaviyo में निर्यात करना अनुभागों तक सीमित है.
-- 1 मिलियन ग्राहक प्रोफ़ाइल निर्यात करने में Klaviyo को 20 मिनट तक का समय लग सकता है. 
-- Klaviyo के साथ आपके अनुबंध पर ,आप Klaviyo में कितने ग्राहक प्रोफ़ाइल निर्यात कर सकते हैं, निर्भर और सीमित होता है.
+- 1 million प्रोफ़ाइलों को Klaviyo पर निर्यात करने में 20 मिनट तक का समय लग सकता है। 
+- आपके द्वारा Klaviyo में निर्यात की जा सकने वाली प्रोफ़ाइलों की संख्या Klaviyo के साथ आपके अनुबंध पर निर्भर और सीमित है.
 
 ## <a name="set-up-connection-to-klaviyo"></a>Klaviyo में कनेक्शन सेट अप करें
 
@@ -67,7 +67,7 @@ ms.locfileid: "7619075"
 
 1. अपना [**Klaviyo सूची ID**](https://help.klaviyo.com/hc/articles/115005078647-How-to-Find-a-List-ID) दर्ज करें।     
 
-3. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. Klaviyo में अनुभाग को निर्यात करने के लिए इसकी आवश्यकता है।
+3. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. Klaviyo में अनुभाग को निर्यात करने के लिए इसकी आवश्यकता है।
 
 1. **सहेजें** चुनें.
 

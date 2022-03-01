@@ -1,20 +1,20 @@
 ---
 title: Power Automate कनेक्टर | Microsoft Docs
 description: Dynamics 365 Customer Insights से Microsoft Power Automate में प्रवाह बनाएं.
-ms.date: 06/24/2021
-ms.reviewer: mhart
+ms.date: 08/03/2020
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: how-to
-author: pkieffer
-ms.author: philk
+ms.topic: conceptual
+author: m-hartmann
+ms.author: mhart
+ms.reviewer: philk
 manager: shellyha
-ms.openlocfilehash: 95e0fcbfb43f2b3e7e2d0e8a1690dc7ff5a44433402b7ef3d437710eb0efff15
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: ffe92414365b0b777691a4a2d585100e4fbea591
+ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035601"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4405921"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate कनेक्टर (पूर्वावलोकन)
 
@@ -22,35 +22,28 @@ ms.locfileid: "7035601"
 
 ## <a name="power-automate-triggers"></a>Power Automate ट्रिगर्स
 
-क्लाउड प्रवाह बनाने के लिए ट्रिगर का उपयोग करें और बार-बार किए जाने वाले कार्यों को स्वचालित करें, जैसे सूचनाएं या अधिक एडवांस्ड एक्शन. 
+आप विभिन्न प्रकार के ट्रिगर्स का उपयोग कर सकते हैं जो आपको दोहराए जाने वाले कार्यों को स्वचालित करने के लिए फ़्लो बनाने की अनुमति देते हैं, जैसे कि अधिसूचनाएं या अधिक उन्नत क्रियाएं. 
 
 - ट्रिगर जब डेटा स्रोत रिफ़्रेश विफल रहता है. 
 - ट्रिगर जब डेटा स्रोत रिफ़्रेश सफल होता है.
 - ट्रिगर जब अनुभाग की सीमा पार की जाती है. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
-- ट्रिगर जब व्यावसायिक उपाय सीमा के पार हो जाता है. केवल बिना आयाम वाले व्यावसायिक उपाय समर्थित हैं. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
-- ट्रिगर करें, जब (डेटा स्रोतों, खंडों, साधनों, ...) का पूरा रिफ़्रेश पूरा हो जाता है.
+- ट्रिगर जब व्यावसायिक उपाय सीमा के पार हो जाता है. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
+- ट्रिगर जब (डेटा स्रोतों, खंडों, साधनों,...) का पूरा रिफ़्रेश पूरा हो जाता है.
 - जब एकीकरण प्रक्रिया (मानचित्र, मिलान, मर्ज) का रिफ्रेश पूरा होता है तब ट्रिगर करें.
 
-[Power Automate में अपने ट्रिगर कॉन्फ़िगर करें।](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/)
+[Power Automate में अपने ट्रिगर कॉन्फ़िगर करें](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
 
 ## <a name="power-automate-actions"></a>Power Automate कार्रवाइयां
+Power Automate कनेक्टर उपलब्ध ट्रिगर्स से अलग कार्रवाइयां प्रदान करता है. अधिक जानकारी के लिए, [Dynamics 365 Customer Insights Connector](https://docs.microsoft.com/connectors/customerinsights/) देखें.
 
-Power Automate कनेक्टर उपलब्ध ट्रिगर्स से अलग कार्रवाइयां प्रदान करता है. अधिक जानकारी के लिए, [Dynamics 365 Customer Insights Connector](/connectors/customerinsights/) देखें.
+## <a name="create-a-power-automate-flow-in-audience-insights"></a>ऑडियंस इनसाइट्स में एक Power Automate प्रवाह बनाएं
 
-## <a name="create-a-power-automate-flow"></a>एक Power Automate प्रवाह बनाएँ
+1. ऑडिएंस इनसाइट्स में, **व्यवस्थापक** > **सिस्टम** पर जाएं.
 
-1. ऑडिएंस इनसाइट्स में, **व्यवस्थापक** > **निर्यात गंतव्य** पर जाएं.
+1. **सिस्टम** पेज पर, **स्थिति** टैब का चयन करें.
 
-1. **Power Automate** टाइल पर, **सेट अप** का चयन करें.
+1. **डेटा स्रोत** खंड में, **प्रवाह** चुनें और ड्रॉपडाउन सूची से **एक प्रवाह बनाएँ** को चुनें.
+   > [!div class="mx-imgBorder"]
+   > ![Power Automate कनेक्टर फ़्लो क्रिया बनाएं दर्शा रहा है](media/power-automate-connector-create-flow.png "प्रवाह बनाएं कार्रवाई दर्शाता Power Automate कनेक्टर")
 
-1. Power Automate में Customer Insights कनेक्टर (पूर्वावलोकन) खुलता है. Power Automate से **साइन इन** करें.
-
-1. उपलब्ध ट्रिगर में से किसी एक को चुनें और अपने नए प्रवाह में और चरण जोड़ें. अधिक जानकारी के लिए, [Power Automate में क्लाउड प्रवाह बनाएं](/power-automate/get-started-logic-flow) देखें.
-
-प्रवाह का उपयोग करने के उदाहरण: 
-- यदि डेटा स्रोत रीफ्रेश विफल रहता है, तो Microsoft Teams चैनल पर एक संदेश पोस्ट करें. 
-- जब एक सेगमेंट पर सीमा पार हो जाती है, तो डेटा मालिकों को एक ईमेल भेजें.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+1. Power Automate में, अपना पसंदीदा प्रवाह बनाने के लिए उपलब्ध ट्रिगर में से एक को चुनें. यदि आप अपना पहला प्रवाह बना रहे हैं तो आपको पहले Power Automate कनेक्टर के साथ अनुप्रमाणन करना होगा.

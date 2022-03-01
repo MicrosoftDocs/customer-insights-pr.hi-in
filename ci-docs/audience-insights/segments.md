@@ -1,20 +1,20 @@
 ---
 title: ऑडियंस इनसाइट में अनुभाग
 description: अनुभागों का अवलोकन और उन्हें कैसे बनाएं और प्रबंधित करें.
-ms.date: 11/01/2021
+ms.date: 09/30/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: overview
+ms.topic: how-to
 author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 740d293b21f43b50201f23fcba109318823ef3af
-ms.sourcegitcommit: bb1ca84bc38e81fb2ff2961c457384b7beb5b5fa
+ms.openlocfilehash: ac33a6dcde4c710cecd3c6836aad3e26ce5c7de6
+ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7978061"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "7673835"
 ---
 # <a name="segments-overview"></a>अनुभाग ओवरव्यू
 
@@ -65,7 +65,8 @@ ms.locfileid: "7978061"
 
 आप **अनुभाग** पृष्ठ पर **सभी रिफ़्रेश करें** को चुन कर एक बार में सभी अनुभागों को रिफ़्रेश कर सकते हैं या जब आप उन्हें चुनते हैं तो एक या कई अनुभागों को रिफ़्रेश कर सकते हैं और विकल्पों में से **रिफ़्रेश करें** चुन सकते हैं. वैकल्पिक रूप से, आप **व्यवस्थापक** > **सिस्टम** > **शेड्यूल** पर एक आवर्ती रीफ़्रेश कॉन्फ़िगर कर सकते हैं.
 
-[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
+> [!TIP]
+> कार्यों/प्रक्रियाओं के लिए [छह प्रकार की स्थिति](system.md#status-types) हैं . इसके अतिरिक्त, अधिकांश प्रक्रियाएं [अन्य डाउनस्ट्रीम प्रक्रियाओं पर निर्भर करती हैं](system.md#refresh-policies). आप पूरे कार्य की प्रगति पर विवरण देखने के लिए प्रक्रिया की स्थिति का चयन कर सकते हैं. किसी एक जॉब कार्य के लिए **विवरण देखें** को चुनने के बाद, आपको अतिरिक्त जानकारी मिलती है: संसाधन समय, अंतिम संसाधन दिनांक और कार्य से जुड़ी सभी त्रुटियां और चेतावनियाँ.
 
 ## <a name="export-segments"></a>निर्यात खंड
 
@@ -104,6 +105,5 @@ ms.locfileid: "7978061"
 > वे फ़ील्ड, जो इस सूची में दिखाई देते हैं, आपके अनुभाग के एट्रिब्यूट की विशेषताओं पर आधारित होते हैं.
 >
 >सूची, मिलान वाले सेगमेंट सदस्यों का पूर्वावलोकन देती है और आपके सेगमेंट के पहले 100 रिकॉर्ड दिखाती है ताकि आप उसका तुरंत मूल्यांकन कर सकें और आवश्यकता होने पर उसकी परिभाषाओं की समीक्षा कर सकें. मिलान वाले सभी रिकॉर्ड देखने के लिए आपको [सेगमेंट निर्यात करना](export-destinations.md)होगा.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)] 

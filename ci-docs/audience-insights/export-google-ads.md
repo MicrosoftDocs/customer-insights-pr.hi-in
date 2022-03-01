@@ -1,7 +1,7 @@
 ---
 title: Google Ads के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Google Ads को निर्यात करने का तरीका जानें.
-ms.date: 09/27/2021
+ms.date: 03/03/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,19 +9,16 @@ author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: ce9579f3d31207e666665237fd8935bb86889f8d
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
+ms.openlocfilehash: c16967bf8ea1fd02b3f991d7b7d3715a71fa8681
+ms.sourcegitcommit: 9a99e48e96dfb3d895db428f37c30ae55eea66b7
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7617925"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6604279"
 ---
 # <a name="export-segments-to-google-ads-preview"></a>Google Ads (पूर्वावलोकन) में निर्यात अनुभाग
 
 एकीकृत ग्राहक प्रोफ़ाइल के अनुभाग को Google Ads ऑडिएंस सूची में निर्यात करें और Google खोज, Gmail, YouTube, और Google प्रदर्शन नेटवर्क पर विज्ञापन देने के लिए उनका उपयोग करें। 
-
-> [!IMPORTANT]
-> वर्तमान में, आप केवल एक नया कनेक्शन बना सकते हैं और Google Ads को डेटा निर्यात कर सकते हैं यदि आपके पास पहले से ही एक स्वीकृत Google Ads डेवलपर टोकन है. नीति में बदलाव के कारण, हम जल्द ही Google Ads निर्यात को अपडेट करेंगे और एक निर्यात विकल्प प्रदान करेंगे जिसके लिए आपके अनुभव की निरंतरता सुनिश्चित करने और Google Ads को निर्यात को आसान बनाने के लिए डेवलपर टोकन की आवश्यकता नहीं होगी. हम अनुशंसा करते हैं कि नए निर्यात विकल्प पर आसानी से स्विच करने की सुविधा के लिए Google Ads के साथ अधिक कनेक्शन सेट न करें.
 
 ## <a name="prerequisites-for-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 
@@ -35,9 +32,9 @@ ms.locfileid: "7617925"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- Google Ads में प्रति निर्यात 1 मिलियन तक ग्राहक प्रोफ़ाइल.
+- Google Ads को प्रति निर्यात 1 मिलियन प्रोफ़ाइल तक.
 - Google Ads को निर्यात करना सेगमेंटों तक सीमित है.
-- कुल 1 मिलियन ग्राहक प्रोफ़ाइल वाले निर्यात अनुभागों में प्रदाता पक्ष की सीमाओं के कारण 5 मिनट तक का समय लग सकता है. 
+- प्रदाता पक्ष पर सीमाओं के कारण कुल 1 मिलियन प्रोफाइल वाले निर्यात खंडों में 5 मिनट तक का समय लग सकता है. 
 - Google Ads में मिलान में 48 घंटे तक का समय लग सकता है.
 
 ## <a name="set-up-connection-to-google-ads"></a>Google Ads के लिए कनेक्शन सेट करें
@@ -74,7 +71,7 @@ ms.locfileid: "7617925"
 
 1. अपने **[Google Ads ऑडियंस ID](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)** और Google Ads से कनेक्शन शुरू करने के लिए **कनेक्ट** चुनें.
 
-1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है.
+1. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है.
 
 1. उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं. आप कुल मिलाकर 1 मिलियन ग्राहक प्रोफ़ाइल को Google Ads में निर्यात कर सकते हैं.
 

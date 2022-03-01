@@ -1,27 +1,27 @@
 ---
 title: Microsoft Teams के लिए बॉट
 description: एक बॉट की मदद से Microsoft Teams में एकीकृत ग्राहक प्रोफाइल देखें.
-ms.date: 10/08/2021
+ms.date: 04/21/2020
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: how-to
+ms.topic: conceptual
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 6a9575de922bc2ff9c9d2212b99b4c0c8b61ab0e
-ms.sourcegitcommit: 15b1521041149716f8031cfa6d0dc61a56a5e2ff
+ms.openlocfilehash: 45ea23fbefe5f1d44c3961183b76d2cc5c45355e
+ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967821"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4405954"
 ---
 # <a name="teams-bot-for-dynamics-365-customer-insights-preview"></a>Dynamics 365 Customer Insights के लिए Teams बॉट (पूर्वावलोकन)
 
 एक बॉट को टीम चैनलों में एकीकृत ग्राहक प्रोफाइल देखने देने के लिए Microsoft Teams के साथ जुड़ें.
 
 > [!div class="mx-imgBorder"]
-> ![Teams बॉट एक ग्राहक रिकॉर्ड दिखाती हैं.](media/teams-bot.png "Teams बॉट एक ग्राहक रिकॉर्ड दिखाती हैं")
+> ![Teams बॉट एक ग्राहक रिकॉर्ड दिखाती हैं](media/teams-bot.png "Teams बॉट एक ग्राहक रिकॉर्ड दिखाती हैं")
 
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
@@ -31,10 +31,7 @@ ms.locfileid: "7967821"
 - [एकीकरण प्रक्रिया](data-unification.md) पूरी हो गयी है.
 - फ़ील्ड [खोज और फ़िल्टर इंडेक्स](search-filter-index.md) में जोड़े जाते हैं.
 - Customer Insights और टीम एक ही संगठन में हैं.
-- आपके परिवेश में प्राथमिक लक्षित ऑडिएंस हैं जो अलग-अलग ग्राहकों पर सेट हैं. व्यावसायिक खाते समर्थित नहीं हैं.
 
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWRElj]
 ## <a name="configure-the-bot"></a>बॉट कॉन्फ़िगर करें
 
 1. ऑडिएंस इनसाइट्स में, **व्यवस्थापक** > **निर्यात गंतव्य** पर जाएं.
@@ -55,6 +52,3 @@ ms.locfileid: "7967821"
 - यदि आपका संगठन एक ही संगठन में कई Customer Insights परिवेश रखता है, तो आप यह चुनने के लिए **switchinstance** दर्ज कर सकते हैं कि आप बॉट को किस परिवेश से जोड़ना चाहते हैं.
 
 - बॉट के लिए उपलब्ध आदेशों की एक सूची देखने के लिए **मदद** दर्ज करें.  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

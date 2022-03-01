@@ -1,7 +1,7 @@
 ---
 title: ग्राहक की प्रोफ़ाइलों की खोज और उन्हें फिल्टर करें
 description: निर्दिष्ट विशेषताओं के लिए एकीकृत कस्टमर प्रोफाइल और फ़िल्टर के बारे में त्वरित जानकारी प्राप्त करें.
-ms.date: 11/01/2021
+ms.date: 01/19/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,20 +9,19 @@ ms.topic: conceptual
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: e17d745974958b73683f1f9406c5ae95f2cbcb3c
-ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.openlocfilehash: 9eaeb0c93481283324f21122c9528ff5896b9866
+ms.sourcegitcommit: b9a81c2acd42d774669d2db3d0430c7d81de991c
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7732036"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "7469983"
 ---
 # <a name="customer-profiles-search--filter-index"></a>ग्राहक प्रोफाइल: खोज और फ़िल्टर सूचकांक
 
 आपके ग्राहक डेटा को एकीकृत करने का परिणाम एक ग्राहक प्रोफ़ाइल निकाय है, जो आपके कुल ग्राहक आधार में एकीकृत दृश्य उपलब्ध करता है. शीघ्र [एक विशिष्ट ग्राहक या ग्राहकों के समूह की जानकारी पाएं](customer-profiles.md), पाने के लिए आप **खोज** और **फ़िल्टर** क्षमताओं को **ग्राहक** पृष्ठ पर शीघ्र कॉन्फ़िगर कर सकते हैं. यह जानने के लिए कि पढ़ें कि व्यवस्थापक **खोज और फ़िल्टर सूचकांक** पृष्ठ पर विशेषताओं को कैसे संपादित कर सकते हैं, यह उपयोगकर्ताओं के लिए खोज और फ़िल्टर प्राप्त करने के लिए उपलब्ध हैं.
 
-   :::image type="content" source="media/search-filter.png" alt-text="खोज फ़ि‍ल्‍टर":::
-
-[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
+> [!div class="mx-imgBorder"]
+> ![खोज फ़ि‍ल्‍टर.](media/search-filter.png "खोज फ़ि‍ल्‍टर")
 
 ## <a name="add-fields-and-specify-attributes"></a>फ़ील्ड जोड़ें और विशेषताएँ निर्दिष्ट करें
 

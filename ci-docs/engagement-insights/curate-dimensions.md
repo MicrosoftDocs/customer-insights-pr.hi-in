@@ -8,12 +8,12 @@ author: mkisel
 ms.author: mkisel
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 8a3d7f9276330a6daacbe9428d84a371b81bbefe
-ms.sourcegitcommit: 971716c761871cee390519cacef617dac21ecd60
+ms.openlocfilehash: 50bb800c9e097d03cc6f26f79819c741ab5e8baf
+ms.sourcegitcommit: 1c396394470df8e68c2fafe3106567536ff87194
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466350"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "7461105"
 ---
 # <a name="use-demographic-dimensions-for-splitting-behavioral-data"></a>व्यवहार संबंधी डेटा को विभाजित करने के लिए जनसांख्यिकीय आयामों का उपयोग करें
 
@@ -29,7 +29,7 @@ ms.locfileid: "7466350"
 - वह सहभागिता इनसाइट्स परिवेश जिसमें आपके पास ग्राहक प्रोफ़ाइल डेटा ऑडिएंस इनसाइट्स परिवेश से जुड़ा होता है जहां ग्राहक प्रोफ़ाइल बनाई जाती है. अधिक जानकारी: [ऑडियंस इनसाइट्स और सहभागिता इनसाइट्स के बीच लिंक बनाएँ](integrate-audience-insights-engagement-insights.md)
 
 > [!NOTE]
-> ऑडिएंस इनसाइट्स और सहभागिता इनसाइट्स परिवेशों के बीच लिंक बनाने के बाद, आप केवल ग्राहक प्रोफ़ाइल गुणों के लिए विशिष्ट डेटा चाह सकते हैं, जो सहभागिता इनसाइट्स में आयामों के रूप में उपयोगी हो सकता है. अधिक जानकारी के लिए, [ऑडियंस इनसाइट्स एकीकृत प्रोफ़ाइल विशेषताओं और खंडों को सक्षम करें](integrate-audience-insights-engagement-insights.md#enable-audience-insights-unified-profiles-attributes-and-segments) पर जाएँ.
+> ऑडिएंस इनसाइट्स और सहभागिता इनसाइट्स परिवेशों के बीच लिंक बनाने के बाद, आप केवल ग्राहक प्रोफ़ाइल गुणों के लिए विशिष्ट डेटा चाह सकते हैं, जो सहभागिता इनसाइट्स में आयामों के रूप में उपयोगी हो सकता है. अधिक जानकारी के लिए, [ऑडियंस इनसाइट्स एकीकृत प्रोफ़ाइल विशेषताओं और खंडों को सक्षम करें](integrate-audience-insights-engagement-insights.md#enable-audience-insights-unified-profiles-attributes-and-segments) पर जाएँ.<!--note from editor: Suggested. -->
 
 ## <a name="create-a-new-custom-report"></a>एक नई कस्टम रिपोर्ट बनाएँ.
 
