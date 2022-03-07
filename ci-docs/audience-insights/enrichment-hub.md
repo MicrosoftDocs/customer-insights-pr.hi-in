@@ -1,21 +1,25 @@
 ---
 title: समृद्ध एकीकृत ग्राहक प्रोफाइल
 description: अपने ग्राहक डेटा को समृद्ध करने के लिए क्षमताओं का उपयोग करें.
-ms.date: 11/05/2021
+ms.date: 02/18/2022
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: de27da92118b83dafa0742b6a1e10ee315750c61
-ms.sourcegitcommit: 6efcba688d1db1a5d6343c229f292a26c48fc007
-ms.translationtype: HT
+searchScope:
+- ci-enrichments
+- ci-enrichment-details
+- ci-enrichment-wizard
+- customerInsights
+ms.openlocfilehash: b44f5a4b74c63629811837b853b4e069dea63504
+ms.sourcegitcommit: bb1f9e96023490ab340c114f54200ab4dd48da78
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7770124"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372717"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>ग्राहक प्रोफाइल के लिए संवर्धन (पूर्वावलोकन)
 
@@ -34,9 +38,11 @@ ms.locfileid: "7770124"
 - Microsoft द्वारा प्रदान किया गया [ब्रान्ड](enrichment-microsoft.md)
 - Microsoft द्वारा प्रदान किया गया [रूचियाँ](enrichment-microsoft.md)
 - [उन्नत पते](enrichment-enhanced-addresses.md) Microsoft द्वारा प्रदत्त 
-- एक्सपीरियन द्वारा प्रदान की गई [जनसांख्यिकी](enrichment-experian.md)
+- Experian द्वारा प्रदान की गई [जनसांख्यिकी](enrichment-experian.md)
 - सिक्योर फाइल ट्रांसफर प्रोटोकॉल (SFTP) के माध्यम से [कस्टम डेटा](enrichment-SFTP-custom-import.md) 
 - Microsoft [Azure मानचित्र](enrichment-azure-maps.md) द्वारा उपलब्ध
+- HERE Technologies द्वारा प्रदान की गई [स्थान डेटा](enrichment-here.md) 
+- [पहचान](enrichment-liveramp.md) LiveRamp AbiliTec . द्वारा प्रदान किया गया
 
 # <a name="business-accounts-b-to-b"></a>[व्यावसायिक खाते (B-टू-B)](#tab/b2b)
 
@@ -46,6 +52,7 @@ ms.locfileid: "7770124"
 - HERE Technologies द्वारा प्रदान की गई [स्थान डेटा](enrichment-here.md) 
 - सिक्योर फाइल ट्रांसफर प्रोटोकॉल (SFTP) के माध्यम से [कस्टम डेटा](enrichment-SFTP-custom-import.md) 
 - Microsoft [Azure मानचित्र](enrichment-azure-maps.md) द्वारा उपलब्ध
+- [खाता जुड़ाव डेटा](enrichment-office.md) माइक्रोसॉफ्ट द्वारा प्रदान किया गया
 
 ---
 
@@ -75,9 +82,13 @@ ms.locfileid: "7770124"
 
 समृद्ध होने वाली निकाय को संवर्धन विन्यास के दौरान निर्दिष्ट किया गया है, जो आपको अपने प्रोफ़ाइल के केवल सबसेट को समृद्ध करने की अनुमति देता है. उदाहरण के लिए, केवल एक विशिष्ट अनुभाग के लिए डेटा बेहतर करें. आप एक ही प्रकार के कई संवर्धनों को कॉन्फ़िगर कर सकते हैं और एक ही कनेक्शन का पुन: उपयोग कर सकते हैं. कुछ संवर्धनों में एक ही प्रकार के संवर्धनों की संख्या की सीमाएं होंगी जिन्हें बनाया जा सकता है. सीमा और वर्तमान उपयोग **एनरिचमेंट** पृष्ठ पर देखा जा सकता है.
 
+## <a name="enrich-data-sources-before-unification"></a>एकीकरण से पहले डेटा स्रोतों को समृद्ध करें
+
+डेटा मिलान की गुणवत्ता बढ़ाने में सहायता के लिए आप डेटा एकीकरण से पहले अपने ग्राहक डेटा को समृद्ध कर सकते हैं। अधिक जानकारी के लिए देखें [डेटा स्रोत संवर्धन।](data-sources-enrichment.md)
+
 ## <a name="see-the-progress-of-the-enrichment-process"></a>संवर्धन प्रक्रिया की प्रगति देखें
 
-आप ऐसे संवर्द्धन के संसाधन के बारे में विवरण प्राप्त कर सकते हैं, जिसमें रीफ़्रेश होने या रीफ़्रेश पूरा होने के बाद इसकी स्थिति और संभावित समस्याएँ शामिल हैं. समझें कि संवर्धन को रीफ़्रेश करने के लिए कौन सी प्रक्रियाएँ शामिल होती हैं और प्रक्रियाओं को चलाने में कितना समय लगा. संवर्धन की स्थिति Experian, लीडस्पेस, HERE टेक्नोलॉजीज, SFTP इम्पोर्ट और Azure मैप्स के लिए समर्थित है।
+आप ऐसे संवर्द्धन के संसाधन के बारे में विवरण प्राप्त कर सकते हैं, जिसमें रीफ़्रेश होने या रीफ़्रेश पूरा होने के बाद इसकी स्थिति और संभावित समस्याएँ शामिल हैं. समझें कि संवर्धन को रीफ़्रेश करने के लिए कौन सी प्रक्रियाएँ शामिल होती हैं और प्रक्रियाओं को चलाने में कितना समय लगा. Experian, लीडस्पेस, HERE टेक्नोलॉजीज, SFTP इम्पोर्ट और Azure मानचित्र के लिए समृद्ध स्थिति समर्थित है.
 
 संवर्धन की स्थिति देखने के लिए
 

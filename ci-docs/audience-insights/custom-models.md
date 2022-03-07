@@ -3,18 +3,20 @@ title: कस्टम मशीन लर्निंग मॉडल | Microso
 description: Dynamics 365 Customer Insights में Azure मशीन लर्निंग से कस्टम मॉडल के साथ काम करें.
 ms.date: 12/01/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: tutorial
 author: zacookmsft
 ms.author: zacook
 manager: shellyha
-ms.openlocfilehash: 47e2e5109ef8f21a782f6c8f87088009f8a40fdf
-ms.sourcegitcommit: 58651d33e0a7d438a2587c9ceeaf7ff58ae3b648
-ms.translationtype: HT
+searchScope:
+- ci-custom-models
+- customerInsights
+ms.openlocfilehash: 460b68e1e65b3033af0a03d1bcc27e718c79d7aa
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "7881786"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8355077"
 ---
 # <a name="custom-machine-learning-models"></a>कस्टम मशीन लर्निंग मॉडल
 
@@ -40,6 +42,8 @@ ms.locfileid: "7881786"
 
    > [!NOTE]
    > डेटा को आपके Customer Insights इंस्टेंस और कार्य प्रवाह में चयनित Azure वेब सेवाओं या पाइपलाइन्स के बीच ट्रांसफर किया जाता है. जब आप डेटा को किसी Azure सेवा में स्थानांतरित करते हैं, तो कृपया सुनिश्चित करें कि सेवा आपके संगठन के लिए उस डेटा के लिए किसी भी कानूनी या नियामक आवश्यकताओं का अनुपालन करने के लिए आवश्यक तरीके और स्थान में डेटा को संसाधित करने के लिए कॉन्फ़िगर की गई है.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWRElk]
 
 ## <a name="add-a-new-workflow"></a>नया कार्यप्रवाह जोड़ें
 

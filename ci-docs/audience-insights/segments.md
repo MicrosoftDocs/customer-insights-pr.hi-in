@@ -1,26 +1,31 @@
 ---
 title: ऑडियंस इनसाइट में अनुभाग
 description: अनुभागों का अवलोकन और उन्हें कैसे बनाएं और प्रबंधित करें.
-ms.date: 09/30/2021
-ms.service: customer-insights
+ms.date: 11/01/2021
 ms.subservice: audience-insights
-ms.topic: how-to
+ms.topic: overview
 author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: ac33a6dcde4c710cecd3c6836aad3e26ce5c7de6
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+searchScope:
+- ci-customers-page
+- ci-enrichment-details
+- ci-segments
+- ci-segment-details
+- customerInsights
+ms.openlocfilehash: c58f79c2beda1083d19bd36d94549ff1a46b096e
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673835"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8355985"
 ---
 # <a name="segments-overview"></a>अनुभाग ओवरव्यू
 
 सेगमेंट्स आपको जनसांख्यिकीय, लेन-देन या व्यवहार संबंधी विशेषताओं के आधार पर अपने ग्राहकों को समूहित करने देते हैं. आप अपने व्यावसायिक लक्ष्यों को प्राप्त करने के लिए प्रचार अभियानों, बिक्री गतिविधियों और ग्राहक सहायता कार्यों को लक्षित करने के लिए अनुभागों का उपयोग कर सकते हैं.
 
-अनुभाग परिभाषा के फ़िल्टर से मेल खाने वाली ग्राहक प्रोफ़ाइल को सेगमेंट के *सदस्य* के रूप में संदर्भित किया जाता है. कुछ [सेवा सीमा](service-limits.md) लागू होते हैं .
+अनुभाग परिभाषा के फ़िल्टर से मेल खाने वाली ग्राहक प्रोफ़ाइल को सेगमेंट के *सदस्य* के रूप में संदर्भित किया जाता है. कुछ [सेवा सीमा](/dynamics365/customer-insights/service-limits) लागू होते हैं .
 
 ## <a name="create-a-new-segment"></a>कोई नया सेगमेंट बनाना
 
@@ -65,8 +70,7 @@ ms.locfileid: "7673835"
 
 आप **अनुभाग** पृष्ठ पर **सभी रिफ़्रेश करें** को चुन कर एक बार में सभी अनुभागों को रिफ़्रेश कर सकते हैं या जब आप उन्हें चुनते हैं तो एक या कई अनुभागों को रिफ़्रेश कर सकते हैं और विकल्पों में से **रिफ़्रेश करें** चुन सकते हैं. वैकल्पिक रूप से, आप **व्यवस्थापक** > **सिस्टम** > **शेड्यूल** पर एक आवर्ती रीफ़्रेश कॉन्फ़िगर कर सकते हैं.
 
-> [!TIP]
-> कार्यों/प्रक्रियाओं के लिए [छह प्रकार की स्थिति](system.md#status-types) हैं . इसके अतिरिक्त, अधिकांश प्रक्रियाएं [अन्य डाउनस्ट्रीम प्रक्रियाओं पर निर्भर करती हैं](system.md#refresh-policies). आप पूरे कार्य की प्रगति पर विवरण देखने के लिए प्रक्रिया की स्थिति का चयन कर सकते हैं. किसी एक जॉब कार्य के लिए **विवरण देखें** को चुनने के बाद, आपको अतिरिक्त जानकारी मिलती है: संसाधन समय, अंतिम संसाधन दिनांक और कार्य से जुड़ी सभी त्रुटियां और चेतावनियाँ.
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
 ## <a name="export-segments"></a>निर्यात खंड
 
@@ -106,4 +110,5 @@ ms.locfileid: "7673835"
 >
 >सूची, मिलान वाले सेगमेंट सदस्यों का पूर्वावलोकन देती है और आपके सेगमेंट के पहले 100 रिकॉर्ड दिखाती है ताकि आप उसका तुरंत मूल्यांकन कर सकें और आवश्यकता होने पर उसकी परिभाषाओं की समीक्षा कर सकें. मिलान वाले सभी रिकॉर्ड देखने के लिए आपको [सेगमेंट निर्यात करना](export-destinations.md)होगा.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)] 
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

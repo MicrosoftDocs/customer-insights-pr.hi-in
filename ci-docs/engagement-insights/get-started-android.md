@@ -1,26 +1,26 @@
 ---
-title: Android SDK के साथ शुरुआत करें
-description: Android SDK को वैयक्तिकृत और चलाने का तरीका जानें
+title: Android SDK के साथ प्रारंभ करें
+description: जानें कि कैसे Android SDK वैयक्तिकृत और चलाया जाता है
 author: britl
 ms.reviewer: mhart
+ms.custom: intro-internal
 ms.author: britl
 ms.date: 10/19/2021
-ms.service: customer-insights
 ms.subservice: engagement-insights
 ms.topic: conceptual
 ms.manager: shellyha
-ms.openlocfilehash: c678c2dafbb77926269b5602bca363c678ec6b3f
-ms.sourcegitcommit: ef823f3d7fa28d3a90cfde9409be9465ffa2cf09
-ms.translationtype: HT
+ms.openlocfilehash: b06822b2c2d6a859bdf808f7800baef43c4ab874
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655344"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8226171"
 ---
-# <a name="get-started-with-the-android-sdk"></a>Android SDK के साथ शुरुआत करें
+# <a name="get-started-with-the-android-sdk"></a>Android SDK के साथ प्रारंभ करें
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-यह ट्यूटोरियल आपके Android एप्लिकेशन को Dynamics 365 Customer Insights एंगेजमेंट इनसाइट्स SDK के साथ इंस्ट्रूमेंट करने की प्रक्रिया में आपका मार्गदर्शन करता है। आपको अपने पोर्टल में पाँच मिनट या उससे पहले के ईवेंट दिखाई देने लगेंगे।
+यह ट्यूटोरियल आपके Android ऐप को इंस्ट्रूमेंट करने की प्रक्रिया के माध्यम से Dynamics 365 Customer Insights संलग्नता इनसाइट्स SDK पर आपको दिशानिर्देश देता है। आपको अपने पोर्टल में पाँच मिनट या उससे पहले के ईवेंट दिखाई देने लगेंगे।
 
 ## <a name="configuration-options"></a>कॉन्फ़िगरेशन विकल्प
 निम्नलिखित कॉन्फ़िगरेशन विकल्प SDK को पास किए जा सकते हैं:
@@ -31,12 +31,12 @@ ms.locfileid: "7655344"
 
 - Android Studio
 
-- न्यूनतम Android API स्तर: 16 (जेली बीन)
+- न्यूनतम Android API स्तर: 16 (Jelly Bean)
 
 - एक अंतर्ग्रहण कुंजी (प्राप्त करने के तरीके के बारे में निर्देशों के लिए नीचे देखें)
 
 ## <a name="integrate-the-sdk-into-your-application"></a>SDK को अपने एप्लीकेशन में एकीकृत करें
-कार्यक्षेत्र का चयन करके, Android मोबाइल प्लेटफ़ॉर्म का चयन करके और Android SDK डाउनलोड करके प्रक्रिया प्रारंभ करें।
+कार्यक्षेत्र का चयन करके प्रक्रिया शुरू करें, Android मोबाइल प्लेटफॉर्म का चयन करें, और Android SDK डाउनलोड करें।
 
 - अपने कार्यस्थान का चयन करने के लिए बाएं नेविगेशन फलक में कार्यस्थान स्विचर का उपयोग करें।
 
@@ -46,7 +46,7 @@ ms.locfileid: "7655344"
 
 ## <a name="configure-the-sdk"></a>SDK कॉन्फ़िगर करें
 
-एक बार जब आप एसडीके डाउनलोड कर लेते हैं, तो आप घटनाओं को सक्षम और परिभाषित करने के लिए Android Studio में इसके साथ काम कर सकते हैं। ऐसा करने के दो तरीके हैं:
+एक बार जब आप SDK डाउनलोड कर लेते हैं, तो आप ईवेंट को सक्षम और परिभाषित करने के लिए Android Studio में इसके साथ काम कर सकते हैं. ऐसा करने के दो तरीके हैं:
 ### <a name="option-1-use-jitpack-recommended"></a>विकल्प 1: जितपैक का उपयोग करें (अनुशंसित)
 1. अपने रूट `build.gradle` में JitPack रिपॉजिटरी जोड़ें:
     ```gradle
@@ -67,7 +67,7 @@ ms.locfileid: "7655344"
     ```
 
 ### <a name="option-2-use-download-link"></a>विकल्प 2: डाउनलोड लिंक का उपयोग करें
-1. डाउनलोड करें [सहभागिता जानकारी Android SDK](https://download.pi.dynamics.com/sdk/EI-SDKs/ei-android-sdk.zip), और जगह`eiandroidsdk-debug.aar` में फ़ाइल`libs` फ़ोल्डर।
+1. [संलग्नता अंतर्दृष्टि Android SDK](https://download.pi.dynamics.com/sdk/EI-SDKs/ei-android-sdk.zip) डाउनलोड करें, और `libs` फ़ोल्डर में `eiandroidsdk-debug.aar` फ़ाइल को रखें ।
 
 1. अपनी प्रोजेक्ट स्तरीय `build.gradle` फ़ाइल खोलें और निम्न स्निपेट्स जोड़ें:
     ```gradle

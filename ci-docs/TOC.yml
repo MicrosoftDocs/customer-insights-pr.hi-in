@@ -2,8 +2,30 @@
   href: index.yml
 - name: उत्पाद अवलोकन
   href: overview.md
-- name: परीक्षण बनाएँ
-  href: audience-insights/get-started-trial.md
+- name: प्रशिक्षण कैटलॉग
+  items:
+    - name: आरंभ करना
+      href: /learn/modules/get-started-customer-data-platform/
+    - name: डेटा करें
+      href: /learn/modules/ingest-data-customer-insights/
+    - name: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
+      href: /learn/modules/unified-customer-profile/
+    - name: ऑडिएंस इनसाइट के साथ काम करें
+      href: /learn/modules/working-with-customer-insights/
+    - name: डेटा समृद्ध करें और भविष्यवाणियां करें
+      href: /learn/modules/enrich-data/
+    - name: बाहरी कनेक्शन प्रबंधित करें
+      href: /learn/modules/configure-third-party-connections/
+    - name: व्यवस्थापित Customer Insights
+      href: /learn/modules/administer-customer-data-platform/
+- name: निःशुल्क परीक्षण
+  items:
+    - name: ' निःशुल्क परीक्षण के लिए साइन अप करें '
+      href: trial-signup.md
+    - name: परीक्षण FAQ
+      href: trial-FAQ.md
+- name: भुगतान लाइसेंस से प्रारंभ करें
+  href: paid-license.md
 - name: अपना परिवेश एक्सेस करें
   href: 'https://home.ci.ai.dynamics.com/'
 - name: ऑडिएंस इनसाइट
@@ -19,29 +41,25 @@
         - name: त्वरित प्रारंभ मार्गदर्शिका
           href: audience-insights/get-started.md
         - name: एक नया परिवेश बनाएं
-          href: audience-insights/get-started-paid.md
+          href: audience-insights/create-environment.md
         - name: ऑडिएंस इनसाइट्स खोजें
           href: audience-insights/home.md
-    - name: मॉड्यूल सीखें
-      items:
-        - name: डेटा करें
-          href: /learn/modules/ingest-data-customer-insights/
-        - name: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
-          href: /learn/modules/unified-customer-profile/
-        - name: ऐप के साथ कार्य करें
-          href: /learn/modules/working-with-customer-insights/
-        - name: डेटा और पूर्वानुमानों को समृद्ध करें
-          href: /learn/modules/enrich-data/
+    - name: व्यावसायिक खातों के साथ काम करें
+      href: audience-insights/work-with-business-accounts.md
     - name: डेटा स्रोत
       items:
         - name: डेटा स्रोत ओवरव्यू
           href: audience-insights/data-sources.md
-        - name: Power Query कनेक्टर के माध्यम से डेटा स्रोत जोड़ें
+        - name: के माध्यम से डेटा स्रोत जोड़ें Power Query कनेक्टर्स
           href: audience-insights/connect-power-query.md
         - name: डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें
           href: audience-insights/connect-common-data-model.md
         - name: Dataverse प्रबंधित डेटा लेक जोड़ें
           href: audience-insights/connect-dataverse-managed-lake.md
+        - name: Azure Synapse Analytics जोड़ें
+          href: audience-insights/connect-synapse.md
+        - name: डेटा स्रोतों के लिए संवर्धन
+          href: audience-insights/data-sources-enrichment.md
         - name: डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश
           href: audience-insights/incremental-refresh-data-sources.md
         - name: वास्तविक-समय डेटा इनजेशन
@@ -66,22 +84,30 @@
           href: audience-insights/relationships.md
         - name: ग्राहक गतिविधियों को सूचीबद्ध करें
           href: audience-insights/activities.md
+        - name: सिमेंटिक मैपिंग को परिभाषित करें
+          href: audience-insights/semantic-mappings.md
     - name: डेटा संवर्धन
       items:
         - name: ग्राहक प्रोफ़ाइलें को बेहतर करें
           href: audience-insights/enrichment-hub.md
-        - name: ब्रांड और ब्याज समानताएँ
+        - name: ब्रांड और रुचियां
           href: audience-insights/enrichment-microsoft.md
         - name: संवर्धित पते
           href: audience-insights/enrichment-enhanced-addresses.md
+        - name: परिष्कृत कंपनी डेटा
+          href: audience-insights/enrichment-enhanced-company-data.md
         - name: Azure Maps के साथ समृद्ध करें
           href: audience-insights/enrichment-azure-maps.md
         - name: HERE Technologies के साथ समृद्ध करें
           href: audience-insights/enrichment-here.md
         - name: लीड स्पेस के साथ संवर्धित
           href: audience-insights/enrichment-leadspace.md
+        - name: LiveRamp . के साथ समृद्ध करें
+          href: audience-insights/enrichment-liveramp.md
         - name: Experian के साथ समृद्ध करें
           href: audience-insights/enrichment-experian.md
+        - name: के साथ समृद्ध करें Office 365 आंकड़े
+          href: audience-insights/enrichment-office.md
         - name: SFTP कस्टम आयात के साथ समृद्ध करें
           href: audience-insights/enrichment-SFTP-custom-import.md
     - name: सेगमेंट
@@ -100,8 +126,12 @@
           href: audience-insights/find-similar-customer-segments.md
     - name: माप
       items:
-        - name: उपायों और KPI को निर्दिष्ट करें
+        - name: उपायों का अवलोकन
           href: audience-insights/measures.md
+        - name: एक नया उपाय बनाएं
+          href: audience-insights/measure-builder.md
+        - name: माप टेम्पलेट का उपयोग करें
+          href: audience-insights/measure-templates.md
     - name: पूर्वानुमान
       items:
         - name: AI की मदद से डेटा का पूर्वानुमान करें
@@ -114,8 +144,10 @@
               href: audience-insights/predict-product-recommendation.md
             - name: सदस्यता छोड़ने का पूर्वानुमान लगाएं
               href: audience-insights/predict-subscription-churn.md
-            - name: ट्रांजैक्शनल चर्न का पूर्वानुमान करें
+            - name: लेन-देन मंथन की भविष्यवाणी करें
               href: audience-insights/predict-transactional-churn.md
+            - name: ग्राहक प्रतिक्रिया में भावना का विश्लेषण करें
+              href: audience-insights/sentiment-analysis.md
             - name: Azure मशीन लर्निंग से कस्टम मॉडल्स का उपयोग करें
               href: audience-insights/custom-models.md
             - name: आंशिक रूप से अनुपलब्ध डेटा को पूरा करें
@@ -126,14 +158,12 @@
               href: audience-insights/sample-guide-predict-clv.md
             - name: सदस्यता चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
               href: audience-insights/sample-guide-predict-subscription-churn.md
-            - name: लेन-देन संबंधी चर्न पूर्वानुमान के लिए नमूना मार्गदर्शिका
+            - name: लेन-देन मंथन पूर्वानुमान के लिए सैम्पल गाइड
               href: audience-insights/sample-guide-predict-transactional-churn.md
             - name: उत्पाद सुझावों के पूर्वानुमान के लिए सैंपल गाइड
               href: audience-insights/sample-guide-predict-product-recommendation.md
             - name: Azure मशीन लर्निंग के साथ प्रयोग
               href: audience-insights/azure-machine-learning-experiments.md
-            - name: Azure मशीन लर्निंग स्टूडियो के साथ प्रयोग
-              href: audience-insights/machine-learning-studio-experiments.md
         - name: पूर्वानुमानों को प्रबंधित करें
           href: audience-insights/manage-predictions.md
         - name: पूर्वानुमनों के आधार पर सेगमेंट बनाएं
@@ -222,14 +252,16 @@
           href: audience-insights/connections.md
         - name: अनेक परिवेश प्रबंधित करें
           href: audience-insights/manage-environments.md
-        - name: सर्विस प्रिंसिपल का उपयोग करके ADLS स्टोरेज खाते से कनेक्ट करें
-          href: audience-insights/connect-service-principal.md
-        - name: समर्थित भाषाएँ
-          href: audience-insights/supported-languages.md
+        - name: सुरक्षा
+          items:
+            - name: अपना स्वयं का 'Key Vault' लाएं
+              href: audience-insights/use-azure-key-vault.md
+            - name: सर्विस प्रिंसिपल का उपयोग करके ADLS स्टोरेज खाते से कनेक्ट करें
+              href: audience-insights/connect-service-principal.md
+            - name: डायग्नोस्टिक लॉग निर्यात करें
+              href: audience-insights/diagnostics.md
     - name: विस्तारणीयता
       items:
-        - name: एंगेजमेंट इनसाइट्स से वेब डेटा को इंटिग्रेट करें
-          href: audience-insights/integrate-engagement-insights.md
         - name: Common Data Model में निकाय स्कीमा की समीक्षा करें
           href: audience-insights/entity-schemas.md
         - name: Dataverse में Customer Insights डेटा
@@ -238,85 +270,45 @@
           href: audience-insights/apis.md
         - name: API संदर्भ
           href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
-- name: एंगेजमेंट इनसाइट्स (पूर्वावलोकन)
+- name: सहमति प्रबंधन (पूर्वावलोकन)
   items:
     - name: सहायता केंद्र
-      href: engagement-insights/index.yml
+      href: consent-management/index.yml
     - name: क्षमता अवलोकन
-      href: engagement-insights/overview.md
-    - name: शुरू करें
+      href: consent-management/overview.md
+    - name: आरंभ करना
       items:
-        - name: त्वरित प्रारंभ मार्गदर्शिका
-          href: engagement-insights/get-started.md
-        - name: एक कार्यस्थान बनाएं
-          href: engagement-insights/create-workspace.md
-        - name: वेबसाइटों और मोबाइल ऐप्स से इवेंट कैप्चर करें
-          href: engagement-insights/developer-resources.md
+        - name: आरंभ करना
+          href: consent-management/get-started.md
         - name: अवधारणाएं और शब्दावली
-          href: engagement-insights/glossary.md
-    - name: इवेंट
+          href: consent-management/glossary.md
+    - name: सहमति डेटा आयात करें
       items:
-        - name: इवेंट बनाएं और संशोधित करें
-          href: engagement-insights/refined-events.md
-        - name: पहले से प्रमाणित विज़िटर के वेब इवेंट को पहचानें
-          href: engagement-insights/unknown-to-known.md
-        - name: निर्यात इवेंट्स
-          href: engagement-insights/export-events.md
-    - name: रिपोर्ट
+        - name: सहमति डेटा आयात करें
+          href: consent-management/import-consent-data.md
+        - name: सहमति डेटा सेट करें और सहमति प्राथमिकताएं लागू करें
+          href: consent-management/set-consent-rules.md
+    - name: सहमति डेटा प्रबंधित करें
       items:
-        - name: रिपोर्ट देखें
-          href: engagement-insights/view-reports.md
-        - name: कस्टम रिपोर्ट बनाएं
-          href: engagement-insights/custom-reports.md
-        - name: एकीकृत प्रोफ़ाइल रिपोर्ट बनाएं
-          href: engagement-insights/profile-reports.md
-        - name: आयाम देखें और बनाएं
-          href: engagement-insights/dimensions.md
-        - name: मैट्रिक्स देखें और बनाएं
-          href: engagement-insights/metrics.md
-        - name: अनुभाग देखें और बनाएं
-          href: engagement-insights/segments.md
-    - name: यात्रा विश्लेषिकी
+        - name: ऑडिएंस जानकारी में सहमति नियम सक्षम करें
+          href: audience-insights/activate-consent.md
+        - name: ऑडिएंस इनसाइट सेगमेंट में डिफ़ॉल्ट सहमति नियम प्रबंधित करें
+          href: audience-insights/change-default-consent-rules.md
+    - name: सेटिंग्स और उपयोगकर्ताओं को प्रबंधित करें
       items:
-        - name: फ़नल रिपोर्ट बनाएं और प्रबंधित करें
-          href: engagement-insights/funnel-reports.md
-    - name: डेवलपर संसाधन
+        - name: सिस्टम सेटिंग्स कॉन्फ़िगर करें
+          href: consent-management/system-settings.md
+        - name: उपयोगकर्ताओं और अनुमतियों को प्रबंधित करें
+          href: consent-management/manage-users.md
+    - name: सहमति डेटा का उपयोग करें
       items:
-        - name: डेवलपर संसाधन का अवलोकन
-          href: engagement-insights/developer-resources.md
-        - name: वेब SDK ट्यूटोरियल
-          href: engagement-insights/advanced-SDK-implementation.md
-        - name: वेब SDK नमूना
-          href: engagement-insights/websdk-sample.md
-        - name: Android SDK ट्यूटोरियल
-          href: engagement-insights/get-started-android.md
-        - name: Android SDK नमूना
-          href: engagement-insights/androidsdk-sample.md
-        - name: iOS SDK ट्यूटोरियल
-          href: engagement-insights/get-started-ios.md
-        - name: iOS SDK नमूना
-          href: engagement-insights/iossdk-sample.md
-    - name: व्यवस्थापन
-      items:
-        - name: भूमिकाएँ और अनुमतियाँ
-          href: engagement-insights/user-roles.md
-        - name: परिवेशों और कार्यक्षेत्रों का प्रबंधन करें
-          href: engagement-insights/manage-environments-workspaces.md
-        - name: कुकी और उपयोगकर्ता की सहमति प्रबंधित करें
-          href: engagement-insights/user-consent-storage.md
-    - name: क्षेत्रीय उपलब्धता
-      href: engagement-insights/regional-availability.md
-- name: एकीकृत ऑडिएंस और सहभागिता जानकारी
-  items:
-    - name: ऑडियंस इनसाइट्स और सहभागिता इनसाइट्स को लिंक करें
-      href: engagement-insights/integrate-audience-insights-engagement-insights.md
-    - name: सहभागिता जानकारी रिपोर्ट में ऑडिएंस इनसाइट सेगमेंट का उपयोग करें
-      href: engagement-insights/integrate-audience-insights-segments.md
-    - name: व्यवहार संबंधी डेटा को विभाजित करने के लिए जनसांख्यिकीय आयामों का उपयोग करें
-      href: engagement-insights/curate-dimensions.md
+        - name: सहमति डेटा के साथ पूर्वानुमान बनाएं
+          href: consent-management/predictions-consent-data.md
+- name: एंगेजमेंट इनसाइट्स (पूर्वावलोकन)
+  href: engagement-insights/overview.md
 - name: सेवा सीमाएँ
   href: service-limits.md
 - name: DSR अधिकार और अनुरोध
   href: dsr-rights-requests.md
 - name: समर्थन प्राप्त करें
-  href: 'https://dynamics.microsoft.com/support/'
+  href: /power-platform/admin/get-help-support

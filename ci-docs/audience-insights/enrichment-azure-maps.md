@@ -3,18 +3,17 @@ title: Azure Maps से स्थान डेटा के साथ ग्र
 description: Azure Maps प्रथम पक्ष का संवर्धन के बारे में सामान्य जानकारी.
 ms.date: 08/31/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 63f241c27ec86f357c83a301d6797f9ff87c2241
-ms.sourcegitcommit: 2acda3c5adf40bc3f5bbb4b2b4b6c22f84371da7
+ms.openlocfilehash: cb1c0778a398ef6d338ce6cf9e199eae0c344a5c
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466764"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8226451"
 ---
 # <a name="enrichment-of-customer-profiles-with-azure-maps-preview"></a>Azure मानचित्र के साथ ग्राहक प्रोफ़ाइल का संवर्धन (पूर्वावलोकन)
 
@@ -84,9 +83,9 @@ Azure मानचित्र डेटा संवर्धन को कॉ�
 
 आप **समृद्ध डेटा देखें** का चयन करके प्रत्येक समृद्ध प्रोफ़ाइल के विस्तृत व्यू का उपयोग कर सकते हैं.
 
-## <a name="next-steps"></a>अगले चरण
+## <a name="next-steps"></a>अगले कदम
 
-अपने समृद्ध ग्राहक डेटा के ऊपर बनाएं. अपने ग्राहकों को व्यक्तिगत अनुभव देने के लिए [सेगमेंट](segments.md), [मापन](measures.md)बनाएं, और यहां तक कि [डेटा निर्यात करें](export-destinations.md).
+[!INCLUDE [next-steps-enrichment](../includes/next-steps-enrichment.md)]
 
 ## <a name="data-privacy-and-compliance"></a>डेटा गोपनीयता और अनुपालन
 

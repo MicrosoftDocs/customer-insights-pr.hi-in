@@ -5,16 +5,15 @@ author: jusali
 ms.reviewer: mhart
 ms.author: jusali
 ms.date: 10/01/2021
-ms.service: customer-insights
 ms.subservice: engagement-insights
 ms.topic: how-to
 ms.manager: shellyha
-ms.openlocfilehash: 816f948331a06794c15000eb779f93cc7fdda202
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
-ms.translationtype: HT
+ms.openlocfilehash: 76b3466afd84aa439ea55afe90ae037825884f2d
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645312"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8229079"
 ---
 # <a name="create-a-new-workspace-and-add-members"></a>नया कार्यक्षेत्र बनाएं और सदस्यों को जोड़ें
 
@@ -26,17 +25,17 @@ ms.locfileid: "7645312"
 
 ## <a name="create-a-new-workspace"></a>एक नया कार्यस्थान बनाएं
 
-कार्यक्षेत्र बनाने की प्रक्रिया में आपके कार्यक्षेत्र को व्यवस्थित करने के लिए *परिवेश* स्थापित करना शामिल है. परिवेश वह स्थान है जिसमें एक या अधिक कार्यस्थान हो सकते हैं. आप अपने कार्यक्षेत्र और ग्राहक इनसाइट्स Customer Insights क्षमता से कनेक्शन प्रबंधित करने के लिए परिवेश का उपयोग कर सकते हैं.
+कार्यक्षेत्र बनाने की प्रक्रिया में आपके कार्यक्षेत्र को व्यवस्थित करने के लिए *परिवेश* स्थापित करना शामिल है. परिवेश वह स्थान है जिसमें एक या अधिक कार्यस्थान हो सकते हैं. आप अपने कार्यक्षेत्र और ऑडिएंस अंतर्दृष्टि क्षमता के कनेक्शनों को प्रबंधित करने के लिए एक परिवेश का उपयोग कर सकते हैं।
 
-1. कार्यक्षेत्र स्विचर से **नया** चुनें.
+1. चुनते हैं **+नया** कार्यक्षेत्र स्विचर से।
 
-   :::image type="content" source="media/new-workspace.png" alt-text="नेविगेशन फलक और विवरण पर कॉलआउट के साथ Customer insights पेज.":::
+   :::image type="content" source="media/new-workspace.png" alt-text="नेविगेशन फलक और विवरण पर कॉलआउट के साथ Customer Insights पृष्ठ।":::
 
 1. **कार्यस्थान** फलक में, **कार्यस्थान का नाम** दर्ज करें.
 
    :::image type="content" source="media/workspace-name.png" alt-text="कार्यस्थान का नाम लिखें.":::
 
-1. प्लेटफ़ॉर्म प्रकार (वेब या मोबाइल) चुनें, जिसका आप आंकलन चाहते हैं.
+1. वह प्लेटफ़ॉर्म प्रकार (वेब या मोबाइल) चुनें, जिसे आप मापना चाहते हैं.
 
 1. इन वैकल्पिक सेटिंग्स को सक्षम या अक्षम करने के लिए **उन्नत सेटिंग दिखाएं** चुनें:
 

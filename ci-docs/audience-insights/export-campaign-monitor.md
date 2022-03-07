@@ -3,18 +3,17 @@ title: एक Campaign Monitor के लिए Customer Insights डेटा �
 description: कनेक्शन को कॉन्फ़िगर करने और Campaign Monitor विज्ञापन प्रबंधक को निर्यात करने का तरीका जानें.
 ms.date: 10/08/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 063de14c4ffd51b3afd89786606d7b37626695dc
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
-ms.translationtype: HT
+ms.openlocfilehash: be9c92a087ab4664077d18fe8585bf96715c1535
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7618983"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8228155"
 ---
 # <a name="export-segments-to-campaign-monitor-preview"></a>सेगमेंट को Campaign Monitor (पूर्वावलोकन) में निर्यात करें
 

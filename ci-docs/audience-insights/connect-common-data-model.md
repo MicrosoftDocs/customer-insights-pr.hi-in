@@ -2,19 +2,23 @@
 title: एक Azure Data Lake खाते में सामान्य डेटा मॉडल डेटा कनेक्ट करें
 description: Azure Data Lake Storage का उपयोग कर सामान्य डेटा मॉडल डेटा के साथ काम करें.
 ms.date: 01/25/2022
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 8a871d65bd79d3246984e23fb52210c8dc7259b8
-ms.sourcegitcommit: 7a99f3490e6582c2bc2b38019ed1898348b0eaba
-ms.translationtype: HT
+searchScope:
+- ci-data-sources
+- ci-create-data-source
+- ci-attach-cdm
+- customerInsights
+ms.openlocfilehash: 1e3b28316c06d6a15dd5690837c365b0677a882e
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8027054"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8354929"
 ---
 # <a name="connect-to-a-common-data-model-folder-using-an-azure-data-lake-account"></a>किसी Azure Data Lake खाते का उपयोग करके कॉमन डेटा मॉडल फ़ोल्डर से जोड़ें
 
@@ -40,11 +44,11 @@ ms.locfileid: "8027054"
 
 1. **डेटा स्रोत जोड़ें** को चुनें.
 
-1. चुनते हैं **एज़्योर डेटा लेक स्टोरेज**, प्रवेश करें **नाम** डेटा स्रोत के लिए, फिर चुनें **अगला**.
+1. चुनते हैं **एज़्योर डेटा लेक स्टोरेज**, प्रवेश करें **नाम** डेटा स्रोत के लिए, फिर चुनें **अगला।**
 
    - यदि संकेत दिया जाए, तो अपने उद्योग से संबंधित नमूना डेटासेट में से एक का चयन करें, फिर चुनें **अगला**. 
 
-1. आप प्रमाणीकरण के लिए संसाधन-आधारित विकल्प और सदस्यता-आधारित विकल्प का उपयोग करके बीच में चयन कर सकते हैं. अधिक जानकारी के लिए, देखें [एक Azure Data Lake Storage Gen2 खाते के लिए एक Azure service principal के साथ ऑडियंस इन्साइट्स को कनेक्ट करें](connect-service-principal.md). उसे दर्ज करें **सर्वर का पता**, चुनते हैं **लॉग इन करें**, फिर चुनें **अगला**.
+1. आप प्रमाणीकरण के लिए संसाधन-आधारित विकल्प और सदस्यता-आधारित विकल्प का उपयोग करके बीच में चयन कर सकते हैं. अधिक जानकारी के लिए, देखें [एक Azure Data Lake Storage Gen2 खाते के लिए एक Azure service principal के साथ ऑडियंस इन्साइट्स को कनेक्ट करें](connect-service-principal.md). उसे दर्ज करें **सर्वर पता**, चुनते हैं **लॉग इन करें**, फिर चुनें **अगला**.
    > [!div class="mx-imgBorder"]
    > ![Azure Data Lake के लिए नए कनेक्शन विवरण दर्ज करने का संवाद बॉक्स.](media/enter-new-storage-details.png)
    > [!NOTE]

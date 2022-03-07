@@ -3,18 +3,17 @@ title: Customer Insights डेटा को RollWorks में निर्य
 description: कनेक्शन को कॉन्फ़िगर करने और RollWorks को निर्यात करने का तरीका जानें.
 ms.date: 10/08/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: f8f6a79db9cb4bb109c03a464d9f8c7f3b862ad5
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
-ms.translationtype: HT
+ms.openlocfilehash: 392084105628ba4e6008a1386a5ac80c809a004e
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7617446"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8225567"
 ---
 # <a name="export-segments-to-rollworks-preview"></a>अनुभागों को RollWorks (पूर्वावलोकन) में निर्यात करें
 

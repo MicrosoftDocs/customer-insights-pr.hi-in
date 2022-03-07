@@ -3,18 +3,20 @@ title: Customer Insights से अन्य सेवाओं के लिए
 description: डेटा को अन्य सेवाओं में साझा करें.
 ms.date: 04/09/2021
 ms.reviewer: nikeller
-ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: overview
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 17e04b243e9b3d4375c86f5a890a18be35956835
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
-ms.translationtype: HT
+searchScope:
+- ci-connections
+- customerInsights
+ms.openlocfilehash: ccad090d3bf6eab96eff37f7a96289ca2882d369
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304974"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8354386"
 ---
 # <a name="connections-preview-overview"></a>कनेक्शन (पूर्वावलोकन) का अवलोकन
 
@@ -47,6 +49,7 @@ ms.locfileid: "6304974"
 1. **कनेक्शन सेट अप करें** फलक में, आवश्यक विवरण प्रदान करें. 
    1. **डिस्प्ले नाम** और कनेक्शन का प्रकार एक कनेक्शन का वर्णन करता है. हम एक ऐसा नाम चुनने की सलाह देते हैं जो इस कनेक्शन के उद्देश्य और लक्ष्य को बताता है.
    1. सटीक फ़ील्ड इस बात पर निर्भर करता है कि आप किस सेवा से जुड़ रहे हैं. आप टारगेट सेवा से जुड़े लेख में एक विशिष्ट कनेक्शन प्रकार के विवरण के बारे में जान सकते हैं.
+   1. अगर आप रहस्यों को संग्रहित करने के लिए [अपने खुद के की वॉल्ट का इस्तेमाल](use-azure-key-vault.md) करते हैं तो, **की वॉल्ट इस्तेमाल करें** सक्रिय करें और सूची से रहस्य चुनें.
 
 1. कनेक्शन बनाने के लिए **सहेजें** चुनें.
 
@@ -93,3 +96,6 @@ ms.locfileid: "6304974"
 
 1. हटाने की पुष्टि करने के लिए **निकालें** का चयन करें।
 
+## <a name="set-up-connections-with-secrets-managed-by-your-own-key-vault"></a>अपने खुद के की वॉल्ट द्वारा प्रबंधित रहस्यों के साथ कनेक्शन सेट करें
+
+कुछ कनेक्शनों को API कुंजी या पासवर्ड जैसे रहस्य चाहिए होते हैं. कुछ कनेक्शन आपकी की वॉल्ट में रखे रहस्यों का समर्थन करते हैं. समर्थित कनेक्शन और [ऑडियंस इनसाइट्स के लिए अपने खुद के की वॉल्ट](use-azure-key-vault.md) पर सेट अप करने के तरीके के बारे में और जानें.

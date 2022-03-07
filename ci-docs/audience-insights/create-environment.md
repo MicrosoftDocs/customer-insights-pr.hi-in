@@ -1,21 +1,23 @@
 ---
 title: Customer Insights में परिवेश बनाएँ
 description: Dynamics 365 Customer Insights के लिए लाइसेंस प्राप्त सदस्यता के साथ परिवेश बनाने के चरण.
-ms.date: 12/06/2021
+ms.date: 02/24/2022
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: MichelleDevaney
 ms.author: midevane
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: d29992c88bd54fcfcf5e6429a89a34b6f73148c8
-ms.sourcegitcommit: b7189b8621e66ee738e4164d4b3ce2af0def3f51
-ms.translationtype: HT
+searchScope:
+- ci-home
+- customerInsights
+ms.openlocfilehash: c37afd5649f8cf40d5379f3d39d0cbd96cde3bd3
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088115"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8354097"
 ---
 # <a name="create-an-environment-in-audience-insights"></a>ऑडियंस इनसाइट में एक वातावरण बनाएं
 
@@ -76,12 +78,14 @@ Azure Data Lake Storage विकल्प के लिए, आप प्रम
    
 **Microsoft Dataverse** चरण से आप Customer Insights को अपने Dataverse परिवेश से जोड़ सकते हैं.
 
-[आउट-ऑफ़-बॉक्स पूर्वानुमान मॉडल](predictions-overview.md#out-of-box-models) का उपयोग करने के लिए, Dataverse के साथ डेटा साझाकरण कॉन्फ़िगर करें. या आप ऑन-प्रीमाइसेस डेटा स्रोतों से डेटा इन्जेस्चन सक्षम कर सकते हैं, जो आपके संगठन द्वारा व्यवस्थापित Microsoft Dataverse परिवेश URL प्रदान करता है. **डेटा साझाकरण सक्षम करें** को चुनें, ताकि Dataverse प्रबंधित डेटा लेक के साथ Customer Insights आउटपुट डेटा साझा किया जा सके.
+अपना प्रदान करें Microsoft Dataverse पर आधारित व्यावसायिक अनुप्रयोगों के साथ डेटा (प्रोफाइल और अंतर्दृष्टि) साझा करने के लिए पर्यावरण Dataverse, जैसे Dynamics 365 Marketing या मॉडल-चालित अनुप्रयोग Power Apps. यदि आपके पास अपना नहीं है तो इस फ़ील्ड को खाली छोड़ दें Dataverse पर्यावरण और हम आपके लिए एक प्रावधान करेंगे।
+
+अपने से जुड़ रहा है Dataverse पर्यावरण भी आपको सक्षम बनाता है [ऑन-प्रिमाइसेस डेटा स्रोतों का उपयोग करके डेटा निगलनाPower Platform डेटा प्रवाह और गेटवे](data-sources.md#add-data-from-on-premises-data-sources). आप भी उपयोग कर सकते हैं [आउट-ऑफ़-बॉक्स पूर्वानुमान मॉडल](predictions-overview.md?tabs=b2c#out-of-box-models) a . से जुड़कर Dataverse वातावरण।
 
 > [!IMPORTANT]
 > ग्राहक अंतर्दृष्टि और Dataverse डेटा साझाकरण को सक्षम करने के लिए एक ही क्षेत्र में होना चाहिए।
 
-:::image type="content" source="media/dataverse-data-sharing.png" alt-text=" Microsoft Dataverse के साथ डेटा साझा करने में सक्षम करने का कॉन्फ़िगरेशन विकल्प.":::
+:::image type="content" source="media/dataverse-provisioning.png" alt-text="के साथ डेटा साझा करनाMicrosoft Dataverse शुद्ध नए उदाहरणों के लिए स्वतः सक्षम।":::
 
 > [!NOTE]
 > Customer Insights निम्नलिखित डेटा साझाकरण परिदृश्यों का समर्थन नहीं करता है:

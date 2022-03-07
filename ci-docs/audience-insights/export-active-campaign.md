@@ -1,20 +1,19 @@
 ---
 title: ActiveCampaign में Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और ActiveCampaign को निर्यात करने का तरीका जानें।
-ms.date: 06/29/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 6d85fa9836618e27f7f3da6ce17c07b4bc89e187
-ms.sourcegitcommit: 057079532e31c12bac36f374857ba3dc847d6ad0
-ms.translationtype: HT
+ms.openlocfilehash: 089b9b0d76437e695f797f941ed384734d8f772e
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314623"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8227811"
 ---
 # <a name="export-segments-to-activecampaign-preview"></a>ActiveCampaign में अनुभाग निर्यात करें (पूर्वावलोकन)
 
@@ -28,9 +27,9 @@ ms.locfileid: "6314623"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- आप ActiveCampaign को प्रति निर्यात 1 मिलियन प्रोफ़ाइल तक निर्यात कर सकते हैं और इसे पूरा होने में 90 मिनट तक का समय लग सकता है।
+- आप ActiveCampaign में प्रति निर्यात 1 मिलियन ग्राहक प्रोफ़ाइल निर्यात करने योग्य हैं और इसे पूरा होने में 90 मिनट लगते है.
 - ActiveCampaign में निर्यात करना अनुभागों तक सीमित है।
-- आपके द्वारा ActiveCampaign में निर्यात की जा सकने वाली प्रोफ़ाइलों की संख्या ActiveCampaign के साथ आपके अनुबंध पर निर्भर करती है।
+- आपके द्वारा ActiveCampaign में निर्यात करने योग्य ग्राहक प्रोफ़ाइलों की संख्या, ActiveCampaign के साथ आपके अनुबंध पर निर्भर करती है.
 
 ## <a name="set-up-connection-to-activecampaign"></a>ActiveCampaign में कनेक्शन सेट अप करें
 
@@ -64,7 +63,7 @@ ms.locfileid: "6314623"
 
 1. अपना [**ActiveCampaign सूची ID**](https://help.activecampaign.com/hc/articles/360000030559-How-to-create-a-list-in-ActiveCampaign) दर्ज करें।    
 
-3. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. ActiveCampaign में अनुभाग को निर्यात करने के लिए इसकी आवश्यकता है। वैकल्पिक रूप से, आप अधिक वैयक्तिकृत ईमेल बनाने के लिए प्रथम नाम, अंतिम नाम, और फ़ोन निर्यात कर सकते हैं। इन फ़ील्ड को मैप करने के लिए जोड़ें विशेषता चुनें.
+1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. ActiveCampaign में अनुभाग को निर्यात करने के लिए इसकी आवश्यकता है। वैकल्पिक रूप से, आप अधिक वैयक्तिकृत ईमेल बनाने के लिए प्रथम नाम, अंतिम नाम, और फ़ोन निर्यात कर सकते हैं। इन फ़ील्ड को मैप करने के लिए जोड़ें विशेषता चुनें.
 
 1. **सहेजें** चुनें.
 

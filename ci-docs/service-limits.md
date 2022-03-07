@@ -1,20 +1,19 @@
 ---
-title: Dynamics 365 Customer Insights . में सेवा की सीमा
+title: Dynamics 365 Customer Insights में सेवा-सीमाएँ
 description: सीमाओं और प्रतिबंधों को समझें.
 ms.date: 09/03/2021
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: eb25e050b8aa768e6e1d8d4c5adce6095cccc346
-ms.sourcegitcommit: 31a9b531dacd3a6465b3030c704ff5c085b7e122
-ms.translationtype: HT
+ms.openlocfilehash: 9bf8f03b785fb3035e3fc979a3304d4e98fd8d28
+ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7791983"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8350409"
 ---
 # <a name="service-limits-in-customer-insights-capabilities"></a>Customer Insights क्षमताएँ में सेवा सीमाएँ
 
@@ -22,27 +21,25 @@ ms.locfileid: "7791983"
 
 ## <a name="audience-insights"></a>ऑडिएंस इनसाइट
 
-### <a name="service-limits-in-dynamics-365-customer-insights-audience-insights-capability"></a>Dynamics 365 Customer Insights ऑडिएंस अंतर्दृष्टि क्षमता में सेवा सीमाएं
-
 | क्षेत्र  | सीमाएँ  | नोट्स |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
 | खंड, उपाय और भविष्यवाणियां | 300  | की कुल संख्या[खंडों](audience-insights/segments.md),[उपायों](audience-insights/measures.md), तथा[भविष्यवाणियों](audience-insights/predictions.md) संयुक्त 300 से अधिक नहीं हो सकता।  |
 | संबंध | निकाय पथों में संबंधों पर गहराई के 20 स्तर. | बिल्डर इंटरफ़ेस का उपयोग करते हुए [सेगमेंट](audience-insights/segments.md) या [उपाय](audience-insights/measures.md) बनाते समय, निकाय पथ में प्रारंभ निकाय और लक्ष्य निकाय के बीच अधिकतम 20 संबंध हो सकते हैं.  |
 
+<!--
+## Engagement insights
 
-## <a name="engagement-insights"></a>एन्गेजमेन्ट इनसाइट्स
+### Workspace and event quotas
 
-### <a name="workspace-and-event-quotas"></a>कार्यक्षेत्र और ईवेंट कोटा
+Engagement insights is a highly scalable application that can support millions of events per second. During public preview, events have a volume threshold. There's also a limit to the number of workspaces in an organization.
 
-एंगेजमेंट इनसाइट्स एक उच्च मापनीय अनुप्रयोग है जो प्रति सेकंड लाखों ईवेंट्स का समर्थन कर सकती है. सार्वजनिक पूर्वावलोकन में, ईवेंट्स की वॉल्यूम सीमा होती है. एक संगठन में कार्यक्षेत्रों की संख्या की भी एक सीमा होती है.
+### Engagement insights limits
 
-### <a name="engagement-insights-limits"></a>एंगेजमेंट इनसाइट सीमा
+- Maximum event volume per workspace  = 100 events per second
 
-- प्रति कार्यक्षेत्र अधिकतम इवेंट वॉल्यूम = प्रति सेकंड 100 इवेंट्स
+- Maximum number of workspaces per organization = 100
 
-- प्रति संगठन कार्यक्षेत्रों की अधिकतम संख्या = 100
-
-जब इवेंट्स सीमा से अधिक होते हैं, तो इससे उन इवेंट्स के आधार पर रिपोर्ट में डेटा की हानि हो जा सकती है. आप सीमा से अधिक होने से पहले वॉल्यूम बढ़ाने का अनुरोध करने के लिए [सहायता से संपर्क](https://go.microsoft.com/fwlink/?linkid=2145734) कर सकते हैं. हम आपके साथ वॉल्यूम बढ़ाने की आपकी जरुरत निर्धारित करने और आपके अनुरोध का समर्थन करने के लिए काम करेंगे.
-
+When events exceed the threshold, it can lead to loss of data in reports based on those events. You can [contact support](https://go.microsoft.com/fwlink/?linkid=2145734) to request a volume increase before you exceed limits. We'll work with you to determine your need for a volume increase and support your request.
+-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

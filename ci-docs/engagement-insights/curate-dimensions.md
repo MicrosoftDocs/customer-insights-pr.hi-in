@@ -2,18 +2,17 @@
 title: व्यवहार संबंधी डेटा को विभाजित करने के लिए जनसांख्यिकीय आयामों का उपयोग करें (क्यूरेटेड आयाम)
 description: ऑडिएंस इनसाइट्स ग्राहक प्रोफ़ाइल गुणों को सक्षम करने के लिए एकीकृत प्रोफ़ाइल क्यूरेटेड आयामों का उपयोग करें.
 ms.date: 07/27/2021
-ms.service: customer-insights
 ms.topic: conceptual
 author: mkisel
 ms.author: mkisel
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 50bb800c9e097d03cc6f26f79819c741ab5e8baf
-ms.sourcegitcommit: 1c396394470df8e68c2fafe3106567536ff87194
-ms.translationtype: HT
+ms.openlocfilehash: 95395e09bc0ba5ba93138957c62105f31c709e91
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "7461105"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8233049"
 ---
 # <a name="use-demographic-dimensions-for-splitting-behavioral-data"></a>व्यवहार संबंधी डेटा को विभाजित करने के लिए जनसांख्यिकीय आयामों का उपयोग करें
 
@@ -29,7 +28,7 @@ ms.locfileid: "7461105"
 - वह सहभागिता इनसाइट्स परिवेश जिसमें आपके पास ग्राहक प्रोफ़ाइल डेटा ऑडिएंस इनसाइट्स परिवेश से जुड़ा होता है जहां ग्राहक प्रोफ़ाइल बनाई जाती है. अधिक जानकारी: [ऑडियंस इनसाइट्स और सहभागिता इनसाइट्स के बीच लिंक बनाएँ](integrate-audience-insights-engagement-insights.md)
 
 > [!NOTE]
-> ऑडिएंस इनसाइट्स और सहभागिता इनसाइट्स परिवेशों के बीच लिंक बनाने के बाद, आप केवल ग्राहक प्रोफ़ाइल गुणों के लिए विशिष्ट डेटा चाह सकते हैं, जो सहभागिता इनसाइट्स में आयामों के रूप में उपयोगी हो सकता है. अधिक जानकारी के लिए, [ऑडियंस इनसाइट्स एकीकृत प्रोफ़ाइल विशेषताओं और खंडों को सक्षम करें](integrate-audience-insights-engagement-insights.md#enable-audience-insights-unified-profiles-attributes-and-segments) पर जाएँ.<!--note from editor: Suggested. -->
+> ऑडिएंस इनसाइट्स और सहभागिता इनसाइट्स परिवेशों के बीच लिंक बनाने के बाद, आप केवल ग्राहक प्रोफ़ाइल गुणों के लिए विशिष्ट डेटा चाह सकते हैं, जो सहभागिता इनसाइट्स में आयामों के रूप में उपयोगी हो सकता है. अधिक जानकारी के लिए, [ऑडियंस इनसाइट्स एकीकृत प्रोफ़ाइल विशेषताओं और खंडों को सक्षम करें](integrate-audience-insights-engagement-insights.md#enable-audience-insights-unified-profiles-attributes-and-segments) पर जाएँ.
 
 ## <a name="create-a-new-custom-report"></a>एक नई कस्टम रिपोर्ट बनाएँ.
 

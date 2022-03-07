@@ -1,22 +1,21 @@
 ---
 title: Customer Insights डेटा को Snapchat में निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Snapchat को निर्यात करने का तरीका जानें.
-ms.date: 03/22/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: d3dae7f0fef1fc3792c90c8ac0d3b037f5c0923d
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
-ms.translationtype: HT
+ms.openlocfilehash: 7eac3307b3f82b6c5ebc3d66d6563ae50696ed65
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760545"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8227250"
 ---
-# <a name="export-segment-lists-to-snapchat-preview"></a>सेगमेंट सूचियां को Snapchat (पूर्वावलोकन) में निर्यात करें
+# <a name="export-segments-to-snapchat-preview"></a>अनुभागों को Snapchat (पूर्वावलोकन) में निर्यात करें
 
 अभियान की निगरानी के लिए एकीकृत ग्राहक प्रोफ़ाइल के निर्यात के अनुभाग और मार्केटिंग सें जुड़ी गतिविधियों के लिए उनका उपयोग करें. 
 
@@ -29,7 +28,7 @@ ms.locfileid: "5760545"
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
 - Snapchat को निर्यात करना सेगमेंट तक ही सीमित है.
-- Snapchat को 1 मिलियन प्रोफ़ाइल तक निर्यात पूरा करनें में 15 मिनट तक का समय लग सकता है. 
+- 1 मिलियन तक ग्राहक प्रोफ़ाइल को Snapchat में निर्यात करने में 15 मिनट तक का समय लग सकता है. 
 
 ## <a name="set-up-connection-to-snapchat"></a>Snapchat में कनेक्शन सेट अप करें
 
@@ -63,7 +62,7 @@ ms.locfileid: "5760545"
 
 1. [**Snapchat ऑडियंस ID**](https://businesshelp.snapchat.com/s/article/custom-audiences) दर्ज करें.
 
-1. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. Snapchat करने के लिए सेगमेंट का निर्यात करना आवश्यक है.
+1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. Snapchat करने के लिए सेगमेंट का निर्यात करना आवश्यक है.
 
 1. उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं. 
 

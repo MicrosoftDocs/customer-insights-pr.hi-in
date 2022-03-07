@@ -1,24 +1,25 @@
 ---
-title: SFTP होस्ट के लिए Customer Insights डेटा निर्यात करें
+title: Customer Insights डेटा को SFTP होस्ट में निर्यात करें (इसमें वीडियो शामिल है)
 description: कनेक्शन को कॉन्फ़िगर करने और SFTP स्थान को निर्यात करने का तरीका जानें.
 ms.date: 03/03/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: b19ca6b8085846785682046f83d0ed4758269e5b98303692c703d995407ca7dd
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
-ms.translationtype: HT
+ms.openlocfilehash: 7b09da093d6332c5081da1beadc1df59f63c31d2
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035463"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8231156"
 ---
 # <a name="export-segments-and-other-data-to-sftp-preview"></a>अनुभागों और अन्य डेटा को SFTP (पूर्वावलोकन) में निर्यात करें
 
 अपने ग्राहक डेटा का उपयोग तीसरे पक्ष के अनुप्रयोगों में सुरक्षित फ़ाइल ट्रांसफर प्रोटोकॉल (SFTP) लोकेशन पर निर्यात करके करें.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO94X]
 
 ## <a name="prerequisites-for-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 
@@ -26,6 +27,7 @@ ms.locfileid: "7035463"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- फायरवॉल के पीछे एसएफ़टीपी गंतव्य वर्तमान में समर्थित नहीं हैं। 
 - निर्यात का रनटाइम आपके सिस्टम के प्रदर्शन पर निर्भर करता है. हम आपके सर्वर के न्यूनतम कॉन्फ़िगरेशन के रूप में दो CPU कोर और 1 Gb मेमोरी की सलाह देते हैं. 
 - दो CPU कोर और मेमोरी के 1 Gb के अनुशंसित न्यूनतम कॉन्फ़िगरेशन का उपयोग करके 100 मिलियन ग्राहक प्रोफ़ाइल के साथ निर्यात करने वाले निकायों को 90 मिनट लग सकते हैं. 
 

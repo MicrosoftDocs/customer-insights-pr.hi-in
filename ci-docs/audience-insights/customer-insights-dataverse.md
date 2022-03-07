@@ -1,20 +1,22 @@
 ---
 title: Microsoft Dataverse में Customer Insights डेटा
 description: Microsoft Dataverse में Customer Insights निकायों का उपयोग तालिका के रूप में करें.
-ms.date: 10/14/2021
+ms.date: 11/25/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: m-hartmann
 ms.author: wimohabb
 manager: shellyha
-ms.openlocfilehash: 9855ff6908001dd18bc19a286fc56620d0a127e5
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
-ms.translationtype: HT
+searchScope:
+- ci-system-diagnostic
+- customerInsights
+ms.openlocfilehash: 9f730f5856221592cddf34b714beeaca24c52130
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645220"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8355431"
 ---
 # <a name="work-with-customer-insights-data-in-microsoft-dataverse"></a>Microsoft Dataverse में Customer Insights डेटा के साथ कार्य करें
 
@@ -45,6 +47,7 @@ Dataverse में ऑडिएंस इनसाइट्स से कुछ
 - [CustomerMeasure](#customermeasure)
 - [संवर्द्धन](#enrichment)
 - [पूर्वानुमान](#prediction)
+- [खंड सदस्यता](#segment-membership)
 
 
 ### <a name="customerprofile"></a>CustomerProfile
@@ -121,3 +124,16 @@ AlternateKey तालिका में उन निकायों की �
 | मान               | JSON स्ट्रिंग | मॉडल द्वारा निर्मित एट्रिब्यूट की सूची |
 | msdynci_predictionid | GUID        | msdynci_identifier से जनरेट किया गया निर्धारणात्मक GUID | 
 | msdynci_identifier   | String      |  `Model|ModelProvider|CustomerId`                      |
+
+### <a name="segment-membership"></a>खंड सदस्यता
+
+इस तालिका में ग्राहक प्रोफाइल की खंड सदस्यता जानकारी है।
+
+| Column        | प्रकार | विवरण                        |
+|--------------------|--------------|-----------------------------|
+| CustomerId        | String       | ग्राहक प्रोफ़ाइल ID        |
+| खंड प्रदाता      | String       | ऐप जो सेगमेंट प्रकाशित करता है। डिफ़ॉल्ट: ऑडिएंस अंतर्दृष्टि         |
+| खंड सदस्यता प्रकार | String       | ग्राहक का प्रकार यह खंड सदस्यता रिकॉर्ड। ग्राहक, संपर्क, या खाते जैसे कई प्रकारों का समर्थन करता है। डिफ़ॉल्ट: ग्राहक  |
+| सेगमेंट       | JSON स्ट्रिंग  | अद्वितीय खंडों की सूची जिसका ग्राहक प्रोफ़ाइल सदस्य है      |
+| msdynci_identifier  | String   | खंड सदस्यता रिकॉर्ड का विशिष्ट पहचानकर्ता। `CustomerId|SegmentProvider|SegmentMembershipType|Name`  |
+| msdynci_segmentmembershipid | मार्गदर्शक      | से उत्पन्न नियतात्मक GUID`msdynci_identifier`          |

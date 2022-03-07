@@ -2,21 +2,23 @@
 title: ऑडियंस इनसाइट्स के साथ एंगेजमेंट इनसाइट्स से वेब डेटा को एकीकृत करें
 description: ग्राहकों के बारे में एंगेजमेंट इनसाइट्स से लेकर ऑडियंस इनसाइट्स तक वेब जानकारी लाएं.
 ms.date: 06/24/2021
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: c2789a7d1379e0cf56511b272a763c904d8a3d347058ea9e029aaff0f723a028
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
-ms.translationtype: HT
+ms.openlocfilehash: 037e264658bc354618cff56a89645ef7552aeb13
+ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7033771"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8350547"
 ---
 # <a name="integrate-web-data-from-engagement-insights-with-audience-insights"></a>ऑडियंस इनसाइट्स के साथ एंगेजमेंट इनसाइट्स से वेब डेटा को एकीकृत करें
+
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../engagement-insights/includes/cc-beta-prerelease-disclaimer.md)]
 
 ग्राहक अक्सर वेब साइटों का उपयोग करके अपने दिन-प्रति-दिन के ऑनलाइन लेन-देन करते हैं। Dynamics 365 Customer Insights में संलग्नता अंतर्दृष्टि (पूर्वावलोकन) क्षमता एक स्रोत के रूप में वेब डेटा को एकीकृत करने का एक आसान समाधान है। लेन-देन, जनसांख्यिकीय या व्यवहार संबंधी डेटा के अलावा हम एकीकृत ग्राहक प्रोफ़ाइल में वेब पर गतिविधियों को देख सकते हैं. हम इन प्रोफाइल का उपयोग ऑडिएंस सक्रियण के लिए सेगमेंट, माप या पूर्वानुमान जैसी अतिरिक्त जानकारी प्राप्त करने के लिए कर सकते हैं।
 

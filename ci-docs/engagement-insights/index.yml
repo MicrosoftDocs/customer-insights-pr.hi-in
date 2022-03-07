@@ -1,92 +1,29 @@
 ### YamlMime:Landing
-title: Dynamics 365 Customer Insights (पूर्वावलोकन) में सहभागिता इनसाइट्स्स क्षमता
-summary: अपनी वेबसाइटों के लिए डेटा एकत्र करें. अपनी साइटों पर ग्राहकों की इंटरैक्शन और उपयोग को इंटरैक्टिव रूप से समझें. ग्राहक प्रोफ़ाइल रिपोर्ट के साथ अपने रीयल-टाइम व्यवहार विश्लेषण को समृद्ध करने के लिए एंगेजमेन्ट इनसाइट्स और ऑडियंस इनसाइट्स के बीच गहन एकीकरण का उपयोग करें. समृद्ध ग्राहक डेटा के साथ रीयल-टाइम व्यवहार डेटा प्राप्त करने के लिए वेब गतिविधियों के साथ ग्राहक प्रोफ़ाइल को समृद्ध करें. अपने ग्राहक डेटा से तत्काल मान प्राप्त करने के लिए अपने व्यवसाय को बदलें.
+title: सहभागिता जानकारी पूर्वावलोकन समाप्त होता है
+summary: Dynamics 365 Customer Insights सहभागिता अंतर्दृष्टि क्षमता पूर्वावलोकन 15 फरवरी, 2022 को समाप्त हो गया। इस बदलाव का मतलब है कि Customer Insights परीक्षण अनुभव में अब फ़नल बनाने की क्षमता और न ही अन्य रिपोर्टिंग कार्यक्षमता शामिल है। हम आपको Customer Insights, Microsoft Customer Data Platform (CDP) की कई अन्य विशेषताओं का पता लगाने और उनका मूल्यांकन करने के लिए आमंत्रित करते हैं। यदि क्षमता पूर्वावलोकन की समाप्ति के बारे में आपके कोई प्रश्न हैं, तो कृपया सीधे अपनी Microsoft खाता टीम से संपर्क करें। आपकी खाता टीम आपको आगामी लॉन्च के बारे में अप-टू-डेट रखेगी। धन्यवाद!
 metadata:
   title: एंगेजमेन्ट इनसाइट्स (पूर्वावलोकन) दस्तावेज
   description: एंगेजमेन्ट इनसाइट्स के लिए प्रमुख लिंक के साथ हब में मदद करें.
-  ms.service: customer-insights
   ms.subservice: engagement-insights
   ms.topic: hub-page
   author: m-hartmann
   ms.author: mhart
   ms.reviewer: mhart
   ms.date: 09/15/2021
-  ms.openlocfilehash: bf2e40b1ca304e7b26687eaff298d2e70615cd2b
-  ms.sourcegitcommit: fecdee73e26816c42d39d160d4d5cfb6c8a91596
-  ms.translationtype: HT
+  ms.openlocfilehash: 99933c69c791da12815ebee3edb6413276b19b09
+  ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+  ms.translationtype: MT
   ms.contentlocale: hi-IN
-  ms.lasthandoff: 09/15/2021
-  ms.locfileid: "7494186"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "8350501"
 landingContent:
-- title: परिचय
+- title: संपर्क में रहें
   linkLists:
   - linkListType: overview
     links:
-    - text: क्षमता लाभ
-      url: overview.md
-    - text: पारिभाषिक शब्दावली
-      url: glossary.md
-    - text: नई और अपडेट की गयी विशेषताएं
-      url: /dynamics365-release-plan/2021wave1/customer-data-platform/engagement-insights/planned-features
-- title: ऑनबोर्डिंग
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: शुरू करें
-      url: get-started.md
-    - text: एक कार्यस्थान बनाएं
-      url: create-workspace.md
-    - text: अपनी वेबसाइट तैयार करें
-      url: instrument-website.md
-- title: रिपोर्ट्स देखें और फ़िल्टर करें
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: रिपोर्ट देखें
-      url: view-reports.md
-    - text: एकीकृत प्रोफाइल रिपोर्ट देखें
-      url: profile-reports.md
-    - text: रिपोर्ट फ़िल्टर करने के लिए ऑडियंस अनुभाग का उपयोग करें
-      url: integrate-audience-insights-segments.md
-- title: विश्लेषण करे
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: फ़नल रिपोर्ट बनाएं
-      url: funnel-reports.md
-    - text: व्यवहार डेटा का विश्लेषण करें
-      url: curate-dimensions.md
-    - text: कस्टम रिपोर्ट बनाएं
-      url: custom-reports.md
-    - text: परिष्कृत इवेंट्स बनाएं
-      url: refined-events.md
-    - text: निर्यात इवेंट्स
-      url: export-events.md
-- title: डेवलपर संसाधन
-  linkLists:
-  - linkListType: reference
-    links:
-    - text: डेवलपर संसाधन
-      url: developer-resources.md
-    - text: WebSDK नमूना
-      url: websdk-sample.md
-    - text: उन्नत वेब SDK परिदृश्य
-      url: advanced-SDK-implementation.md
-    - text: Android SDK नमूना
-      url: get-started-android.md
-    - text: iOS SDK नमूना
-      url: get-started-ios.md
-- title: व्यवस्थापन
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: परिवेशों और कार्यक्षेत्रों का प्रबंधन करें
-      url: manage-environments-workspaces.md
-    - text: ऑडिएंस इनसाइट्स से कनेक्ट करें
-      url: integrate-audience-insights-engagement-insights.md
-    - text: कुकी और उपयोगकर्ता की सहमति प्रबंधित करें
-      url: user-consent-storage.md
-    - text: व्यक्तिगत डेटा हटाएं और निर्यात करें
-      url: delete-export-personal-data.md
-    - text: सेवा सीमाएँ
-      url: ../service-limits.md
+    - text: Dynamics 365 समुदाय में शामिल हों
+      url: https://go.microsoft.com/fwlink/?linkid=2073991
+    - text: अपने आइडियाज़ साझा करें
+      url: https://go.microsoft.com/fwlink/?linkid=2074172
+    - text: समस्या की रिपोर्ट करें
+      url: https://go.microsoft.com/fwlink/?linkid=2079641

@@ -3,18 +3,17 @@ title: Sendinblue में Customer Insights डेटा निर्यात
 description: कनेक्शन को कॉन्फ़िगर करने और Sendinblue को निर्यात करने का तरीका जानें।
 ms.date: 10/08/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: phkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: b5924b2d4e7f0b11ce6478a31015fcbaaf44ff93
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
-ms.translationtype: HT
+ms.openlocfilehash: 8d870ff31ce2d441e619ac18899c4d1b6c69ca41
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7617787"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8231421"
 ---
 # <a name="export-segments-to-sendinblue-preview"></a>Sendinblue में अनुभाग निर्यात करें (पूर्वावलोकन)
 

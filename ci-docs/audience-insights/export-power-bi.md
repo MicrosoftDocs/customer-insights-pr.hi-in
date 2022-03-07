@@ -1,20 +1,19 @@
 ---
 title: Power BI कनेक्टर
 description: Power BI में Dynamics 365 Customer Insights कनेक्टर का उपयोग करना सीखें.
-ms.date: 09/21/2020
-ms.reviewer: sthe
-ms.service: customer-insights
+ms.date: 07/23/2021
+ms.reviewer: mhart
 ms.subservice: audience-insights
-ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
+ms.topic: how-to
+author: stefanie-msft
+ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: d497ca779a337c512a7254524f597cff226bcb45
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
-ms.translationtype: HT
+ms.openlocfilehash: dccc069a355725bae09c1fece9292b9aee374e6d
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4405926"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8225517"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -23,7 +22,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
 - आपके पास एकीकृत ग्राहक प्रोफाइल हैं.
-- [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) का नवीनतम संस्करण आपके कंप्यूटर पर स्थापित है. [Power BI Desktop के बारे में अधिक जानें](https://docs.microsoft.com/power-bi/desktop-what-is-desktop)
+- आपके कंप्यूटर पर [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) का नवीनतम वर्जन इंस्टॉल है. [Power BI Desktop के बारे में अधिक जानें](/power-bi/desktop-what-is-desktop)
 
 ## <a name="configure-the-connector-for-power-bi"></a>Power BI के लिए कनेक्टर कॉन्फ़िगर करें
 
@@ -31,7 +30,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 
 1. **अधिक देखें** चुनें और **Dynamics 365 Customer Insights** खोजें
 
-1. परिणाम चुनें और **कनेक्ट करें** का चयन करें.
+1. **कनेक्ट करें** का चयन करें.
 
 1. उसी संगठनात्मक खाते के साथ **साइन इन करें** जिसका उपयोग आप Customer Insights के लिए करते हैं और **कनेक्ट करें** चुनें.
    > [!NOTE]
@@ -39,7 +38,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 
 1. **नेविगेटर** संवाद बॉक्स में. आप उन सभी परिवेशों की सूची देखते हैं जिनके पास आपके पास पहुंच है. एक परिवेश का विस्तार करें और किसी भी फ़ोल्डर (निकायों, साधनों, खंडों, एनरिचमेंट) को खोलें. उदाहरण के लिए, **निकाय** फ़ोल्डर खोलें, उन सभी निकायओं को देखने के लिए जिन्हें आप आयात कर सकते हैं.
 
-   ![Power BI कनेक्टर नेविगेटर](media/power-bi-navigator.png "Power BI कनेक्टर नेविगेटर")
+   ![Power BI कनेक्टर नेविगेटर.](media/power-bi-navigator.png "Power BI कनेक्टर नेविगेटर")
 
 1. शामिल करने के लिए निकायों के बगल में स्थित चेक बॉक्स चुनें और **लोड करें**. आप एकाधिक परिवेश से कई निकायों का चयन कर सकते हैं.
 
@@ -47,8 +46,32 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 
 ## <a name="large-data-sets"></a>बड़े डेटा सेट
 
-Power BI के लिए Customer Insights कनेक्टर को उन डेटा सेटों के लिए काम करने के लिए डिज़ाइन किया गया है जिनमें 1 मिलियन तक ग्राहक प्रोफ़ाइल हैं. बड़े डेटा सेट को आयात करने से काम बन सकता है, लेकिन इसमें लंबा समय लगता है. इसके अतिरिक्त, Power BI सीमाओं के कारण यह प्रक्रिया एक टाइम-आउट में चल सकती है. अधिक जानकारी के लिए देखें [Power BI: बड़े डेटा सेट के लिए सिफारिशें।](https://docs.microsoft.com/power-bi/admin/service-premium-what-is#large-datasets). 
+Power BI के लिए Customer Insights कनेक्टर को उन डेटा सेटों के लिए काम करने के लिए डिज़ाइन किया गया है जिनमें 1 मिलियन तक ग्राहक प्रोफ़ाइल हैं. बड़े डेटा सेट को आयात करने से काम बन सकता है, लेकिन इसमें लंबा समय लगता है. इसके अतिरिक्त, Power BI सीमाओं के कारण यह प्रक्रिया एक टाइम-आउट में चल सकती है. अधिक जानकारी के लिए देखें [Power BI: बड़े डेटा सेट के लिए सिफारिशें।](/power-bi/admin/service-premium-what-is#large-datasets). 
 
 ### <a name="work-with-a-subset-of-data"></a>डेटा के सबसेट के साथ काम करें
 
 अपने डेटा के सबसेट के साथ काम करने पर विचार करें. उदाहरण के लिए, आप Power BI को सभी ग्राहक रिकॉर्ड निर्यात करने के बजाय [सेगमेंट](segments.md) बना सकते हैं.
+
+## <a name="troubleshooting"></a>समस्या निवारण
+
+### <a name="customer-insights-environment-doesnt-show-in-power-bi"></a>Power BI में Customer Insights परिवेश नहीं दिखता है
+
+ऑडियंस इनसाइट्स में दो समान निकायों के बीच परिभाषित एक से अधिक [संबंध](relationships.md) के लिए परिवेश Power BI कनेक्टर में उपलब्ध नहीं होगा.
+
+आप डुप्लिकेट किए गए संबंधों को पहचान सकते हैं और निकाल सकते हैं.
+
+1. ऑडियंस इनसाइट्स में, Power BI में गायब हुए परिवेश पर आप **डेटा** > **संबंधों** पर जाएं.
+2. डुप्लिकेट संबंधों की पहचान करें:
+   - जांचें कि क्या एक ही दो निकायों के बीच परिभाषित एक से अधिक संबंध हैं.
+   - जांचें कि क्या दो निकायों के बीच एक संबंध बनाया गया है, जो दोनों एकीकरण प्रक्रिया में शामिल है. एकीकरण प्रक्रिया में शामिल सभी निकायों के बीच एक अंतर्निहित संबंध परिभाषित है.
+3. पहचाने गए किसी भी डुप्लिकेट संबंध को हटा दें.
+
+डुप्लिकेट किए गए संबंधों को हटाने के बाद, Power BI कनेक्टर को फिर से कॉन्फ़िगर करने का प्रयास करें. परिवेश अब उपलब्ध होना चाहिए.
+
+### <a name="errors-on-date-fields-when-loading-entities-in-power-bi-desktop"></a>Power BI Desktop में निकाय लोड करते समय दिनांक फ़ील्ड में त्रुटियाँ
+
+MM/DD/YYYY जैसे दिनांक फॉर्मेट वाले फ़ील्ड वाले निकायों को लोड करते समय, बेमेल स्थानीय फॉर्मेट के कारण आपको त्रुटियों का सामना करना पड़ सकता है. यह बेमेल तब होता है जब आपकी Power BI Desktop फ़ाइल अंग्रेज़ी (संयुक्त राज्य) के स्थान पर किसी अन्य स्थान पर सेट होती है, क्योंकि ऑडियंस इनसाइट्स में दिनांक फ़ील्ड यूएस फॉर्मेट में सहेजे जाते हैं.
+
+Power BI Desktop फ़ाइल में एकल स्थान सेटिंग होती है, जिसे डेटा पुनर्प्राप्त करते समय लागू किया जाता है. इन दिनांक फ़ील्ड की सही व्याख्या करें, .BPI फ़ाइल का स्थान अंग्रेज़ी (संयुक्त राज्य) पर सेट करें. [Power BI Desktop फ़ाइल का स्थान बदलने का तरीका जानें](/power-bi/fundamentals/supported-languages-countries-regions.md#choose-the-locale-for-importing-data-into-power-bi-desktop).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

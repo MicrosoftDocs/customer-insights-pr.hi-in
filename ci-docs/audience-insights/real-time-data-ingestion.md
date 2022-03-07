@@ -2,19 +2,21 @@
 title: रीयल-टाइम डेटा इन्जेस्चन और सीमाएं
 description: ऑडियंस इनसाइट्स में रीयल-टाइम क्षमताओं के बारे में सामान्य जानकारी.
 ms.date: 10/27/2020
-ms.reviewer: nikeller
-ms.service: customer-insights
+ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
+author: Nils-2m
+ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: b00a72e6a67e33c8e70ccc6139c5e62020f9d3e1
-ms.sourcegitcommit: b50c754481d0af6d0cf4b550775d7b31d95846ef
-ms.translationtype: HT
+searchScope:
+- ci-system-api-usage
+- customerInsights
+ms.openlocfilehash: 2fe5279eee1b3b30f5bc21464c85fe5f86d342a0
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 12/06/2020
-ms.locfileid: "4689177"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8355477"
 ---
 # <a name="real-time-data-ingestion-preview"></a>वास्तविक-समय डेटा अंतर्ग्रहण (पूर्वावलोकन)
 
@@ -54,7 +56,7 @@ ms.locfileid: "4689177"
 
 रीयल-टाइम API से कनेक्ट करने के दो तरीके हैं:
 
-- [अप्रत्यक्ष रूप से](#connect-via-the-dynamics-365-customer-insights-connector), [Dynamics 365 Customer Insights कनेक्टर](https://docs.microsoft.com/connectors/customerinsights/) का उपयोग करते हुए
+- [अप्रत्यक्ष रूप से](#connect-via-the-dynamics-365-customer-insights-connector), [Dynamics 365 Customer Insights कनेक्टर](/connectors/customerinsights/) का उपयोग करते हुए
 - [सीधे](#connect-directly-to-the-real-time-api), कोड के साथ
 
 दोनों तरीके निम्नलिखित पूर्वआश्यकताएं साझा करते हैं:
@@ -66,13 +68,13 @@ ms.locfileid: "4689177"
 
 ## <a name="connect-via-the-dynamics-365-customer-insights-connector"></a>Dynamics 365 Customer Insights कनेक्टर के माध्यम से कनेक्ट करें
 
-वास्तविक-समय API किसी भी कोड को लिखने और लगाए जाने की आवश्यकता के बिना, एक समर्पित Power Platform कनेक्टर, [Dynamics 365 Customer Insights कनेक्टर](https://docs.microsoft.com/connectors/customerinsights/) से डेटा को इनजेस्ट कर सकता है.    
-कनेक्टर, API के समान वास्तविकृसमय की क्रियाएं कर सकता है. आपको प्रीमियम कनेक्टर्स के लिए एक वैध लाइसेंस की आवश्यकता है. अधिक जानकारी के लिए, [Power Apps और Power Automate लाइसेंसिंग FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq) देखें.
+वास्तविक-समय API किसी भी कोड को लिखने और लगाए जाने की आवश्यकता के बिना, एक समर्पित Power Platform कनेक्टर, [Dynamics 365 Customer Insights कनेक्टर](/connectors/customerinsights/) से डेटा को इनजेस्ट कर सकता है.    
+कनेक्टर, API के समान वास्तविकृसमय की क्रियाएं कर सकता है. आपको प्रीमियम कनेक्टर्स के लिए एक वैध लाइसेंस की आवश्यकता है. अधिक जानकारी के लिए, [Power Apps और Power Automate लाइसेंसिंग FAQ](/power-platform/admin/powerapps-flow-licensing-faq) देखें.
 
-- Power Platform [Power Apps और/या Power Automate](https://docs.microsoft.com/connectors/)
-- Azure [लॉजिक अनुप्रयोग](https://docs.microsoft.com/azure/connectors/apis-list)
+- Power Platform [Power Apps और/या Power Automate](/connectors/)
+- Azure [लॉजिक अनुप्रयोग](/azure/connectors/apis-list)
 
-प्रवाह बनाने के बारे में विवरण के लिए, [Power Automate दस्तावेज़ीकरण](https://docs.microsoft.com/power-automate/) देखें.
+प्रवाह बनाने के बारे में विवरण के लिए, [Power Automate दस्तावेज़ीकरण](/power-automate/) देखें.
 
 ## <a name="connect-directly-to-the-real-time-api"></a>सीधे वास्तविक-समय API से कनेक्ट करें
 
@@ -83,6 +85,7 @@ ms.locfileid: "4689177"
 
 ## <a name="understand-your-real-time-usage-with-telemetry"></a>टेलीमेट्री के साथ अपने वास्तविक समय के उपयोग को समझें
 
-रीयल-टाइम API के अनुरोधों की मात्रा का अवलोकन प्राप्त करें और सिस्टम के सामने आने वाली समस्याओं के बारे में जानकारी प्राप्त कर सकता है. आप **व्यवस्थापक** > **सिस्टम** > **API उपयोग** पर जाकर [वास्तविक समय की टेलीमेट्री तक पहुंच](system.md#api-usage-tab) सकते हैं. **ऑपरेशन** तालिका में, रीयल-टाइम तरीकों का उपयोग करने वाले API परिचालनों के लिए पंक्तियां हैं, जिसमें रीयल-टाइम API उपयोग को देखने के लिए एक बटन होता है. बटन एक दूरबीन प्रतीक के साथ दिखाई देती है. मौजूदा परिवेश में रीयल-टाइम API उपयोग के लिए उपयोग विवरण युक्त साइड फलक खोलने के लिए बटन चुनें.
+रीयल-टाइम API के अनुरोधों की मात्रा का अवलोकन प्राप्त करें और सिस्टम के सामने आने वाली समस्याओं के बारे में जानकारी प्राप्त कर सकता है. आप [रीयल-टाइम टेलीमेट्री को एक्सेस कर सकते हैं](system.md#api-usage-tab). 
 
-**समूह अनुसार** चयनकर्ता का उपयोग करें, ताकि यह चुन सकें कि पिछले 24 घंटों से लेकर पिछले 30 दिनों तक के समय पर अपने वास्तविक समय के इंटरैक्शन को सर्वोत्तम तरीके से कैसे प्रस्तुत करें. आप API के तरीके, निकाय के योग्य नाम (इस्तेमाल किया गया निकाय), (घटना के स्रोत), नतीजा (सफलता या विफलता) या त्रुटि कोड के अनुसार निर्मित डेटा को समूह में रख सकते हैं. डेटा इतिहास चार्ट और तालिका के रूप में उपलब्ध है.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

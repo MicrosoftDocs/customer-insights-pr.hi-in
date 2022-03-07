@@ -1,24 +1,28 @@
 ---
 title: भविष्यवाणियों का उपयोग करके आंशिक डेटा पूरा करें
 description: अधूरा ग्राहक डेटा भरने के लिए भविष्यवाणियों का उपयोग करें.
-ms.date: 05/05/2020
-ms.service: customer-insights
+ms.date: 11/01/2021
 ms.subservice: audience-insights
 ms.topic: how-to
 author: zacookmsft
 ms.author: zacook
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 7ca42334420a27a8739d7c28bb72606c3ed91f3c
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
-ms.translationtype: HT
+searchScope:
+- ci-predictions
+- ci-custom-models
+- customerInsights
+ms.openlocfilehash: 9634523f61e27a0ed183186a788ab0cef3c0491b
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645036"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8354005"
 ---
-# <a name="complete-your-partial-data-with-predictions"></a>प्रिडिक्शन्स के साथ अपना आंशिक डेटा पूरा करें
+# <a name="complete-your-partial-data-with-predictions-deprecated"></a>पूर्वानुमानों के साथ अपना आंशिक डेटा पूरा करें (बहिष्कृत)
 
-[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+> [!IMPORTANT]
+> यह होगी सुविधा**पदावनत** के रूप में **5 नवंबर, 2021।** वर्तमान कार्यान्वयन तब तक काम करते रहेंगे जब तक कि सुविधा को हटा नहीं दिया जाता है, लेकिन आप नीचे दिए गए निर्देशों का उपयोग करके नए एकीकरण नहीं बना पाएंगे।
 
 पूर्वानुमानों से आप आसानी से ऐसे पूर्वानुमानित मान बना सकते हैं, जो ग्राहक के बारे में आपकी समझ को बेहतर बना सकते हैं. **इंटेलिजेंस** > **भविष्यवाणियों** पृष्ठ पर, आप उन भविष्यवाणियों को देखने के लिए **मेरी भविष्यवाणियों** का चयन कर सकते हैं जिन्हें आपने ऑडियंस इनसाइट्स के अन्य हिस्सों में कॉन्फ़िगर किया है, और आपको उन्हें और अनुकूलित करने की अनुमति देते हैं.
 
@@ -60,6 +64,8 @@ ms.locfileid: "7645036"
    > ![श्रेणी में मैप किए गए फ़ील्ड मानों को दर्शाता उदाहरण.](media/intelligence-categorymapping.png "श्रेणी में मैप किए गए फ़ील्ड मानों को दर्शाता उदाहरण")
 
 8. **पूर्ण** का चयन करें और पूर्वानुमानों को संसाधित किया जाएगा. डेटा के आकार और उसकी जटिलता पर निर्भर करते हुए संसाधन में कुछ समय लगेगा. आपके द्वारा बनाए गए अनुमान के **आउटपुट निकाय नाम** आधार पर परिणाम नए निकाय में उपलब्ध होंगे.
+
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
 ## <a name="create-a-prediction-while-creating-a-segment"></a>खंड बनाने के दौरान कोई पूर्वानुमान बनाना
 
@@ -110,7 +116,7 @@ ms.locfileid: "7645036"
 
 ## <a name="edit-a-prediction"></a>कोई पूर्वानुमान संपादित करें
 
-आपके द्वारा अनुमान बनाने के बाद, अपने मॉडल की प्रभावशीलता बढ़ाने के लिए आप AI Builder में मॉडल को अपने अनुकूल बना सकते हैं.  
+पूर्वानुमान बनाने के बाद, आप मॉडल में कस्टमाइज़ कर सकते हैं AI Builder अपने मॉडल की प्रभावशीलता बढ़ाने के लिए।  
 
 1. ऑडियंस इनसाइट्स में, **इंटेलिजेंस** > **पूर्वानुमान** > **मेरी पूर्वानुमान** पर जाएं.
 
@@ -118,14 +124,14 @@ ms.locfileid: "7645036"
 
 3. **कार्रवाई** स्तंभ में एलिप्सिस का चयन करें और **देखें** चुनें.
 
-4. **AI Builder में अनुकूलित करें** चुनें.
+4. चुनते हैं **में अनुकूलित करें।AI Builder**
 
-5. अपने मॉडल को AI Builder में अपडेट करें. [ AI builder में मॉडल के प्रबंधन के बारे में और अधिक जानें ](/ai-builder/manage-model#retrain-and-republish-existing-models).
+5. में अपना मॉडल अपडेट करें।AI Builder [ AI builder में मॉडल के प्रबंधन के बारे में और अधिक जानें ](/ai-builder/manage-model#retrain-and-republish-existing-models).
 
 आपके पूर्वानुमान को अगली बार चलाने पर आपके द्वारा बनाए गए अपडेट मॉडल का इस्तेमाल किया जाएगा.
 
 > [!NOTE]
-> AI Builder में बनाए गए नए मॉडल को तब तक ऑडियंस इनसाइट्स में नहीं दिखाया जाएगा जब तक कि मॉडल ऊपर सूचीबद्ध अनुभवों से नहीं बनाया गया हो.
+> में बनाए गए नए मॉडल AI Builder ऑडिएंस इनसाइट्स में तब तक प्रदर्शित नहीं किया जाएगा जब तक कि मॉडल ऊपर सूचीबद्ध अनुभवों से नहीं बनाया गया हो।
 
 ## <a name="remove-a-prediction"></a>किसी पूर्वानुमान को हटाएँ
 
