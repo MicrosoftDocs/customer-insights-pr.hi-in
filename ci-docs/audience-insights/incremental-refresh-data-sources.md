@@ -1,26 +1,22 @@
 ---
-title: वृद्धिशील ताज़ा करने के लिए Power Query -आधारित डेटा स्रोत
-description: पर आधारित बड़े डेटा स्रोतों के लिए नए और अपडेट किए गए डेटा को रीफ़्रेश करें Power Query.
-ms.date: 12/06/2021
+title: Power क्वेरी-आधारित डेटा स्रोतों के लिए वृद्धिशील रिफ़्रेश
+description: Power Query पर आधारित बड़े डेटा स्रोतों के लिए नए और अद्यतन किए गए डेटा को रीफ़्रेश करें.
+ms.date: 09/28/2020
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 manager: shellyha
-searchScope:
-- ci-system-schedule
-- customerInsights
-ms.openlocfilehash: 62632efda3c0c7e53fcdd8864b053ba93e2918bc
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: MT
+ms.openlocfilehash: 03f76bcfc7336d8430146e8a26ffa649c6a17db0
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353684"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596823"
 ---
-# <a name="incremental-refresh-for-data-sources-based-on-power-query"></a>डेटा स्रोतों के लिए इंक्रीमेंटल रीफ़्रेश के आधार पर Power Query
-
-यह आलेख चर्चा करता है कि पर आधारित डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश को कैसे कॉन्फ़िगर किया जाए।Power Query
+# <a name="incremental-refresh-for-data-sources-based-on-power-query"></a>Power Query पर आधारित डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश
 
 डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश निम्न लाभ प्रदान करता है:
 
@@ -30,13 +26,13 @@ ms.locfileid: "8353684"
 
 ## <a name="configure-incremental-refresh"></a>इंक्रीमेंटल रिफ्रेश को कॉन्फ़िगर करें
 
-ऑडिएंस इनसाइट्स के माध्यम से आयात किए गए डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश की अनुमति देता है Power Query जो वृद्धिशील अंतर्ग्रहण का समर्थन करते हैं। उदाहरण के लिए, दिनांक और समय फ़ील्ड वाले Azure SQL डेटाबेस, जो दर्शाते हैं कि डेटा रिकॉर्ड अंतिम रूप से अपडेट किए गए थे.
+ऑडियंस इनसाइट्स Power क्वेरी के माध्यम से आयातित डेटा स्रोतों के लिए वृद्धिशील रिफ़्रेश की अनुमति देता है जो वृद्धिशील अंतर्ग्रहण का समर्थन करते हैं. उदाहरण के लिए, दिनांक और समय फ़ील्ड वाले Azure SQL डेटाबेस, जो दर्शाते हैं कि डेटा रिकॉर्ड अंतिम रूप से अपडेट किए गए थे.
 
-1. [के आधार पर एक नया डेटा स्रोत बनाएं।Power Query](connect-power-query.md)
+1. [Power Query पर आधारित नया डेटा स्रोत बनाएँ](connect-power-query.md).
 
-1. उपलब्ध करें **नाम** डेटा स्रोत के लिए।
+1. डेटा स्रोत के लिए नाम विवरण करें.
 
-1. एक डेटा स्रोत चुनें जो इंक्रीमेंटल रिफ्रेश का समर्थन करता हो, जैसे [Azure SQL डेटाबेस](/power-query/connectors/azuresqldatabase).
+1. एक डेटा स्रोत चुनें जो वृद्धिशील रीफ़्रेश का समर्थन करता है, जैसे कि Azure SQL डेटाबेस.
 
 1. इंजेस्ट करने के लिए निकायों या तालिकाओं का चयन करें.
 
@@ -48,7 +44,8 @@ ms.locfileid: "8353684"
 
 1. **वृद्धिशील रिफ़्रेश सेटिंग्स** पर, आप डेटा स्रोत बनाते समय आपके द्वारा चयनित सभी निकायों के लिए वृद्धिशील रीफ़्रेश कॉन्फ़िगर करेंगे.
 
-   :::image type="content" source="media/incremental-refresh-settings.png" alt-text="वृद्धिशील रीफ़्रेश के लिए डेटा स्रोत में निकायों को कॉन्फ़िगर करें.":::
+   > [!div class="mx-imgBorder"]
+   > ![वृद्धिशील रीफ़्रेश के लिए डेटा स्रोत में निकायों को कॉन्फ़िगर करें](media/incremental-refresh-settings.png "इन्क्रीमेंटल रीफ्रेश करने के लिए डेटा स्रोत में संस्थाओं को कॉन्फ़िगर करें")
 
 1. एक निकाय चुनें और निम्नलिखित विवरण प्रदान करें:
 

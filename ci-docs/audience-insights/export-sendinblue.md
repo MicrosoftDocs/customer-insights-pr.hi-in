@@ -1,19 +1,20 @@
 ---
 title: Sendinblue में Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Sendinblue को निर्यात करने का तरीका जानें।
-ms.date: 10/08/2021
+ms.date: 06/29/2021
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: phkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 8d870ff31ce2d441e619ac18899c4d1b6c69ca41
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: MT
+ms.openlocfilehash: be52554763b57e1c1ef2f960d52bbae79ac9827913c97ac73b429f66bbf4db37
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8231421"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7036057"
 ---
 # <a name="export-segments-to-sendinblue-preview"></a>Sendinblue में अनुभाग निर्यात करें (पूर्वावलोकन)
 
@@ -28,10 +29,10 @@ ms.locfileid: "8231421"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- Sendinblue में प्रति निर्यात 1 मिलियन तक ग्राहक प्रोफ़ाइल.
+- Sendinblue को प्रति निर्यात 1 मिलियन प्रोफाइल तक।
 - Sendinblue में निर्यात करना अनुभागों तक सीमित है।
-- कुल 1 मिलियन ग्राहक प्रोफ़ाइल सेगमेंट निर्यात करने में 90 मिनट तक का समय लग सकता है. 
-- आप Sendinblue में कितनी संख्या में ग्राहक प्रोफ़ाइल निर्यात कर सकते हैं, वह Sendinblue के साथ आपके अनुबंध पर निर्भर और सीमित होता है.
+- कुल 1 मिलियन प्रोफ़ाइल वाले निर्यात अनुभागों में 90 मिनट तक का समय लग सकता है। 
+- आपके द्वारा Sendinblue में निर्यात की जा सकने वाली प्रोफ़ाइलों की संख्या Sendinblue के साथ आपके अनुबंध पर निर्भर और सीमित है।
 
 ## <a name="set-up-connection-to-sendinblue"></a>Sendinblue पर कनेक्शन सेट करें
 
@@ -63,7 +64,7 @@ ms.locfileid: "8231421"
 
 1. अपना **Sendinblue सूची ID** दर्ज करें 
 
-1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. 
+1. **डेटा मिलान** अनुभाग में, **ईमेल** फ़ील्ड में, अपने एकीकृत ग्राहक प्रोफ़ाइल में उस फ़ील्ड का चयन करें जो ग्राहक के ईमेल पते का प्रतिनिधित्व करता है. 
 
 1. वैकल्पिक रूप से, आप अधिक वैयक्तिकृत ईमेल बनाने के लिए **प्रथम नाम**, **अंतिम नाम**, और **फ़ोन** निर्यात कर सकते हैं. इन फ़ील्ड को मैप करने के लिए **जोड़ें विशेषता** चुनें.
 

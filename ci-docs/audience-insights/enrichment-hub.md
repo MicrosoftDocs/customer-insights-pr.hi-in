@@ -1,25 +1,21 @@
 ---
 title: समृद्ध एकीकृत ग्राहक प्रोफाइल
 description: अपने ग्राहक डेटा को समृद्ध करने के लिए क्षमताओं का उपयोग करें.
-ms.date: 02/18/2022
+ms.date: 11/05/2021
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-searchScope:
-- ci-enrichments
-- ci-enrichment-details
-- ci-enrichment-wizard
-- customerInsights
-ms.openlocfilehash: b44f5a4b74c63629811837b853b4e069dea63504
-ms.sourcegitcommit: bb1f9e96023490ab340c114f54200ab4dd48da78
-ms.translationtype: MT
+ms.openlocfilehash: e44e973bf7713ed5c31dfb9849419decd4ad1c78
+ms.sourcegitcommit: 48d799535fad84e8b63c80aef48b5c5e87628f58
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372717"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7884218"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>ग्राहक प्रोफाइल के लिए संवर्धन (पूर्वावलोकन)
 
@@ -41,8 +37,6 @@ ms.locfileid: "8372717"
 - Experian द्वारा प्रदान की गई [जनसांख्यिकी](enrichment-experian.md)
 - सिक्योर फाइल ट्रांसफर प्रोटोकॉल (SFTP) के माध्यम से [कस्टम डेटा](enrichment-SFTP-custom-import.md) 
 - Microsoft [Azure मानचित्र](enrichment-azure-maps.md) द्वारा उपलब्ध
-- HERE Technologies द्वारा प्रदान की गई [स्थान डेटा](enrichment-here.md) 
-- [पहचान](enrichment-liveramp.md) LiveRamp AbiliTec . द्वारा प्रदान किया गया
 
 # <a name="business-accounts-b-to-b"></a>[व्यावसायिक खाते (B-टू-B)](#tab/b2b)
 
@@ -81,10 +75,6 @@ ms.locfileid: "8372717"
 ## <a name="multiple-enrichments-of-the-same-type"></a>एक ही प्रकार के कई संवर्धन
 
 समृद्ध होने वाली निकाय को संवर्धन विन्यास के दौरान निर्दिष्ट किया गया है, जो आपको अपने प्रोफ़ाइल के केवल सबसेट को समृद्ध करने की अनुमति देता है. उदाहरण के लिए, केवल एक विशिष्ट अनुभाग के लिए डेटा बेहतर करें. आप एक ही प्रकार के कई संवर्धनों को कॉन्फ़िगर कर सकते हैं और एक ही कनेक्शन का पुन: उपयोग कर सकते हैं. कुछ संवर्धनों में एक ही प्रकार के संवर्धनों की संख्या की सीमाएं होंगी जिन्हें बनाया जा सकता है. सीमा और वर्तमान उपयोग **एनरिचमेंट** पृष्ठ पर देखा जा सकता है.
-
-## <a name="enrich-data-sources-before-unification"></a>एकीकरण से पहले डेटा स्रोतों को समृद्ध करें
-
-डेटा मिलान की गुणवत्ता बढ़ाने में सहायता के लिए आप डेटा एकीकरण से पहले अपने ग्राहक डेटा को समृद्ध कर सकते हैं। अधिक जानकारी के लिए देखें [डेटा स्रोत संवर्धन।](data-sources-enrichment.md)
 
 ## <a name="see-the-progress-of-the-enrichment-process"></a>संवर्धन प्रक्रिया की प्रगति देखें
 

@@ -3,17 +3,18 @@ title: समर्थित पूर्वानुमान परिदृ�
 description: पूर्वानुमान परिदृश्य और विकल्प Dynamics 365 Customer Insights अनुप्रयोग द्वारा कवर किए गए हैं.
 ms.date: 12/21/2021
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: overview
 author: zacookmsft
 ms.author: zacook
 manager: shellyha
-ms.openlocfilehash: c692785c7d81ab660ba2e07411e986c67c1a5d0a
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: MT
+ms.openlocfilehash: 5972d5b191ded7db14e2ebe9a4a26570a8ea60ba
+ms.sourcegitcommit: bb1ca84bc38e81fb2ff2961c457384b7beb5b5fa
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8228246"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7978015"
 ---
 # <a name="predictions-overview"></a>पूर्वानुमानों का अवलोकन
 

@@ -1,23 +1,24 @@
 ---
 title: Azure मशीन लर्निंग के प्रयोग
 description: Dynamics 365 Customer Insights में Azure मशीन लर्निंग-आधारित मॉडल का उपयोग करें.
-ms.date: 12/02/2021
+ms.date: 11/30/2020
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: tutorial
 author: naravill
 ms.author: naravill
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 3c3bed3dca40be748140a8b339191e6a42725714
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: MT
+ms.openlocfilehash: 3f97e22687ae4f5536d492bac83bdf9c711e2c94
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8228890"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554437"
 ---
 # <a name="use-azure-machine-learning-based-models"></a>Azure मशीन लर्निंग-आधारित मॉडल का उपयोग करें
 
-Dynamics 365 Customer Insights में एकीकृत डेटा, मशीन लर्निंग मॉडल बनाने का स्रोत है, जो अतिरिक्त व्यावसायिक इनसाइट्स उत्पन्न कर सकता है. Customer Insights स्वयं के कस्टम मॉडल का उपयोग करने के लिए Azure मशीन लर्निंग के साथ एकीकृत करती है.
+Dynamics 365 Customer Insights में एकीकृत डेटा, मशीन लर्निंग मॉडल बनाने का स्रोत है, जो अतिरिक्त व्यावसायिक इनसाइट्स उत्पन्न कर सकता है. Customer Insights अपना खुद का कस्टम मॉडल उपयोग करने के लिए मशीन लर्निंग स्टूडियो (क्लासिक) और Azure मशीन लर्निंग के साथ एकीकृत करती है. मशीन लर्निंग स्टूडियो (क्लासिक) पर बनाए गए प्रयोगों के उदाहरणों के लिए [मशीन लर्निंग स्टूडियो (क्लासिक) प्रयोग](machine-learning-studio-experiments.md) को देखें. 
 
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
@@ -34,7 +35,7 @@ Dynamics 365 Customer Insights में एकीकृत डेटा, मश
 
 ## <a name="work-with-azure-machine-learning-designer"></a>Azure मशीन लर्निंग डिज़ाइनर के साथ काम करें
 
-Azure मशीन लर्निंग डिज़ाइनर एक विज़ुअल कैनवास प्रदान करता है जहाँ आप डेटासेट और मॉड्यूल को ड्रैग और ड्रॉप कर सकते हैं। यदि डिज़ाइनर द्वारा बनाई गई बैच पाइपलाइन को तदनुसार कॉन्फ़िगर किया जाता है, तो उनको Customer Insights में एकीकृत किया जा सकता है. 
+Azure मशीन लर्निंग डिज़ाइनर एक विज़ुअल कैनवास प्रदान करता है, जहां आप मशीन लर्निंग स्टूडियो (क्लासिक) की तरह ही डेटासेट और मॉड्यूल को खींच और छोड़ सकते हैं. यदि डिज़ाइनर द्वारा बनाई गई बैच पाइपलाइन को तदनुसार कॉन्फ़िगर किया जाता है, तो उनको Customer Insights में एकीकृत किया जा सकता है. 
    
 ## <a name="working-with-azure-machine-learning-sdk"></a>Azure मशीन लर्निंग SDK के साथ काम करना
 

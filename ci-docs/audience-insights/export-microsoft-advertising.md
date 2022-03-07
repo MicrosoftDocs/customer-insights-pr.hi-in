@@ -1,19 +1,20 @@
 ---
 title: Microsoft Advertising को Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Microsoft Advertising को निर्यात करने का तरीका जानें.
-ms.date: 10/08/2021
+ms.date: 05/12/2021
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 8f009ed0258ded424340061e5320dd7df68c199f
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: MT
+ms.openlocfilehash: 8f8a4cbb9590f9c5311789154319283530e0a10343cccbe9c7aec99765b4fbf2
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8226893"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7031467"
 ---
 # <a name="export-segments-to-microsoft-advertising-preview"></a>Microsoft Advertising को सेगमेंट निर्यात करें (पूर्वावलोकन)
 
@@ -28,9 +29,9 @@ ms.locfileid: "8226893"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- आप Microsoft Advertising में प्रति निर्यात 500'000 तक ग्राहक प्रोफ़ाइल निर्यात कर सकते हैं.
+- आप Microsoft Advertising में प्रति निर्यात 500 K प्रोफ़ाइल तक निर्यात कर सकते हैं.
 - Microsoft Advertising को निर्यात करना सेगमेंट तक ही सीमित है.
-- 500'000 तक ग्राहक प्रोफ़ाइल Microsoft Advertising में निर्यात करने में 10 मिनट तक का समय लग सकता है. 
+- Microsoft Advertising में 500 K प्रोफ़ाइल तक निर्यात पूरा करनें में 10 मिनट तक का समय लग सकता है. 
 
 
 ## <a name="set-up-the-connection-to-microsoft-advertising"></a>Microsoft Advertising के लिए कनेक्शन को सेट करें
@@ -67,7 +68,7 @@ ms.locfileid: "8226893"
 
 1. अपना **Microsoft विज्ञापन ग्राहक ID और खाता ID** दर्ज करें. आप ग्राहक ID (`cid`) और खाता ID (`aid`) URL के पैरामीटर में पा सकते हैं जब आप Microsoft Advertising में साइन इन होते हैं.
 
-1. **ईमेल** फ़ील्ड में, **डेटा मिलान** सेक्शन में, ग्राहक के ईमेल पते वाली फ़ील्ड का चयन करें. Microsoft Advertising में अनुभाग का निर्यात करना आवश्यक है.
+1. **ईमेल** फ़ील्ड में, **डेटा मिलान सेक्शन** में, ग्राहक के ईमेल पते के साथ अपने एकीकृत ग्राहक प्रोफ़ाइल में फ़ील्ड चुनें. Microsoft Advertising में अनुभाग का निर्यात करना आवश्यक है.
 
 1. **सहेजें** चुनें.
 

@@ -1,19 +1,20 @@
 ---
-title: Customer Insights डेटा को यहां निर्यात करें Facebook विज्ञापन प्रबंधक (वीडियो शामिल है)
+title: Facebook विज्ञापन प्रबंधक के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Facebook विज्ञापन प्रबंधक को निर्यात करने का तरीका जानें.
 ms.date: 04/15/2021
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 781cf10e1bb5ddaf82d4a17c7a77e0c43c41a1c2
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: MT
+ms.openlocfilehash: bb74e35799410b92b64e48e065b45efda82490ca
+ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8226497"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "7672955"
 ---
 # <a name="export-segments-list-to-facebook-ads-manager-preview"></a>Facebook विज्ञापन प्रबंधक को सेगमेंट सूची निर्यात करें (पूर्वावलोकन)
 

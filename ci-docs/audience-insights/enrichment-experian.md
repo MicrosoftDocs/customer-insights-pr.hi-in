@@ -3,17 +3,18 @@ title: तृतीय-पक्ष संवर्धन Experian के सा
 description: Experian तीसरे पक्ष का संवर्धन के बारे में सामान्य जानकारी।
 ms.date: 04/09/2021
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: ad1023135516ca9c49818d19aa84df68d16b2e3c
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.openlocfilehash: 7c82fe92b3351a782a4fa6510300d870b742d042
+ms.sourcegitcommit: 42b3bce1e20e7cc707d232844dacfeed3d6fc096
 ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8229966"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309822"
 ---
 # <a name="enrich-customer-profiles-with-demographics-from-experian-preview"></a>Experian से जनसांख्यिकी के साथ ग्राहक प्रोफाइल को बेहतर बनाएँ (पूर्वावलोकन)
 
@@ -38,7 +39,7 @@ Experian कॉन्फ़िगर करने के लिए, निम्
 1. Experian टाइल पर **मेरा डेटा बेहतर बनाएँ** चुनें।
 
    > [!div class="mx-imgBorder"]
-   > ![Experian टाइल.](media/experian-tile.png "Experian टाइल")
+   > ![Experian टाइल](media/experian-tile.png "Experian टाइल")
    > 
 
 1. ड्राप-डाउन सूची से [कनेक्शन](connections.md) चुनें। यदि कोई कनेक्शन उपलब्ध नहीं है तो किसी व्यवस्थापक से संपर्क करें. यदि आप एक व्यवस्थापक हैं, तो आप ड्रॉपडाउन सूची से **कनेक्शन जोड़ें** का चयन करके और Experian चुनकर एक कनेक्शन बना सकते हैं । 
@@ -88,9 +89,9 @@ Experian कॉन्फ़िगर करने के लिए, निम्
 
 आप **समृद्ध डेटा देखें** का चयन करके प्रत्येक समृद्ध प्रोफ़ाइल के विस्तृत व्यू का उपयोग कर सकते हैं.
 
-## <a name="next-steps"></a>अगले कदम
+## <a name="next-steps"></a>अगले चरण
 
-[!INCLUDE [next-steps-enrichment](../includes/next-steps-enrichment.md)]
+अपने समृद्ध ग्राहक डेटा के ऊपर बनाएं. [खंडों](segments.md) को बनाएं और [साधानों](measures.md) और यहां तक कि अपने ग्राहकों को व्यक्तिगत अनुभव देने के लिए [डेटा निर्यात करें](export-destinations.md).
 
 ## <a name="data-privacy-and-compliance"></a>डेटा गोपनीयता और अनुपालन
 
