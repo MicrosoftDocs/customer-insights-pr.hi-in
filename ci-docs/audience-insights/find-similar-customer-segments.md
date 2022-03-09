@@ -1,24 +1,29 @@
 ---
-title: AI के साथ समान ग्राहकों का पता लगाएं
+title: एआई के साथ मिलते-जुलते ग्राहक खोजें (इसमें वीडियो है)
 description: कृत्रिम इंटेलिजेंस वाले समान ग्राहक वर्ग ढूंढें.
 ms.date: 06/25/2020
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
-ms.reviewer: jimsonc
+author: JimsonChalissery
+ms.author: jimsonc
+ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: b9b2e7fa862b595c6a364a7208e42295b4f9df83
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
-ms.translationtype: HT
+searchScope:
+- ci-segment-builder
+- ci-segment-insights
+- customerInsights
+ms.openlocfilehash: 5626b980ad8802aae9657052e3ca51a70c49baf9
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5268872"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8355247"
 ---
 # <a name="similar-customers-preview"></a>समान ग्राहक (पूर्वावलोकन)
 
 यह सुविधा आपको कृत्रिम इंटेलिजेंस का उपयोग करके अपने ग्राहक आधार में समान ग्राहक ढूंढने देती है. इस सुविधा का उपयोग करने के लिए आपको कम से कम एक अनुभाग तैयार करना होगा. मौजूदा अनुभाग के मापदंडों का विस्तार करने से उन ग्राहकों को खोजने में मदद मिलती है जो उस अनुभाग के समान होते हैं.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWOFou]
 
 > [!NOTE]
 > *समान ग्राहक खोजें*, डेटा का मूल्यांकन करने और उस डेटा के आधार पर पूर्वानुमान करने के लिए स्वचालित साधनों का उपयोग करता है और इसलिए इसे प्रोफ़ाइलिंग की एक विधि के रूप में उपयोग करने की क्षमता है, जैसे कि इस शब्द को सामान्य डेटा सुरक्षा विनियम ("GDPR") द्वारा परिभाषित किया गया है. डेटा को संसाधित करने के लिए इस सुविधा का ग्राहक द्वारा उपयोग GDPR या दूसरे कानूनों या विनियमों के अधीन हो सकता है. आप यह सुनिश्चित करने के लिए ज़िम्मेदार हैं कि भविष्यवाणियों सहित Dynamics 365 Customer Insights का आपका उपयोग गोपनीयता, व्यक्तिगत डेटा, बायोमेट्रिक डेटा, डेटा संरक्षण और संचार की गोपनीयता से संबंधित कानूनों सहित सभी लागू कानूनों और विनियमों का अनुपालन करता है.
@@ -50,7 +55,7 @@ ms.locfileid: "5268872"
 समान अनुभाग को संसाधित करने के बाद, आपको नया अनुभाग **अनुभाग** पृष्ठ पर सूचीबद्ध मिलेगा.
 
 > [!div class="mx-imgBorder"]
-> ![समान ग्राहक अनुभाग](media/expanded-segment.png "समान ग्राहक अनुभाग")
+> ![समान ग्राहक अनुभाग.](media/expanded-segment.png "समान ग्राहक अनुभाग")
 
 अनुभाग का विवरण खोलने के लिए क्रिया पट्टी पर **देखें** चुनें. इस दृश्य में [समानता स्कोर](#about-similarity-scores) में परिणाम वितरण के बारे में जानकारी शामिल होती है. आपको **अनुभाग के सदस्यों का पूर्वावलोकन** में समानता स्कोर मान भी मिलेंगे.
 

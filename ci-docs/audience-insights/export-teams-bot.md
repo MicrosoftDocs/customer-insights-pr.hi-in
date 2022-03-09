@@ -1,20 +1,19 @@
 ---
 title: Microsoft Teams के लिए बॉट
 description: एक बॉट की मदद से Microsoft Teams में एकीकृत ग्राहक प्रोफाइल देखें.
-ms.date: 04/21/2020
+ms.date: 10/08/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 9bf401124b0ffb21b046954056141e7703386d4911f89f34ffc0fcb84bf0f4be
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
-ms.translationtype: HT
+ms.openlocfilehash: d6b016c1ec35e26ce6449333234edfd218bc9354
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7032484"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8232104"
 ---
 # <a name="teams-bot-for-dynamics-365-customer-insights-preview"></a>Dynamics 365 Customer Insights के लिए Teams बॉट (पूर्वावलोकन)
 
@@ -31,7 +30,10 @@ ms.locfileid: "7032484"
 - [एकीकरण प्रक्रिया](data-unification.md) पूरी हो गयी है.
 - फ़ील्ड [खोज और फ़िल्टर इंडेक्स](search-filter-index.md) में जोड़े जाते हैं.
 - Customer Insights और टीम एक ही संगठन में हैं.
+- आपके परिवेश में प्राथमिक लक्षित ऑडिएंस हैं जो अलग-अलग ग्राहकों पर सेट हैं. व्यावसायिक खाते समर्थित नहीं हैं.
 
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWRElj]
 ## <a name="configure-the-bot"></a>बॉट कॉन्फ़िगर करें
 
 1. ऑडिएंस इनसाइट्स में, **व्यवस्थापक** > **निर्यात गंतव्य** पर जाएं.

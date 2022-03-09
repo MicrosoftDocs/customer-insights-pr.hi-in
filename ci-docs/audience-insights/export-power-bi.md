@@ -1,20 +1,19 @@
 ---
 title: Power BI कनेक्टर
 description: Power BI में Dynamics 365 Customer Insights कनेक्टर का उपयोग करना सीखें.
-ms.date: 09/21/2020
-ms.reviewer: sthe
-ms.service: customer-insights
+ms.date: 07/23/2021
+ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: stefanie-msft
+ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 0607a4644ac7d7beb19e4faecf012efcd197d48c
-ms.sourcegitcommit: 0260ed244b97c2fd0be5e9a084c4c489358e8d4f
-ms.translationtype: HT
+ms.openlocfilehash: dccc069a355725bae09c1fece9292b9aee374e6d
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5477090"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8225517"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -23,7 +22,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
 - आपके पास एकीकृत ग्राहक प्रोफाइल हैं.
-- [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) का नवीनतम संस्करण आपके कंप्यूटर पर स्थापित है. [Power BI Desktop के बारे में अधिक जानें](https://docs.microsoft.com/power-bi/desktop-what-is-desktop)
+- आपके कंप्यूटर पर [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) का नवीनतम वर्जन इंस्टॉल है. [Power BI Desktop के बारे में अधिक जानें](/power-bi/desktop-what-is-desktop)
 
 ## <a name="configure-the-connector-for-power-bi"></a>Power BI के लिए कनेक्टर कॉन्फ़िगर करें
 
@@ -39,7 +38,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 
 1. **नेविगेटर** संवाद बॉक्स में. आप उन सभी परिवेशों की सूची देखते हैं जिनके पास आपके पास पहुंच है. एक परिवेश का विस्तार करें और किसी भी फ़ोल्डर (निकायों, साधनों, खंडों, एनरिचमेंट) को खोलें. उदाहरण के लिए, **निकाय** फ़ोल्डर खोलें, उन सभी निकायओं को देखने के लिए जिन्हें आप आयात कर सकते हैं.
 
-   ![Power BI कनेक्टर नेविगेटर](media/power-bi-navigator.png "Power BI कनेक्टर नेविगेटर")
+   ![Power BI कनेक्टर नेविगेटर.](media/power-bi-navigator.png "Power BI कनेक्टर नेविगेटर")
 
 1. शामिल करने के लिए निकायों के बगल में स्थित चेक बॉक्स चुनें और **लोड करें**. आप एकाधिक परिवेश से कई निकायों का चयन कर सकते हैं.
 
@@ -47,7 +46,7 @@ Power BI Desktop के साथ अपने डेटा के लिए व
 
 ## <a name="large-data-sets"></a>बड़े डेटा सेट
 
-Power BI के लिए Customer Insights कनेक्टर को उन डेटा सेटों के लिए काम करने के लिए डिज़ाइन किया गया है जिनमें 1 मिलियन तक ग्राहक प्रोफ़ाइल हैं. बड़े डेटा सेट को आयात करने से काम बन सकता है, लेकिन इसमें लंबा समय लगता है. इसके अतिरिक्त, Power BI सीमाओं के कारण यह प्रक्रिया एक टाइम-आउट में चल सकती है. अधिक जानकारी के लिए देखें [Power BI: बड़े डेटा सेट के लिए सिफारिशें।](https://docs.microsoft.com/power-bi/admin/service-premium-what-is#large-datasets). 
+Power BI के लिए Customer Insights कनेक्टर को उन डेटा सेटों के लिए काम करने के लिए डिज़ाइन किया गया है जिनमें 1 मिलियन तक ग्राहक प्रोफ़ाइल हैं. बड़े डेटा सेट को आयात करने से काम बन सकता है, लेकिन इसमें लंबा समय लगता है. इसके अतिरिक्त, Power BI सीमाओं के कारण यह प्रक्रिया एक टाइम-आउट में चल सकती है. अधिक जानकारी के लिए देखें [Power BI: बड़े डेटा सेट के लिए सिफारिशें।](/power-bi/admin/service-premium-what-is#large-datasets). 
 
 ### <a name="work-with-a-subset-of-data"></a>डेटा के सबसेट के साथ काम करें
 
@@ -69,5 +68,10 @@ Power BI के लिए Customer Insights कनेक्टर को उन 
 
 डुप्लिकेट किए गए संबंधों को हटाने के बाद, Power BI कनेक्टर को फिर से कॉन्फ़िगर करने का प्रयास करें. परिवेश अब उपलब्ध होना चाहिए.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+### <a name="errors-on-date-fields-when-loading-entities-in-power-bi-desktop"></a>Power BI Desktop में निकाय लोड करते समय दिनांक फ़ील्ड में त्रुटियाँ
 
+MM/DD/YYYY जैसे दिनांक फॉर्मेट वाले फ़ील्ड वाले निकायों को लोड करते समय, बेमेल स्थानीय फॉर्मेट के कारण आपको त्रुटियों का सामना करना पड़ सकता है. यह बेमेल तब होता है जब आपकी Power BI Desktop फ़ाइल अंग्रेज़ी (संयुक्त राज्य) के स्थान पर किसी अन्य स्थान पर सेट होती है, क्योंकि ऑडियंस इनसाइट्स में दिनांक फ़ील्ड यूएस फॉर्मेट में सहेजे जाते हैं.
+
+Power BI Desktop फ़ाइल में एकल स्थान सेटिंग होती है, जिसे डेटा पुनर्प्राप्त करते समय लागू किया जाता है. इन दिनांक फ़ील्ड की सही व्याख्या करें, .BPI फ़ाइल का स्थान अंग्रेज़ी (संयुक्त राज्य) पर सेट करें. [Power BI Desktop फ़ाइल का स्थान बदलने का तरीका जानें](/power-bi/fundamentals/supported-languages-countries-regions.md#choose-the-locale-for-importing-data-into-power-bi-desktop).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
