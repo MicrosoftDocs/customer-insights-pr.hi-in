@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-security
 - customerInsights
-ms.openlocfilehash: 5b22c1464b3f089551f485f98d6d93840ff77136
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: HT
+ms.openlocfilehash: 418575f724090628da8bd01e2569a4cb9e646337
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8355893"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376510"
 ---
 # <a name="bring-your-own-azure-key-vault-preview"></a>अपनी स्वयं की Azure की वॉल्ट लाएं (पूर्वावलोकन)
 
@@ -31,7 +31,7 @@ ms.locfileid: "8355893"
 
 - आपके पास सक्रिय Azure सदस्यता है.
 
-- ऑडियंस इनसाइट में आपकी [व्यवस्थापक](permissions.md#administrator) की भूमिका होती है. [ऑडिएंस इनसाइट में उपयोगकर्ता अनुमतियाँ](permissions.md#assign-roles-and-permissions) के बारे में और जानें.
+- ऑडियंस इनसाइट में आपकी [व्यवस्थापक](permissions.md#admin) की भूमिका होती है. [ऑडिएंस इनसाइट में उपयोगकर्ता अनुमतियाँ](permissions.md#assign-roles-and-permissions) के बारे में और जानें.
 
 - आपके पास की वॉल्ट या की वॉल्ट से संबंधित संसाधन समूह पर [योगदानकर्ता](/azure/role-based-access-control/built-in-roles#contributor) और [उपयोगकर्ता पहुँच व्यवस्थापक](/azure/role-based-access-control/built-in-roles#user-access-administrator) भूमिकाएँ हैं. अधिक जानकारी के लिए, [Azure पोर्टल का इस्तेमाल करके Azure भूमिका असाइनमेंट जोड़ें या निकालें](/azure/role-based-access-control/role-assignments-portal) पर जाएं. अगर आपके पास की वॉल्ट पर उपयोगकर्ता पहुँच व्यवस्थापक की भूमिका नहीं है, तो आपको Dynamics 365 Customer Insights के लिए Azure सेवा प्रिंसिपल के लिए भूमिका-आधारित पहुँच नियंत्रण अनुमतियाँ अलग से सेट करनी होंगी. लिंक की जाने वाली की वॉल्ट के लिए [Azure सेवा प्रिंसिपल का इस्तेमाल करें](connect-service-principal.md) चरणों का पालन करें.
 

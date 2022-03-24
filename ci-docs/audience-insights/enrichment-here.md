@@ -8,12 +8,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 1b46e8913c6d288b93cdf32e195b5e9387916e70
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: 1cbbad9bfe559bcb15b23894fc7475507aae8add
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8230384"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376352"
 ---
 # <a name="enrichment-of-customer-profiles-with-here-technologies-preview"></a>HERE Technologies (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल का एनरिचमेंट
 
@@ -25,7 +25,7 @@ HERE Technologies के एनरिचमेंट को कॉन्फ़�
 
 - आपके पास एक सक्रिय HERE Technologies सदस्यता है. सदस्यता प्राप्त करने के लिए, आप [यहां साइन-अप](https://developer.here.com/sign-up?utm_medium=referral&utm_source=Microsoft-Dynamics-CI&create=Freemium-Basic) या सीधे [HERE Technologies से संपर्क](https://developer.here.com/help?utm_medium=referral&utm_source=Microsoft-Dynamics-CI#how-can-we-help-you) कर सकते हैं। [HERE Technologies लोकेशन एनरिचमेंट के बारे में अधिक जानें.](https://developer.here.com/location-enrichment?cid=Dev-MicrosoftDynamics-DB-0-Dev-&utm_source=MicrosoftDynamics&utm_medium=referral&utm_campaign=Online_Dev_ReferralMicrosoft)
 
-- HERE [कनेक्शन](connections.md) उपलब्ध है *या* आपके पास [व्यवस्थापक](permissions.md#administrator) अनुमतियाँ और HERE Technologies API कुंजी हैं।
+- HERE [कनेक्शन](connections.md) उपलब्ध है *या* आपके पास [व्यवस्थापक](permissions.md#admin) अनुमतियाँ और HERE Technologies API कुंजी हैं।
 
 ## <a name="configure-the-enrichment"></a>एनरिचमेंट को कॉन्फ़िगर करें
 

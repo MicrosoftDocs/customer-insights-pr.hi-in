@@ -8,12 +8,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: ad1023135516ca9c49818d19aa84df68d16b2e3c
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: efa26fa82a950063e074a4ab930ed95383c55334
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8229966"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376694"
 ---
 # <a name="enrich-customer-profiles-with-demographics-from-experian-preview"></a>Experian से जनसांख्यिकी के साथ ग्राहक प्रोफाइल को बेहतर बनाएँ (पूर्वावलोकन)
 
@@ -25,7 +25,7 @@ Experian कॉन्फ़िगर करने के लिए, निम्
 
 - आपके पास सक्रिय Experian सदस्यता है। सदस्यता प्राप्त करने के लिए, सीधे [Experian](https://www.experian.com/marketing-services/contact) से संपर्क करें। [Experian डेटा संवर्द्धन के बारे में अधिक जानें](https://www.experian.com/marketing-services/microsoft?cmpid=ems_web_mci_cdppage)।
 
-- एक Experian कनेक्शन पहले से ही एक व्यवस्थापक द्वारा कॉन्फ़िगर किया गया है *या* आपके पास [व्यवस्थापक](permissions.md#administrator) अनुमतियाँ हैं। आपको अपने SSH-सक्षम सुरक्षित परिवहन (ST) खाते के लिए उपयोगकर्ता ID, पार्टी ID और मॉडल नंबर की भी आवश्यकता है जो कि Experian ने आपके लिए बनाया है।
+- एक Experian कनेक्शन पहले से ही एक व्यवस्थापक द्वारा कॉन्फ़िगर किया गया है *या* आपके पास [व्यवस्थापक](permissions.md#admin) अनुमतियाँ हैं। आपको अपने SSH-सक्षम सुरक्षित परिवहन (ST) खाते के लिए उपयोगकर्ता ID, पार्टी ID और मॉडल नंबर की भी आवश्यकता है जो कि Experian ने आपके लिए बनाया है।
 
 ## <a name="supported-countriesregions"></a>समर्थित देश/क्षेत्र
 

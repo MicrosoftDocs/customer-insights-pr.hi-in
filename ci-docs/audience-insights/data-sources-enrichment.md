@@ -8,18 +8,18 @@ author: NimrodMagen
 ms.author: nimagen
 ms.reviewer: v-wendysmith
 manager: shellyha
-ms.openlocfilehash: eebaaf18795e80dd1ba16a15a23844d685c94c6e
-ms.sourcegitcommit: bb1f9e96023490ab340c114f54200ab4dd48da78
-ms.translationtype: HT
+ms.openlocfilehash: 56f6a8ad20224922f9968f0ad3b6a0e0a400214b
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8373064"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376581"
 ---
 # <a name="enrichment-for-data-sources-preview"></a>डेटा स्रोतों के लिए संवर्धन (पूर्वावलोकन)
 
 डेटा एकीकरण से पहले अपने ग्राहक डेटा को समृद्ध करने के लिए Microsoft और अन्य भागीदारों जैसे स्रोतों के डेटा का उपयोग करें। डेटा स्रोत संवर्धन उच्च डेटा पूर्णता और गुणवत्ता उत्पन्न करने में मदद करता है जो आपके डेटा को एकीकृत करने के बाद बेहतर परिणाम प्राप्त करने में मदद कर सकता है। उदाहरण के लिए, पतों के लिए सामान्यीकृत और मानकीकृत प्रारूप का उपयोग करने से मिलान परिणामों की गुणवत्ता बढ़ जाती है। समर्थित संवर्द्धन की सूची के लिए, देखें [समर्थित डेटा स्रोत संवर्धन विकल्प।](#supported-data-source-enrichments)
 
-## <a name="enrich-a-data-source"></a>डेटा स्रोत को समृद्ध करें
+## <a name="enrich-a-data-source"></a>डेटा स्रोत . को समृद्ध करें
 
 संवर्धन बनाने या संपादित करने के लिए आपके पास सहयोगी या व्यवस्थापक अनुमतियां होनी चाहिए। अधिक जानकारी के लिए, [अनुमतियाँ](permissions.md) देखें.  
 
@@ -37,10 +37,10 @@ ms.locfileid: "8373064"
 
 ## <a name="supported-data-source-enrichments"></a>समर्थित डेटा स्रोत संवर्धन
 
-निम्नलिखित संवर्द्धन वर्तमान में डेटा स्रोतों के लिए उपलब्ध हैं। संवर्धन को कॉन्फ़िगर करने का तरीका जानने के लिए विस्तृत चरणों की समीक्षा करें।
+निम्नलिखित संवर्धन वर्तमान में डेटा स्रोतों के लिए उपलब्ध हैं। संवर्धन को कॉन्फ़िगर करने का तरीका जानने के लिए विस्तृत चरणों की समीक्षा करें।
 
 - [संवर्धित पते](enrichment-enhanced-addresses.md)
-- [LiveRamp . से पहचान डेटा](enrichment-liveramp.md)
+- [परिष्कृत कंपनी डेटा](enrichment-enhanced-company-data.md)
 
 ## <a name="manage-existing-data-source-enrichments"></a>मौजूदा डेटा स्रोत संवर्धन प्रबंधित करें
 

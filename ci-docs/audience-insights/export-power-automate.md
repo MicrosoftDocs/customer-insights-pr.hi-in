@@ -8,16 +8,20 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: dc9bbe22b7f10cf92f06cae18fbece9808b87dce
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: dd90ef4576246b49d4a9c74005196ee9813a6744
+ms.sourcegitcommit: d168a738a08adb8b4b2e410bdaa3716d7b63cc9b
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8226716"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455909"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate कनेक्टर (पूर्वावलोकन)
 
 जब आपके डेटा में परिवर्तन होता है तो स्वचलित रूप से होने वाली विशिष्ट इवेंट स्वतः होने लगती हैं और [Power Automate](https://flow.microsoft.com/) में होने वाले प्रत्यक्ष जटिल प्रवाह को प्रबंधित करती हैं.
+
+## <a name="known-limitations"></a>ज्ञात सीमाएँ
+
+- आप प्रति 60 सेकंड में अधिकतम 100 कॉल कर सकते हैं। आप $स्किप पैरामीटर का उपयोग करके API एंडपॉइंट को कई बार कॉल कर सकते हैं। [$स्किप पैरामीटर के बारे में और जानें।](/connectors/customerinsights/#get-items-from-an-entity)
 
 ## <a name="power-automate-triggers"></a>Power Automate ट्रिगर्स
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 author: Nils-2m
 ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: ae2a3b7c05e9ed860da31853c47af2aec8634e7a
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: 18cc32a169e79794d2d3203d462620ab41efaafe
+ms.sourcegitcommit: d168a738a08adb8b4b2e410bdaa3716d7b63cc9b
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8229033"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455954"
 ---
 # <a name="microsoft-power-apps-connector-preview"></a>Microsoft Power Apps कनेक्टर (पूर्वावलोकन)
 
@@ -38,6 +38,8 @@ Customer Insights को डेटा कनेक्शन के रूप म
 ### <a name="retrievable-entities"></a>पुनर्प्राप्ति योग्य निकायें
 
 आप Power Apps कनेक्टर के द्वारा सिर्फ **ग्राहक**, **UnifiedActivity**, **सेगमेंट** और **ContactProfile** निकायों को पुनर्प्राप्त कर सकते हैं. ContactProfile ऑडिएंस इनसाइट्स इंस्टेंस में सिर्फ व्यावसायिक खातों के लिए उपलब्ध है. अन्य निकायों को दिखाया गया है क्योंकि अंतर्निहित कनेक्टर Power Automate में ट्रिगर के माध्यम से उनका समर्थन करता है.
+
+आप प्रति 60 सेकंड में अधिकतम 100 कॉल कर सकते हैं। आप $स्किप पैरामीटर का उपयोग करके API एंडपॉइंट को कई बार कॉल कर सकते हैं। [$स्किप पैरामीटर के बारे में और जानें।](/connectors/customerinsights/#get-items-from-an-entity)
 
 ### <a name="delegation"></a>प्रत्यायोजन
 

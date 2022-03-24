@@ -14,16 +14,18 @@ searchScope:
 - ci-enrichments
 - ci-enrichment-wizard
 - customerInsights
-ms.openlocfilehash: 067757019078d3a46b224ba259d2d097dfbbe381
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: HT
+ms.openlocfilehash: 2ab550e83a4969c1f547e66bcbf6ddb96d7789df
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353638"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376299"
 ---
 # <a name="enrichment-of-customer-profiles-with-enhanced-addresses"></a>उन्नत पतों के साथ ग्राहक प्रोफाइल का संवर्धन
 
 आपके डेटा में पते असंरचित, अपूर्ण या गलत हो सकते हैं. बेहतर सटीकता और इनसाइट के लिए अपने पते को [सामान्य डेटा मॉडल प्रारूप](/common-data-model/schema/core/applicationcommon/address) में सामान्य और समृद्ध करने के लिए Microsoft के मॉडल का उपयोग करें.
+
+आप भी कर सकते हैं [डेटा स्रोतों पर पतों को समृद्ध करें](data-sources-enrichment.md) डेटा एकीकरण प्रक्रिया में मिलान सटीकता में सुधार करने के लिए। 
 
 ## <a name="how-we-enhance-addresses"></a>हम पतों को कैसे संवर्धित करते हैं
 
@@ -105,7 +107,7 @@ ms.locfileid: "8353638"
 
 संवर्धन प्रक्रिया पूरी होने के बाद, आप **मेरे संवर्धन** के तहत नए समृद्ध ग्राहक प्रोफ़ाइल डेटा की समीक्षा कर सकते हैं. इसके अतिरिक्त, आपको अंतिम अद्यतन का समय और समृद्ध प्रोफ़ाइल की संख्या मिलेगी.
 
-आप में समृद्ध डेटा का एक नमूना देख सकते हैं **समृद्ध ग्राहक पूर्वावलोकन** टाइल चुनते हैं **और देखें** और चुनें **आंकड़े** प्रत्येक समृद्ध प्रोफ़ाइल के विस्तृत दृश्य तक पहुँचने के लिए टैब।
+आप समृद्ध डेटा का एक नमूना देख सकते हैं **समृद्ध ग्राहक पूर्वावलोकन** टाइल चुनते हैं **और देखें** और चुनें **आंकड़े** प्रत्येक समृद्ध प्रोफ़ाइल के विस्तृत दृश्य तक पहुँचने के लिए टैब।
 
 ### <a name="overview-card"></a>अवलोकन कार्ड
 

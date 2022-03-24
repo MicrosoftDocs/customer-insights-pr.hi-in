@@ -1,7 +1,7 @@
 ---
 title: उपयोगकर्ता अनुमति प्रबंधित करें
 description: उपयोगकर्ता भूमिकाएँ और अनुमतियों के बारे में जानें.
-ms.date: 03/25/2021
+ms.date: 02/09/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -12,12 +12,12 @@ searchScope:
 - ci-permissions
 - ci-system-security
 - customerInsights
-ms.openlocfilehash: a3d21d55d86950953611967bb66712312eb42b4b
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: HT
+ms.openlocfilehash: 85e1f4f93ac0e99ce6634dfc8fceab0c9a14885e
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8355939"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376740"
 ---
 # <a name="user-permissions"></a>उपयोगकर्ता की अनुमतियाँ
 
@@ -48,7 +48,7 @@ ms.locfileid: "8355939"
 - कॉन्फ़िगरेशन प्रबंधित करें और **संवर्धन** पृष्ठ से ग्राहक प्रोफ़ाइल संवर्धित करें (केवल प्रथम पक्ष संवर्धन के लिए).
 - योगदानकर्ताओं के साथ साझा किए गए कनेक्शन के आधार पर निर्यात का प्रबंधन और निर्माण करें. [इस बारे में अधिक जानें कि व्यवस्थापक योगदानकर्ताओं को निर्यात के लिए कनेक्शन का उपयोग करने की अनुमति कैसे देते हैं](connections.md#allow-contributors-to-use-a-connection-for-exports).
 
-## <a name="administrator"></a>व्यवस्थापक
+## <a name="admin"></a>एडमिन
 
 - योगदानकर्ताओं के लिए उपलब्ध सभी अनुमतियां.
 - कार्यशील भाषा को शामिल करके **सिस्टम** पेज पर सेटिंग बदलें और अपनी सिस्टम प्रक्रियाओं के लिए शेड्यूल रीफ़्रेश करें.
@@ -60,6 +60,12 @@ ms.locfileid: "8355939"
 - **ग्राहक कार्ड एड-इन** इंस्टॉल करें और उसका उपयोग करें.
 - **Power Apps कनेक्टर** जोड़ें और उपयोग करें.
 - [Customer Insights APIs](apis.md) उपयोग को सक्षम करें.
+- [पर्यावरण स्वामित्व असाइन करें](manage-environments.md#change-the-owner-of-an-environment) दूसरे व्यवस्थापक को।
+
+## <a name="admin-owner"></a>व्यवस्थापक (मालिक)
+
+- व्यवस्थापक के लिए उपलब्ध सभी अनुमतियाँ।
+- [रीसेट करें और हटाएं](manage-environments.md#reset-an-existing-environment) पर्यावरण।
 
 ## <a name="assign-roles-and-permissions"></a>भूमिकाएं और अनुमतियां असाइन करें
 

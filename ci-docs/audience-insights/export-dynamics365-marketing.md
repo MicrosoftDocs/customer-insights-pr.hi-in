@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-export
 - customerInsights
-ms.openlocfilehash: d3254bf13b843fe8e1b6e6db49dd6ee1dc22290c
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: HT
+ms.openlocfilehash: 0bd2bfa7402ed19cb92ff1f35208b150cfec48c3
+ms.sourcegitcommit: d168a738a08adb8b4b2e410bdaa3716d7b63cc9b
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353913"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455825"
 ---
 # <a name="use-segments-in-dynamics-365-marketing-preview"></a>Dynamics 365 Marketing (पूर्वावलोकन) में सेगमेंट का उपयोग करें
 
@@ -28,7 +28,7 @@ ms.locfileid: "8353913"
 
 ## <a name="prerequisite-for-a-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 
-- इससे पहले कि आप Customer Insights से मार्केटिंग में एक सेगमेंट निर्यात करें, संपर्क रिकॉर्ड Dynamics 365 Marketing में मौजूद होने चाहिए. [Microsoft Dataverse का उपयोग करके Dynamics 365 Marketing](connect-power-query.md) में संपर्कों को कैसे अंतर्ग्रहण करना है, पर अधिक पढ़ें.
+- इससे पहले कि आप Customer Insights से मार्केटिंग में एक सेगमेंट निर्यात करें, संपर्क रिकॉर्ड Dynamics 365 Marketing में मौजूद होने चाहिए. [Microsoft Dataverse का उपयोग करके Dynamics 365 Marketing](connect-dataverse-managed-lake.md) में संपर्कों को कैसे अंतर्ग्रहण करना है, पर अधिक पढ़ें.
 
   > [!NOTE]
   > ऑडियंस से मार्केटिंग तक सेगमेंट निर्यात करने से मार्केटिंग इंस्टेंस में नए संपर्क रिकॉर्ड नहीं बनेंगे. मार्केटिंग से संपर्क रिकॉर्ड ऑडियंस इनसाइट्स में निहित होना चाहिए और डेटा स्रोत के रूप में उपयोग किए जाने चाहिए. सेगमेंट को निर्यात करने से पहले ID से संपर्क करने के लिए ग्राहक ID को मैप करने के लिए उन्हें एकीकृत ग्राहक निकाय में शामिल करने की भी ज़रूरत है.
@@ -47,7 +47,7 @@ ms.locfileid: "8353913"
 
 1. **सर्वर व्यवस्थापक खाता** अनुभाग में, **साइन इन** चुनें और एक Dynamics 365 Marketing खाता चुनें.
 
-1. ग्राहक निकाय में संपर्क ID फ़ील्ड को Dynamics 365 संपर्क ID से मैप करें।
+1. ग्राहक निकाय में संपर्क आईडी फ़ील्ड को Dynamics 365 संपर्क ID से मैप करें।
 
 1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें. 
 

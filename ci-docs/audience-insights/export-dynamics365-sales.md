@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-export
 - customerInsights
-ms.openlocfilehash: cf680c21c55c71d99728be79fe68111dc89a79ec
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: HT
+ms.openlocfilehash: 4c1b5eaa3568b5c73013024d2da7e65276142f72
+ms.sourcegitcommit: d168a738a08adb8b4b2e410bdaa3716d7b63cc9b
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8355019"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455855"
 ---
 # <a name="use-segments-in-dynamics-365-sales-preview"></a>Dynamics 365 Sales (पूर्वावलोकन) में सेगमेंटों का उपयोग करें
 
@@ -31,7 +31,7 @@ ms.locfileid: "8355019"
 
 ## <a name="prerequisite-for-connection"></a>कनेक्शन के लिए पूर्वावश्यकताएँ
 
-1. इससे पहले कि आप Customer Insights से विक्रय में सेगमेंट निर्यात करें, संपर्क रिकॉर्ड Dynamics 365 Sales में मौजूद होने चाहिए. [Microsoft Dataverse का उपयोग करके Dynamics 365 Sales](connect-power-query.md) में संपर्क कैसे अंतर्ग्रहण करने हैं, पर अधिक पढ़ें.
+1. इससे पहले कि आप Customer Insights से विक्रय में सेगमेंट निर्यात करें, संपर्क रिकॉर्ड Dynamics 365 Sales में मौजूद होने चाहिए. से संपर्कों को अंतर्ग्रहण करने के तरीके के बारे में और पढ़ें [डायनेमिक्स 365 सेल्स का उपयोग कर Microsoft Dataverse](connect-dataverse-managed-lake.md).
 
    > [!NOTE]
    > ऑडियंस इनसाइट्स से विक्रय में सेगमेंट को निर्यात करने से विक्रय इंस्टेंस में नए संपर्क रिकॉर्ड नहीं बनेंगे. विक्रय से संपर्क रिकॉर्ड ऑडियंस इनसाइट्स में निहित होना चाहिए और डेटा स्रोत के रूप में उपयोग किए जाने चाहिए. सेगमेंट को निर्यात करने से पहले ID से संपर्क करने के लिए ग्राहक ID को मैप करने के लिए उन्हें एकीकृत ग्राहक निकाय में शामिल करने की भी ज़रूरत है.
