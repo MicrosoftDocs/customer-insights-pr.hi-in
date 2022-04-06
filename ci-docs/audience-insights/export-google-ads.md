@@ -1,42 +1,37 @@
 ---
 title: Google Ads के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Google Ads को निर्यात करने का तरीका जानें.
-ms.date: 09/27/2021
+ms.date: 03/31/2022
 ms.subservice: audience-insights
 ms.topic: how-to
 author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 28e2b35c5a47a025b8cdcccdb3f61c79878bf056
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.openlocfilehash: 7a85237f7aff564d6b540b2c11553a52f875fac4
+ms.sourcegitcommit: 5bd07f3a1288f003704acd576741cf6aedc1ac33
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8227012"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523802"
 ---
 # <a name="export-segments-to-google-ads-preview"></a>Google Ads (पूर्वावलोकन) में निर्यात अनुभाग
 
 एकीकृत ग्राहक प्रोफ़ाइल के अनुभाग को Google Ads ऑडिएंस सूची में निर्यात करें और Google खोज, Gmail, YouTube, और Google प्रदर्शन नेटवर्क पर विज्ञापन देने के लिए उनका उपयोग करें। 
 
-> [!IMPORTANT]
-> वर्तमान में, आप केवल एक नया कनेक्शन बना सकते हैं और Google Ads को डेटा निर्यात कर सकते हैं यदि आपके पास पहले से ही एक स्वीकृत Google Ads डेवलपर टोकन है. नीति में बदलाव के कारण, हम जल्द ही Google Ads निर्यात को अपडेट करेंगे और एक निर्यात विकल्प प्रदान करेंगे जिसके लिए आपके अनुभव की निरंतरता सुनिश्चित करने और Google Ads को निर्यात को आसान बनाने के लिए डेवलपर टोकन की आवश्यकता नहीं होगी. हम अनुशंसा करते हैं कि नए निर्यात विकल्प पर आसानी से स्विच करने की सुविधा के लिए Google Ads के साथ अधिक कनेक्शन सेट न करें.
 
 ## <a name="prerequisites-for-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 
 -   आपके पास [Google Ads खाता](https://ads.google.com/) और इसी प्रशासक के क्रेडेन्सियल्स हैं.
--   आपके पास एक [अनुमोदित Google Ads डेवलपर टोकन](https://developers.google.com/google-ads/api/docs/first-call/dev-token) है। 
 -   आप [ग्राहक मिलान नीति](https://support.google.com/adspolicy/answer/6299717) की आवश्यकताओं को पूरा करते हैं।
 -   आप [रीमार्केटिंग सूची के आकार](https://support.google.com/google-ads/answer/7558048) की आवश्यकताओं को पूरा करते हैं।
--   Google Ads और संबंधित आईडी में मौजूदा ऑडियंस हैं. अधिक जानकारी के लिए, [Google Ads ऑडिएंस](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.) देखें.
 -   आपके पास [कॉन्फ़िगर सेगमेंट](segments.md) है.
--   निर्यात किए गए अनुभागों में एकीकृत ग्राहक प्रोफाइल में ईमेल पते, पहला नाम और अंतिम नाम का प्रतिनिधित्व करने वाले क्षेत्र होते हैं।
+-   निर्यात किए गए सेगमेंट में एकीकृत ग्राहक प्रोफ़ाइल में ईमेल पता, फ़ोन, मोबाइल विज्ञापनदाता आईडी, तृतीय-पक्ष उपयोगकर्ता आईडी या पते का प्रतिनिधित्व करने वाले फ़ील्ड होते हैं।
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-- Google Ads में प्रति निर्यात 1 मिलियन तक ग्राहक प्रोफ़ाइल.
 - Google Ads को निर्यात करना सेगमेंटों तक सीमित है.
-- कुल 1 मिलियन ग्राहक प्रोफ़ाइल वाले निर्यात अनुभागों में प्रदाता पक्ष की सीमाओं के कारण 5 मिनट तक का समय लग सकता है. 
+- कुल 1 मिलियन ग्राहक प्रोफ़ाइल वाले निर्यात अनुभागों में प्रदाता पक्ष की सीमाओं के कारण 30 मिनट तक का समय लग सकता है. 
 - Google Ads में मिलान में 48 घंटे तक का समय लग सकता है.
 
 ## <a name="set-up-connection-to-google-ads"></a>Google Ads के लिए कनेक्शन सेट करें
@@ -50,8 +45,6 @@ ms.locfileid: "8227012"
 1. चुनें कि इस कनेक्शन का उपयोग कौन कर सकता है. यदि आप कोई कार्रवाई नहीं करते हैं, तो व्यवस्थापक डिफ़ॉल्ट होंगे. अधिक जानकारी के लिए, देखें [योगदानकर्ताओं को निर्यात के लिए कनेक्शन का उपयोग करने की अनुमति दें](connections.md#allow-contributors-to-use-a-connection-for-exports).
 
 1. अपनी **[Google Ads ग्राहक ID](https://support.google.com/google-ads/answer/1704344)** दर्ज करें.
-
-1. अपने **[Google AD अनुमोदित डेवलपर टोकन](https://developers.google.com/google-ads/api/docs/first-call/dev-token)** दर्ज करें.
 
 1. **डेटा गोपनीयता और अनुपालन** की पुष्टि करने के लिए **मैं सहमत हूँ** चुनें.
 
@@ -71,11 +64,11 @@ ms.locfileid: "8227012"
 
 1. **निर्यात के लिए कनेक्शन** में, Google Ads अनुभाग से एक कनेक्शन का चयन करें. यदि आपको यह अनुभाग नाम नहीं दिखता है, तो इस प्रकार का कोई भी कनेक्शन आपके लिए उपलब्ध नहीं है।
 
-1. अपने **[Google Ads ऑडियंस ID](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)** और Google Ads से कनेक्शन शुरू करने के लिए **कनेक्ट** चुनें.
+1. यदि आप एक नया ऑडिएंस बनाना चाहते हैं, तो Google ऑडिएंस आईडी फ़ील्ड खाली छोड़ दें। हम आपके Google Ads खाते में स्वचालित रूप से एक नया ऑडिएंस बनाएंगे और निर्यात किए गए सेगमेंट के नाम का उपयोग करेंगे। अगर आप किसी मौजूदा Google Ads ऑडिएंस को अपडेट करना चाहते हैं, तो अपना दर्ज करें [गूगल विज्ञापन ऑडिएंस आईडी](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)
 
-1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है.
+1. में **डेटा मिलान** अनुभाग में, निर्यात करने के लिए एक या अधिक डेटा फ़ील्ड का चयन करें, और उस फ़ील्ड का चयन करें जो Customer Insights में संबंधित डेटा फ़ील्ड का प्रतिनिधित्व करती है।
 
-1. उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं. आप कुल मिलाकर 1 मिलियन ग्राहक प्रोफ़ाइल को Google Ads में निर्यात कर सकते हैं.
+1. उन अनुभागों का चयन करें जिन्हें आप निर्यात करना चाहते हैं. 
 
 निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है.
 

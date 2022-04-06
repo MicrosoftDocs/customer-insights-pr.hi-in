@@ -1,7 +1,7 @@
 ---
 title: समृद्ध एकीकृत ग्राहक प्रोफाइल
 description: अपने ग्राहक डेटा को समृद्ध करने के लिए क्षमताओं का उपयोग करें.
-ms.date: 02/18/2022
+ms.date: 03/29/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -14,12 +14,12 @@ searchScope:
 - ci-enrichment-details
 - ci-enrichment-wizard
 - customerInsights
-ms.openlocfilehash: b44f5a4b74c63629811837b853b4e069dea63504
-ms.sourcegitcommit: bb1f9e96023490ab340c114f54200ab4dd48da78
+ms.openlocfilehash: 510a20306e793a5ba522a6ac0d9c7194f03472d2
+ms.sourcegitcommit: ae02ac950810242e2505d7d371b80210dc8a0777
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372717"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8491960"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>ग्राहक प्रोफाइल के लिए संवर्धन (पूर्वावलोकन)
 
@@ -97,5 +97,19 @@ ms.locfileid: "8372717"
 1. **प्रगति विवरण** फलक में, **समृद्ध** सेक्शन विस्तृत करें. 
 1. संवर्धन के तहत आप प्रगति देखना चाहते हैं, तो **विवरण देखें** चुनें. 
 1. **कार्य विवरण** फलक में, संवर्धन और उनकी स्थिति को अपडेट करने में शामिल प्रक्रियाओं को देखने के लिए **विवरण दिखाएँ** चुनें. 
+
+## <a name="enrichment-results"></a>संवर्धन के परिणाम
+
+एक पूर्ण संवर्धन रन के बाद, आप संवर्धन परिणामों की समीक्षा कर सकते हैं।
+
+1. **डेटा** > **संवर्धन** पर जाएँ. 
+1. उस संवर्धन का चयन करें जिसके बारे में आप जानकारी चाहते हैं।
+
+सभी संवर्द्धन बुनियादी जानकारी दिखाते हैं जैसे समृद्ध प्रोफाइल की संख्या, उत्पन्न संवर्धन इकाई का पूर्वावलोकन, और समय के साथ समृद्ध प्रोफाइल की संख्या। यदि उपलब्ध हो, तो**क्षेत्र द्वारा समृद्ध ग्राहकों की संख्या** प्रत्येक समृद्ध क्षेत्र के कवरेज में एक ड्रिल-डाउन प्रदान करता है।
+
+:::image type="content" source="media/enrichments-results.png" alt-text="समृद्धि परिणाम पृष्ठ।":::
+
+कुछ संवर्धन संवर्धन के प्रकार के लिए विशिष्ट जानकारी भी दिखाते हैं। अधिक जानकारी के लिए प्रासंगिक संवर्धन के लिए दस्तावेज़ीकरण देखें।
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

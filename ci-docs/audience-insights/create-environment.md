@@ -1,23 +1,23 @@
 ---
 title: Customer Insights में परिवेश बनाएँ
 description: Dynamics 365 Customer Insights के लिए लाइसेंस प्राप्त सदस्यता के साथ परिवेश बनाने के चरण.
-ms.date: 02/24/2022
+ms.date: 03/28/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
-author: MichelleDevaney
-ms.author: midevane
+author: adkuppa
+ms.author: adkuppa
 manager: shellyha
 ms.custom: intro-internal
 searchScope:
 - ci-home
 - customerInsights
-ms.openlocfilehash: c37afd5649f8cf40d5379f3d39d0cbd96cde3bd3
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.openlocfilehash: a538237322615f69f0a5cb43d394275bf79af00b
+ms.sourcegitcommit: ae02ac950810242e2505d7d371b80210dc8a0777
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8354097"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8491915"
 ---
 # <a name="create-an-environment-in-audience-insights"></a>ऑडियंस इनसाइट में एक वातावरण बनाएं
 
@@ -80,17 +80,19 @@ Azure Data Lake Storage विकल्प के लिए, आप प्रम
 
 अपना प्रदान करें Microsoft Dataverse पर आधारित व्यावसायिक अनुप्रयोगों के साथ डेटा (प्रोफाइल और अंतर्दृष्टि) साझा करने के लिए पर्यावरण Dataverse, जैसे Dynamics 365 Marketing या मॉडल-चालित अनुप्रयोग Power Apps. यदि आपके पास अपना नहीं है तो इस फ़ील्ड को खाली छोड़ दें Dataverse पर्यावरण और हम आपके लिए एक प्रावधान करेंगे।
 
-अपने से जुड़ रहा है Dataverse पर्यावरण भी आपको सक्षम बनाता है [ऑन-प्रिमाइसेस डेटा स्रोतों का उपयोग करके डेटा निगलनाPower Platform डेटा प्रवाह और गेटवे](data-sources.md#add-data-from-on-premises-data-sources). आप भी उपयोग कर सकते हैं [आउट-ऑफ़-बॉक्स पूर्वानुमान मॉडल](predictions-overview.md?tabs=b2c#out-of-box-models) a . से जुड़कर Dataverse वातावरण।
+अपने से जुड़ रहा है Dataverse पर्यावरण भी आपको सक्षम बनाता है [ऑन-प्रिमाइसेस डेटा स्रोतों का उपयोग करके डेटा निगलनाPower Platform डेटा प्रवाह और गेटवे।](data-sources.md#add-data-from-on-premises-data-sources) आप भी उपयोग कर सकते हैं [आउट-ऑफ़-बॉक्स पूर्वानुमान मॉडल](predictions-overview.md?tabs=b2c#out-of-box-models) a . से जुड़कर Dataverse वातावरण।
 
 > [!IMPORTANT]
-> ग्राहक अंतर्दृष्टि और Dataverse डेटा साझाकरण को सक्षम करने के लिए एक ही क्षेत्र में होना चाहिए।
+> 1. ग्राहक अंतर्दृष्टि और Dataverse डेटा साझाकरण को सक्षम करने के लिए एक ही क्षेत्र में होना चाहिए।
+> 1. इसमें आपकी वैश्विक व्यवस्थापक भूमिका होनी चाहिए Dataverse वातावरण। सत्यापित करें कि क्या यह [Dataverse पर्यावरण जुड़ा हुआ है](/power-platform/admin/control-user-access#associate-a-security-group-with-a-dataverse-environment) कुछ सुरक्षा समूहों के लिए और सुनिश्चित करें कि आप उन सुरक्षा समूहों में जोड़े गए हैं।
+> 1. कोई मौजूदा Customer Insights परिवेश पहले से उससे संबद्ध नहीं है Dataverse वातावरण। करना सीखें [a . से मौजूदा कनेक्शन को हटा दें Dataverse वातावरण](manage-environments.md#remove-an-existing-connection-to-a-dataverse-environment).
 
 :::image type="content" source="media/dataverse-provisioning.png" alt-text="के साथ डेटा साझा करनाMicrosoft Dataverse शुद्ध नए उदाहरणों के लिए स्वतः सक्षम।":::
 
-> [!NOTE]
-> Customer Insights निम्नलिखित डेटा साझाकरण परिदृश्यों का समर्थन नहीं करता है:
-> - यदि आप सभी डेटा को अपने स्वयं के Azure Data Lake Storage में सहेजते हैं, तो आप Dataverse प्रबंधित डेटा लेक के साथ डेटा साझाकरण सक्षम नहीं कर पाएंगे.
-> - अगर आप Dataverse के साथ डेटा साझाकरण सक्षम करते हैं, तो आप [किसी निकाय में अनुमानित या अनुपलब्ध मान बना सकते हैं](predictions.md) नहीं कर पाएंगे.
+के साथ डेटा साझाकरण सक्षम करने के बारे में अधिक जानकारी के लिए Microsoft Dataverse अपने से Azure Data Lake Storage, देखो[से कनेक्ट Microsoft Dataverse](manage-environments.md#connect-to-microsoft-dataverse).
+
+Customer Insights निम्नलिखित डेटा साझाकरण परिदृश्यों का समर्थन नहीं करता है:
+- अगर आप Dataverse के साथ डेटा साझाकरण सक्षम करते हैं, तो आप [किसी निकाय में अनुमानित या अनुपलब्ध मान बना सकते हैं](predictions.md) नहीं कर पाएंगे.
 
 ### <a name="step-4-finalize-the-settings"></a>चरण 4: सेटिंग्स को अंतिम रूप दें
 

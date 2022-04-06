@@ -1,5 +1,5 @@
 ---
-title: रीयल-टाइम डेटा इन्जेस्चन और सीमाएं
+title: रीयल-टाइम डेटा अंतर्ग्रहण (पूर्वावलोकन)
 description: ऑडियंस इनसाइट्स में रीयल-टाइम क्षमताओं के बारे में सामान्य जानकारी.
 ms.date: 10/27/2020
 ms.reviewer: mhart
@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-api-usage
 - customerInsights
-ms.openlocfilehash: 2fe5279eee1b3b30f5bc21464c85fe5f86d342a0
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.openlocfilehash: 138704445d52df3336af6af60420f0bd0ee0c639
+ms.sourcegitcommit: a8e99cf8b23ccc00d76c1dee22afd808a160a5c8
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8355477"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464028"
 ---
 # <a name="real-time-data-ingestion-preview"></a>वास्तविक-समय डेटा अंतर्ग्रहण (पूर्वावलोकन)
 

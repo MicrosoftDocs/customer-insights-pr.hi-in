@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-diagnostic
 - customerInsights
-ms.openlocfilehash: d84ae8301bdf384c2484cdb1e7dd8eb75d406769
-ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.openlocfilehash: 18fc072d129be6b4fc5470b1057f592dc2638216
+ms.sourcegitcommit: 5bd07f3a1288f003704acd576741cf6aedc1ac33
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376418"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523671"
 ---
 # <a name="log-forwarding-in-dynamics-365-customer-insights-with-azure-monitor-preview"></a>लॉग इन अग्रेषण Dynamics 365 Customer Insights Azure मॉनिटर के साथ (पूर्वावलोकन)
 
@@ -230,7 +230,7 @@ API ईवेंट और वर्कफ़्लो ईवेंट में
 | ------------------------------- | -------- | ---- | ----------- |
 | `properties.eventType`                       | हां      | हां  | हमेशा`WorkflowEvent`, ईवेंट को वर्कफ़्लो ईवेंट के रूप में चिह्नित करना।                                                                                                                                                                                                |
 | `properties.workflowJobId`                   | हां      | हां  | कार्यप्रवाह चलाने का पहचानकर्ता। वर्कफ़्लो निष्पादन के भीतर सभी वर्कफ़्लो और कार्य ईवेंट समान हैं`workflowJobId`.                                                                                                                                   |
-| `properties.operationType`                   | हां      | हां  | ऑपरेशन के पहचानकर्ता, देखें[ ऑपरेशन के प्रकार].(#operation-types)                                                                                                                                                                                       |
+| `properties.operationType`                   | हां      | हां  | ऑपरेशन के पहचानकर्ता, देखें [ऑपरेशन के प्रकार](#operation-types).                                                                                                                                                                               |
 | `properties.tasksCount`                      | हां      | No   | केवल वर्कफ़्लो। कार्यप्रवाह ट्रिगर करने वाले कार्यों की संख्या।                                                                                                                                                                                                       |
 | `properties.submittedBy`                     | हां      | No   | ऑप्शनल. केवल वर्कफ़्लो ईवेंट। Azure Active Directory [उपयोगकर्ता का ऑब्जेक्ट आईडी](/azure/marketplace/find-tenant-object-id#find-user-object-id) वर्कफ़्लो किसने ट्रिगर किया, यह भी देखें`properties.workflowSubmissionKind`.                                   |
 | `properties.workflowType`                    | हां      | No   | `full` या`incremental` ताज़ा करें।                                                                                                                                                                                                                            |

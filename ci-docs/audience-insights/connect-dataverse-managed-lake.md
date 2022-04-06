@@ -1,7 +1,7 @@
 ---
 title: Microsoft Dataverse में तालिकाएं से Connect करें
 description: Microsoft Dataverse प्रबंधित डेटा संग्रह से डेटा आयात करें.
-ms.date: 12/06/2021
+ms.date: 03/18/2022
 ms.subservice: audience-insights
 ms.topic: how-to
 author: adkuppa
@@ -11,16 +11,14 @@ ms.reviewer: mhart
 searchScope:
 - ci-dataverse
 - customerInsights
-ms.openlocfilehash: 8e11b60295fa5c187b1ac4877fb347e2d9bb41a1
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.openlocfilehash: 81412ea8259e690eb839676d82ab31847854a97e
+ms.sourcegitcommit: a8e99cf8b23ccc00d76c1dee22afd808a160a5c8
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8354143"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464068"
 ---
 # <a name="connect-to-data-in-a-microsoft-dataverse-managed-data-lake"></a>Microsoft Dataverse प्रबंधित डेटा संग्रह में डेटा से कनेक्ट करें
-
-
 
 यह लेख इस बारे में जानकारी प्रदान करता है कि कैसे Dataverse उपयोगकर्ता जल्दी से विश्लेषणात्मक संस्थाओं से जुड़ सकते हैं a Microsoft Dataverse प्रबंधित झील। 
 
@@ -29,7 +27,8 @@ ms.locfileid: "8354143"
 
 ## <a name="important-considerations"></a>महत्वपूर्ण विचार
 
-ऑनलाइन सेवाओं में संग्रहित डेटा, जैसे कि Azure Data Lake Storage, को डेटा से संसाधित या Dynamics 365 Customer Insights में संग्रहित किए जाने की तुलना में किसी अन्य स्थान पर संग्रहित किया जा सकता है.ऑनलाइन सेवाओं में संग्रहीत डेटा को आयात या कनेक्ट करके, आप सहमत हैं कि डेटा को स्थानांतरित और संग्रहीत किया जा सकता है Dynamics 365 Customer Insights . [माइक्रोसॉफ्ट ट्रस्ट सेंटर पर और जानें।](https://www.microsoft.com/trust-center)
+1. ऑनलाइन सेवाओं में संग्रहित डेटा, जैसे कि Azure Data Lake Storage, को डेटा से संसाधित या Dynamics 365 Customer Insights में संग्रहित किए जाने की तुलना में किसी अन्य स्थान पर संग्रहित किया जा सकता है.ऑनलाइन सेवाओं में संग्रहीत डेटा को आयात या कनेक्ट करके, आप सहमत हैं कि डेटा को स्थानांतरित और संग्रहीत किया जा सकता है Dynamics 365 Customer Insights . [माइक्रोसॉफ्ट ट्रस्ट सेंटर पर और जानें।](https://www.microsoft.com/trust-center)
+2. केवल Dataverse संस्थाओं के साथ [ट्रैकिंग बदलें](/power-platform/admin/enable-change-tracking-control-data-synchronization) सक्षम दिखाई दे रहे हैं। इन संस्थाओं को निर्यात किया जा सकता है Dataverse -प्रबंधित डेटा लेक और Customer Insights में उपयोग किया जाता है। लीक से हटकर Dataverse तालिकाओं में परिवर्तन ट्रैकिंग डिफ़ॉल्ट रूप से सक्षम होती है। आपको कस्टम तालिकाओं के लिए परिवर्तन ट्रैकिंग चालू करनी होगी. जाँच करने के लिए कि क्या a Dataverse परिवर्तन ट्रैकिंग के लिए तालिका सक्षम है, यहां जाएं [Power Apps](https://make.powerapps.com) > **आंकड़े** > **टेबल**. अपनी रुचि की तालिका ढूंढें और उसका चयन करें। के लिए जाओ **समायोजन** > **उन्नत विकल्प** और समीक्षा करें **ट्रैक परिवर्तन** स्थापना।
 
 ## <a name="connect-to-a-dataverse-managed-lake"></a>एक Dataverse प्रबंधित लेक से जोड़ें
 
@@ -37,7 +36,7 @@ ms.locfileid: "8354143"
 
 2. **डेटा स्रोत जोड़ें** को चुनें.
 
-3. चुनते हैं **Microsoft Dataverse** और चुनें **अगला।**
+3. चुनते हैं **Microsoft Dataverse** और चुनें **अगला**.
 
 4. डेटा स्रोत के लिए एक **नाम** दर्ज करें एवं **अगला** चुनें. 
 
