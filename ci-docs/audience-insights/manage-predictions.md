@@ -5,15 +5,15 @@ ms.date: 11/01/2021
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
-author: diegogranados117
-ms.author: digranad
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 8c5d8b0395452c8da1631f09cffeddfc811e6d29
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: 8ff8d70ffb8489def072e5d8a6e43d062594141a
+ms.sourcegitcommit: 696ad9ab6e10046c00f1ac86a7e8fc37386e6fe7
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8230794"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8555315"
 ---
 # <a name="manage-predictions"></a>पूर्वानुमानों को प्रबंधित करें
 
@@ -50,10 +50,10 @@ ms.locfileid: "8230794"
 :::image type="content" source="media/input-data-usability-report.png" alt-text="त्रुटियों, चेतावनियों और सलाह वाली तालिका दिखाने वाली इनपुट डेटा प्रयोज्य रिपोर्ट का उदाहरण.":::
 
 - **नाम:** त्रुटि, चेतावनी या अनुशंसा का वर्णनात्मक नाम।
-- **चरण:** मॉडल चरण, ट्रेन या स्कोर, जानकारी को संदर्भित करता है।
+- **कदम:** मॉडल चरण, ट्रेन या स्कोर, जानकारी को संदर्भित करता है।
 - **राज्य:** जानकारी की गंभीरता (त्रुटि, चेतावनी, अनुशंसा)।
 - **आम नाम:** एक इकाई में कॉलम जिसे मॉडल के प्रदर्शन को बेहतर बनाने के लिए संशोधित करने की आवश्यकता है।
-- **इकाई नाम:** उस इकाई का नाम जिसे मॉडल के प्रदर्शन को बेहतर बनाने के लिए संशोधित करने की आवश्यकता है।
+- **इकाई नाम:** उस इकाई का नाम जिसे मॉडल के प्रदर्शन में सुधार के लिए संशोधित करने की आवश्यकता है।
 - **विवरण:** त्रुटि, चेतावनी या अनुशंसा के बारे में विवरण।
 
 ## <a name="refresh-a-prediction"></a>एक पूर्वानुमान को रिफ्रेश करें

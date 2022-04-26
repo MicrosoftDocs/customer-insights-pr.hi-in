@@ -1,19 +1,19 @@
 ---
 title: Customer Insights डेटा निर्यात करें Azure Synapse Analytics
 description: से कनेक्शन कॉन्फ़िगर करने का तरीका जानें Azure Synapse Analytics.
-ms.date: 01/05/2022
+ms.date: 04/11/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 289c8d545f057b3f70679b485cf4350545c0587b
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.openlocfilehash: 8ace9fbee4fbd8822629a39d5902e176f8511cb5
+ms.sourcegitcommit: 9f6733b2f2c273748c1e7b77f871e9b4e5a8666e
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8231314"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "8560389"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>डेटा निर्यात करें Azure Synapse Analytics (पूर्वावलोकन)
 
@@ -28,21 +28,21 @@ Customer Insights से Azure Synapse में कनेक्शन कॉन
 
 ## <a name="prerequisites-in-customer-insights"></a>Customer Insights में पूर्वापेक्षाएं
 
-* ऑडियंस इनसाइट में आपकी **व्यवस्थापक** की भूमिका होती है. [ऑडिएंस इनसाइट्स में उपयोगकर्ता अनुमतियां सेटिंग्स](permissions.md#assign-roles-and-permissions) के बारे में और अधिक जानें
+* तुम्हारीAzure Active Directory (एडी) उपयोगकर्ता खाते में एक है **प्रशासक** ग्राहक अंतर्दृष्टि में भूमिका। [ऑडिएंस इनसाइट्स में उपयोगकर्ता अनुमतियां सेटिंग्स](permissions.md#assign-roles-and-permissions) के बारे में और अधिक जानें
 
 Azure में: 
 
 - एक सक्रिय Azure सदस्यता.
 
-- यदि एक नए Azure Data Lake Storage Gen2 खाते का उपयोग कर रहे हैं, तो *ऑडिएंस इनसाइट के लिए सेवा प्रिंसिपल* को **स्टोरेज ब्लॉब डेटा योगदानकर्ता** अनुमतियों की आवश्यकता होती है. [ऑडिएंस इनसाइट के लिए Azure सेवा प्रिंसिपल के साथ Azure Data Lake Storage Gen2 खाते से कनेक्ट करने](connect-service-principal.md) के बारे में और जानें. Data Lake Storage Gen2 में [पदानुक्रमिक नामस्थान](/azure/storage/blobs/data-lake-storage-namespace) **अवश्य** सक्षम होना चाहिए.
+- यदि एक नया उपयोग कर रहे हैं Azure Data Lake Storage Gen2 खाता, *Insights के लिए सेवा प्रिंसिपल* ज़रूरत **संग्रहण ब्लॉब डेटा सहयोगी** अनुमतियाँ। [ऑडिएंस इनसाइट के लिए Azure सेवा प्रिंसिपल के साथ Azure Data Lake Storage Gen2 खाते से कनेक्ट करने](connect-service-principal.md) के बारे में और जानें. Data Lake Storage Gen2 में [पदानुक्रमिक नामस्थान](/azure/storage/blobs/data-lake-storage-namespace) **अवश्य** सक्षम होना चाहिए.
 
-- संसाधन समूह पर Azure Synapse कार्यस्थान स्थित है, *सर्विस प्रिंसिपल* और *ऑडियंस इनसाइट के लिए उपयोगकर्ता* को कम से कम **रीडर** अनुमतियां असाइन करना आवश्यक है. अधिक जानकारी के लिए देखें, [Azure पोर्टल का उपयोग करके Azure भूमिकाएं असाइन करें](/azure/role-based-access-control/role-assignments-portal).
+- संसाधन समूह पर जहां Azure Synapse कार्यक्षेत्र स्थित है, *सेवा प्रधान* और यह *Azure AD Customer Insights में व्यवस्थापक अनुमतियों वाला उपयोगकर्ता* कम से कम असाइन करने की आवश्यकता है **रीडर** अनुमतियाँ। अधिक जानकारी के लिए देखें, [Azure पोर्टल का उपयोग करके Azure भूमिकाएं असाइन करें](/azure/role-based-access-control/role-assignments-portal).
 
-- *उपयोगकर्ता* को Azure Data Lake Storage Gen2 खाते पर **स्टोरेज ब्लॉब डेटा योगदानकर्ता** अनुमतियां आवश्यक होती हैं, जहां डेटा स्थित होता है और Azure Synapse कार्यक्षेत्र से जुड़ा होता है. [ब्लॉब और क्यू डेटा तक पहुंचने हेतु एक Azure भूमिका असाइन करने के लिए Azure पोर्टल का उपयोग करना के बारे में](/azure/storage/common/storage-auth-aad-rbac-portal) और [संग्रहण ब्लॉब डेटा योगदानकर्ता अनुमतियां](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) के बारे में और अधिक जानें.
+- *Azure AD Customer Insights में व्यवस्थापक अनुमतियों वाला उपयोगकर्ता* ज़रूरत **संग्रहण ब्लॉब डेटा सहयोगी** पर अनुमतियाँ Azure Data Lake Storage Gen2 खाता जहां डेटा स्थित है और से जुड़ा हुआ है Azure Synapse कार्यक्षेत्र। [ब्लॉब और क्यू डेटा तक पहुंचने हेतु एक Azure भूमिका असाइन करने के लिए Azure पोर्टल का उपयोग करना के बारे में](/azure/storage/common/storage-auth-aad-rbac-portal) और [संग्रहण ब्लॉब डेटा योगदानकर्ता अनुमतियां](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) के बारे में और अधिक जानें.
 
 - *[Azure Synapse कार्यक्षेत्र प्रबंधित पहचान](/azure/synapse-analytics/security/synapse-workspace-managed-identity)* को Azure Data Lake Storage Gen2 खाता पर जहां डेटा स्थित है और Azure Synapse कार्यक्षेत्र से जुड़ा हुआ है, वहां **स्टोरेज ब्लॉब डेटा योगदानकर्ता** अनुमतियां आवश्यक हैं. [ब्लॉब और क्यू डेटा तक पहुंच के लिए Azure भूमिका असाइन करने के लिए Azure पोर्टल का उपयोग करना](/azure/storage/common/storage-auth-aad-rbac-portal) और [ब्लॉब डेटा योगदानकर्ता अनुमतियां संग्रहण](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) के बारे में और अधिक जानें.
 
-- Azure Synapse कार्यस्थान पर, *ऑडिएंस इनसाइट के लिए सेवा प्रिंसिपल* को **Synapse व्यवस्थापक** भूमिका असाइन की जानी चाहिए. अधिक जानकारी के लिए देखें, [अपने Synapse कार्यक्षेत्र के लिए पहुंच नियंत्रण कैसे सेट करें](/azure/synapse-analytics/security/how-to-set-up-access-control).
+- पर Azure Synapse कार्यक्षेत्र, *Customer Insights के लिए सेवा प्रिंसिपल* ज़रूरत **सिनैप्स एडमिनिस्ट्रेटर** भूमिका सौंपी। अधिक जानकारी के लिए देखें, [अपने Synapse कार्यक्षेत्र के लिए पहुंच नियंत्रण कैसे सेट करें](/azure/synapse-analytics/security/how-to-set-up-access-control).
 
 ## <a name="set-up-the-connection-and-export-to-azure-synapse"></a>कनेक्शन सेट करें और Azure Synapse में निर्यात करें
 
@@ -52,7 +52,7 @@ Azure में:
 
 1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
-1. चुनते हैं **कनेक्शन जोड़ें** और चुनें **Azure Synapse Analytics** या का चयन करें **सेट अप** पर **Azure Synapse Analytics** कनेक्शन को कॉन्फ़िगर करने के लिए टाइल।
+1. चुनना**कनेक्शन जोड़ें** और चुनें **Azure Synapse Analytics** या चुनें **स्थापित करना** पर **Azure Synapse Analytics** कनेक्शन को कॉन्फ़िगर करने के लिए टाइल।
 
 1. डिस्प्ले नाम फ़ील्ड में अपने कनेक्शन को पहचानने योग्य नाम दें. कनेक्शन का नाम और प्रकार इस कनेक्शन का वर्णन करता है. हम एक नाम चुनने की सलाह देते हैं जो कनेक्शन के उद्देश्य और लक्ष्य को बताता है।
 
@@ -70,7 +70,7 @@ Azure में:
 
 1. एक नया निर्यात बनाने के लिए, **निर्यात जोड़ें** का चयन करें.
 
-1. में **निर्यात के लिए कनेक्शन** फ़ील्ड, से एक कनेक्शन चुनें **Azure Synapse Analytics** अनुभाग। यदि आप इस अनुभाग का नाम नहीं देखते हैं, तो आपके लिए इस प्रकार का कोई [कनेक्शन](connections.md) उपलब्ध नहीं है.
+1. में **निर्यात के लिए कनेक्शन** फ़ील्ड, से एक कनेक्शन चुनें **Azure Synapse Analytics** खंड। यदि आप इस अनुभाग का नाम नहीं देखते हैं, तो आपके लिए इस प्रकार का कोई [कनेक्शन](connections.md) उपलब्ध नहीं है.
 
 1. अपने निर्यात के लिए एक पहचानने योग्य **प्रदर्शन नाम** और एक **डेटाबेस नाम** प्रदान करें.
 

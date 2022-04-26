@@ -1,26 +1,26 @@
 ---
 title: टेम्प्लेट से उपाय बनाएं
 description: सामान्य उपयोग के मामलों के लिए टेम्प्लेट का उपयोग करके उपायों को परिभाषित करें।
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: m-hartmann
+author: v-wendysmith
 ms.author: wameng
-ms.reviewer: mhart
+ms.reviewer: v-wendysmith
 manager: shellyha
 searchScope:
 - ci-measure-template
 - customerInsights
-ms.openlocfilehash: 0fe846691825b93732cbbe6d1c942a79e4a3934f
-ms.sourcegitcommit: cf6a0ed44915908a44c70889a2dd199a9d0d4798
-ms.translationtype: HT
+ms.openlocfilehash: eeabd889f7b694f8d809894169a3cdc068acc340
+ms.sourcegitcommit: 9ef2cf99b847e7bd8f890f83d84b3a4045aaf8cc
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/28/2022
-ms.locfileid: "8359967"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8529403"
 ---
 # <a name="use-a-template-to-build-a-measure"></a>एक उपाय बनाने के लिए एक टेम्पलेट का उपयोग करें
 
-आप आमतौर पर उपयोग किए जाने वाले पूर्वनिर्धारित टेम्प्लेट का उपयोग कर सकते हैं [उपायों](measures.md) उन्हें बनाने के लिए। टेम्पलेट्स का विस्तृत विवरण और एक निर्देशित अनुभव आपको कुशल उपाय बनाने में मदद करता है. टेम्पलेट्स *एकीकृत गतिविधि* निकाय से मैप किए गए डेटा पर बनाए जाते हैं. इसलिए सुनिश्चित करें कि आपने टेम्पलेट से उपाय बनाने से पहले [ग्राहक गतिविधियों](activities.md) को कॉन्फ़िगर किया है.
+आप आमतौर पर उपयोग किए जाने वाले पूर्वनिर्धारित टेम्प्लेट का उपयोग कर सकते हैं [पैमाने](measures.md) उन्हें बनाने के लिए। टेम्पलेट्स का विस्तृत विवरण और एक निर्देशित अनुभव आपको कुशल उपाय बनाने में मदद करता है. टेम्पलेट्स *एकीकृत गतिविधि* निकाय से मैप किए गए डेटा पर बनाए जाते हैं. इसलिए सुनिश्चित करें कि आपने टेम्पलेट से उपाय बनाने से पहले [ग्राहक गतिविधियों](activities.md) को कॉन्फ़िगर किया है.
 
 कस्टम उपाय बनाने के लिए, देखें [खरोंच से उपाय बनाने के लिए माप निर्माता का उपयोग करें।](measure-builder.md)
 
@@ -41,7 +41,7 @@ ms.locfileid: "8359967"
 
 ## <a name="build-a-new-measure-using-a-template"></a>टेम्प्लेट का उपयोग करके एक नया उपाय बनाएं
 
-1. के लिए जाओ **उपाय।**
+1. के लिए जाओ **पैमाने।**
 
 1. **नया** चुनें और **एक टेम्पलेट चुनें** का चयन करें.
 
@@ -51,7 +51,9 @@ ms.locfileid: "8359967"
 
 1. आवश्यक डेटा की समीक्षा करें और यदि आपके पास सभी डेटा मौजूद हैं तो **शुरू करें** का चयन करें.
 
-1. **संपादित नाम** फलक में, अपने उपाय और आउटपुट निकाय के लिए नाम सेट करें. 
+1. चुनना**विवरण संपादित करें** माप नाम के आगे। माप के लिए एक नाम प्रदान करें। वैकल्पिक रूप से, जोड़ें [टैग](work-with-tags-columns.md#manage-tags) उपाय करने के लिए।
+
+   :::image type="content" source="media/measures_edit_details.png" alt-text="विवरण संपादित करें संवाद बॉक्स।":::
 
 1. **पूर्ण** चयन करें.
 

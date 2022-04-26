@@ -44,6 +44,8 @@
           href: audience-insights/create-environment.md
         - name: ऑडिएंस इनसाइट्स खोजें
           href: audience-insights/home.md
+        - name: टैग और कॉलम के साथ काम करें
+          href: audience-insights/work-with-tags-columns.md
         - name: व्यावसायिक खातों के साथ काम करें
           href: audience-insights/work-with-business-accounts.md
     - name: डेटा स्रोत
@@ -94,7 +96,7 @@
           href: audience-insights/enrichment-liveramp.md
         - name: Experian के साथ समृद्ध करें
           href: audience-insights/enrichment-experian.md
-        - name: के साथ समृद्ध करें Office 365 आंकड़े
+        - name: के साथ समृद्ध करें Office 365 जानकारी
           href: audience-insights/enrichment-office.md
         - name: SFTP कस्टम आयात के साथ समृद्ध करें
           href: audience-insights/enrichment-SFTP-custom-import.md

@@ -8,12 +8,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: dccc069a355725bae09c1fece9292b9aee374e6d
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: 06c5bed74b82f9ae2a764a2eb363348e0edab531
+ms.sourcegitcommit: 4b2ad63aa7a4d4f31b573870bccbc40befe5f8fd
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8225517"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8552058"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI के लिए कनेक्टर (पूर्वावलोकन)
 
@@ -72,6 +72,6 @@ Power BI के लिए Customer Insights कनेक्टर को उन 
 
 MM/DD/YYYY जैसे दिनांक फॉर्मेट वाले फ़ील्ड वाले निकायों को लोड करते समय, बेमेल स्थानीय फॉर्मेट के कारण आपको त्रुटियों का सामना करना पड़ सकता है. यह बेमेल तब होता है जब आपकी Power BI Desktop फ़ाइल अंग्रेज़ी (संयुक्त राज्य) के स्थान पर किसी अन्य स्थान पर सेट होती है, क्योंकि ऑडियंस इनसाइट्स में दिनांक फ़ील्ड यूएस फॉर्मेट में सहेजे जाते हैं.
 
-Power BI Desktop फ़ाइल में एकल स्थान सेटिंग होती है, जिसे डेटा पुनर्प्राप्त करते समय लागू किया जाता है. इन दिनांक फ़ील्ड की सही व्याख्या करें, .BPI फ़ाइल का स्थान अंग्रेज़ी (संयुक्त राज्य) पर सेट करें. [Power BI Desktop फ़ाइल का स्थान बदलने का तरीका जानें](/power-bi/fundamentals/supported-languages-countries-regions.md#choose-the-locale-for-importing-data-into-power-bi-desktop).
+Power BI Desktop फ़ाइल में एकल स्थान सेटिंग होती है, जिसे डेटा पुनर्प्राप्त करते समय लागू किया जाता है. इन दिनांक फ़ील्ड की सही व्याख्या करें, .BPI फ़ाइल का स्थान अंग्रेज़ी (संयुक्त राज्य) पर सेट करें. [Power BI Desktop फ़ाइल का स्थान बदलने का तरीका जानें](/power-bi/fundamentals/supported-languages-countries-regions#choose-the-language-or-locale-of-power-bi-desktop).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

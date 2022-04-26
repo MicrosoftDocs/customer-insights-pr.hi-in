@@ -6,12 +6,12 @@ ms.author: mhart
 ms.date: 07/30/2021
 ms.topic: overview
 ms.manager: shellyha
-ms.openlocfilehash: 82b335388002158885fa55b61562db6c8370dc9d
-ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+ms.openlocfilehash: ff3d23d00a565bf9e5693e7cd5db644ddfe4887e
+ms.sourcegitcommit: 9f6733b2f2c273748c1e7b77f871e9b4e5a8666e
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8350179"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "8560435"
 ---
 # <a name="product-overview-for-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights के लिए उत्पाद अवलोकन
 
@@ -19,7 +19,7 @@ ms.locfileid: "8350179"
 
 [ऑडियंस इनसाइट्स](audience-insights/overview.md) आपको अपने व्यवसाय को ग्राहक-केंद्रित संगठन में बदलने में मदद करता है. मार्केटिंग, विक्रय और सेवा पेशेवरों के पास उन इनसाइट्स का अनुभव होता है, जिनकी उन्हें अनुभवों को वैयक्तिकृत करने के लिए आवश्यकता है. 360-डिग्री ग्राहक दृश्य बनाने के लिए लेन-देन, व्यवहार और अवलोकन स्रोतों से डेटा कनेक्ट करें. उन पर कार्रवाई की जा सकती है कि इन्साइट्स देने के लिए डिज़ाइन किया गया एक सीडीपी के साथ तेजी से परिणाम देखें. 
 
-[सगाई की जानकारी](engagement-insights/overview.md) Customer Insights में एक पूर्वावलोकन क्षमता थी जो अतिरिक्त अंतर्दृष्टि के लिए वेब और मोबाइल ईवेंट एकत्र करने पर केंद्रित है पूर्वावलोकन 15 फरवरी, 2022 को समाप्त हो गया है।
+[सगाई की जानकारी](engagement-insights/overview.md) Customer Insights में एक पूर्वावलोकन क्षमता थी जो अतिरिक्त अंतर्दृष्टि के लिए वेब और मोबाइल ईवेंट एकत्र करने पर केंद्रित है। पूर्वावलोकन 15 फरवरी, 2022 को समाप्त हो गया है।
  
 ## <a name="choose-a-capability"></a>एक क्षमता चुनें
 
