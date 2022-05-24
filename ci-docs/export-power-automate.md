@@ -8,12 +8,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 409792bc3f12fca451ef038e3300758bdf9ecf3b
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: d22c4c785695b23a257a89f1ffa519fdc18b443e
+ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642818"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8741181"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate कनेक्टर (पूर्वावलोकन)
 
@@ -25,14 +25,14 @@ ms.locfileid: "8642818"
 
 ## <a name="power-automate-triggers"></a>Power Automate ट्रिगर्स
 
-क्लाउड प्रवाह बनाने के लिए ट्रिगर का उपयोग करें और बार-बार किए जाने वाले कार्यों को स्वचालित करें, जैसे सूचनाएं या अधिक एडवांस्ड एक्शन. 
+क्लाउड प्रवाह बनाने के लिए ट्रिगर का उपयोग करें और बार-बार किए जाने वाले कार्यों को स्वचालित करें, जैसे सूचनाएं या अधिक एडवांस्ड एक्शन.
 
-- ट्रिगर जब डेटा स्रोत रिफ़्रेश विफल रहता है. 
+- ट्रिगर जब डेटा स्रोत रिफ़्रेश विफल रहता है.
 - ट्रिगर जब डेटा स्रोत रिफ़्रेश सफल होता है.
 - ट्रिगर जब अनुभाग की सीमा पार की जाती है. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
 - ट्रिगर जब व्यावसायिक उपाय सीमा के पार हो जाता है. केवल बिना आयाम वाले व्यावसायिक उपाय समर्थित हैं. ट्रिगर सीमा के ऊपर जाने तक सीमित है.
 - ट्रिगर करें, जब (डेटा स्रोतों, खंडों, साधनों, ...) का पूरा रिफ़्रेश पूरा हो जाता है.
-- जब एकीकरण प्रक्रिया (मानचित्र, मिलान, मर्ज) का रिफ्रेश पूरा होता है तब ट्रिगर करें.
+- एकीकरण प्रक्रिया का एक ताज़ा पूरा होने पर ट्रिगर करें।
 
 [Power Automate में अपने ट्रिगर कॉन्फ़िगर करें।](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/)
 

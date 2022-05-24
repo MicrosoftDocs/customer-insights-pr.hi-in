@@ -3,16 +3,16 @@ title: सेगमेंट पर डिफ़ॉल्ट सहमति न
 description: यदि ओवरराइड सक्षम हैं, तो सहमति प्रबंधन क्षमता के साथ, आप डिफ़ॉल्ट सहमति नियमों को अक्षम या बदल सकते हैं।
 ms.date: 12/01/2021
 ms.topic: how-to
-author: smithy7
-ms.author: smithc
+author: anubhav-t
+ms.author: antando
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 43f03ea97765e112a8ea2a7da97cc548c8c84dfc
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 764eeca9d99c95a34d9bd4c11d79f8b8e90701e2
+ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642577"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8755218"
 ---
 # <a name="disable-or-change-default-consent-rules"></a>डिफ़ॉल्ट सहमति नियमों को अक्षम या बदलें
 
@@ -40,7 +40,7 @@ ms.locfileid: "8642577"
 
 ## <a name="for-contributors"></a>योगदानकर्ताओं के लिए
 
-लागू सहमति नियमों के बिना एक सेगमेंट बनाने के लिए, आपको अपने सेगमेंट पर उन्हें अक्षम करने के लिए अपने व्यवस्थापक के साथ काम करना होगा। हालांकि, आप अपने स्वामित्व वाले और प्रबंधित सेगमेंट में अपने स्वयं के सहमति नियम जोड़ सकते हैं।
+लागू सहमति नियमों के बिना एक सेगमेंट बनाने के लिए, आपको अपने सेगमेंट पर उन्हें अक्षम करने के लिए अपने व्यवस्थापक के साथ काम करना होगा। हालांकि, आप अपने स्वयं के सहमति नियमों को उन सेगमेंट में जोड़ सकते हैं जिनके आप स्वामी हैं और जिन्हें आप प्रबंधित करते हैं।
 
 यह तीन चरणों वाली प्रक्रिया है: 
 1. [सेगमेंट बनाएं](segments.md) Customer Insights में और इसे सेव करें। 

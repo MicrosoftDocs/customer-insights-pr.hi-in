@@ -12,12 +12,12 @@ searchScope:
 - ci-predictions
 - ci-custom-models
 - customerInsights
-ms.openlocfilehash: cca91f2bbe2fc64554199082a79c1b388a01ab52
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: e2cace3547a0b584dbf26ae5eecf86f3b256649f
+ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642781"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740721"
 ---
 # <a name="complete-your-partial-data-with-predictions-deprecated"></a>पूर्वानुमानों के साथ अपना आंशिक डेटा पूरा करें (बहिष्कृत)
 
@@ -37,7 +37,7 @@ ms.locfileid: "8642781"
 
 1. आपके संगठन का एक उदाहरण [Microsoft Dataverse में सेट अप](/ai-builder/build-model#prerequisites) है और यह Customer Insights के जैसे ही संगठन में है.
 
-2. आपका ऑडिएंस इनसाइट परिवेश आपके Dataverse आवृत्ति से जुड़ा हुआ है.
+2. आपकी Customer Insights का परिवेश आपके Dataverse आवृत्ति से संबद्ध होता है.
 
 अधिक जानकारी के लिए, [एक नया वातावरण बनाएं](create-environment.md) देखें.
 
@@ -116,7 +116,7 @@ ms.locfileid: "8642781"
 
 ## <a name="edit-a-prediction"></a>कोई पूर्वानुमान संपादित करें
 
-पूर्वानुमान बनाने के बाद, आप मॉडल को इसमें कस्टमाइज़ कर सकते हैं AI Builder अपने मॉडल की प्रभावशीलता बढ़ाने के लिए।  
+पूर्वानुमान बनाने के बाद, आप मॉडल में कस्टमाइज़ कर सकते हैं AI Builder अपने मॉडल की प्रभावशीलता बढ़ाने के लिए।  
 
 1. के लिए जाओ **बुद्धिमत्ता** > **भविष्यवाणियों** > **मेरी भविष्यवाणियां**.
 

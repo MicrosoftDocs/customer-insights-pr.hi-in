@@ -8,12 +8,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: e77227e1e353c02cfb13e26a8ecbe0768ba6c0fa
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 772fe0978362ccd829077a8133e2a3e74043f3f8
+ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642552"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8741505"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>डेटा निर्यात करें Azure Synapse Analytics (पूर्वावलोकन)
 
@@ -34,7 +34,7 @@ Azure में:
 
 - एक सक्रिय Azure सदस्यता.
 
-- यदि एक नया उपयोग कर रहे हैं Azure Data Lake Storage Gen2 खाता, *Insights के लिए सेवा प्रिंसिपल* ज़रूरत **संग्रहण ब्लॉब डेटा सहयोगी** अनुमतियाँ। [ऑडिएंस इनसाइट के लिए Azure सेवा प्रिंसिपल के साथ Azure Data Lake Storage Gen2 खाते से कनेक्ट करने](connect-service-principal.md) के बारे में और जानें. Data Lake Storage Gen2 में [पदानुक्रमिक नामस्थान](/azure/storage/blobs/data-lake-storage-namespace) **अवश्य** सक्षम होना चाहिए.
+- यदि एक नया उपयोग कर रहे हैं Azure Data Lake Storage Gen2 खाता, *Insights के लिए सेवा प्रिंसिपल* ज़रूरत **संग्रहण ब्लॉब डेटा सहयोगी** अनुमतियाँ। अधिक जानें [एक से जुड़नाAzure Data Lake Storage Customer Insights के लिए Azure सेवा प्रिंसिपल के साथ Gen2 खाता](connect-service-principal.md). Data Lake Storage Gen2 में [पदानुक्रमिक नामस्थान](/azure/storage/blobs/data-lake-storage-namespace) **अवश्य** सक्षम होना चाहिए.
 
 - संसाधन समूह पर जहां Azure Synapse कार्यक्षेत्र स्थित है, *सेवा प्रधान* और यह *Azure AD Customer Insights में व्यवस्थापक अनुमतियों वाला उपयोगकर्ता* कम से कम असाइन करने की आवश्यकता है **रीडर** अनुमतियाँ। अधिक जानकारी के लिए देखें, [Azure पोर्टल का उपयोग करके Azure भूमिकाएं असाइन करें](/azure/role-based-access-control/role-assignments-portal).
 

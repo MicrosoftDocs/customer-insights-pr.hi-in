@@ -66,12 +66,18 @@
   items:
     - name: डेटा एकीकरण अवलोकन
       href: data-unification.md
-    - name: मानचित्र निकाय और विशेषताएँ
+    - name: स्रोत फ़ील्ड चुनें
       href: map-entities.md
-    - name: निकायों का मिलान करें
+    - name: डुप्लिकेट रिकॉर्ड हटाएं
+      href: remove-duplicates.md
+    - name: मैच की स्थिति
       href: match-entities.md
-    - name: निकायों को विलीन करें
+    - name: ग्राहक क्षेत्रों को एकीकृत करें
       href: merge-entities.md
+    - name: डेटा एकीकरण की समीक्षा करें
+      href: review-unification.md
+    - name: एकीकरण सेटिंग अपडेट करें
+      href: data-unification-update.md
 - name: डेटा संवर्धन
   items:
     - name: ग्राहक प्रोफ़ाइलें को बेहतर करें
@@ -282,6 +288,8 @@
       href: apis.md
     - name: API संदर्भ
       href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
+    - name: ओडाटा नमूना प्रश्न
+      href: odata-examples.md
 - name: सहमति प्रबंधन (पूर्वावलोकन)
   items:
     - name: सहायता केंद्र

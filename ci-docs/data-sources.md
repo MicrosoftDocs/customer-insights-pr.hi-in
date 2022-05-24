@@ -12,12 +12,12 @@ searchScope:
 - ci-data-sources
 - ci-create-data-source
 - customerInsights
-ms.openlocfilehash: bcc50c6fa8f8e2a66ef6164bfa9022e068c0e374
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 1fe8d6e8098831ecc8ff28e571340c56a654de6d
+ms.sourcegitcommit: a50c5e70d2baf4db41a349162fd1b1f84c3e03b6
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642497"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739210"
 ---
 # <a name="data-sources-overview"></a>डेटा स्रोत ओवरव्यू
 
@@ -35,9 +35,6 @@ Dynamics 365 Customer Insights स्रोतों के व्यापक �
 - [सामान्य डेटा मॉडल फ़ोल्डर से](connect-common-data-model.md)
 - [अपने Microsoft Dataverse lake से](connect-dataverse-managed-lake.md)
 - [एक से Azure Synapse Analytics डेटाबेस](connect-synapse.md)
-
-> [!NOTE]
-> यदि आप परीक्षण संस्करण का उपयोग कर रहे हैं, तो आयात विधि अनुभाग में शामिल है a **Customer Insights डेटा लाइब्रेरी** विकल्प। विभिन्न उद्योगों के लिए उपलब्ध नमूना डेटासेट का चयन करने के लिए इस विकल्प को चुनें। अधिक जानकारी के लिए देखें [Dynamics 365 Customer Insights परीक्षण](trial-signup.md).
 
 ## <a name="add-data-from-on-premises-data-sources"></a>ऑन-प्रीमाइसेस डेटा स्रोतों से डेटा जोड़ें
 

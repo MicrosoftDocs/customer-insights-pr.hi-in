@@ -8,12 +8,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 42095f369c47553e5ddf5fada54e559202c943a9
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 3d573a6c83b7f0b0c33e656eb383e20a96856b0b
+ms.sourcegitcommit: d45c00a5f6cb106714366af81e8070e7f53654b3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642702"
+ms.lasthandoff: 05/15/2022
+ms.locfileid: "8757388"
 ---
 # <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Azure ब्लॉब स्टोरेज (पूर्वावलोकन) के लिए सेगमेंट सूची और अन्य डेटा को निर्यात करें
 
@@ -44,7 +44,7 @@ ms.locfileid: "8642702"
 यदि आपके पास इस प्रकार के कनेक्शन का एक्सेस है तो आप इस निर्यात को कॉन्फ़िगर कर सकते हैं. अधिक जानकारी के लिए, देखें [एक निर्यात को कॉन्फ़िगर करने के लिए आवश्यक अनुमतियां](export-destinations.md#set-up-a-new-export).
 
 > [!IMPORTANT]
-> यदि आपने Azure ब्लॉब स्टोरेज खाते के लिए सॉफ्ट डिलीट सेटिंग चालू की है, तो निर्यात विफल हो जाएगा. ब्लॉब में डेटा निर्यात करने के लिए सॉफ्ट डिलीट को बंद करें. अधिक जानकारी के लिए, [ब्लॉब सॉफ्ट डिलीट सक्षम करें](/azure/storage/blobs/soft-delete-blob-enable.md) देखें
+> यदि आपने Azure ब्लॉब स्टोरेज खाते के लिए सॉफ्ट डिलीट सेटिंग चालू की है, तो निर्यात विफल हो जाएगा. ब्लॉब में डेटा निर्यात करने के लिए सॉफ्ट डिलीट को बंद करें. अधिक जानकारी के लिए, [ब्लॉब सॉफ्ट डिलीट सक्षम करें](/azure/storage/blobs/soft-delete-blob-enable) देखें
 
 1. **डेटा** > **निर्यात** पर जाएँ.
 

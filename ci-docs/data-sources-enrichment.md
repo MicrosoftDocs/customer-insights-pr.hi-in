@@ -8,12 +8,12 @@ author: NimrodMagen
 ms.author: nimagen
 ms.reviewer: v-wendysmith
 manager: shellyha
-ms.openlocfilehash: 56f6a8ad20224922f9968f0ad3b6a0e0a400214b
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
-ms.translationtype: MT
+ms.openlocfilehash: d1e14d2d4e718d71ccbd2afd259a350ad5c9e69a
+ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642492"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8755688"
 ---
 # <a name="enrichment-for-data-sources-preview"></a>डेटा स्रोतों के लिए संवर्धन (पूर्वावलोकन)
 
@@ -26,7 +26,7 @@ ms.locfileid: "8642492"
 1. के लिए जाओ **जानकारी** > **एकजुट।** उस निकाय का चयन करें जिसे आप समृद्ध करना चाहते हैं और निकाय के लिए प्राथमिक कुंजी के रूप में एक विशेषता का चयन करें। अधिक जानकारी के लिए देखें [प्राथमिक कुंजी का चयन करें।](map-entities.md#select-primary-key-and-semantic-type-for-attributes)
 
 1. **डेटा** > **डेटा स्रोत** पर जाएँ.
- 
+
 1. आप जिस डेटा स्रोत को समृद्ध करना चाहते हैं उसके बगल में लंबवत दीर्घवृत्त का चयन करें और चुनें **समृद्ध।**
 
    :::image type="content" source="media/data_sources_enrich_discover.png" alt-text="डेटा स्रोत संवर्धन पृष्ठ।":::

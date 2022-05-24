@@ -1,23 +1,22 @@
 ---
 title: सेगमेंट के लिए सहमति नियम सक्रिय करें
 description: सहमति डेटा को लिंक करने और सहमति जांच को सक्रिय करने के लिए इन चरणों का पालन करें।Dynamics 365 Customer Insights एक व्यवस्थापक सहमति जांच को अक्षम भी कर सकता है।
-ms.date: 11/12/2021
-ms.subservice: audience-insights
+ms.date: 04/27/2022
 ms.topic: how-to
-author: smithy7
-ms.author: smithc
+author: anubhav-t
+ms.author: antando
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: bfa03f4b7b56b300a74ebd04721cd64b893879f1
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: f82e3a4031fee8bcaa88575cbd68b37385a7fffb
+ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642527"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8755172"
 ---
 # <a name="activate-consent-rules"></a>सहमति नियम सक्रिय करें
 
-[सहमति केंद्र (पूर्वावलोकन)](consent-management/overview.md) आपको विभिन्न स्रोतों से सहमति डेटा में सामंजस्य स्थापित करने में मदद करता है। एकीकृत का उपयोग करें *अनुमति* डिफ़ॉल्ट सहमति जांच लागू करने के लिए इकाई। सहमति केंद्र में सहमति डेटा आयात करने और डेटा के लिए नियमों को कॉन्फ़िगर करने के बाद, *अनुमति* इकाई स्वचालित रूप से समन्वयित हो जाती है।Dynamics 365 Customer Insights
+[सहमति केंद्र (पूर्वावलोकन)](consent-management/overview.md) आपको विभिन्न स्रोतों से सहमति डेटा में सामंजस्य स्थापित करने में मदद करता है। एकीकृत का उपयोग करें *अनुमति* डिफ़ॉल्ट सहमति जांच लागू करने के लिए इकाई। सहमति डेटा आयात करने और मानचित्र नियमों को कॉन्फ़िगर करने के बाद, *अनुमति* इकाई स्वचालित रूप से समन्वयित हो जाती है।Dynamics 365 Customer Insights
 
 ## <a name="enable-consent-checks"></a>सहमति जांचें सक्षम करें
 

@@ -12,12 +12,12 @@ searchScope:
 - ci-permissions
 - ci-system-security
 - customerInsights
-ms.openlocfilehash: b80f07dfa734f4dd762bd711151a7045f24bed7d
-ms.sourcegitcommit: cf74b8c20d88eb96e1ac86e18cd44fe27aad5ab9
+ms.openlocfilehash: 74c7ff7cda8431c04dd34713becefa7e346331b4
+ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/28/2022
-ms.locfileid: "8653570"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740905"
 ---
 # <a name="user-permissions"></a>उपयोगकर्ता की अनुमतियाँ
 
@@ -41,7 +41,7 @@ ms.locfileid: "8653570"
 
 - दर्शकों के लिए उपलब्ध सभी अनुमतियां.
 - **डेटा स्रोत** पृष्ठ का उपयोग करके डेटा लोड करें और रूपांतरित करें.
-- *डेटा एकीकरण* अनुभाग (**मैप करें**, **मिलान करें**, और **मर्ज करें**) पूरे करें, जिनके परिणामस्वरूप एकीकृत ग्राहक प्रोफ़ाइल इकाई बनती है.
+- पूर्ण ***डेटा एकीकरण** जिसके परिणामस्वरूप एकीकृत ग्राहक प्रोफ़ाइल निकाय बनता है।
 - **संबंध** और **गतिविधियां** को परिभाषित करें.
 - **अनुभागपृष्ठ** का उपयोग करके अनुभाग बनाएं.
 - **उपाय** पेज का उपयोग करके उपाय बनाएं.

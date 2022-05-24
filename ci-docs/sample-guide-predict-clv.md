@@ -1,19 +1,19 @@
 ---
 title: ग्राहक आजीवन पूर्वानुमान नमूना गाइड
 description: ग्राहक के आजीवन मान पूर्वानुमान मॉडल को आज़माने के लिए इस नमूना मार्गदर्शिका का उपयोग करें.
-ms.date: 05/25/2021
-ms.reviewer: mhart
+ms.date: 03/31/2022
+ms.reviewer: v-wendysmith
 ms.subservice: audience-insights
 ms.topic: tutorial
 author: yashlundia
 ms.author: yalundia
 manager: shellyha
-ms.openlocfilehash: 9f8d1d0f0757d8003ad3859fab75362f3988cd00
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 351946c734f5a1054eb3769b2d9cced3bed48e15
+ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642778"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740813"
 ---
 # <a name="customer-lifetime-value-clv-prediction-sample-guide"></a>ग्राहक आजीवन मान (CLV) भविष्यवाणी नमूना गाइड
 
@@ -102,64 +102,7 @@ Contoso एक ऐसी कंपनी है जो उच्च गुणव
 
 ## <a name="task-2---data-unification"></a>कार्य 2 - डेटा एकीकरण
 
-डेटा अंतर्ग्रहण करने के बाद, अब हम एक एकीकृत ग्राहक प्रोफ़ाइल बनाने के लिए डेटा एकीकरण प्रक्रिया शुरू करते हैं. अधिक जानकारी के लिए, [डेटा एकीकरण](data-unification.md) देखें.
-
-### <a name="map"></a>मैप
-
-1. डेटा को अंतर्ग्रहण करने के बाद, संपर्कों को ई-कॉमर्स और लॉयल्टी डेटा से सामान्य डेटा प्रकारों में मैप करें. **डेटा** > **एकीकृत** > **मैप** पर जाएं.
-
-1. उन निकायों को चुनें जो ग्राहक प्रोफ़ाइल – **eCommerceContacts** और **loyCustomers** का प्रतिनिधित्व करते हैं. फिर, **लागू करें** चुनें.
-
-   ![ईकॉमर्स और लॉयल्टी डेटास्रोत एकीकृत करें.](media/unify-ecommerce-loyalty.png)
-
-1. **eCommerceContacts** के लिए प्राथमिक कुंजी के रूप में **ContactId** और **loyCustomers** के लिए प्राथमिक कुंजी के रूप में **LoyaltyID** चुनें.
-
-   ![LoyaltyId को प्राथमिक कुंजी के रूप में एकीकृत करें.](media/unify-loyaltyid.png)
-
-1. **सहेजें** चुनें.
-
-### <a name="match"></a>मिलान
-
-1. **मिलान** टैब पर जाएँ और **क्रम सेट करें** टैब चुनें.
-
-1. **मुख्य** ड्रॉपडाउन सूची में, **eCommerceContacts : eCommerce** को प्राथमिक स्रोत के रूप में चुनें और सभी रिकॉर्ड शामिल करें।
-
-1. **निकाय 2** ड्रॉपडाउन सूची में, **loyCustomers: LoyaltyScheme** चुनें और सभी रिकॉर्ड शामिल करें।
-
-   ![ईकॉमर्स और लॉयल्टी का एकीकरण में मिलान करें.](media/unify-match-order.png)
-
-1. **नियम जोड़ें** चुनें
-
-1. FullName का उपयोग करके अपनी पहली शर्त जोड़ें.
-
-   - eCommerceContacts के लिए ड्रॉपडाउन में **पूरा नाम** चुनें।
-   - loyCustomers के लिए ड्रॉपडाउन में **पूरा नाम** चुनें।
-   - **सामान्यीकृत** ड्रॉपडाउन का चयन करें और **प्रकार (फोन, नाम, पता, ...)** चुनें.
-   - **सटिकता स्तर** सेट करें: **बेसिक** और **मूल्य**: **उच्च**.
-
-1. नए नियम के लिए नाम **FullName, ईमेल** दर्ज करें.
-
-   - **पता जोड़ें** का चयन करके ईमेल पते के लिए दूसरी शर्त जोड़ें
-   - इकाई eCommerceContacts के लिए, ड्रॉपडाउन में **ईमेल** चुनें.
-   - इकाई loyCustomers के लिए, ड्रॉपडाउन में **ईमेल** चुनें.
-   - सामान्यीकृत खाली छोड़ दें.
-   - **सटिकता स्तर** सेट करें: **बेसिक** और **मूल्य**: **उच्च**.
-
-   ![नाम और ईमेल के लिए मिलान के नियम को एकीकृत करें.](media/unify-match-rule.png)
-
-1. **पूर्ण** चयन करें.
-
-1. **सहेजें** और **रन करें** चुनें.
-
-### <a name="merge"></a>मर्ज करें
-
-1. **मर्ज** टैब पर जाएँ.
-
-1. **ContactId** पर **loyCustomers** निकाय के लिए, इसे इन्जेस्ट की गई दूसरी ID से अलग करने के लिए प्रदर्शन नाम को **ContactIdLOYALTY** में बदलें.
-
-   ![नाम को contactid से loyalty id में बदलें.](media/unify-merge-contactid.png)
-
-1. **सहेजें** और **मर्ज और डाउनस्ट्रीम प्रक्रियाएं चलाएं** चुनें.
+[!INCLUDE [sample-guide-unification](includes/sample-guide-unification.md)]
 
 ## <a name="task-3---configure-customer-lifetime-value-prediction"></a>टास्क 3 - ग्राहक के जीवनकाल मान पूर्वानुमान को कॉन्फ़िगर करें
 

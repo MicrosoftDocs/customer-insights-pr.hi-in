@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: e155f75ffbc2c1bb228bece1b3e34846df794543
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 33a0562854e97b9ac5218e060f965996305627fd
+ms.sourcegitcommit: d45c00a5f6cb106714366af81e8070e7f53654b3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642667"
+ms.lasthandoff: 05/15/2022
+ms.locfileid: "8757434"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>सामान्य डेटा मॉडल में निकाय स्कीमा
 
@@ -23,7 +23,7 @@ ms.locfileid: "8642667"
 
 यह साझा किया गया डेटा मॉडल, अनुप्रयोगों और डेटा एकीकरणों को डेटा की एकीकृत परिभाषा प्रदान करके ज़्यादा आसानी से सहयोग करने की अनुमति देता है. सामान्य डेटा मॉडल में मानक निकाय, संबंधों, पदानुक्रम, लक्षण और बहुत कुछ के साथ एक समृद्ध मेटाडेटा प्रणाली शामिल है. इसकी शुरुआत Dynamics 365 अनुप्रयोग से हुई है और यह 260 से अधिक मानक निकायों के साथ GitHub पर खुला स्रोत होता है. आंतरिक और बाहरी साझेदारों का एक बड़ा सिस्टम इस सामान्य डेटा मॉडल में उद्योग-विशिष्ट संकल्पनाएँ सृजित करता है.
 
-आज Power BI डेटाप्रवाह और Azure डेटा सेवाएँ सहित अनेक प्रणालियों और प्लेटफार्म में सामान्य डेटा मॉडल को कार्यान्वित किया जाता है. यह पहले से ही [ओपन डेटा इनिशिएटिव](https://www.microsoft.com/open-data-initiative) के लिए सीधे मूल्य अर्जित करते हुए, Microsoft Dataverse, Dynamics 365, Power Apps, Power BI और आगामी Azure डेटा सेवाओं में समर्थित है.
+आज Power BI डेटाप्रवाह और Azure डेटा सेवाएँ सहित अनेक प्रणालियों और प्लेटफार्म में सामान्य डेटा मॉडल को कार्यान्वित किया जाता है. यह पहले से ही [ओपन डेटा इनिशिएटिव](https://dynamics.microsoft.com/en-us/open-data-initiative/) के लिए सीधे मूल्य अर्जित करते हुए, Microsoft Dataverse, Dynamics 365, Power Apps, Power BI और आगामी Azure डेटा सेवाओं में समर्थित है.
 
 ## <a name="customer-insights-entity-schemas"></a>Customer Insights निकाय स्कीमा
 

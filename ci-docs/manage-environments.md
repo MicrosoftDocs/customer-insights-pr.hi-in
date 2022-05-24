@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-about
 - customerInsights
-ms.openlocfilehash: fcdb7f073ff73322ff69d0a8684391819a809d00
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
-ms.translationtype: MT
+ms.openlocfilehash: 599cbaf4e19c3a7331e92bfc54c701fefe6c69b3
+ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
+ms.translationtype: HT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642786"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8741043"
 ---
 # <a name="manage-environments"></a>परिवेश प्रबंधित करें
 
@@ -53,7 +53,7 @@ ms.locfileid: "8642786"
 > [!IMPORTANT]
 > 1. ग्राहक अंतर्दृष्टि और Dataverse डेटा साझाकरण को सक्षम करने के लिए एक ही क्षेत्र में होना चाहिए।
 > 1. इसमें आपकी वैश्विक व्यवस्थापक भूमिका होनी चाहिए Dataverse वातावरण। सत्यापित करें कि क्या यह [Dataverse पर्यावरण जुड़ा हुआ है](/power-platform/admin/control-user-access#associate-a-security-group-with-a-dataverse-environment) कुछ सुरक्षा समूहों के लिए और सुनिश्चित करें कि आप उन सुरक्षा समूहों में जोड़े गए हैं।
-> 1. कोई मौजूदा Customer Insights परिवेश पहले से उससे संबद्ध नहीं है Dataverse वातावरण। सीखो किस तरह [a . से मौजूदा कनेक्शन को हटा दें Dataverse वातावरण।](#remove-an-existing-connection-to-a-dataverse-environment)
+> 1. कोई मौजूदा Customer Insights परिवेश पहले से उससे संबद्ध नहीं है Dataverse वातावरण। सीखो किस तरह [a . से मौजूदा कनेक्शन को हटा दें Dataverse वातावरण](#remove-an-existing-connection-to-a-dataverse-environment).
 
 :::image type="content" source="media/dataverse-enable-datasharing.png" alt-text=" Microsoft Dataverse के साथ डेटा साझा करने में सक्षम करने का कॉन्फ़िगरेशन विकल्प.":::
 
@@ -93,7 +93,7 @@ ms.locfileid: "8642786"
         - Azure सदस्यता आईडी प्रदान करके Windows PowerShell में इस PowerShell स्क्रिप्ट को निष्पादित करें जिसमें आपकाAzure Data Lake Storage, भंडारण खाता नाम, संसाधन समूह का नाम, और रीडर और सहयोगी सुरक्षा समूह आईडी मान। अतिरिक्त जानकारी और लागू किए गए तर्क की समीक्षा करने के लिए एक संपादक में पावरशेल स्क्रिप्ट खोलें।
         - स्क्रिप्ट को सफलतापूर्वक चलाने के बाद आउटपुट स्ट्रिंग को कॉपी करें। आउटपुट स्ट्रिंग इस तरह दिखती है:`https: //DVBYODLDemo/customerinsights?rg=285f5727-a2ae-4afd-9549-64343a0gbabc&cg=720d2dae-4ac8-59f8-9e96-2fa675dbdabc`
         
-2. ऊपर से कॉपी की गई आउटपुट स्ट्रिंग को दर्ज करें **अनुमतियाँ पहचानकर्ता** पर्यावरण कॉन्फ़िगरेशन चरण का क्षेत्र Microsoft Dataverse.
+2. ऊपर से कॉपी की गई आउटपुट स्ट्रिंग को दर्ज करें **अनुमतियाँ पहचानकर्ता** पर्यावरण विन्यास के क्षेत्र के लिए कदम Microsoft Dataverse.
 
 :::image type="content" source="media/dataverse-enable-datasharing-BYODL.png" alt-text="अपने स्वयं के डेटा साझाकरण को सक्षम करने के लिए कॉन्फ़िगरेशन विकल्प Azure Data Lake Storage साथ Microsoft Dataverse .":::
 
@@ -103,7 +103,7 @@ Customer Insights निम्नलिखित डेटा साझाकर
 
 ### <a name="remove-an-existing-connection-to-a-dataverse-environment"></a>A . से मौजूदा कनेक्शन निकालें Dataverse वातावरण
 
-A . से कनेक्ट करते समय Dataverse पर्यावरण, त्रुटि संदेश **यह CDS संगठन पहले से ही किसी अन्य Customer Insights उदाहरण से जुड़ा हुआ है** इसका मतलब है किDataverse पर्यावरण का पहले से ही Customer Insights परिवेश में उपयोग किया जा रहा है। आप मौजूदा कनेक्शन को वैश्विक व्यवस्थापक के रूप में हटा सकते हैं Dataverse वातावरण। परिवर्तनों को भरने में कुछ घंटे लग सकते हैं।
+A . से कनेक्ट करते समय Dataverse पर्यावरण, त्रुटि संदेश **यह CDS संगठन पहले से ही किसी अन्य Customer Insights उदाहरण से जुड़ा हुआ है** इसका मतलब है किDataverse पर्यावरण पहले से ही Customer Insights परिवेश में उपयोग किया जाता है। आप एक वैश्विक व्यवस्थापक के रूप में मौजूदा कनेक्शन को हटा सकते हैं Dataverse वातावरण। परिवर्तनों को भरने में कुछ घंटे लग सकते हैं।
 
 1. [Power Apps](https://make.powerapps.com) पर जाएँ.
 1. पर्यावरण पिकर से पर्यावरण का चयन करें।
@@ -127,11 +127,11 @@ OR
 निम्नलिखित कॉन्फ़िगरेशन सेटिंग्स को कॉपी किया जाता है:
 
 - अंतर्ग्रहण किया गया/आयातित डेटा स्रोत
-- डेटा एकीकरण (मानचित्र, मिलान, मर्ज) कॉन्फ़िगरेशन
-- खंड
+- डेटा एकीकरण विन्यास
+- सेगमेंट
 - माप
 - संबंध
-- गतिविधियाँ
+- गतिविधियां
 - इंडेक्स खोजें और फ़ि‍ल्‍टर करें
 - निर्यात गंतव्य
 - शेड्यूल किया गया रीफ़्रेश
@@ -162,7 +162,7 @@ OR
 
 ## <a name="change-the-owner-of-an-environment"></a>परिवेश का स्वामी बदलें
 
-जबकि कई उपयोगकर्ताओं के पास Customer Insights में व्यवस्थापकीय अनुमतियाँ हो सकती हैं, केवल एक उपयोगकर्ता ही परिवेश का स्वामी होता है। डिफ़ॉल्ट रूप से, यह व्यवस्थापक है जो प्रारंभ में एक परिवेश बनाता है। किसी परिवेश के व्यवस्थापक के रूप में, आप व्यवस्थापक अनुमतियों वाले किसी अन्य उपयोगकर्ता को स्वामित्व असाइन कर सकते हैं।
+जबकि कई उपयोगकर्ताओं के पास Customer Insights में व्यवस्थापकीय अनुमतियाँ हो सकती हैं, केवल एक उपयोगकर्ता ही परिवेश का स्वामी होता है। डिफ़ॉल्ट रूप से, यह व्यवस्थापक है जो प्रारंभ में परिवेश बनाता है। किसी परिवेश के व्यवस्थापक के रूप में, आप व्यवस्थापक अनुमतियों वाले किसी अन्य उपयोगकर्ता को स्वामित्व असाइन कर सकते हैं।
 
 1. ऐप के हेडर में **परिवेश** पिकर का चयन करें.
 
