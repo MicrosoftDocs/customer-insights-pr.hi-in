@@ -14,12 +14,12 @@ searchScope:
 - ci-enrichment-details
 - ci-enrichment-wizard
 - customerInsights
-ms.openlocfilehash: 5c14e6c96d2f907ba161331b6f92277191cbdbef
-ms.sourcegitcommit: cf74b8c20d88eb96e1ac86e18cd44fe27aad5ab9
+ms.openlocfilehash: abc1b6af80e8854ee3bc930453634ef67376c4af
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/28/2022
-ms.locfileid: "8653525"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800607"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>ग्राहक प्रोफाइल के लिए संवर्धन (पूर्वावलोकन)
 
@@ -63,7 +63,7 @@ ms.locfileid: "8653525"
 
 सभी कॉन्फ़िगर किए गए संवर्धन देखने के लिए **मेरे संवर्धन** टैब पर जाएं. प्रत्येक संवर्धन को पंक्ति के रूप में दर्शाया जाता है जिसमें संवर्धन के बारे में अतिरिक्त जानकारी शामिल होती है.
 
-उपलब्ध विकल्पों को देखने के लिए संवर्धन का चयन करें. आप विकल्प देखने के लिए सूची आइटम पर एलिप्सिस (...) भी चुन सकते हैं. यदि आपने कई संवर्धन कॉन्फ़िगर किए हैं, तो आप इसे तेजी से खोजने के लिए खोज बॉक्स का उपयोग कर सकते हैं.
+उपलब्ध विकल्पों को देखने के लिए संवर्धन का चयन करें. आप लंबवत दीर्घवृत्त का चयन भी कर सकते हैं (&vellip;) विकल्पों को देखने के लिए सूची आइटम पर। यदि आपने कई संवर्धन कॉन्फ़िगर किए हैं, तो आप इसे तेजी से खोजने के लिए खोज बॉक्स का उपयोग कर सकते हैं.
 
 :::image type="content" source="media/enrichment-hub-options-run.png" alt-text="संवर्धन की सूची में संवर्धन का प्रबंधन करने के लिए विकल्प.":::
 

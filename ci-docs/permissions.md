@@ -12,12 +12,12 @@ searchScope:
 - ci-permissions
 - ci-system-security
 - customerInsights
-ms.openlocfilehash: 74c7ff7cda8431c04dd34713becefa7e346331b4
-ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
+ms.openlocfilehash: 8022563f8994400b88389c20d7d661d9ea82bab1
+ms.sourcegitcommit: f5af5613afd9c3f2f0695e2d62d225f0b504f033
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740905"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "8833724"
 ---
 # <a name="user-permissions"></a>उपयोगकर्ता की अनुमतियाँ
 
@@ -41,7 +41,7 @@ ms.locfileid: "8740905"
 
 - दर्शकों के लिए उपलब्ध सभी अनुमतियां.
 - **डेटा स्रोत** पृष्ठ का उपयोग करके डेटा लोड करें और रूपांतरित करें.
-- पूर्ण ***डेटा एकीकरण** जिसके परिणामस्वरूप एकीकृत ग्राहक प्रोफ़ाइल निकाय बनता है।
+- पूरा ***डेटा एकीकरण** जिसके परिणामस्वरूप एकीकृत ग्राहक प्रोफ़ाइल निकाय बनता है।
 - **संबंध** और **गतिविधियां** को परिभाषित करें.
 - **अनुभागपृष्ठ** का उपयोग करके अनुभाग बनाएं.
 - **उपाय** पेज का उपयोग करके उपाय बनाएं.
@@ -65,7 +65,7 @@ ms.locfileid: "8740905"
 ## <a name="admin-owner"></a>व्यवस्थापक (मालिक)
 
 - व्यवस्थापक के लिए उपलब्ध सभी अनुमतियाँ।
-- [रीसेट करें और हटाएं](manage-environments.md#reset-an-existing-environment) पर्यावरण।
+- [रीसेट करें और हटाएं](manage-environments.md#reset-an-existing-environment-preview) पर्यावरण।
 
 ## <a name="assign-roles-and-permissions"></a>भूमिकाएं और अनुमतियां असाइन करें
 

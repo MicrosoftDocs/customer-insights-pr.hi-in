@@ -1,19 +1,19 @@
 ---
 title: डेटा स्रोत संवर्धन
 description: डेटा एकीकरण प्रक्रिया से गुजरने से पहले डेटा स्रोतों को समृद्ध करें।
-ms.date: 03/02/2022
+ms.date: 05/20/2022
 ms.subservice: audience-insights
 ms.topic: how-to
 author: NimrodMagen
 ms.author: nimagen
 ms.reviewer: v-wendysmith
 manager: shellyha
-ms.openlocfilehash: d1e14d2d4e718d71ccbd2afd259a350ad5c9e69a
-ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
-ms.translationtype: HT
+ms.openlocfilehash: 1225482c4bf432ed747537b2c9bec9ab0e692a51
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
+ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755688"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800283"
 ---
 # <a name="enrichment-for-data-sources-preview"></a>डेटा स्रोतों के लिए संवर्धन (पूर्वावलोकन)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8755688"
 
 1. **डेटा** > **डेटा स्रोत** पर जाएँ.
 
-1. आप जिस डेटा स्रोत को समृद्ध करना चाहते हैं उसके बगल में लंबवत दीर्घवृत्त का चयन करें और चुनें **समृद्ध।**
+1. लंबवत दीर्घवृत्त का चयन करें (&vellip;) डेटा स्रोत के आगे आप समृद्ध करना चाहते हैं और चुनें **समृद्ध**.
 
    :::image type="content" source="media/data_sources_enrich_discover.png" alt-text="डेटा स्रोत संवर्धन पृष्ठ।":::
 
@@ -41,11 +41,12 @@ ms.locfileid: "8755688"
 
 - [संवर्धित पते](enrichment-enhanced-addresses.md)
 - [परिष्कृत कंपनी डेटा](enrichment-enhanced-company-data.md)
+- [LiveRamp से पहचान डेटा](enrichment-liveramp.md)
 
 ## <a name="manage-existing-data-source-enrichments"></a>मौजूदा डेटा स्रोत संवर्धन प्रबंधित करें
 
 सभी कॉन्फ़िगर किए गए संवर्धन देखने के लिए **मेरे संवर्धन** टैब पर जाएं.
 
-उपलब्ध विकल्पों को देखने के लिए संवर्धन का चयन करें. आप विकल्प देखने के लिए सूची आइटम पर एलिप्सिस (...) भी चुन सकते हैं. यदि आपने कई संवर्धन कॉन्फ़िगर किए हैं, तो आप इसे तेजी से खोजने के लिए खोज बॉक्स का उपयोग कर सकते हैं.
+उपलब्ध विकल्पों को देखने के लिए संवर्धन का चयन करें. आप लंबवत दीर्घवृत्त का चयन भी कर सकते हैं (&vellip;) विकल्पों को देखने के लिए सूची आइटम पर। यदि आपने कई संवर्धन कॉन्फ़िगर किए हैं, तो आप इसे तेजी से खोजने के लिए खोज बॉक्स का उपयोग कर सकते हैं.
 
 आप किसी डेटा स्रोत संवर्धन को देख सकते हैं, संपादित कर सकते हैं, चला सकते हैं या हटा सकते हैं। अधिक जानकारी के लिए देखें [मौजूदा संवर्द्धन प्रबंधित करें](enrichment-hub.md).

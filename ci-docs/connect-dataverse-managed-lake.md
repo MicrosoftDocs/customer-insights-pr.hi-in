@@ -11,12 +11,12 @@ ms.reviewer: mhart
 searchScope:
 - ci-dataverse
 - customerInsights
-ms.openlocfilehash: e8a294a4bad1581539b5905160cddcd625699d90
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 7140e9254108bc6f0d518b3ccf4b10fc33cde115
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642522"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800175"
 ---
 # <a name="connect-to-data-in-a-microsoft-dataverse-managed-data-lake"></a>Microsoft Dataverse प्रबंधित डेटा संग्रह में डेटा से कनेक्ट करें
 
@@ -28,7 +28,7 @@ ms.locfileid: "8642522"
 ## <a name="important-considerations"></a>महत्वपूर्ण विचार
 
 1. ऑनलाइन सेवाओं में संग्रहित डेटा, जैसे कि Azure Data Lake Storage, को डेटा से संसाधित या Dynamics 365 Customer Insights में संग्रहित किए जाने की तुलना में किसी अन्य स्थान पर संग्रहित किया जा सकता है.ऑनलाइन सेवाओं में संग्रहीत डेटा को आयात या कनेक्ट करके, आप सहमत हैं कि डेटा को स्थानांतरित और संग्रहीत किया जा सकता है Dynamics 365 Customer Insights . [माइक्रोसॉफ्ट ट्रस्ट सेंटर पर और जानें।](https://www.microsoft.com/trust-center)
-2. केवल Dataverse संस्थाओं के साथ [ट्रैकिंग बदलें](/power-platform/admin/enable-change-tracking-control-data-synchronization) सक्षम दिखाई दे रहे हैं। इन संस्थाओं को निर्यात किया जा सकता है Dataverse -प्रबंधित डेटा लेक और Customer Insights में उपयोग किया जाता है। लीक से हटकर Dataverse तालिकाओं में परिवर्तन ट्रैकिंग डिफ़ॉल्ट रूप से सक्षम होती है। आपको कस्टम तालिकाओं के लिए परिवर्तन ट्रैकिंग चालू करनी होगी. जाँच करने के लिए कि क्या a Dataverse परिवर्तन ट्रैकिंग के लिए तालिका सक्षम है, यहां जाएं [Power Apps](https://make.powerapps.com) > **जानकारी** > **टेबल**. अपनी रुचि की तालिका ढूंढें और उसका चयन करें। के लिए जाओ **समायोजन** > **उन्नत विकल्प** और समीक्षा करें **ट्रैक परिवर्तन** सेटिंग।
+2. सिर्फ़ Dataverse संस्थाओं के साथ [ट्रैकिंग बदलें](/power-platform/admin/enable-change-tracking-control-data-synchronization) सक्षम दिखाई दे रहे हैं। इन संस्थाओं को निर्यात किया जा सकता है Dataverse -प्रबंधित डेटा लेक और Customer Insights में उपयोग किया जाता है। लीक से हटकर Dataverse तालिकाओं में परिवर्तन ट्रैकिंग डिफ़ॉल्ट रूप से सक्षम होती है। आपको कस्टम तालिकाओं के लिए परिवर्तन ट्रैकिंग चालू करनी होगी. जाँच करने के लिए कि क्या a Dataverse परिवर्तन ट्रैकिंग के लिए तालिका सक्षम है, यहां जाएं [Power Apps](https://make.powerapps.com) > **जानकारी** > **टेबल**. अपनी रुचि की तालिका ढूंढें और उसका चयन करें। के लिए जाओ **समायोजन** > **उन्नत विकल्प** और समीक्षा करें **रास्ता बदलता है** स्थापना।
 
 ## <a name="connect-to-a-dataverse-managed-lake"></a>एक Dataverse प्रबंधित लेक से जोड़ें
 
@@ -62,7 +62,7 @@ ms.locfileid: "8642522"
 
 1. **डेटा** > **डेटा स्रोत** पर जाएँ.
 
-2. आप जिस डेटा स्रोत को अपडेट करना चाहते हैं, उसके आगे दीर्घवृत्त का चयन करें.
+2. आप जिस डेटा स्रोत को अपडेट करना चाहते हैं, उसके आगे लंबवत दीर्घवृत्त चुनें (&vellip;)
 
 3. सूची से **संपादन करें** विकल्प चुनें.
 

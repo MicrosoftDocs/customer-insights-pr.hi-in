@@ -6,7 +6,9 @@
   href: whats-new-customer-insights.md
 - name: प्रशिक्षण कैटलॉग
   items:
-    - name: आरंभ करना
+    - name: Microsoft ग्राहक डेटा प्लेटफ़ॉर्म विशेषज्ञ के रूप में प्रमाणित करें
+      href: /learn/certifications/exams/mb-260?tab=tab-instructor-led
+    - name: Customer Insights के साथ आरंभ करें
       href: /learn/modules/get-started-customer-data-platform/
     - name: डेटा करें
       href: /learn/modules/ingest-data-customer-insights/
@@ -34,8 +36,6 @@
       href: get-started.md
     - name: भुगतान लाइसेंस से प्रारंभ करें
       href: paid-license.md
-    - name: एक नया परिवेश बनाएं
-      href: create-environment.md
     - name: ग्राहक अंतर्दृष्टि का अन्वेषण करें
       href: home.md
     - name: टैग और कॉलम के साथ काम करें
@@ -198,6 +198,8 @@
           href: export-campaign-monitor.md
         - name: Constant Contact
           href: export-constant-contact.md
+        - name: Criteo
+          href: export-criteo.md
         - name: DotDigital
           href: export-dotdigital.md
         - name: Dynamics 365 Marketing
@@ -254,12 +256,22 @@
       href: entities.md
     - name: Common Data Model में निकाय स्कीमा की समीक्षा करें
       href: entity-schemas.md
-    - name: Dataverse में Customer Insights डेटा
-      href: customer-insights-dataverse.md
     - name: संबंध और संबद्ध निकाय बनाएं
       href: relationships.md
     - name: सिमेंटिक मैपिंग को परिभाषित करें
       href: semantic-mappings.md
+- name: वातावरण
+  items:
+    - name: एक नया परिवेश बनाएं
+      href: create-environment.md
+    - name: Microsoft Dataverse से कनेक्ट करें
+      href: customer-insights-dataverse.md
+    - name: अपना प्रयोग करें Azure Data Lake Storage
+      href: own-data-lake-storage.md
+    - name: परिवेश सेटिंग्स प्रबंधित करें
+      href: manage-environments.md
+    - name: सर्विस प्रिंसिपल का उपयोग करके स्टोरेज अकाउंट से कनेक्ट करें
+      href: connect-service-principal.md
 - name: व्यवस्थापन
   items:
     - name: सिस्टम कॉन्फ़िगरेशन सेट अप करें
@@ -268,20 +280,12 @@
       href: security-overview.md
     - name: उपयोगकर्ता अनुमतियाँ असाइन करें
       href: permissions.md
-    - name: कनेक्शन का अवलोकन
-      href: connections.md
-    - name: अनेक परिवेश प्रबंधित करें
-      href: manage-environments.md
     - name: अपना स्वयं का 'Key Vault' लाएं
       href: use-azure-key-vault.md
-    - name: सर्विस प्रिंसिपल का उपयोग करके स्टोरेज अकाउंट से कनेक्ट करें
-      href: connect-service-principal.md
     - name: डायग्नोस्टिक लॉग निर्यात करें
       href: diagnostics.md
-    - name: सेवा सीमाएँ
-      href: service-limits.md
-    - name: DSR अधिकार और अनुरोध
-      href: dsr-rights-requests.md
+    - name: कनेक्शन का अवलोकन
+      href: connections.md
 - name: APIs
   items:
     - name: API के साथ काम करें
@@ -324,5 +328,9 @@
       items:
         - name: सहमति डेटा के साथ पूर्वानुमान बनाएं
           href: consent-management/predictions-consent-data.md
+- name: सेवा सीमाएँ
+  href: service-limits.md
+- name: DSR अधिकार और अनुरोध
+  href: dsr-rights-requests.md
 - name: समर्थन प्राप्त करें
   href: /power-platform/admin/get-help-support

@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-connections
 - customerInsights
-ms.openlocfilehash: d85de28a12565e1a2e36278d0e8b74f6de286b20
-ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
+ms.openlocfilehash: 2a3175737ac95e10d75fad4a69db303b0564c6cc
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755311"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800374"
 ---
 # <a name="connections-preview-overview"></a>कनेक्शन (पूर्वावलोकन) का अवलोकन
 
@@ -69,7 +69,7 @@ ms.locfileid: "8755311"
 
 1. **कनेक्शन** टैब पर जाएँ.
 
-1. आप जिस कनेक्शन को हटाना चाहते हैं, उसके लिए वर्टिकल एलिप्सिस चुनें.
+1. लंबवत दीर्घवृत्त का चयन करें (&vellip;) उस कनेक्शन के लिए जिसे आप संपादित करना चाहते हैं।
 
 1. **संपादित करें** चुनें।
 
@@ -85,7 +85,7 @@ ms.locfileid: "8755311"
 
 1. **कनेक्शन** टैब पर जाएँ.
 
-1. आप जिस कनेक्शन को हटाना चाहते हैं, उसके लिए वर्टिकल एलिप्सिस चुनें.
+1. लंबवत दीर्घवृत्त का चयन करें (&vellip;) उस कनेक्शन के लिए जिसे आप हटाना चाहते हैं।
 
 1. ड्रॉपडाउन मेनू से **हटाएं** चुनें. एक पुष्टिकरण संवाद दिखाई देता है.
 
