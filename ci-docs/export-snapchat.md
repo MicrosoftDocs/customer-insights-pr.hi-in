@@ -1,19 +1,19 @@
 ---
 title: Customer Insights डेटा को Snapchat में निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और Snapchat को निर्यात करने का तरीका जानें.
-ms.date: 10/08/2021
+ms.date: 06/08/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 171b8bf0f4a034c78e872b671602ae7653271da7
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: d64b482c322af8632e29ec41d6e34c390c5e646c
+ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642789"
+ms.lasthandoff: 06/10/2022
+ms.locfileid: "8947278"
 ---
 # <a name="export-segments-to-snapchat-preview"></a>अनुभागों को Snapchat (पूर्वावलोकन) में निर्यात करें
 
@@ -21,7 +21,8 @@ ms.locfileid: "8642789"
 
 ## <a name="prerequisites-for-a-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 
--   आपके पास एक [Snapchat व्यावसायिक अकाउंट](https://business.snapchat.com/) और [Snapchat Ads अकाउंट](https://ads.snapchat.com/) संबंधित व्यवस्थापक क्रेडेंशियल्स हैं.
+-   आपके पास एक [Snapchat व्यावसायिक अकाउंट](https://business.snapchat.com/) और [Snapchat Ads अकाउंट](https://ads.snapchat.com/) संबंधित व्यवस्थापक क्रेडेंशियल्स हैं. आपको कम से कम एक संगठन खाते का सदस्य और एक विशिष्ट विज्ञापन खाते का डेटा प्रबंधक होना चाहिए। 
+-   आपके पास Snapchat में कम से कम एक ऑडिएंस प्रकार का SAM (Snap ऑडिएंस Match) प्रकार का ऑडिएंस प्रबंधक है। 
 -   आपके पास [कॉन्फ़िगर किए गए खंड](segments.md) ग्राहक अंतर्दृष्टि में।
 -   निर्यात किए गए खंडों में एकीकृत ग्राहक प्रोफाइल में ईमेल पते का प्रतिनिधित्व करने वाला क्षेत्र होता है.
 
@@ -60,7 +61,7 @@ ms.locfileid: "8642789"
 
 1. **निर्यात के लिए कनेक्शन** में, Snapchat अनुभाग से एक कनेक्शन का चयन करें. यदि आपको इस अनुभाग का नाम दिखाई नहीं देता है, तो आपके लिए इस प्रकार का कोई कनेक्शन उपलब्ध नहीं है.
 
-1. [**Snapchat ऑडियंस ID**](https://businesshelp.snapchat.com/s/article/custom-audiences) दर्ज करें.
+1. उसे दर्ज करें [**स्नैपचैट सेगमेंट/ऑडिएंस आईडी।**](https://businesshelp.snapchat.com/s/article/custom-audiences) स्नैपचैट ऑडिएंस मैनेजर में ऑडिएंस को चुनने के बाद ऑडिएंस की आईडी URL में पाई जा सकती है। 
 
 1. **डेटा मिलान** सेक्शन में, **ईमेल** फ़ील्ड में, वह फ़ील्ड चुनें जो ग्राहक के ईमेल पते को दर्शाती है. Snapchat करने के लिए सेगमेंट का निर्यात करना आवश्यक है.
 

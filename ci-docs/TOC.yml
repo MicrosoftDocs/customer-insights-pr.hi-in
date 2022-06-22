@@ -48,14 +48,14 @@
   items:
     - name: डेटा स्रोत ओवरव्यू
       href: data-sources.md
+    - name: Azure Data Lake Storage में डेटा से कनेक्ट करें
+      href: connect-common-data-model.md
+    - name: Azure Synapse Analytics से कनेक्ट करें
+      href: connect-synapse.md
+    - name: Microsoft Dataverse प्रबंधित डेटा संग्रह में डेटा से कनेक्ट करें
+      href: connect-dataverse-managed-lake.md
     - name: के माध्यम से डेटा स्रोत जोड़ें Power Query कनेक्टर्स
       href: connect-power-query.md
-    - name: डेटा स्रोत के रूप में एक सामान्य डेटा मॉडल फ़ोल्डर जोड़ें
-      href: connect-common-data-model.md
-    - name: Dataverse प्रबंधित डेटा लेक जोड़ें
-      href: connect-dataverse-managed-lake.md
-    - name: Azure Synapse Analytics जोड़ें
-      href: connect-synapse.md
     - name: डेटा स्रोतों के लिए संवर्धन
       href: data-sources-enrichment.md
     - name: डेटा स्रोतों के लिए वृद्धिशील रीफ़्रेश
@@ -82,27 +82,27 @@
   items:
     - name: ग्राहक प्रोफ़ाइलें को बेहतर करें
       href: enrichment-hub.md
+    - name: से खाते Office 365 जानकारी
+      href: enrichment-office.md
     - name: ब्रांड और रुचियां
       href: enrichment-microsoft.md
+    - name: डन एंड ब्रैडस्ट्रीट से कंपनी डेटा
+      href: enrichment-dnb.md
+    - name: Leadspace द्वारा कंपनी डेटा
+      href: enrichment-leadspace.md
+    - name: जनसांख्यिकी के साथ Experian
+      href: enrichment-experian.md
     - name: संवर्धित पते
       href: enrichment-enhanced-addresses.md
     - name: परिष्कृत कंपनी डेटा
       href: enrichment-enhanced-company-data.md
-    - name: Azure Maps के साथ समृद्ध करें
-      href: enrichment-azure-maps.md
-    - name: डन एंड ब्रैडस्ट्रीट के साथ समृद्ध करें
-      href: enrichment-dnb.md
-    - name: HERE Technologies के साथ समृद्ध करें
-      href: enrichment-here.md
-    - name: लीड स्पेस के साथ संवर्धित
-      href: enrichment-leadspace.md
-    - name: LiveRamp . के साथ समृद्ध करें
+    - name: LiveRamp से पहचान
       href: enrichment-liveramp.md
-    - name: Experian के साथ समृद्ध करें
-      href: enrichment-experian.md
-    - name: के साथ समृद्ध करें Office 365 जानकारी
-      href: enrichment-office.md
-    - name: SFTP कस्टम आयात के साथ समृद्ध करें
+    - name: Azure मैप्स से स्थान
+      href: enrichment-azure-maps.md
+    - name: HERE Technologies द्वारा अवस्थिति
+      href: enrichment-here.md
+    - name: एसएफ़टीपी कस्टम आयात
       href: enrichment-SFTP-custom-import.md
 - name: एकीकृत प्रोफ़ाइलें
   items:
@@ -112,6 +112,8 @@
       href: search-filter-index.md
     - name: ग्राहक गतिविधियों को परिभाषित करें
       href: activities.md
+    - name: Customer Insights के लिए सहमति प्रबंधन
+      href: consent-management.md
 - name: सेगमेंट
   items:
     - name: अनुभाग ओवरव्यू
@@ -294,40 +296,6 @@
       href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
     - name: ओडाटा नमूना प्रश्न
       href: odata-examples.md
-- name: सहमति प्रबंधन (पूर्वावलोकन)
-  items:
-    - name: सहायता केंद्र
-      href: consent-management/index.yml
-    - name: क्षमता अवलोकन
-      href: consent-management/overview.md
-    - name: आरंभ करना
-      items:
-        - name: आरंभ करना
-          href: consent-management/get-started.md
-        - name: अवधारणाएं और शब्दावली
-          href: consent-management/glossary.md
-    - name: सहमति डेटा आयात करें
-      items:
-        - name: सहमति डेटा आयात करें
-          href: consent-management/import-consent-data.md
-        - name: सहमति डेटा सेट करें और सहमति प्राथमिकताएं लागू करें
-          href: consent-management/set-consent-rules.md
-    - name: सहमति डेटा प्रबंधित करें
-      items:
-        - name: Customer Insights में सहमति नियम सक्षम करें
-          href: activate-consent.md
-        - name: Customer Insights सेगमेंट में डिफ़ॉल्ट सहमति नियम प्रबंधित करें
-          href: change-default-consent-rules.md
-    - name: सेटिंग्स और उपयोगकर्ता प्रबंधित करें
-      items:
-        - name: सिस्टम सेटिंग्स कॉन्फ़िगर करें
-          href: consent-management/system-settings.md
-        - name: उपयोगकर्ताओं और अनुमतियों को प्रबंधित करें
-          href: consent-management/manage-users.md
-    - name: सहमति डेटा का उपयोग करें
-      items:
-        - name: सहमति डेटा के साथ पूर्वानुमान बनाएं
-          href: consent-management/predictions-consent-data.md
 - name: सेवा सीमाएँ
   href: service-limits.md
 - name: DSR अधिकार और अनुरोध

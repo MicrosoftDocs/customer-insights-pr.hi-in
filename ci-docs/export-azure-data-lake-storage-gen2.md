@@ -8,12 +8,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 8b14992f8312d333d8a12501e8a28496c8434779
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 22eee11666752459a1750d728c4e254ab0c59e58
+ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642602"
+ms.lasthandoff: 06/10/2022
+ms.locfileid: "8947232"
 ---
 # <a name="export-segment-list-and-other-data-to-azure-data-lake-storage-gen2-preview"></a>अनुभाग सूची और अन्य डेटा Azure Data Lake Storage Gen2 (पूर्वावलोकन) में निर्यात करें
 
@@ -21,11 +21,9 @@ ms.locfileid: "8642602"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
-1. जब आप अपने डेटा लेक के लिए स्टोरेज अकाउंट बना रहे हों तो, Azure Data Lake Storage Gen2 के लिए आप [स्टैंडर्ड प्रदर्शन और प्रीमियम प्रदर्शन टियर](/azure/storage/blobs/create-data-lake-storage-account) में से किसी एक को चुन सकते हैं. अगर आप प्रीमियम प्रदर्शन स्तर चुनते हैं, तो खाता प्रकार के रूप में प्रीमियम ब्लॉक ब्लॉब चुनें. 
+1. जब आप अपने डेटा लेक के लिए स्टोरेज अकाउंट बना रहे हों तो, Azure Data Lake Storage Gen2 के लिए आप [स्टैंडर्ड प्रदर्शन और प्रीमियम प्रदर्शन टियर](/azure/storage/blobs/create-data-lake-storage-account) में से किसी एक को चुन सकते हैं. अगर आप प्रीमियम प्रदर्शन स्तर चुनते हैं, तो खाता प्रकार के रूप में प्रीमियम ब्लॉक ब्लॉब चुनें.
 
-
-## <a name="set-up-the-connection-to-azure-data-lake-storage-gen2"></a>कनेक्शन सेट अप करें Azure Data Lake Storage Gen2 
-
+## <a name="set-up-the-connection-to-azure-data-lake-storage-gen2"></a>कनेक्शन सेट अप करें Azure Data Lake Storage Gen2
 
 1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
@@ -39,7 +37,7 @@ ms.locfileid: "8642602"
     - Azure Data Lake Storage Gen2 के साथ उपयोग करने के लिए स्टोरेज अकाउंट बनाने का तरीका जानने के लिए, [स्टोरेज अकाउंट बनाएं](/azure/storage/blobs/create-data-lake-storage-account) देखें. 
     - Azure Data Lake Gen2 स्टोरेज अकाउंट का नाम और अकाउंट कुंजी के बारे में अधिक जानने के लिए, देखें [Azure पोर्टल में स्टोरेज अकाउंट सेटिंग्स का प्रबंधन करें](/azure/storage/common/storage-account-manage).
 
-1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें. 
+1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें.
 
 ## <a name="configure-an-export"></a>एक निर्यात कॉन्फ़िगर करें
 
@@ -57,8 +55,12 @@ ms.locfileid: "8642602"
 
 निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है.
 
-निर्यात हर [शेड्यूल रिफ़्रेश](system.md#schedule-tab) के साथ चलता है. आप [मांग पर डेटा निर्यात](export-destinations.md#run-exports-on-demand) भी कर सकते हैं. 
+निर्यात हर [शेड्यूल रिफ़्रेश](system.md#schedule-tab) के साथ चलता है.
+आप [मांग पर डेटा निर्यात](export-destinations.md#run-exports-on-demand) भी कर सकते हैं.
 
-निर्यात किया गया डेटा आपके द्वारा कॉन्फ़िगर किए गए Azure Data Lake Gen2 स्टोरेज कंटेनर में संग्रहीत किया जाता है. 
+निर्यात किया गया डेटा आपके द्वारा कॉन्फ़िगर किए गए Azure Data Lake Gen2 स्टोरेज कंटेनर में संग्रहीत किया जाता है.
+
+> [!TIP]
+> बड़ी मात्रा में डेटा वाले निकायों के निर्यात से प्रत्येक निर्यात के लिए एक ही फ़ोल्डर में एकाधिक CSV फ़ाइलें प्राप्त हो सकती हैं. निर्यात को पूरा करने में लगने वाले समय को कम करने के लिए प्रदर्शन कारणों से विभाजन निर्यात होता है।
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]

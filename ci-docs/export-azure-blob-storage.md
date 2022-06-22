@@ -1,19 +1,19 @@
 ---
 title: एक Azure ब्लॉब स्टोरेज के लिए Customer Insights डेटा निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और ब्लॉब स्टोरेज विज्ञापन प्रबंधक को निर्यात करने का तरीका जानें.
-ms.date: 10/06/2021
+ms.date: 06/09/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
-author: pkieffer
-ms.author: philk
+author: stefanie-msft
+ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 3d573a6c83b7f0b0c33e656eb383e20a96856b0b
-ms.sourcegitcommit: d45c00a5f6cb106714366af81e8070e7f53654b3
+ms.openlocfilehash: 623926bf520b19ee4156b7a05e953241cd819e9e
+ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/15/2022
-ms.locfileid: "8757388"
+ms.lasthandoff: 06/10/2022
+ms.locfileid: "8947140"
 ---
 # <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Azure ब्लॉब स्टोरेज (पूर्वावलोकन) के लिए सेगमेंट सूची और अन्य डेटा को निर्यात करें
 
@@ -58,16 +58,19 @@ ms.locfileid: "8757388"
 
 निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है.
 
-निर्यात हर [शेड्यूल रिफ़्रेश](system.md#schedule-tab) के साथ चलता है.     
+निर्यात हर [शेड्यूल रिफ़्रेश](system.md#schedule-tab) के साथ चलता है.
 
-आप [मांग पर डेटा निर्यात](export-destinations.md#run-exports-on-demand) भी कर सकते हैं. 
+आप [मांग पर डेटा निर्यात](export-destinations.md#run-exports-on-demand) भी कर सकते हैं.
 
 निर्यात किया गया डेटा आपके द्वारा कॉन्फ़िगर किए गए ब्लॉब स्टोरेज कंटेनर में संग्रहीत किया जाता है. आपके कंटेनर में निम्नलिखित फोल्डर पथ अपने आप बनेंगे:
 
 - स्रोत निकायों और सिस्टम द्वारा उत्पन्न स्रोत निकायों के लिए:   
   `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`  
   - उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`
- 
+  
+  > [!TIP]
+  > बड़ी मात्रा में डेटा वाले निकायों के निर्यात से प्रत्येक निर्यात के लिए एक ही फ़ोल्डर में एकाधिक CSV फ़ाइलें प्राप्त हो सकती हैं. निर्यात को पूरा करने में लगने वाले समय को कम करने के लिए प्रदर्शन कारणों से विभाजन निर्यात होता है।
+
 - निर्यात किए गए निकायों के लिए model.json %ExportDestinationName% स्तर पर होगा.  
   - उदाहरण: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`
 

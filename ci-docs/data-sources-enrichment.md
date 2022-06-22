@@ -8,12 +8,12 @@ author: NimrodMagen
 ms.author: nimagen
 ms.reviewer: v-wendysmith
 manager: shellyha
-ms.openlocfilehash: 1225482c4bf432ed747537b2c9bec9ab0e692a51
-ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
+ms.openlocfilehash: b34b83d7a73dbdf21984f626174524188f0f1dc1
+ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8800283"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9011475"
 ---
 # <a name="enrichment-for-data-sources-preview"></a>डेटा स्रोतों के लिए संवर्धन (पूर्वावलोकन)
 
@@ -29,9 +29,11 @@ ms.locfileid: "8800283"
 
 1. लंबवत दीर्घवृत्त का चयन करें (&vellip;) डेटा स्रोत के आगे आप समृद्ध करना चाहते हैं और चुनें **समृद्ध**.
 
-   :::image type="content" source="media/data_sources_enrich_discover.png" alt-text="डेटा स्रोत संवर्धन पृष्ठ।":::
+   :::image type="content" source="media/data_sources_enrich.png" alt-text="समृद्ध हाइलाइट वाला डेटा स्रोत पृष्ठ":::
 
    **खोज करना** टैब प्रदर्शित करता है [समर्थित डेटा स्रोत संवर्धन विकल्प](#supported-data-source-enrichments).
+
+   :::image type="content" source="media/data_sources_enrich_discover.png" alt-text="डेटा स्रोत संवर्धन पृष्ठ।":::
 
 1. चुनना**मेरा डेटा समृद्ध करें** डेटा स्रोत संवर्धन को कॉन्फ़िगर करने के लिए। आउटपुट निकाय का नाम स्वचालित रूप से पॉप्युलेट हो जाता है।
 
@@ -41,7 +43,7 @@ ms.locfileid: "8800283"
 
 - [संवर्धित पते](enrichment-enhanced-addresses.md)
 - [परिष्कृत कंपनी डेटा](enrichment-enhanced-company-data.md)
-- [LiveRamp से पहचान डेटा](enrichment-liveramp.md)
+- [LiveRamp . से पहचान डेटा](enrichment-liveramp.md)
 
 ## <a name="manage-existing-data-source-enrichments"></a>मौजूदा डेटा स्रोत संवर्धन प्रबंधित करें
 
