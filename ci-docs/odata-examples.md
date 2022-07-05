@@ -1,5 +1,5 @@
 ---
-title: के लिए OData उदाहरण Dynamics 365 Customer Insights शहद की मक्खी
+title: Customer Insights API के लिए OData क्वेरी उदाहरण
 description: डेटा की समीक्षा करने के लिए Customer Insights API को क्वेरी करने के लिए ओपन डेटा प्रोटोकॉल (OData) के लिए आमतौर पर उपयोग किए जाने वाले उदाहरण।
 ms.date: 05/25/2022
 ms.subservice: audience-insights
@@ -8,14 +8,14 @@ author: m-hartmann
 ms.author: mhart
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: cdadd72bfe4272d8d83d923baaa6fd40d008473b
-ms.sourcegitcommit: bf65bc0a54cdab71680e658e1617bee7b2c2bb68
+ms.openlocfilehash: 54ba9f4e9baeb4b7021bb8c20a706bbb6eb1529f
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808463"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9083162"
 ---
-# <a name="odata-query-examples"></a>ओडाटा क्वेरी उदाहरण
+# <a name="odata-query-examples-for-customer-insights-apis"></a>Customer Insights API के लिए OData क्वेरी उदाहरण
 
 ओपन डेटा प्रोटोकॉल (ओडाटा) एक डेटा एक्सेस प्रोटोकॉल है जो HTTP जैसे कोर प्रोटोकॉल पर बनाया गया है। यह वेब के लिए आरईएसटी जैसी सामान्य रूप से स्वीकृत पद्धतियों का उपयोग करता है। विभिन्न प्रकार के पुस्तकालय और उपकरण हैं जिनका उपयोग ओडाटा सेवाओं का उपभोग करने के लिए किया जा सकता है।
 

@@ -1,5 +1,5 @@
 ---
-title: सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
+title: Azure सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
 description: अपने खुद के data lake से कनेक्ट करने के लिए Azure सेवा प्रमुख का उपयोग करें.
 ms.date: 05/31/2022
 ms.subservice: audience-insights
@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-security
 - customerInsights
-ms.openlocfilehash: 36ad957f59b23df6ee83d9d90898ef03ddfd320a
-ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
+ms.openlocfilehash: 949caa73578dbe0a511726ec045c0fd5f4621de4
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "9011843"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082238"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-account-by-using-an-azure-service-principal"></a>Azure सेवा प्रमुख का उपयोग करके किसी Azure Data Lake Storage खाते से कनेक्ट करें
 
@@ -84,7 +84,7 @@ Customer Insights के लिए एक नया सेवा प्रिं
 
 1. [Azure व्यवस्थापक पोर्टल](https://portal.azure.com) पर जाएं, अपनी सदस्यता, पर साइन इन करें और स्टोरेज खाता खोलें.
 
-1. बाएँ फलक पर जाएँ **समायोजन** > **अंतिमबिंदुओं**.
+1. बाएँ फलक पर, जाएँ **समायोजन** > **अंतिमबिंदुओं**.
 
 1. स्टोरेज खाता के संसाधन ID मान को कॉपी करें.
 

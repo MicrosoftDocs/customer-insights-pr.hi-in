@@ -1,5 +1,5 @@
 ---
-title: मुफ़्त ट्रायल के लिए साइन अप करें - Dynamics 365 Customer Insights
+title: मुफ़्त Dynamics 365 Customer Insights परीक्षण के लिए साइन अप करें
 description: जानें कि कैसे जल्दी से साइन अप करें और एक निःशुल्क Customer Insights परीक्षण शुरू करें. ऐप को एक्सप्लोर करें और अतिरिक्त शिक्षण संसाधन खोजें.
 author: m-hartmann
 ms.author: mhart
@@ -8,12 +8,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.reviewer: jeffhar
 manager: shellyha
-ms.openlocfilehash: 2f27dd4fd9df679696d72f2eccde262de3e4afc4
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 73f12745f76ef65afcc565ffb972e755073a2834
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8641718"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082490"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-customer-insights-trial"></a>मुफ़्त Dynamics 365 Customer Insights परीक्षण के लिए साइन अप करें
 

@@ -1,5 +1,5 @@
 ---
-title: डन एंड ब्रैडस्ट्रीट के साथ कंपनी प्रोफाइल का संवर्धन
+title: डन एंड ब्रैडस्ट्रीट के साथ कंपनी प्रोफाइल को समृद्ध करें (पूर्वावलोकन)
 description: डन एंड ब्रैडस्ट्रीट तृतीय-पक्ष संवर्धन के बारे में सामान्य जानकारी।
 ms.date: 06/10/2022
 ms.reviewer: mhart
@@ -9,14 +9,14 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: b1038970b6aee3bbdd7f79cc457f79aaf1c38222
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: 51f2e4e46aa25d10502d0feb5ea42eb7d2d637b9
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8953893"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082553"
 ---
-# <a name="enrichment-of-company-profiles-with-dun--bradstreet-preview"></a>डन एंड ब्रैडस्ट्रीट के साथ कंपनी प्रोफाइल का संवर्धन (पूर्वावलोकन)
+# <a name="enrich-company-profiles-with-dun--bradstreet-preview"></a>डन एंड ब्रैडस्ट्रीट के साथ कंपनी प्रोफाइल को समृद्ध करें (पूर्वावलोकन)
 
 डन एंड ब्रैडस्ट्रीट व्यवसायों के लिए व्यावसायिक डेटा, विश्लेषण और अंतर्दृष्टि प्रदान करता है। यह कंपनियों के लिए एकीकृत ग्राहक प्रोफाइल के साथ ग्राहकों को उनके डेटा को समृद्ध करने में सक्षम बनाता है. संवर्धन में DUNS नंबर, कंपनी का आकार, स्थान, उद्योग, और बहुत कुछ जैसी विशेषताएं शामिल हैं।
 
@@ -102,7 +102,7 @@ ms.locfileid: "8953893"
 
 1. चुनना**दौड़ना** संवर्धन प्रक्रिया शुरू करने के लिए या वापस लौटने के करीब **संवर्धन** पृष्ठ।
 
-## <a name="enrichment-results"></a>संवर्धन के परिणाम
+## <a name="view-enrichment-results"></a>संवर्धन परिणाम देखें
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)]
 

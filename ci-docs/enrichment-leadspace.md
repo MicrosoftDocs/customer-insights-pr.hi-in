@@ -1,5 +1,5 @@
 ---
-title: थर्ड पार्टी एनरिचमेंट Leadspace के साथ कंपनी प्रोफाइल का एनरिचमेंट
+title: लीडस्पेस के साथ कंपनी प्रोफाइल को समृद्ध करें (पूर्वावलोकन)
 description: Leadspace थर्ड पार्टी एनरिचमेंट के बारे में सामान्य जानकारी.
 ms.date: 06/10/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: ca53f15bd7c71b3b4acb396c4daf52d7c7aff9eb
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: b58532a541ee22a5e34d0af1a3334ccbd53627b2
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954181"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082364"
 ---
-# <a name="enrichment-of-company-profiles-with-leadspace-preview"></a>Leadspace के साथ कंपनी प्रोफाइल का समृद्धि (पूर्वावलोकन)
+# <a name="enrich-company-profiles-with-leadspace-preview"></a>लीडस्पेस के साथ कंपनी प्रोफाइल को समृद्ध करें (पूर्वावलोकन)
 
 लीडस्पेस एक डेटा साइंस कंपनी है, जो B-से-B ग्राहक डेटा प्लेटफ़ॉर्म प्रदान करती है. यह खातों के अनुसार उनके डेटा को समृद्ध करने के लिए एकीकृत ग्राहक प्रोफ़ाइल वाले परिवेश को समर्थ बनाता है. कंपनी साइज़, स्थान या उद्योग जैसे एट्रिब्यूट्स से *ग्राहक प्रोफ़ाइल* को समृद्ध करें. शीर्षक, पर्सोना या ईमेल सत्यापन जैसे एट्रिब्यूट्स से *संपर्क प्रोफ़ाइल* समृद्ध करें.
 
@@ -82,7 +82,7 @@ ms.locfileid: "8954181"
 
 1. चुनना**दौड़ना** संवर्धन प्रक्रिया शुरू करने के लिए या वापस लौटने के करीब **संवर्धन** पृष्ठ।
 
-## <a name="enrichment-results"></a>संवर्धन के परिणाम
+## <a name="view-enrichment-results"></a>संवर्धन परिणाम देखें
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)]
 

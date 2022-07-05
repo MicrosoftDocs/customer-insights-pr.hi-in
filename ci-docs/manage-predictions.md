@@ -1,5 +1,5 @@
 ---
-title: पूर्वानुमान परिदृश्यों के लिए साझा किए गए कार्य
+title: पूर्वानुमानों को प्रबंधित करें
 description: पूर्वानुमानों को प्रबंधित करने, उनका निवारण करने और उन्हें परिशोधित करने का तरीका जानें.
 ms.date: 11/01/2021
 ms.reviewer: mhart
@@ -8,12 +8,12 @@ ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: c4d269e1b542e84ade8c6e63c1dadace51ddde32
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: a180f6462452d9830d0daa150a35a9d0acad925a
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642899"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082847"
 ---
 # <a name="manage-predictions"></a>पूर्वानुमानों को प्रबंधित करें
 
@@ -53,7 +53,7 @@ ms.locfileid: "8642899"
 - **कदम:** मॉडल चरण, ट्रेन या स्कोर, जानकारी को संदर्भित करता है।
 - **राज्य:** जानकारी की गंभीरता (त्रुटि, चेतावनी, अनुशंसा)।
 - **आम नाम:** एक इकाई में कॉलम जिसे मॉडल के प्रदर्शन को बेहतर बनाने के लिए संशोधित करने की आवश्यकता है।
-- **इकाई नाम:** उस इकाई का नाम जिसे मॉडल के प्रदर्शन में सुधार के लिए संशोधित करने की आवश्यकता है।
+- **इकाई नाम:** उस इकाई का नाम जिसे मॉडल के प्रदर्शन को बेहतर बनाने के लिए संशोधित करने की आवश्यकता है।
 - **विवरण:** त्रुटि, चेतावनी या अनुशंसा के बारे में विवरण।
 
 ## <a name="refresh-a-prediction"></a>एक पूर्वानुमान को रिफ्रेश करें

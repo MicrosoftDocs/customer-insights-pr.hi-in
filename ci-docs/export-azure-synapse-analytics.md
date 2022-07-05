@@ -1,21 +1,21 @@
 ---
-title: Customer Insights डेटा निर्यात करें Azure Synapse Analytics
+title: डेटा निर्यात करें Azure Synapse Analytics (पूर्व दर्शन)
 description: से कनेक्शन कॉन्फ़िगर करने का तरीका जानें Azure Synapse Analytics.
-ms.date: 04/11/2022
+ms.date: 06/29/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 772fe0978362ccd829077a8133e2a3e74043f3f8
-ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
+ms.openlocfilehash: 60bacb313e0426564310f3c1339bf3b732e17489
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741505"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082868"
 ---
-# <a name="export-data-to-azure-synapse-analytics-preview"></a>डेटा निर्यात करें Azure Synapse Analytics (पूर्वावलोकन)
+# <a name="export-data-to-azure-synapse-analytics-preview"></a>डेटा निर्यात करें Azure Synapse Analytics (पूर्व दर्शन)
 
 Azure Synapse विश्लेषण सेवा है, जो डेटा वेयरहाउस और बड़े डेटा सिस्टम में इनसाइट के लिए समय की गति को बढ़ाती है. आप [Azure Synapse](/azure/synapse-analytics/overview-what-is) में अपने Customer Insights डेटा को अंतर्ग्रहित करके उसका उपयोग कर सकते हैं.
 
@@ -48,7 +48,7 @@ Azure में:
 
 ### <a name="configure-a-connection"></a>एक कनेक्शन कॉन्फ़िगर करें
 
-कनेक्शन बनाने के लिए, Customer Insights में सेवा प्रिंसिपल और उपयोगकर्ता खाते की आवश्यकता होती है **रीडर** पर अनुमतियाँ *संसाधन समूह* जहां Synapse Analytics कार्यक्षेत्र स्थित है। इसके अतिरिक्त, सेवा प्रिंसिपल और Synapse Analytics कार्यस्थान पर उपयोगकर्ता की आवश्यकता है **सिनैप्स एडमिनिस्ट्रेटर** अनुमतियाँ। 
+कनेक्शन बनाने के लिए, Customer Insights में सेवा प्रिंसिपल और उपयोगकर्ता खाते की आवश्यकता होती है **रीडर** पर अनुमतियाँ *संसाधन समूह* जहां Synapse Analytics कार्यक्षेत्र स्थित है। इसके अतिरिक्त, Synapse Analytics कार्यस्थान पर सेवा प्रिंसिपल और उपयोगकर्ता की आवश्यकता है **सिनैप्स एडमिनिस्ट्रेटर** अनुमतियाँ। 
 
 1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
@@ -72,13 +72,13 @@ Azure में:
 
 1. में **निर्यात के लिए कनेक्शन** फ़ील्ड, से एक कनेक्शन चुनें **Azure Synapse Analytics** खंड। यदि आप इस अनुभाग का नाम नहीं देखते हैं, तो आपके लिए इस प्रकार का कोई [कनेक्शन](connections.md) उपलब्ध नहीं है.
 
-1. अपने निर्यात के लिए एक पहचानने योग्य **प्रदर्शन नाम** और एक **डेटाबेस नाम** प्रदान करें.
+1. अपने निर्यात के लिए एक पहचानने योग्य **प्रदर्शन नाम** और एक **डेटाबेस नाम** प्रदान करें. निर्यात एक नया बना देगा[Azure Synapse झील डेटाबेस](/azure/synapse-analytics/database-designer/concepts-lake-database) कनेक्शन में परिभाषित कार्यक्षेत्र में।
 
 1. चुनें कि आप किन इकाइयों को निर्यात करना चाहते हैं Azure Synapse Analytics.
    > [!NOTE]
    > [Common Data Model फ़ोल्डर](connect-common-data-model.md) पर आधारित डेटा स्रोत समर्थित नहीं हैं.
 
-2. **सहेजें** चुनें.
+1. **सहेजें** चुनें.
 
 निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है.
 

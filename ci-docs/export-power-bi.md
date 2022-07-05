@@ -1,5 +1,5 @@
 ---
-title: Power BI कनेक्टर
+title: Power BI कनेक्टर (पूर्वावलोकन)
 description: Power BI में Dynamics 365 Customer Insights कनेक्टर का उपयोग करना सीखें.
 ms.date: 07/23/2021
 ms.reviewer: mhart
@@ -8,16 +8,16 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: e901114703a43b4b4e751e0a93eb4876d7636c00
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 72daf6d4ef3b6afb8049c622b57e7ec44762fb21
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642794"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9051271"
 ---
-# <a name="connector-for-power-bi-preview"></a>Power BI के लिए कनेक्टर (पूर्वावलोकन)
+# <a name="power-bi-connector-preview"></a>Power BI कनेक्टर (पूर्वावलोकन)
 
-Power BI Desktop के साथ अपने डेटा के लिए विज़ुअलाइज़ेशन बनाएं. अतिरिक्त इनसाइट्स उत्पन्न करें और अपने एकीकृत ग्राहक डेटा के साथ रिपोर्ट बनाएं.
+के साथ अपने डेटा के लिए विज़ुअलाइज़ेशन बनाएं Microsoft Power BI डेस्कटॉप। अतिरिक्त इनसाइट्स उत्पन्न करें और अपने एकीकृत ग्राहक डेटा के साथ रिपोर्ट बनाएं.
 
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
@@ -56,7 +56,7 @@ Power BI के लिए Customer Insights कनेक्टर को उन 
 
 ### <a name="customer-insights-environment-doesnt-show-in-power-bi"></a>Power BI में Customer Insights परिवेश नहीं दिखता है
 
-ऐसे वातावरण जिनमें एक से अधिक हैं [संबंध](relationships.md) Customer Insights में दो समान संस्थाओं के बीच परिभाषित में उपलब्ध नहीं होगाPower BI कनेक्टर।
+ऐसे वातावरण जिनमें एक से अधिक हैं [रिश्ता](relationships.md) Customer Insights में दो समान संस्थाओं के बीच परिभाषित में उपलब्ध नहीं होगाPower BI कनेक्टर।
 
 आप डुप्लिकेट किए गए संबंधों को पहचान सकते हैं और निकाल सकते हैं.
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Advertising को Customer Insights डेटा निर्यात करें
+title: Microsoft Advertising को सेगमेंट निर्यात करें (पूर्वावलोकन)
 description: कनेक्शन को कॉन्फ़िगर करने और Microsoft Advertising को निर्यात करने का तरीका जानें.
 ms.date: 10/08/2021
 ms.reviewer: mhart
@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 14479e915dd6ae76e018b59bee5980a600bb222d
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: ca37159ec6473ad5c331a0ce1aa8424d277529ff
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642924"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082805"
 ---
 # <a name="export-segments-to-microsoft-advertising-preview"></a>Microsoft Advertising को सेगमेंट निर्यात करें (पूर्वावलोकन)
 

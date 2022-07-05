@@ -21,14 +21,14 @@ searchScope:
 - ci-measure-template
 - ci-permissions
 - customerInsights
-ms.openlocfilehash: a7b10d985d5cba64b25595a3d7c101d6cb5c62a5
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 5477798a8b9e0771d390e403379b7447eb7baddd
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642869"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082574"
 ---
-# <a name="relationships-between-entities"></a>निकाय के बीच संबंध
+# <a name="relationships-between-entities-and-entity-paths"></a>निकायों और निकाय पथों के बीच संबंध
 
 संबंध निकायों को कनेक्ट करते हैं और जब निकाय एक समान पहचानकर्ता, एक विदेशी कुंजी को साझा करते हैं, तो आपके डेटा का एक ग्राफ़ परिभाषित करते हैं. इस विदेशी कुंजी को एक निकाय से दूसरी निकाय में संदर्भित किया जा सकता है. कनेक्ट किए गए निकाय एक से अधिक डेटा स्रोतों के आधार पर अनुभागों और उपाय परिभाषित करते हैं.
 

@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Marketing के लिए Customer Insights डेटा निर्यात करें
+title: डायनेमिक्स 365 मार्केटिंग में निर्यात खंड (पूर्वावलोकन)
 description: कनेक्शन को कॉन्फ़िगर करने और Dynamics 365 Marketing को निर्यात करने का तरीका जानें.
 ms.date: 08/24/2021
 ms.reviewer: mhart
@@ -11,20 +11,18 @@ manager: shellyha
 searchScope:
 - ci-export
 - customerInsights
-ms.openlocfilehash: 7227f3f9e7699a9b5ad546789de5e568b56da579
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: fed4ae1b017cca2b6060c4dda155859cd77e0daf
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642447"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9054618"
 ---
-# <a name="use-segments-in-dynamics-365-marketing-preview"></a>Dynamics 365 Marketing (पूर्वावलोकन) में सेगमेंट का उपयोग करें
-
-
+# <a name="export-segments-to-dynamics-365-marketing-preview"></a>डायनेमिक्स 365 मार्केटिंग में निर्यात खंड (पूर्वावलोकन)
 
 अभियान उत्पन्न करने और Dynamics 365 Marketing वाले ग्राहकों के विशिष्ट समूहों से संपर्क करने के लिए [सेगमेंट](segments.md) का उपयोग करें. अधिक जानकारी के लिए, देखें [Dynamics 365 Customer Insights से Dynamics 365 Marketing का उपयोग करें](/dynamics365/marketing/customer-insights-segments).
 
-यदि आप Dataverse संगठन में रीयल-टाइम ग्राहक यात्रा ऑर्केस्ट्रेशन के लिए Dynamics 365 Marketing की नई क्षमताओं का उपयोग कर रहे हैं, तो आपको Dynamics 365 Marketing के लिए मानक निर्यात बनाने की आवश्यकता नहीं है. Customer Insights के संपर्क और सेगमेंट मार्केटिंग और Customer Insights को जोड़ने के बाद सीधे Dynamics 365 Marketing में उपलब्ध हैं। मौजूदा निर्यात को हटाने से पहले, दस्तावेज़ीकरण की समीक्षा करें [Customer Insights और Dynamics 365 Marketing ग्राहक यात्रा ऑर्केस्ट्रेशन को कैसे कनेक्ट करें।](/dynamics365/marketing/real-time-marketing-ci-profile)
+यदि आप Dataverse संगठन में रीयल-टाइम ग्राहक यात्रा ऑर्केस्ट्रेशन के लिए Dynamics 365 Marketing की नई क्षमताओं का उपयोग कर रहे हैं, तो आपको Dynamics 365 Marketing के लिए मानक निर्यात बनाने की आवश्यकता नहीं है. Customer Insights के संपर्क और सेगमेंट मार्केटिंग और Customer Insights को जोड़ने के बाद सीधे Dynamics 365 Marketing में उपलब्ध हैं। मौजूदा निर्यातों को हटाने से पहले, इस पर दस्तावेज़ीकरण की समीक्षा करें [Customer Insights और Dynamics 365 Marketing ग्राहक यात्रा ऑर्केस्ट्रेशन को कैसे कनेक्ट करें।](/dynamics365/marketing/real-time-marketing-ci-profile)
 
 ## <a name="prerequisite-for-a-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 

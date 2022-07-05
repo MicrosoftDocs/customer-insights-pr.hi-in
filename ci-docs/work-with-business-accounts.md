@@ -1,6 +1,6 @@
 ---
-title: व्यावसायिक खातों के साथ प्राथमिक लक्षित ऑडियंस के रूप में शुरुआत करें
-description: व्यावसायिक खातों के बारे में प्राथमिक लक्षित ऑडियंस Dynamics 365 Customer Insights के रूप में जानें.
+title: व्यावसायिक खातों के साथ काम करें
+description: में व्यावसायिक खातों के बारे में प्राथमिक लक्ष्य ऑडिएंस के रूप में जानें Dynamics 365 Customer Insights.
 ms.date: 10/19/2021
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -13,12 +13,12 @@ searchScope:
 - ci-semantic-mapping
 - ci-connections
 - customerInsights
-ms.openlocfilehash: f16c8ad50ed290562fa9f223a3e8c86228e5331e
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 9bf91671b744198b2f37391edc7abf58eca3c820
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642727"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9053115"
 ---
 # <a name="work-with-business-accounts"></a>व्यावसायिक खातों के साथ काम करें
 

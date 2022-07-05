@@ -1,5 +1,5 @@
 ---
-title: SFTP कस्टम आयात के साथ एनरिचमेंट
+title: एसएफ़टीपी कस्टम आयात (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल को समृद्ध करें
 description: SFTP कस्टम आयात एनरिचमेंट के बारे में सामान्य जानकारी.
 ms.date: 06/10/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 657afb6fcb68429680eb677734b4115e69769008
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: 88fc366ab9478c3b67034af794e237ff4573da7c
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8953721"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082322"
 ---
-# <a name="enrich-customer-profiles-with-custom-data-preview"></a>कस्टम डेटा (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल को समृद्ध करें
+# <a name="enrich-customer-profiles-with-sftp-custom-import-preview"></a>एसएफ़टीपी कस्टम आयात (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल को समृद्ध करें
 
 सेक्योर फ़ाइल ट्रांसफर प्रोटोकॉल (SFTP) कस्टम आयात आपको डेटा आयात करने में सक्षम बनाता है जिसे डेटा एकीकरण की प्रक्रिया से गुजरना नहीं पड़ता है. यह आपके डेटा को लाने का एक लचीला, सुरक्षित और आसान तरीका है. SFTP कस्टम आयात का उपयोग [SFTP निर्यात](export-sftp.md) के संयोजन में किया जा सकता है जो आपको समृद्धता के लिए आवश्यक ग्राहक प्रोफ़ाइल डेटा का निर्यात करने देता है. तब डेटा को संसाधित और समृद्ध किया जा सकता है, और समृद्ध डेटा को वापस लाने के लिए SFTP कस्टम आयात का उपयोग किया जा सकता है।Dynamics 365 Customer Insights
 
@@ -120,7 +120,7 @@ SFTP सर्वर पर आयात की जाने वाली फ़
 
 1. चुनना**दौड़ना** संवर्धन प्रक्रिया शुरू करने के लिए या वापस लौटने के करीब **संवर्धन** पृष्ठ।
 
-## <a name="enrichment-results"></a>संवर्धन के परिणाम
+## <a name="view-enrichment-results"></a>संवर्धन परिणाम देखें
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)]
 

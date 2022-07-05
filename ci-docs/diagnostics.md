@@ -1,5 +1,5 @@
 ---
-title: अंकेक्षण Dynamics 365 Customer Insights Azure मॉनिटर के साथ
+title: लॉग इन अग्रेषण Dynamics 365 Customer Insights Azure मॉनिटर के साथ (पूर्वावलोकन)
 description: यहां लॉग भेजने का तरीका जानें Microsoft Azure निगरानी करना।
 ms.date: 12/14/2021
 ms.reviewer: mhart
@@ -11,16 +11,16 @@ manager: shellyha
 searchScope:
 - ci-system-diagnostic
 - customerInsights
-ms.openlocfilehash: 15ae772617efa4c64cf79d0bac10a0c3cb28ca30
-ms.sourcegitcommit: a92bf5985263240fd07bad98d8e119b88cf2c9d9
+ms.openlocfilehash: 8c72df7054a682244215bbee54968d6aef4bbf59
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8807583"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9052655"
 ---
 # <a name="log-forwarding-in-dynamics-365-customer-insights-with-azure-monitor-preview"></a>लॉग इन अग्रेषण Dynamics 365 Customer Insights Azure मॉनिटर के साथ (पूर्वावलोकन)
 
-Dynamics 365 Customer Insights Azure मॉनिटर के साथ एक सीधा एकीकरण प्रदान करता है। Azure मॉनिटर संसाधन लॉग आपको मॉनिटर करने और लॉग भेजने की सुविधा देता है [एज़्योर स्टोरेज](https://azure.microsoft.com/services/storage/),[Azure लॉग एनालिटिक्स](/azure/azure-monitor/logs/log-analytics-overview), या उन्हें स्ट्रीम करें [नीला इवेंट हब](https://azure.microsoft.com/services/event-hubs/).
+Dynamics 365 Customer Insights Azure मॉनिटर के साथ एक सीधा एकीकरण प्रदान करता है। Azure मॉनिटर संसाधन लॉग आपको मॉनिटर करने और लॉग भेजने की सुविधा देता है [एज़्योर स्टोरेज](https://azure.microsoft.com/services/storage/),[Azure लॉग एनालिटिक्स](/azure/azure-monitor/logs/log-analytics-overview), या उन्हें स्ट्रीम करें [अज़ूर इवेंट हब](https://azure.microsoft.com/services/event-hubs/).
 
 Customer Insights निम्न इवेंट लॉग भेजता है:
 
@@ -241,9 +241,9 @@ API ईवेंट और वर्कफ़्लो ईवेंट में
 | `properties.submittedTimestamp`              | हां      | हां  | यूटीसी टाइमस्टैम्प`yyyy-MM-ddThh:mm:ss.SSSSSZ`                                                                                                                                                                                                                  |
 | `properties.instanceId`                      | हां      | हां  | ग्राहकों की अंतर्दृष्टि`instanceId`                                                                                                                                                                                                                              |  
 | `properties.identifier`                      | No       | हां  | - ऑपरेशन टाइप के लिए =`Export`, पहचानकर्ता निर्यात कॉन्फ़िगरेशन का मार्गदर्शक है। <br> - ऑपरेशन टाइप के लिए =`Enrichment`, यह संवर्धन की मार्गदर्शिका है <br> - ऑपरेशन टाइप के लिए`Measures` तथा`Segmentation`, पहचानकर्ता इकाई का नाम है। |
-| `properties.friendlyName`                    | No       | हां  | निर्यात या संसाधित होने वाली इकाई का उपयोगकर्ता के अनुकूल नाम।                                                                                                                                                                                           |
+| `properties.friendlyName`                    | No       | हां  | निर्यात या संसाधित की जाने वाली इकाई का उपयोगकर्ता के अनुकूल नाम।                                                                                                                                                                                           |
 | `properties.error`                           | No       | हां  | ऑप्शनल. अधिक विवरण के साथ त्रुटि संदेश।                                                                                                                                                                                                                  |
 | `properties.additionalInfo.Kind`             | No       | हां  | ऑप्शनल. ऑपरेशन टाइप के लिए`Export` केवल। निर्यात के प्रकार की पहचान करता है। अधिक जानकारी के लिए देखें [निर्यात स्थलों का अवलोकन](export-destinations.md).                                                                                          |
-| `properties.additionalInfo.AffectedEntities` | No       | हां  | ऑप्शनल. ऑपरेशन टाइप के लिए`Export` केवल। निर्यात में कॉन्फ़िगर किए गए निकायों की एक सूची शामिल है।                                                                                                                                                            |
+| `properties.additionalInfo.AffectedEntities` | No       | हां  | ऑप्शनल. ऑपरेशन टाइप के लिए`Export` केवल। निर्यात में कॉन्फ़िगर की गई संस्थाओं की एक सूची शामिल है।                                                                                                                                                            |
 | `properties.additionalInfo.MessageCode`      | No       | हां  | ऑप्शनल. ऑपरेशन टाइप के लिए`Export` केवल। निर्यात के लिए विस्तृत संदेश।                                                                                                                                                                                 |
 | `properties.additionalInfo.entityCount`      | No       | हां  | ऑप्शनल. ऑपरेशन टाइप के लिए`Segmentation` केवल। खंड के सदस्यों की कुल संख्या को इंगित करता है।                                                                                                                                                    |

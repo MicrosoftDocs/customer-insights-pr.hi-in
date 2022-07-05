@@ -1,5 +1,5 @@
 ---
-title: Customer Insights डेटा को SFTP होस्ट में निर्यात करें (इसमें वीडियो शामिल है)
+title: एसएफ़टीपी होस्ट को डेटा निर्यात करें (पूर्वावलोकन) (वीडियो शामिल है)
 description: कनेक्शन को कॉन्फ़िगर करने और SFTP स्थान को निर्यात करने का तरीका जानें.
 ms.date: 06/09/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: b56d628c8286ba6697cccc9b002f609aa929951b
-ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
+ms.openlocfilehash: 67789a87cf0ff1b0d9933f2c0adde37762c83476
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/10/2022
-ms.locfileid: "8947186"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082763"
 ---
-# <a name="export-segments-and-other-data-to-sftp-preview"></a>अनुभागों और अन्य डेटा को SFTP (पूर्वावलोकन) में निर्यात करें
+# <a name="export-data-to-sftp-preview"></a>एसएफ़टीपी में डेटा निर्यात करें (पूर्वावलोकन)
 
 अपने ग्राहक डेटा का उपयोग तीसरे पक्ष के अनुप्रयोगों में सुरक्षित फ़ाइल ट्रांसफर प्रोटोकॉल (SFTP) लोकेशन पर निर्यात करके करें.
 

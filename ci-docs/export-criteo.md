@@ -1,5 +1,5 @@
 ---
-title: Customer Insights डेटा को क्रिटो में निर्यात करें
+title: सेगमेंट को क्रिटो में निर्यात करें (पूर्वावलोकन)
 description: कनेक्शन को कॉन्फ़िगर करने और क्रिटो को निर्यात करने का तरीका जानें।
 ms.date: 05/27/2022
 ms.reviewer: mhart
@@ -8,16 +8,16 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 854f5f0c53f053fc5d742d69a045db1926fec00c
-ms.sourcegitcommit: bf65bc0a54cdab71680e658e1617bee7b2c2bb68
+ms.openlocfilehash: ace9056d200a3179e442132004324a01f0d247b6
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808790"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082784"
 ---
 # <a name="export-segments-to-criteo-preview"></a>सेगमेंट को क्रिटो में निर्यात करें (पूर्वावलोकन)
 
-अभियान उत्पन्न करने, ईमेल विपणन प्रदान करने और क्रिटो के साथ ग्राहकों के विशिष्ट समूहों का उपयोग करने के लिए एकीकृत ग्राहक प्रोफाइल के निर्यात खंड।
+अभियान बनाने, ईमेल मार्केटिंग प्रदान करने और क्रिटो के साथ ग्राहकों के विशिष्ट समूहों का उपयोग करने के लिए एकीकृत ग्राहक प्रोफाइल के निर्यात खंड।
 
 ## <a name="prerequisites-for-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 

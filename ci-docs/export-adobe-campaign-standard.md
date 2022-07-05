@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign Standard में Customer Insights डेटा निर्यात करें
+title: Customer Insights सेगमेंट को यहां निर्यात करें Adobe अभियान मानक (पूर्वावलोकन)
 description: जानें कि Customer Insights सेगमेंट का उपयोग कैसे करें Adobe अभियान मानक।
 ms.date: 03/29/2021
 ms.reviewer: mhart
@@ -8,24 +8,24 @@ ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: 2a62d2f889f199222eeb8cc969fce62fa89fa6f0
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 9915591cd969bf825f5d1669de43ed4f9953f898
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642712"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082343"
 ---
-# <a name="use-customer-insights-segments-in-adobe-campaign-standard-preview"></a>Adobe Campaign Standard (पूर्वावलोकन) में Customer Insights सेगमेंट का उपयोग करें
+# <a name="export-customer-insights-segments-to-adobe-campaign-standard-preview"></a>Customer Insights सेगमेंट को यहां निर्यात करें Adobe अभियान मानक (पूर्वावलोकन)
 
-एक उपयोगकर्ता के रूप में Dynamics 365 Customer Insights, हो सकता है कि आपने प्रासंगिक ऑडियंस को लक्षित करके अपने मार्केटिंग अभियानों को अधिक कुशल बनाने के लिए सेगमेंट बनाए हों। Customer Insights से एक सेगमेंट का उपयोग करने के लिए Adobe Experience Platform और अनुप्रयोगों जैसे Adobe अभियान मानक, आपको इस लेख में उल्लिखित कुछ चरणों का पालन करना होगा।
+के एक उपयोगकर्ता के रूप में Dynamics 365 Customer Insights, आपने प्रासंगिक ऑडियंस को लक्षित करके अपने मार्केटिंग अभियानों को अधिक कुशल बनाने के लिए सेगमेंट बनाए होंगे। Customer Insights से एक सेगमेंट का उपयोग करने के लिए Adobe Experience Platform और अनुप्रयोगों जैसे Adobe अभियान मानक, आपको इस लेख में उल्लिखित कुछ चरणों का पालन करना होगा।
 
 :::image type="content" source="media/ACS-flow.png" alt-text="इस आलेख में उल्लिखित चरणों का प्रक्रिया आरेख":::
 
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
--   Dynamics 365 Customer Insights लाइसेंस
--   Adobe Campaign Standard लाइसेंस
--   Azure ब्लॉब स्टोरेज खाता
+- Dynamics 365 Customer Insights लाइसेंस
+- Adobe Campaign Standard लाइसेंस
+- Azure ब्लॉब स्टोरेज खाता
 
 ## <a name="campaign-overview"></a>अभियान पूर्वावलोकन
 
@@ -39,7 +39,7 @@ ms.locfileid: "8642712"
 
 हमारे परिदृश्य में, हम मानते हैं कि ग्राहकों के ईमेल पते उपलब्ध हैं और सेगमेंट के सदस्यों की पहचान करने के लिए उनकी प्रचार प्राथमिकताओं का विश्लेषण किया गया था।
 
-[Customer Insights में आपके द्वारा परिभाषित खंड](segments.md) कहा जाता है **चर्नप्रोन ग्राहक** और आप इन ग्राहकों को ईमेल प्रचार भेजने की योजना बना रहे हैं।
+[ग्राहक अंतर्दृष्टि में आपके द्वारा परिभाषित खंड](segments.md) कहा जाता है **चर्नप्रोन ग्राहक** और आप इन ग्राहकों को ईमेल प्रचार भेजने की योजना बना रहे हैं।
 
 :::image type="content" source="media/churn-prone-customers-segment.png" alt-text="ChurnProneCustomers सेगमेंट वाले सेगमेंट पेज का स्क्रीनशॉट बनाया गया है.":::
 
@@ -51,7 +51,7 @@ ms.locfileid: "8642712"
 
 हमारे लक्ष्य ऑडिएंस की पहचान के साथ, हम निर्यात को Azure Blob Storage खाते में कॉन्फ़िगर कर सकते हैं।
 
-1. Customer Insights में, यहाँ जाएँ **व्यवस्थापक** > **सम्बन्ध।**
+1. Customer Insights में, यहाँ जाएँ **व्यवस्थापक** > **सम्बन्ध**.
 
 1. **कनेक्शन जोड़ें** चुनें और कनेक्शन कॉन्फ़िगर करने के लिए **Adobe Campaign** चुनें या **Adobe Campaign** टाइल में **सेट अप** चुनें.
 
@@ -91,7 +91,7 @@ ms.locfileid: "8642712"
 
    :::image type="content" source="media/ACS-field-mapping.png" alt-text=" Adobe Campaign Standard कनेक्टर के लिए फ़ील्ड मैपिंग.":::
 
-   यदि आप अधिक विशेषताएं जोड़ना चाहते हैं, तो **विशेषता जोड़ें** चुनें. लक्ष्य नाम स्रोत फ़ील्ड नाम से भिन्न हो सकता है ताकि आप अभी भी Customer Insights से सेगमेंट आउटपुट को मैप कर सकें Adobe अभियान मानक यदि दोनों प्रणालियों में फ़ील्ड का नाम समान नहीं है।
+   यदि आप अधिक विशेषताएं जोड़ना चाहते हैं, तो **विशेषता जोड़ें** चुनें. लक्ष्य नाम स्रोत फ़ील्ड नाम से भिन्न हो सकता है ताकि आप अभी भी Customer Insights से सेगमेंट आउटपुट को इस पर मैप कर सकें Adobe अभियान मानक यदि दोनों प्रणालियों में फ़ील्ड का नाम समान नहीं है।
 
    > [!NOTE]
    > ईमेल पते का उपयोग पहचान फ़ील्ड के रूप में किया जाता है, लेकिन आप डेटा को मैप करने के लिए ग्राहक प्रोफ़ाइल से किसी अन्य पहचानकर्ता का उपयोग कर सकते हैं Adobe अभियान मानक।

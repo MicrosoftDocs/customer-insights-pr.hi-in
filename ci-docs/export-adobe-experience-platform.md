@@ -1,5 +1,5 @@
 ---
-title: Customer Insights डेटा निर्यात करें Adobe Experience Platform
+title: निर्यात खंड Adobe Experience Platform (पूर्व दर्शन)
 description: में Customer Insights सेगमेंट का उपयोग करना सीखें।Adobe Experience Platform
 ms.date: 03/29/2021
 ms.reviewer: mhart
@@ -8,16 +8,16 @@ ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: 42a4e0c6bce67a63b449a541299620ef2f4a3259
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: c29b8264019669ffd954a298ce3a633c852477fa
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642834"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9052513"
 ---
-# <a name="use-customer-insights-segments-in-adobe-experience-platform-preview"></a>Adobe Experience Platform (पूर्वावलोकन) में Customer Insights सेगमेंट का उपयोग करें
+# <a name="export-segments-to-adobe-experience-platform-preview"></a>निर्यात खंड Adobe Experience Platform (पूर्व दर्शन)
 
-के एक उपयोगकर्ता के रूप में Dynamics 365 Customer Insights, हो सकता है कि आपने प्रासंगिक ऑडियंस को लक्षित करके अपने मार्केटिंग अभियानों को अधिक कुशल बनाने के लिए सेगमेंट बनाए हों। Customer Insights से एक सेगमेंट का उपयोग करने के लिए Adobe Experience Platform और अनुप्रयोगों जैसे Adobe अभियान मानक, आपको इस लेख में उल्लिखित कुछ चरणों का पालन करना होगा।
+के एक उपयोगकर्ता के रूप में Dynamics 365 Customer Insights, आपने प्रासंगिक ऑडियंस को लक्षित करके अपने मार्केटिंग अभियानों को अधिक कुशल बनाने के लिए सेगमेंट बनाए होंगे। Customer Insights से एक सेगमेंट का उपयोग करने के लिए Adobe Experience Platform और अनुप्रयोगों जैसे Adobe अभियान मानक, आपको इस लेख में उल्लिखित कुछ चरणों का पालन करना होगा।
 
 :::image type="content" source="media/AEP-flow.png" alt-text="इस आलेख में उल्लिखित चरणों का प्रक्रिया आरेख.":::
 
@@ -40,7 +40,7 @@ ms.locfileid: "8642834"
 
 हमारे परिदृश्य में, हम मानते हैं कि ग्राहकों के ईमेल पते Customer Insights में उपलब्ध हैं और खंड के सदस्यों की पहचान करने के लिए उनकी प्रचार प्राथमिकताओं का विश्लेषण किया गया था।
 
-[Customer Insights में आपके द्वारा परिभाषित खंड](segments.md) कहा जाता है **चर्नप्रोन ग्राहक** और आप इन ग्राहकों को ईमेल प्रचार भेजने की योजना बना रहे हैं।
+[ग्राहक अंतर्दृष्टि में आपके द्वारा परिभाषित खंड](segments.md) कहा जाता है **चर्नप्रोन ग्राहक** और आप इन ग्राहकों को ईमेल प्रचार भेजने की योजना बना रहे हैं।
 
 :::image type="content" source="media/churn-prone-customers-segment.png" alt-text="ChurnProneCustomers सेगमेंट वाले सेगमेंट पेज का स्क्रीनशॉट बनाया गया है.":::
 
@@ -106,13 +106,13 @@ ms.locfileid: "8642834"
 
 ## <a name="define-experience-data-model-xdm-in-adobe-experience-platform"></a>Adobe Experience Platform में अनुभव डेटा मॉडल (XDM) को परिभाषित करें
 
-Customer Insights से निर्यात किए गए डेटा का उपयोग करने से पहले Adobe Experience Platform, हमें अनुभव डेटा मॉडल स्कीमा को परिभाषित करने की आवश्यकता है और [रीयल-टाइम ग्राहक प्रोफ़ाइल के लिए डेटा कॉन्फ़िगर करें](https://experienceleague.adobe.com/docs/experience-platform/profile/tutorials/dataset-configuration.html#tutorials).
+Customer Insights से निर्यात किए गए डेटा का उपयोग करने से पहले Adobe Experience Platform, हमें अनुभव डेटा मॉडल स्कीमा को परिभाषित करने की आवश्यकता है और [रीयल-टाइम ग्राहक प्रोफ़ाइल के लिए डेटा कॉन्फ़िगर करें।](https://experienceleague.adobe.com/docs/experience-platform/profile/tutorials/dataset-configuration.html#tutorials)
 
 [XDM क्या है](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) जानें और [स्कीमा संरचना की मूल बातें](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schema) को समझें.
 
 ## <a name="import-data-into-adobe-experience-platform"></a>Adobe Experience Platform में डेटा आयात करें
 
-अब जबकि सब कुछ ठीक हो गया है, हमें Customer Insights से तैयार ऑडिएंस डेटा आयात करने की आवश्यकता है Adobe Experience Platform.
+अब जबकि सब कुछ ठीक हो गया है, हमें Customer Insights से तैयार ऑडिएंस डेटा कोAdobe Experience Platform.
 
 सबसे पहले, [एक Azure ब्लॉब स्टोरेज स्रोत कनेक्शन बनाएं](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/blob.html#getting-started).    
 

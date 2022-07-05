@@ -1,5 +1,5 @@
 ---
-title: कंपनी डेटा एन्हांसमेंट
+title: कंपनी के उन्नत डेटा के साथ कंपनी प्रोफाइल को समृद्ध करें
 description: Microsoft के मॉडल के साथ कंपनी डेटा को समृद्ध और सामान्य करें।
 ms.date: 06/10/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 4247d59806468907d93fc7848231ec5a2985580e
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: 131ef3d1e123628779609ddec368cfef8f4d607e
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8953951"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9054250"
 ---
-# <a name="enrichment-of-company-profiles-with-enhanced-company-data"></a>उन्नत कंपनी डेटा के साथ कंपनी प्रोफाइल का संवर्धन
+# <a name="enrich-company-profiles-with-enhanced-company-data"></a>कंपनी के उन्नत डेटा के साथ कंपनी प्रोफाइल को समृद्ध करें
 
 अपनी कंपनी प्रोफाइल को सही, पूरक और मानकीकृत करने के लिए Microsoft के मॉडल और संकलित कंपनी डेटा का उपयोग करें। हम का उपयोग करेंगे [सामान्य डेटा मॉडल प्रारूप](/common-data-model/schema/core/applicationcommon/account) बेहतर सटीकता और अंतर्दृष्टि के लिए।
 
@@ -84,7 +84,7 @@ Microsft
 
 1. चुनना**दौड़ना** संवर्धन प्रक्रिया शुरू करने के लिए या वापस लौटने के करीब **संवर्धन** पृष्ठ।
 
-## <a name="enrichment-results"></a>संवर्धन के परिणाम
+## <a name="view-enrichment-results"></a>संवर्धन परिणाम देखें
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)]
 

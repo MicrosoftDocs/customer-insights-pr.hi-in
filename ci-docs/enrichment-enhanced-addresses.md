@@ -1,5 +1,5 @@
 ---
-title: पता वृद्धि संवर्धन (वीडियो शामिल है)
+title: उन्नत पतों के साथ ग्राहक प्रोफ़ाइल को समृद्ध करें (वीडियो शामिल है)
 description: Microsoft के मॉडल के साथ ग्राहक प्रोफ़ाइल की पता जानकारी को समृद्ध और सामान्य करें.
 ms.date: 06/10/2022
 ms.reviewer: mhart
@@ -14,14 +14,14 @@ searchScope:
 - ci-enrichments
 - ci-enrichment-wizard
 - customerInsights
-ms.openlocfilehash: f6279b9bb721d99d66f73e8dc839a92f1ad90140
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: 01f1c917c75e932cc69f4c7251e57524fc859dce
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8953813"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082070"
 ---
-# <a name="enrichment-of-customer-profiles-with-enhanced-addresses"></a>उन्नत पतों के साथ ग्राहक प्रोफाइल का संवर्धन
+# <a name="enrich-customer-profiles-with-enhanced-addresses"></a>उन्नत पतों के साथ ग्राहक प्रोफाइल को समृद्ध करें
 
 आपके डेटा में पते असंरचित, अपूर्ण या गलत हो सकते हैं. बेहतर सटीकता और इनसाइट के लिए अपने पते को [सामान्य डेटा मॉडल प्रारूप](/common-data-model/schema/core/applicationcommon/address) में सामान्य और समृद्ध करने के लिए Microsoft के मॉडल का उपयोग करें.
 
@@ -101,7 +101,7 @@ ms.locfileid: "8953813"
 
 1. अपने विकल्पों की समीक्षा करने के बाद **संवर्धन सहेजें** चुनें.
 
-## <a name="enrichment-results"></a>संवर्धन के परिणाम
+## <a name="view-enrichment-results"></a>संवर्धन परिणाम देखें
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)]
 

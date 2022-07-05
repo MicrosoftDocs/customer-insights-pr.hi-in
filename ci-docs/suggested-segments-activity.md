@@ -1,5 +1,5 @@
 ---
-title: गतिविधि के आधार पर सुझाए गए अनुभाग.
+title: गतिविधि के आधार पर सुझाए गए सेगमेंट (पूर्वावलोकन)
 description: ग्राहक गतिविधि के आधार पर मशीन लर्निंग को नए और दिलचस्प अनुभाग खोजने में आपकी मदद करने दें.
 ms.date: 05/11/2021
 ms.reviewer: mhart
@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-segment-suggestions
 - customerInsights
-ms.openlocfilehash: 85c3cef3a8d531b31b64a7e5decbdc122c4383fc
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: e98aea3b3f3a2c4788346deab1b7ad7d1167110d
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642746"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9054342"
 ---
 # <a name="suggested-segments-based-on-activity-data-preview"></a>गतिविधि डेटा के आधार पर सुझाए गए अनुभाग (पूर्वावलोकन)
 

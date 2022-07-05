@@ -1,5 +1,5 @@
 ---
-title: डेटा स्रोत संवर्धन
+title: डेटा स्रोतों के लिए संवर्धन (पूर्वावलोकन)
 description: डेटा एकीकरण प्रक्रिया से गुजरने से पहले डेटा स्रोतों को समृद्ध करें।
 ms.date: 05/20/2022
 ms.subservice: audience-insights
@@ -8,12 +8,12 @@ author: NimrodMagen
 ms.author: nimagen
 ms.reviewer: v-wendysmith
 manager: shellyha
-ms.openlocfilehash: b34b83d7a73dbdf21984f626174524188f0f1dc1
-ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
+ms.openlocfilehash: fb97b721cc82ccd23cfd1df74a0712b8fc277b8a
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "9011475"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082112"
 ---
 # <a name="enrichment-for-data-sources-preview"></a>डेटा स्रोतों के लिए संवर्धन (पूर्वावलोकन)
 
@@ -43,7 +43,7 @@ ms.locfileid: "9011475"
 
 - [संवर्धित पते](enrichment-enhanced-addresses.md)
 - [परिष्कृत कंपनी डेटा](enrichment-enhanced-company-data.md)
-- [LiveRamp . से पहचान डेटा](enrichment-liveramp.md)
+- [LiveRamp से पहचान डेटा](enrichment-liveramp.md)
 
 ## <a name="manage-existing-data-source-enrichments"></a>मौजूदा डेटा स्रोत संवर्धन प्रबंधित करें
 

@@ -80,7 +80,7 @@
       href: data-unification-update.md
 - name: डेटा संवर्धन
   items:
-    - name: ग्राहक प्रोफ़ाइलें को बेहतर करें
+    - name: डेटा संवर्धन अवलोकन
       href: enrichment-hub.md
     - name: से खाते Office 365 जानकारी
       href: enrichment-office.md
@@ -112,7 +112,7 @@
       href: search-filter-index.md
     - name: ग्राहक गतिविधियों को परिभाषित करें
       href: activities.md
-    - name: Customer Insights के लिए सहमति प्रबंधन
+    - name: सहमति प्रबंधन का उपयोग करें
       href: consent-management.md
 - name: सेगमेंट
   items:
@@ -212,6 +212,8 @@
           href: export-facebook.md
         - name: Google Ads
           href: export-google-ads.md
+        - name: InMobi
+          href: export-inmobi.md
         - name: चलने योग्य
           href: export-iterable.md
         - name: Klaviyo

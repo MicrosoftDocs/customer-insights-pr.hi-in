@@ -6,14 +6,14 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 4cc3cbde97d0f9da198652e86c0843476393b646
-ms.sourcegitcommit: f5af5613afd9c3f2f0695e2d62d225f0b504f033
+ms.openlocfilehash: 99ec463299a24ea81cfe26bb785e36bdefdcd080
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "8833310"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9054434"
 ---
-# <a name="work-with-unified-customer-profiles-in-dynamics-365-marketing"></a>Dynamics 365 Marketing में एकीकृत ग्राहक प्रोफ़ाइल के साथ कार्य करें
+# <a name="use-unified-customer-profiles-in-dynamics-365-marketing"></a>Dynamics 365 Marketing में एकीकृत ग्राहक प्रोफ़ाइल का उपयोग करें
 
 [डायनेमिक्स 365 मार्केटिंग](/dynamics365/marketing/overview) ग्राहकों के अनुभवों को बढ़ाता है, जिससे आप संबंध को मजबूत करने और वफादारी अर्जित करने के लिए सभी टचपॉइंट पर वैयक्तिकृत यात्राओं को व्यवस्थित कर सकते हैं। Dynamics 365 Marketing ऐप, Dynamics 365 Sales के साथ निर्बाध रूप से काम करता है,Dynamics 365 Customer Insights,Microsoft Teams, और अन्य उत्पाद और आपको डेटा और AI की शक्ति का उपयोग करके तेज़ और बेहतर निर्णय लेने की अनुमति देता है।
 

@@ -11,14 +11,14 @@ manager: shellyha
 searchScope:
 - ci-measure-builder
 - customerInsights
-ms.openlocfilehash: d003d054145343cc2feeefeeee413810df43185a
-ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
+ms.openlocfilehash: f3ec86806074a12c1107648303ed2d65e97ebc69
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8800328"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9083015"
 ---
-# <a name="use-measure-builder-to-create-measures-from-scratch"></a>खरोंच से उपाय बनाने के लिए माप निर्माता का उपयोग करें
+# <a name="create-new-measures-with-the-measure-builder"></a>माप निर्माता के साथ नए उपाय बनाएं
 
 यह लेख बताता है कि नया कैसे बनाया जाता है [मापना](measures.md) शुरुवात से। माप निर्माता आपको गणित ऑपरेटरों, एकत्रीकरण कार्यों और फ़िल्टर का उपयोग करके गणनाओं को परिभाषित करने देता है। आप एकीकृत से संबंधित निकायों की विशेषताओं के साथ एक माप बना सकते हैं *ग्राहक* कंपनी।
 

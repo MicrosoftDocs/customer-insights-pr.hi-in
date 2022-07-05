@@ -1,5 +1,5 @@
 ---
-title: से डेटा के साथ ग्राहक प्रोफाइल को समृद्ध करें Microsoft Office 365
+title: से डेटा के साथ ग्राहक प्रोफाइल को समृद्ध करें Microsoft Office 365 (पूर्व दर्शन)
 description: से मालिकाना डेटा का उपयोग करें Microsoft Office सगाई डेटा के साथ अपने ग्राहक प्रोफाइल को समृद्ध करने के लिए।
 ms.date: 06/10/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: jodahl
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 7192b7680e73a581dd603de174c57b20bec996dd
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: 75762afb70814c8a81c1574ee7ea1553a2048737
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954135"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9055676"
 ---
-# <a name="enrich-customer-profiles-with-engagement-data-preview"></a>सहभागिता डेटा के साथ ग्राहक प्रोफ़ाइल को समृद्ध करें (पूर्वावलोकन)
+# <a name="enrich-customer-profiles-with-data-from-microsoft-office-365-preview"></a>से डेटा के साथ ग्राहक प्रोफाइल को समृद्ध करें Microsoft Office 365 (पूर्व दर्शन)
 
 से डेटा का उपयोग करें Microsoft Office 365 के माध्यम से जुड़ाव के बारे में अंतर्दृष्टि के साथ अपने ग्राहक खाता प्रोफाइल को समृद्ध करने के लिए Office 365 ऐप्स। सहभागिता डेटा में ईमेल और मीटिंग गतिविधि शामिल होती है, जिसे खाता स्तर पर एकत्रित किया जाता है। उदाहरण के लिए, किसी व्यवसाय खाते से ईमेल की संख्या या खाते के साथ मीटिंग की संख्या। व्यक्तिगत उपयोगकर्ताओं के बारे में कोई डेटा उपलब्ध नहीं कराया गया है।
 
@@ -69,13 +69,13 @@ ms.locfileid: "8954135"
 
 आपके Office डेटा के आकार के आधार पर, किसी संवर्धन को पूरा होने में कई घंटे लग सकते हैं।
 
-जब आप कोई संवर्धन चलाते हैं, तो Microsoft डेटा को संसाधित करेगाOffice 365 समेकित अंतर्दृष्टि बनाने के लिए अनुपालन सीमा, जिसे बाद में आपके Customer Insights परिवेश में जोड़ दिया जाता है। Customer Insights के उपयोगकर्ताओं के लिए व्यक्तिगत स्तर पर कोई डेटा (उदाहरण के लिए, किसी ई-मेल या कैलेंडर आमंत्रण का मुख्य भाग) उपलब्ध नहीं होता है।
+जब आप कोई संवर्धन चलाते हैं, तो Microsoft डेटा को संसाधित करेगाOffice 365 समेकित अंतर्दृष्टि बनाने के लिए अनुपालन सीमा, जिसे बाद में आपके Customer Insights परिवेश में जोड़ा जाता है। Customer Insights के उपयोगकर्ताओं के लिए व्यक्तिगत स्तर पर कोई डेटा (उदाहरण के लिए, किसी ई-मेल या कैलेंडर आमंत्रण का मुख्य भाग) उपलब्ध नहीं होता है।
 
 चुनना**दौड़ना** संवर्धन प्रक्रिया शुरू करने के लिए।
 
 [!INCLUDE [progress-details-pane](includes/progress-details-pane.md)]
 
-## <a name="enrichment-results"></a>संवर्धन के परिणाम
+## <a name="view-enrichment-results"></a>संवर्धन परिणाम देखें
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)] यह है *कार्यालय* कंपनी। *Office_UserEntity* संवर्धन कॉन्फ़िगरेशन के दौरान चुने गए ईमेल पतों के लिए सक्रिय निर्देशिका आईडी शामिल हैं।
 
@@ -91,7 +91,7 @@ ms.locfileid: "8954135"
 | खाते द्वारा शुरू की गई बैठकों की संख्या                                           |  NoOfMeetings_FromAccount                |
 | आपके संगठन द्वारा शुरू की गई बैठकों की संख्या                                 |  NoOfMeetings_ToAccount                  |
 | खाते के साथ मीटिंग में आपके संगठन के लोगों की संख्या                  |  NoOfContactsशामिल_मीटिंग           |
-| खाते के साथ ईमेल बातचीत में आपके संगठन के लोगों की संख्या       |  NoOfContactsInvolved_Emails             |
+| खाते के साथ ईमेल बातचीत में आपके संगठन के लोगों की संख्या       |  NoOfContactsशामिल_ईमेल             |
 | आपके संगठन के साथ मीटिंग में खाते से लोगों की संख्या                  |  NoOfAccountContactsशामिल_मीटिंग    |
 | आपके संगठन के साथ ईमेल वार्तालाप में खाते के लोगों की संख्या       |  NoOfAccountContactsशामिल_ईमेल      |
 | सगाई शुरू होने की तारीख (डेटा में पहली ईमेल या मीटिंग)                        |  सगाई की आरंभ तिथि                     |

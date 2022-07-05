@@ -1,5 +1,5 @@
 ---
-title: Customer Insights डेटा को Iterable में निर्यात करें
+title: सेगमेंट को Iterable में निर्यात करें (पूर्वावलोकन)
 description: कनेक्शन को कॉन्फ़िगर करने और Iterable को निर्यात करने का तरीका जानें।
 ms.date: 03/29/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 714a1323521be7d2f29ccaacd7799b2174e2937d
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 98d5aeab6b0e932d291213053d509ec72da82e47
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642914"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9052237"
 ---
-# <a name="export-segment-lists-to-iterable-preview"></a>निर्यात खंड सूचियों को Iterable (पूर्वावलोकन) में
+# <a name="export-segments-to-iterable-preview"></a>सेगमेंट को Iterable में निर्यात करें (पूर्वावलोकन)
 
 एकीकृत ग्राहक प्रोफाइल के सेगमेंट को Iterable में निर्यात करें और मार्केटिंग गतिविधियों के लिए उनका उपयोग करें।
 
@@ -45,7 +45,7 @@ ms.locfileid: "8642914"
 
 1. **डेटा गोपनीयता और अनुपालन** की पुष्टि करने के लिए **मैं सहमत हूँ** चुनें.
 
-1. चुनना**जोड़ना** Iterable से कनेक्शन प्रारंभ करने के लिए।
+1. चुनना**जुडिये** Iterable से कनेक्शन प्रारंभ करने के लिए।
 
 1. **अपने आप को निर्यात उपयोगकर्ता के रूप में जोड़ें** और अपने Customer Insights क्रेडेंशियल्स प्रदान करें .
 

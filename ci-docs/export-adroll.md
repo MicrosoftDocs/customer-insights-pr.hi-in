@@ -1,5 +1,5 @@
 ---
-title: Customer Insights डेटा को AdRoll में निर्यात करें
+title: सेगमेंट को AdRoll (पूर्वावलोकन) में निर्यात करें
 description: कनेक्शन को कॉन्फ़िगर करने और AdRoll को निर्यात करने का तरीका जानें.
 ms.date: 10/08/2021
 ms.reviewer: mhart
@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ec7d2d4d137f2f0e3e1ff2ec0d09bff8ac4f28ea
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 13c7dd3b8556ad807fba6c537525b463480e860b
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642562"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082826"
 ---
 # <a name="export-segments-to-adroll-preview"></a>सेगमेंट को AdRoll (पूर्वावलोकन) में निर्यात करें
 
@@ -21,9 +21,9 @@ ms.locfileid: "8642562"
 
 ## <a name="prerequisites-for-a-connection"></a>कनेक्शन के लिए पहले से ज़रूरी चीजें
 
--   आपके पास [AdRoll अकाउंट](https://www.adroll.com/) और संबंधित एडमिनिस्ट्रेटर के क्रेडेन्सियल्स हैं.
--   आपके पास [कॉन्फ़िगर किए गए खंड](segments.md) ग्राहक अंतर्दृष्टि में।
--   निर्यात किए गए खंडों में एकीकृत ग्राहक प्रोफाइल में ईमेल पते का प्रतिनिधित्व करने वाला क्षेत्र होता है.
+- आपके पास [AdRoll अकाउंट](https://www.adroll.com/) और संबंधित एडमिनिस्ट्रेटर के क्रेडेन्सियल्स हैं.
+- आपके पास [कॉन्फ़िगर किए गए खंड](segments.md) ग्राहक अंतर्दृष्टि में।
+- निर्यात किए गए खंडों में एकीकृत ग्राहक प्रोफाइल में ईमेल पते का प्रतिनिधित्व करने वाला क्षेत्र होता है.
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 

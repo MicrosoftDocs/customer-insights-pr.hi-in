@@ -1,5 +1,5 @@
 ---
-title: उपायों को समझें और प्रबंधित करें
+title: उपायों का अवलोकन
 description: जानें कि उपाय आपके व्यवसाय के प्रदर्शन का विश्लेषण और प्रतिबिंबित करने में कैसे मदद करते हैं।
 ms.date: 03/24/2022
 ms.subservice: audience-insights
@@ -14,12 +14,12 @@ searchScope:
 - ci-measure-template
 - ci-enrichment-details
 - customerInsights
-ms.openlocfilehash: 84a3a10a2517258c1f895800882b9c67391ec3de
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 880c06bffcfa269151d96cb4c597eed4832fc61b
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642632"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9083120"
 ---
 # <a name="measures-overview"></a>उपायों का अवलोकन
 
@@ -44,7 +44,7 @@ ms.locfileid: "8642632"
 - **रीफ्रेश** डेटा के आधार पर माप को रीफ्रेश करें. एक ही समय में अपने सभी उपायों को ताज़ा करने के लिए, सभी उपायों का चयन करें और फिर **ताज़ा करना**.
 - उपाय का **नाम बदलें**.
 - **सक्रिय करें** या **निष्क्रिय करें**. निष्क्रिय माप [निर्धारित रीफ्रेश](system.md#schedule-tab) के दौरान रीफ्रेश नहीं होंगे.
-- **टैग** को[टैग प्रबंधित करें](work-with-tags-columns.md#manage-tags) खंड के लिए।
+- **उपनाम** प्रति[टैग प्रबंधित करें](work-with-tags-columns.md#manage-tags) खंड के लिए।
 - उपाय **हटाएं**.
 
 [!INCLUDE [progress-details-include](includes/progress-details-pane.md)]

@@ -1,5 +1,5 @@
 ---
-title: ग्राहक आजीवन पूर्वानुमान नमूना गाइड
+title: ग्राहक आजीवन मान (CLV) भविष्यवाणी नमूना गाइड
 description: ग्राहक के आजीवन मान पूर्वानुमान मॉडल को आज़माने के लिए इस नमूना मार्गदर्शिका का उपयोग करें.
 ms.date: 03/31/2022
 ms.reviewer: v-wendysmith
@@ -8,12 +8,12 @@ ms.topic: tutorial
 author: yashlundia
 ms.author: yalundia
 manager: shellyha
-ms.openlocfilehash: 351946c734f5a1054eb3769b2d9cced3bed48e15
-ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
+ms.openlocfilehash: 2013533ed225a396d21e51e63297d7608ce58ac6
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740813"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9051639"
 ---
 # <a name="customer-lifetime-value-clv-prediction-sample-guide"></a>ग्राहक आजीवन मान (CLV) भविष्यवाणी नमूना गाइड
 
@@ -30,7 +30,7 @@ Contoso एक ऐसी कंपनी है जो उच्च गुणव
 
 ## <a name="task-1---ingest-data"></a>कार्य 1 - इन्जेस्ट डेटा
 
-लेखों की समीक्षा करें [डेटा अंतर्ग्रहण के बारे में](data-sources.md) और [डेटा स्रोतों का उपयोग कर आयात करनाPower Query कनेक्टर्स।](connect-power-query.md) निम्नलिखित जानकारी मानती है कि आप सामान्य रूप से इन्जेस्ट होते डेटा से परिचित हैं.
+लेखों की समीक्षा करें [डेटा अंतर्ग्रहण के बारे में](data-sources.md) तथा[डेटा स्रोतों का उपयोग कर आयात करनाPower Query कनेक्टर्स।](connect-power-query.md) निम्नलिखित जानकारी मानती है कि आप सामान्य रूप से इन्जेस्ट होते डेटा से परिचित हैं.
 
 ### <a name="ingest-customer-data-from-ecommerce-platform"></a>ईकॉमर्स प्लेटफॉर्म से ग्राहक डेटा अंतर्ग्रहण करें
 

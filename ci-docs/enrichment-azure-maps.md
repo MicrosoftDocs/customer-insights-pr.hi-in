@@ -1,5 +1,5 @@
 ---
-title: Azure Maps से स्थान डेटा के साथ ग्राहक प्रोफ़ाइल को संवर्धित करें
+title: Azure मैप्स (पूर्वावलोकन) से स्थान डेटा के साथ ग्राहक प्रोफाइल को समृद्ध करें
 description: Azure Maps प्रथम पक्ष का संवर्धन के बारे में सामान्य जानकारी.
 ms.date: 06/10/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: a806b2d0c791972c967c90694527608b4def9f3f
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: dfadc08f67beac3fded1a97e557ee9e1880664e0
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8953630"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9052609"
 ---
-# <a name="enrichment-of-customer-profiles-with-azure-maps-preview"></a>Azure मानचित्र के साथ ग्राहक प्रोफ़ाइल का संवर्धन (पूर्वावलोकन)
+# <a name="enrich-customer-profiles-with-location-data-from-azure-maps-preview"></a>Azure मैप्स (पूर्वावलोकन) से स्थान डेटा के साथ ग्राहक प्रोफाइल को समृद्ध करें
 
 एज़्योर मैप्स बिल्ट-इन लोकेशन इंटेलिजेंस के साथ भू-स्थानिक डेटा के आधार पर अनुभव देने के लिए स्थान-केंद्रित डेटा और सेवाएं प्रदान करते हैं। Azure मानचित्र डेटा संवर्धन सेवाएं आपके ग्राहकों के बारे में स्थान जानकारी की सटीकता में सुधार करती हैं. यह Dynamics 365 Customer Insights में पता सामान्यीकरण और अक्षांश और देशांतर निकालने जैसी क्षमताएँ लाता है.
 
@@ -82,7 +82,7 @@ ms.locfileid: "8953630"
 
 1. चुनना**दौड़ना** संवर्धन प्रक्रिया शुरू करने के लिए या वापस लौटने के करीब **संवर्धन** पृष्ठ।
 
-## <a name="enrichment-results"></a>संवर्धन के परिणाम
+## <a name="view-enrichment-results"></a>संवर्धन परिणाम देखें
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)]
 

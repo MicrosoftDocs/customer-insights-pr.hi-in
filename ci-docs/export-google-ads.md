@@ -1,5 +1,5 @@
 ---
-title: Google Ads के लिए Customer Insights डेटा निर्यात करें
+title: Google Ads (पूर्वावलोकन) में निर्यात अनुभाग
 description: कनेक्शन को कॉन्फ़िगर करने और Google Ads को निर्यात करने का तरीका जानें.
 ms.date: 03/31/2022
 ms.subservice: audience-insights
@@ -8,12 +8,12 @@ author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 3e0eb91be97d69a999e90708d29c572f0055527e
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: b7f08936d7d90322cb4e62396a2961fe06273b76
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642682"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082994"
 ---
 # <a name="export-segments-to-google-ads-preview"></a>Google Ads (पूर्वावलोकन) में निर्यात अनुभाग
 

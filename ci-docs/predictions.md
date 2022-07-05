@@ -1,5 +1,5 @@
 ---
-title: भविष्यवाणियों का उपयोग करके आंशिक डेटा पूरा करें
+title: प्रिडिक्शन्स के साथ अपना आंशिक डेटा पूरा करें
 description: अधूरा ग्राहक डेटा भरने के लिए भविष्यवाणियों का उपयोग करें.
 ms.date: 11/01/2021
 ms.subservice: audience-insights
@@ -12,12 +12,12 @@ searchScope:
 - ci-predictions
 - ci-custom-models
 - customerInsights
-ms.openlocfilehash: 57ef46416db0a11cde9f9d7650a0b502a01bf0ab
-ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
+ms.openlocfilehash: 7e93670007db27d13b84d7516f56830988da083e
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8800652"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082511"
 ---
 # <a name="complete-your-partial-data-with-predictions-deprecated"></a>पूर्वानुमानों के साथ अपना आंशिक डेटा पूरा करें (बहिष्कृत)
 
@@ -116,7 +116,7 @@ ms.locfileid: "8800652"
 
 ## <a name="edit-a-prediction"></a>कोई पूर्वानुमान संपादित करें
 
-पूर्वानुमान बनाने के बाद, आप मॉडल को इसमें कस्टमाइज़ कर सकते हैं AI Builder अपने मॉडल की प्रभावशीलता बढ़ाने के लिए।  
+पूर्वानुमान बनाने के बाद, आप मॉडल में कस्टमाइज़ कर सकते हैं AI Builder अपने मॉडल की प्रभावशीलता बढ़ाने के लिए।  
 
 1. के लिए जाओ **बुद्धिमत्ता** > **भविष्यवाणियों** > **मेरी भविष्यवाणियां**.
 

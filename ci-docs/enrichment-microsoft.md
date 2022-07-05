@@ -1,5 +1,5 @@
 ---
-title: Microsoft के ब्रांड और रुचियों के डेटा के साथ ग्राहक प्रोफ़ाइल को समृद्ध करें
+title: Microsoft के ब्रांड और रुचियों के डेटा के साथ ग्राहक प्रोफ़ाइल को समृद्ध करें (पूर्वावलोकन)
 description: अपने ग्राहक डेटा को समानता और शेयर ऑफ़ वॉइस के साथ समृद्ध करने के लिए Microsoft के मालिकाना डेटा का उपयोग करें।
 ms.date: 03/02/2022
 ms.reviewer: mhart
@@ -12,14 +12,14 @@ searchScope:
 - ci-enrichments
 - ci-enrichment-wizard
 - customerInsights
-ms.openlocfilehash: 61262980cafdcd130430e200e466ce7da6cc4d07
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: e1827adca10a3b193c02a20c4abccacf73194a77
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8953767"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082700"
 ---
-# <a name="enrich-customer-profiles-with-affinities-and-share-of-voice-preview"></a>समानता और शेयर ऑफ़ वॉइस (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल को समृद्ध करें
+# <a name="enrich-customer-profiles-with-brands-and-interests-data-from-microsoft-preview"></a>Microsoft के ब्रांड और रुचियों के डेटा के साथ ग्राहक प्रोफ़ाइल को समृद्ध करें (पूर्वावलोकन)
 
 अपने ग्राहक डेटा को ब्रांड एफ़िनिटीज़, इंटरेस्ट एफ़िनिटीज़, और शेयर ऑफ़ वॉइस (SoV) के साथ समृद्ध करने के लिए Microsoft के स्वामित्व डेटा का उपयोग करें। ये समानताएं और SoV आपके ग्राहकों के समान जनसांख्यिकी वाले लोगों के डेटा पर आधारित हैं। यह जानकारी आपको अपने ग्राहकों को उनकी समानता या SoV के आधार पर विशिष्ट ब्रांडों और रुचियों के आधार पर बेहतर ढंग से समझने और विभाजित करने में मदद करती है।
 
@@ -104,7 +104,7 @@ ms.locfileid: "8953767"
 
    प्रोफाइल को समृद्ध करते समय, हम उन सभी ग्राहक प्रोफ़ाइलों को समृद्ध करेंगे जिनके लिए हमें चयनित ब्रांड और रुचियों के लिए डेटा प्राप्त होता है, जिसमें वे प्रोफ़ाइल भी शामिल हैं जो चयनित देश या क्षेत्र में नहीं हैं। उदाहरण के लिए, अगर आपने जर्मनी का चयन किया है, तो हम संयुक्त राज्य अमेरिका में स्थित प्रोफ़ाइल को समृद्ध करेंगे, अगर हमारे पास अमेरिका में चयनित ब्रांडों और दिलचस्पी के लिए डेटा उपलब्ध है.
 
-## <a name="enrichment-results"></a>संवर्धन के परिणाम
+## <a name="view-enrichment-results"></a>संवर्धन परिणाम देखें
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)]
 

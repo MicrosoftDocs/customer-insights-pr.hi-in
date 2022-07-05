@@ -1,5 +1,5 @@
 ---
-title: मौजूदा सेगमेंट्स के लिए सेगमेंट इनसाइट्स
+title: अनुभाग इनसाइट (पूर्वावलोकन)
 description: विभिन्नताओं और सामान्यताओं को देखने के लिए मौजूदा सेगमेंट्स पर जानकारी पाएं.
 ms.date: 06/10/2020
 ms.subservice: audience-insights
@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-segment-insights
 - customerInsights
-ms.openlocfilehash: 526b593ba9b038de3d3c27f6a7683ca76b3f2319
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: e90bdc523c3f8857c150ccba9d81f055d39f9feb
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8642582"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9051593"
 ---
 # <a name="segment-insights-preview"></a>अनुभाग इनसाइट (पूर्वावलोकन)
 

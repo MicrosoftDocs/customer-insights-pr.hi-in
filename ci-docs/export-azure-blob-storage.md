@@ -1,5 +1,5 @@
 ---
-title: एक Azure ब्लॉब स्टोरेज के लिए Customer Insights डेटा निर्यात करें
+title: Azure ब्लॉब संग्रहण में डेटा निर्यात करें (पूर्वावलोकन)
 description: कनेक्शन को कॉन्फ़िगर करने और ब्लॉब स्टोरेज विज्ञापन प्रबंधक को निर्यात करने का तरीका जानें.
 ms.date: 06/09/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 623926bf520b19ee4156b7a05e953241cd819e9e
-ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
+ms.openlocfilehash: 059c8364ca0f3740bc0e4ffeeeba94246c9e5696
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/10/2022
-ms.locfileid: "8947140"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9055492"
 ---
-# <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Azure ब्लॉब स्टोरेज (पूर्वावलोकन) के लिए सेगमेंट सूची और अन्य डेटा को निर्यात करें
+# <a name="export-data-to-an-azure-blob-storage-preview"></a>Azure ब्लॉब संग्रहण में डेटा निर्यात करें (पूर्वावलोकन)
 
 अपने Customer Insights डेटा को ब्लॉब स्टोरेज में स्टोर करें या इसका इस्तेमाल अपने डेटा को दूसरे एप्लिकेशन में भेजने के लिए करें.
 
