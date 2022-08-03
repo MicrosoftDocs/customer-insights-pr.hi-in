@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-connections
 - customerInsights
-ms.openlocfilehash: a8b4b8a9bdcf7cf43c47a67d547405dd20dad60d
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 4a0bc5dd4100b462a26660a0c51fda1fe92b6bb9
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9082091"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9195176"
 ---
 # <a name="connections-preview-overview"></a>कनेक्शन (पूर्वावलोकन) का अवलोकन
 
@@ -27,6 +27,12 @@ ms.locfileid: "9082091"
 **कनेक्शन** टैब आपको सभी सक्रिय कनेक्शन दिखाता है. सूची प्रत्येक कनेक्शन के लिए एक पंक्ति दिखाती है.
 
 एक त्वरित अवलोकन, विवरण प्राप्त करें, और पता लगाएं कि आप **डिस्कवर** टैब पर प्रत्येक विस्तार विकल्प के साथ क्या कर सकते हैं.
+
+## <a name="data-privacy-and-compliance"></a>डेटा गोपनीयता और अनुपालन
+
+जब आप सक्षम करते हैं Dynamics 365 Customer Insights तृतीय पक्षों या अन्य Microsoft उत्पादों को डेटा संचारित करने के लिए, आप अनुपालन सीमा के बाहर डेटा के हस्तांतरण की अनुमति देते हैं Dynamics 365 Customer Insights, जिसमें व्यक्तिगत डेटा जैसे संभावित संवेदनशील डेटा शामिल हैं। Microsoft आपके निर्देश पर ऐसे डेटा को स्थानांतरित करेगा, लेकिन यह सुनिश्चित करने के लिए आप ज़िम्मेदार हैं कि तृतीय पक्ष आपकी किसी भी गोपनीयता या सुरक्षा दायित्वों को पूरा करता है। अधिक जानकारी के लिए, [Microsoft गोपनीयता कथन](https://go.microsoft.com/fwlink/?linkid=396732) देखें.
+
+तुम्हारीDynamics 365 Customer Insights कार्यक्षमता का उपयोग बंद करने के लिए व्यवस्थापक किसी भी समय कनेक्शन को हटा सकता है।
 
 ## <a name="exports"></a>निर्यात
 
@@ -41,8 +47,6 @@ ms.locfileid: "9082091"
 कनेक्शन जोड़ने के लिए, आपके पास [व्यवस्थापक की अनुमति](permissions.md) होना चाहिए. यदि आप अन्य Microsoft सेवाओं से कनेक्ट होते हैं, तो हम मानते हैं कि दोनों सेवाएं एक ही संगठन में हैं.
 
 1. **व्यवस्थापक** > **कनेक्शन (पूर्वावलोकन)** पर जाएं.
-
-1. **कनेक्शन** टैब पर जाएँ.
 
 1. नया कनेक्शन बनाने के लिए **कनेक्शन जोड़ें** चुनें. ड्रॉपडाउन मेनू से कनेक्शन का अपना मनचाहा प्रकार बनाना चुनें.
 
@@ -99,3 +103,5 @@ ms.locfileid: "9082091"
 ## <a name="set-up-connections-with-secrets-managed-by-your-own-key-vault"></a>अपने खुद के की वॉल्ट द्वारा प्रबंधित रहस्यों के साथ कनेक्शन सेट करें
 
 कुछ कनेक्शनों को API कुंजी या पासवर्ड जैसे रहस्य चाहिए होते हैं. कुछ कनेक्शन आपकी की वॉल्ट में रखे रहस्यों का समर्थन करते हैं. समर्थित कनेक्शन और इसे कैसे सेट अप करें के बारे में और जानें [Customer Insights के लिए आपकी अपनी कुंजी तिजोरी।](use-azure-key-vault.md)
+
+[!INCLUDE [footer-include](includes/footer-banner.md)]

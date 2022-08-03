@@ -1,31 +1,31 @@
 ---
 title: Customer Insights सेगमेंट को यहां निर्यात करें Adobe अभियान मानक (पूर्वावलोकन)
 description: जानें कि Customer Insights सेगमेंट का उपयोग कैसे करें Adobe अभियान मानक।
-ms.date: 03/29/2021
+ms.date: 07/25/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: 9915591cd969bf825f5d1669de43ed4f9953f898
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 834880cac9c5023157983081ff2513d9b051491f
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9082343"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9195522"
 ---
 # <a name="export-customer-insights-segments-to-adobe-campaign-standard-preview"></a>Customer Insights सेगमेंट को यहां निर्यात करें Adobe अभियान मानक (पूर्वावलोकन)
 
-के एक उपयोगकर्ता के रूप में Dynamics 365 Customer Insights, आपने प्रासंगिक ऑडियंस को लक्षित करके अपने मार्केटिंग अभियानों को अधिक कुशल बनाने के लिए सेगमेंट बनाए होंगे। Customer Insights से एक सेगमेंट का उपयोग करने के लिए Adobe Experience Platform और अनुप्रयोगों जैसे Adobe अभियान मानक, आपको इस लेख में उल्लिखित कुछ चरणों का पालन करना होगा।
+प्रासंगिक ऑडियंस को लक्षित करने वाले सेगमेंट निर्यात करें Adobe अभियान मानक।
 
 :::image type="content" source="media/ACS-flow.png" alt-text="इस आलेख में उल्लिखित चरणों का प्रक्रिया आरेख":::
 
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
-- Dynamics 365 Customer Insights लाइसेंस
-- Adobe Campaign Standard लाइसेंस
-- Azure ब्लॉब स्टोरेज खाता
+- एक Adobe अभियान मानक लाइसेंस।
+- एक [Azure ब्लॉब संग्रहण खाता](/azure/storage/blobs/create-data-lake-storage-account) नाम और खाता कुंजी। नाम और कुंजी खोजने के लिए, देखें [Azure पोर्टल में संग्रहण खाता सेटिंग प्रबंधित करें।](/azure/storage/common/storage-account-manage)
+- एक [Azure ब्लॉब संग्रहण कंटेनर](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
 
 ## <a name="campaign-overview"></a>अभियान पूर्वावलोकन
 
@@ -37,9 +37,9 @@ ms.locfileid: "9082343"
 
 ## <a name="identify-your-target-audience"></a>अपनी लक्षित ऑडियंस को पहचानें
 
-हमारे परिदृश्य में, हम मानते हैं कि ग्राहकों के ईमेल पते उपलब्ध हैं और सेगमेंट के सदस्यों की पहचान करने के लिए उनकी प्रचार प्राथमिकताओं का विश्लेषण किया गया था।
+हमारे परिदृश्य में, हम मानते हैं कि ग्राहकों के ईमेल पते Customer Insights में उपलब्ध हैं और खंड के सदस्यों की पहचान करने के लिए उनकी प्रचार प्राथमिकताओं का विश्लेषण किया गया था।
 
-[ग्राहक अंतर्दृष्टि में आपके द्वारा परिभाषित खंड](segments.md) कहा जाता है **चर्नप्रोन ग्राहक** और आप इन ग्राहकों को ईमेल प्रचार भेजने की योजना बना रहे हैं।
+[Customer Insights में आपके द्वारा परिभाषित खंड](segments.md) कहा जाता है **चर्नप्रोन ग्राहक** और आप इन ग्राहकों को ईमेल प्रचार भेजने की योजना बना रहे हैं।
 
 :::image type="content" source="media/churn-prone-customers-segment.png" alt-text="ChurnProneCustomers सेगमेंट वाले सेगमेंट पेज का स्क्रीनशॉट बनाया गया है.":::
 
@@ -47,39 +47,37 @@ ms.locfileid: "9082343"
 
 ## <a name="export-your-target-audience"></a>अपनी लक्षित ऑडियंस निर्यात करें
 
-### <a name="configure-a-connection"></a>एक कनेक्शन कॉन्फ़िगर करें
+### <a name="set-up-connection-to-adobe-campaign"></a>से कनेक्शन सेट करें Adobe अभियान
 
-हमारे लक्ष्य ऑडिएंस की पहचान के साथ, हम निर्यात को Azure Blob Storage खाते में कॉन्फ़िगर कर सकते हैं।
+[!INCLUDE [export-connection-include](includes/export-connection-admn.md)]
 
-1. Customer Insights में, यहाँ जाएँ **व्यवस्थापक** > **सम्बन्ध**.
+1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
-1. **कनेक्शन जोड़ें** चुनें और कनेक्शन कॉन्फ़िगर करने के लिए **Adobe Campaign** चुनें या **Adobe Campaign** टाइल में **सेट अप** चुनें.
-
-   :::image type="content" source="media/adobe-campaign-standard-tile.png" alt-text="Adobe Campaign Standard के लिए कॉन्फ़िगरेशन टाइल.":::
+1. चुनना**कनेक्शन जोड़ें** और चुनें **Adobe अभियान।**
 
 1. **डिस्प्ले नाम** फ़ील्ड में अपने कनेक्शन को पहचानने योग्य नाम दें. कनेक्शन का नाम और प्रकार इस कनेक्शन का वर्णन करता है. हम एक नाम चुनने की सलाह देते हैं जो कनेक्शन के उद्देश्य और लक्ष्य को बताता है।
 
-1. चुनें कि इस कनेक्शन का उपयोग कौन कर सकता है. यदि आप कोई कार्रवाई नहीं करते हैं, तो व्यवस्थापक डिफ़ॉल्ट होंगे. अधिक जानकारी के लिए, देखें [एक निर्यात को कॉन्फ़िगर करने के लिए आवश्यक अनुमतियां](export-destinations.md#set-up-a-new-export).
+1. चुनें कि इस कनेक्शन का उपयोग कौन कर सकता है. डिफ़ॉल्ट रूप से यह केवल व्यवस्थापक हैं. अधिक जानकारी के लिए, देखें [योगदानकर्ताओं को निर्यात के लिए कनेक्शन का उपयोग करने की अनुमति दें](connections.md#allow-contributors-to-use-a-connection-for-exports).
 
-1. जहां आप सेगमेंट को निर्यात करना चाहते हैं वहां Azure ब्लॉब स्टोरेज के अकाउंट का **अकाउंट का नाम**, **अकाउंट कुंजी** और **कंटेनर** दर्ज करें.  
-      
-   :::image type="content" source="media/azure-blob-configuration.png" alt-text="स्टोरेज खाता कॉन्फ़िगरेशन का स्क्रीनशॉट."::: 
+1. उसे दर्ज करें **खाता नाम**, **ाता कुंजी**, तथा**पात्र** आपके ब्लॉब संग्रहण खाते के लिए।  
 
-   - Azure Blob संग्रहण खाते का नाम और खाता कुंजी का पता लगाने के बारे में अधिक जानने के लिए, [Azure पोर्टल में संग्रहण खाता सेटिंग व्यवस्थित करें](/azure/storage/common/storage-account-manage) देखें।
+   :::image type="content" source="media/azure-blob-configuration.png" alt-text="स्टोरेज खाता कॉन्फ़िगरेशन का स्क्रीनशॉट.":::
 
-   - कंटेनर बनाने के बारे में जानने के लिए, [कंटेनर बनाएँ](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) देखें.
+1. की समीक्षा करें [डेटा गोपनीयता और अनुपालन](connections.md#data-privacy-and-compliance) और चुनें **मैं सहमत हूं**.
 
 1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें.
 
 ### <a name="configure-an-export"></a>एक निर्यात कॉन्फ़िगर करें
 
-यदि आपके पास इस प्रकार के कनेक्शन का एक्सेस है तो आप इस निर्यात को कॉन्फ़िगर कर सकते हैं. अधिक जानकारी के लिए, देखें [एक निर्यात को कॉन्फ़िगर करने के लिए आवश्यक अनुमतियां](export-destinations.md#set-up-a-new-export).
+[!INCLUDE [export-permission-include](includes/export-permission.md)]
 
 1. **डेटा** > **निर्यात** पर जाएँ.
 
-1. एक नया निर्यात बनाने के लिए, **निर्यात जोड़ें** का चयन करें.
+1. चुनना**निर्यात जोड़ें**.
 
-1. **निर्यात के लिए कनेक्शन** फ़ील्ड में, Adobe Campaign सेक्शन से एक कनेक्शन चुनें. यदि आपको यह अनुभाग नाम नहीं दिखता है, तो इस प्रकार का कोई भी कनेक्शन आपके लिए उपलब्ध नहीं है।
+1. **निर्यात के लिए कनेक्शन** फ़ील्ड में, Adobe Campaign सेक्शन से एक कनेक्शन चुनें. यदि कोई कनेक्शन उपलब्ध नहीं है तो किसी व्यवस्थापक से संपर्क करें.
+
+1. निर्यात के लिए एक नाम दर्ज करें।
 
 1. वह सेगमेंट चुनें, जिसे आप निर्यात करना चाहते हैं. इस उदाहरण में, यह **ChurnProneCustomers** है.
 
@@ -87,56 +85,52 @@ ms.locfileid: "9082343"
 
 1. **अगला** चुनें.
 
-1. अब हम नक्शा**स्रोत** Customer Insights सेगमेंट से फ़ील्ड तक **लक्ष्य** में फ़ील्ड नाम Adobe अभियान मानक प्रोफ़ाइल स्कीमा।
+1. नक्शा**स्रोत** Customer Insights सेगमेंट से फ़ील्ड तक **लक्ष्य** में फ़ील्ड नाम Adobe अभियान मानक प्रोफ़ाइल स्कीमा।
 
    :::image type="content" source="media/ACS-field-mapping.png" alt-text=" Adobe Campaign Standard कनेक्टर के लिए फ़ील्ड मैपिंग.":::
 
-   यदि आप अधिक विशेषताएं जोड़ना चाहते हैं, तो **विशेषता जोड़ें** चुनें. लक्ष्य नाम स्रोत फ़ील्ड नाम से भिन्न हो सकता है ताकि आप अभी भी Customer Insights से सेगमेंट आउटपुट को इस पर मैप कर सकें Adobe अभियान मानक यदि दोनों प्रणालियों में फ़ील्ड का नाम समान नहीं है।
+   यदि आप अधिक विशेषताएं जोड़ना चाहते हैं, तो **विशेषता जोड़ें** चुनें. लक्ष्य नाम स्रोत फ़ील्ड नाम से भिन्न हो सकता है ताकि आप अभी भी Customer Insights से सेगमेंट आउटपुट को मैप कर सकें Adobe अभियान मानक यदि दो प्रणालियों में फ़ील्ड का नाम समान नहीं है।
 
    > [!NOTE]
    > ईमेल पते का उपयोग पहचान फ़ील्ड के रूप में किया जाता है, लेकिन आप डेटा को मैप करने के लिए ग्राहक प्रोफ़ाइल से किसी अन्य पहचानकर्ता का उपयोग कर सकते हैं Adobe अभियान मानक।
 
 1. **सहेजें** चुनें.
 
-निर्यात डेस्टिनेशन को सहेजने के बाद, आप इसे **डेटा** > **निर्यात** पर पाते हैं.
-
-अब आप [मांग पर सेगमेंट निर्यात कर सकते हैं](export-destinations.md#run-exports-on-demand). निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md).
+[!INCLUDE [export-saving-include](includes/export-saving.md)]
 
 > [!NOTE]
 > सुनिश्चित करें कि निर्यात किए गए अनुभाग में रिकॉर्ड की संख्या आपके Adobe Campaign Standard लाइसेंस की अनुमति प्राप्त सीमा के भीतर है.
 
-निर्यात किए गए डेटा को ऊपर कॉन्फ़िगर किए गए Azure ब्लॉब स्टोरेज कंटेनर में स्टोर किया जाता है। निम्न फ़ोल्डर पाथ स्वचालित रूप से आपके कंटेनर में बनाया गया है:
-
-*%ContainerName%/CustomerInsights_%instanceID%/% exportdestination-name%_%segmentname%_%timestamp%.csv*
+निर्यात किए गए डेटा को ऊपर कॉन्फ़िगर किए गए Azure ब्लॉब स्टोरेज कंटेनर में स्टोर किया जाता है। आपके कंटेनर में निम्न फ़ोल्डर पथ अपने आप बन जाता है: *%ContainerName% /ग्राहकों की अंतर्दृष्टि_%instanceID% /% निर्यात गंतव्य-नाम%_%segmentname%_%timestamp% .सीएसवी*
 
 उदाहरण: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/ChurnSegmentDemo_ChurnProneCustomers_1613059542.csv
 
 ## <a name="configure-adobe-campaign-standard"></a>कॉन्फ़िगर Adobe Campaign Standard करें
 
-निर्यात किए गए सेगमेंट में वे कॉलम होते हैं जिन्हें आपने पिछले चरण में निर्यात गंतव्य निर्धारित करते समय चुना था। इस डेटा का इस्तेमाल [Adobe Campaign Standard में प्रोफाइल बनाने](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/about-profiles.html#managing-profiles) के लिए किया जा सकता है.
+निर्यात किए गए सेगमेंट में वे कॉलम होते हैं जिन्हें आपने निर्यात को कॉन्फ़िगर करते समय चुना था। इस डेटा का इस्तेमाल [Adobe Campaign Standard में प्रोफाइल बनाने](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/about-profiles.html#managing-profiles) के लिए किया जा सकता है.
 
-Adobe Campaign Standard में सेगमेंट का उपयोग करने के लिए, हमें दो अतिरिक्त फ़ील्ड्स को शामिल करने के लिए Adobe Campaign Standard में प्रोफ़ाइल स्कीमा का विस्तार करने की आवश्यकता है. जानें कि Adobe Campaign Standard में नए फ़ील्ड के साथ [प्रोफ़ाइल संसाधन का विस्तार](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/use-cases--extending-resources/extending-the-profile-resource-with-a-new-field.html#developing) कैसे करें.
+में खंड का उपयोग करने के लिए Adobe अभियान मानक, [प्रोफ़ाइल स्कीमा का विस्तार करें](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/use-cases--extending-resources/extending-the-profile-resource-with-a-new-field.html#developing) में Adobe दो अतिरिक्त क्षेत्रों को शामिल करने के लिए अभियान मानक।
 
-हमारे उदाहरण में, ये फ़ील्ड *सेगमेंट नाम और सेगमेंट दिनांक (वैकल्पिक)* हैं।
+हमारे उदाहरण में, ये फ़ील्ड सेगमेंट नाम और सेगमेंट दिनांक हैं। हम इन फ़ील्ड का उपयोग Adobe Campaign Standard में उन प्रोफ़ाइलों की पहचान करने के लिए करेंगे जिन्हें हम इस अभियान के लिए लक्षित करना चाहते हैं.
 
-हम इन फ़ील्ड का उपयोग Adobe Campaign Standard में उन प्रोफ़ाइलों की पहचान करने के लिए करेंगे जिन्हें हम इस अभियान के लिए लक्षित करना चाहते हैं.
-
-यदि आप जो आयात करने जा रहे हैं, उसके अलावा Adobe Campaign Standard में कोई अन्य रिकॉर्ड नहीं हैं, तो आप इस चरण को छोड़ सकते हैं.
+अगर में कोई अन्य रिकॉर्ड नहीं हैं Adobe आप जो आयात करने जा रहे हैं, उसके अलावा अभियान मानक, इस चरण को छोड़ दें।
 
 ## <a name="import-data-into-adobe-campaign-standard"></a>Adobe Campaign Standard में डेटा आयात करें
 
-अब जबकि सब कुछ ठीक हो गया है, हमें Customer Insights से तैयार ऑडिएंस डेटा आयात करने की आवश्यकता है Adobe प्रोफाइल बनाने के लिए अभियान मानक। जानें कि कार्यप्रवाह का उपयोग करके [Adobe Campaign Standard में प्रोफ़ाइल कैसे आयात करें](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/creating-profiles.html#profiles-and-audiences).
+Customer Insights से तैयार ऑडिएंस डेटा आयात करें Adobe अभियान मानक to [वर्कफ़्लो का उपयोग करके प्रोफ़ाइल बनाएं](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/creating-profiles.html#profiles-and-audiences).
 
-नीचे दी गई छवि में आयात कार्यप्रवाह को हर आठ घंटे में चलाने और निर्यात किए गए Customer Insights सेगमेंट (Azure Blob Storage में.csv फ़ाइल) देखने के लिए कॉन्फ़िगर किया गया है। कार्यप्रवाह एक निर्दिष्ट कॉलम क्रम में .csv फ़ाइल की सामग्री निकालता है. यह कार्यप्रवाह बुनियादी त्रुटि प्रबंधन करने के लिए बनाया गया है और यह सुनिश्चित करता है कि Adobe Campaign Standard में डेटा को हाइड्रेट करने से पहले प्रत्येक रिकॉर्ड में एक ईमेल पता हो. Adobe Campaign Standard प्रोफ़ाइल डेटा में डालने से पहले कार्यप्रवाह फ़ाइल नाम से खंड का नाम भी निकालता है.
+नीचे दी गई छवि में आयात कार्यप्रवाह को हर आठ घंटे में चलाने और निर्यात किए गए Customer Insights सेगमेंट (. Azure Blob Storage में .csv फ़ाइल) देखने के लिए कॉन्फ़िगर किया गया है। कार्यप्रवाह एक निर्दिष्ट कॉलम क्रम में .csv फ़ाइल की सामग्री निकालता है. यह कार्यप्रवाह बुनियादी त्रुटि प्रबंधन करने के लिए बनाया गया है और यह सुनिश्चित करता है कि Adobe Campaign Standard में डेटा को हाइड्रेट करने से पहले प्रत्येक रिकॉर्ड में एक ईमेल पता हो. Adobe Campaign Standard प्रोफ़ाइल डेटा में डालने से पहले कार्यप्रवाह फ़ाइल नाम से खंड का नाम भी निकालता है.
 
 :::image type="content" source="media/ACS-import-workflow.png" alt-text="Adobe Campaign Standard उपयोगकर्ता इंटरफ़ेस में आयात कार्यप्रवाह का स्क्रीनशॉट.":::
 
 ## <a name="retrieve-the-audience-in-adobe-campaign-standard"></a>Adobe Campaign Standard में दर्शकों को पुनः प्राप्त करें
 
-Adobe Campaign Standard में डेटा आयात होने के बाद, आप हमारे नमूना कैंपेन के लिए पहचाने गए प्रोफ़ाइल का चयन करने के लिए ग्राहकों को *अनुभाग नाम* और *अनुभाग दिनांक* के आधार पर [कार्यप्रवाह बना सकते हैं](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html#managing-processes-and-data) और [क्वेरी](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/targeting-activities/query.html#managing-processes-and-data).
+एक बार डेटा आयात हो जाने के बाद Adobe अभियान मानक, [एक कार्यप्रवाह बनाएँ](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html#managing-processes-and-data) तथा[सवाल](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/targeting-activities/query.html#managing-processes-and-data) हमारे नमूना अभियान के लिए पहचाने गए प्रोफाइल का चयन करने के लिए सेगमेंट नाम और सेगमेंट तिथि के आधार पर ग्राहक।
 
 ## <a name="create-and-send-the-email-using-adobe-campaign-standard"></a>Adobe Campaign Standard का उपयोग करके ईमेल बनाएँ और भेजें
 
 ईमेल सामग्री बनाएं और फिर अपना ईमेल [परीक्षण करें और भेजें](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/get-started-sending-messages.html#preparing-and-testing-messages).
 
 :::image type="content" source="media/contoso-sample-email.jpg" alt-text="Adobe Campaign Standard से नवीनीकरण प्रस्ताव के साथ नमूना ईमेल.":::
+
+[!INCLUDE [footer-include](includes/footer-banner.md)]

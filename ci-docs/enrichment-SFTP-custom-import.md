@@ -8,12 +8,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 88fc366ab9478c3b67034af794e237ff4573da7c
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 81ef6c62240e26cb5c9475e6306e08edc7e5eb31
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9082322"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9195798"
 ---
 # <a name="enrich-customer-profiles-with-sftp-custom-import-preview"></a>एसएफ़टीपी कस्टम आयात (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल को समृद्ध करें
 
@@ -104,7 +104,7 @@ SFTP सर्वर पर आयात की जाने वाली फ़
 
 1. ओवरव्यू की समीक्षा करें और फिर चुनें **अगला**.
 
-1. कनेक्शन का चयन करें। यदि कोई उपलब्ध न हो तो किसी व्यवस्थापक से संपर्क करें।
+1. कनेक्शन का चयन करें। यदि कोई कनेक्शन उपलब्ध नहीं है तो किसी व्यवस्थापक से संपर्क करें.
 
 1. को चुनिए **ग्राहक डेटा सेट** और वह प्रोफ़ाइल या खंड चुनें जिसे आप समृद्ध करना चाहते हैं। *ग्राहक* इकाई आपके सभी ग्राहक प्रोफाइल को समृद्ध करती है जबकि एक सेगमेंट केवल उस सेगमेंट में निहित ग्राहक प्रोफाइल को समृद्ध करता है।
 

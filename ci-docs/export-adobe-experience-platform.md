@@ -1,32 +1,32 @@
 ---
 title: निर्यात खंड Adobe Experience Platform (पूर्व दर्शन)
 description: में Customer Insights सेगमेंट का उपयोग करना सीखें।Adobe Experience Platform
-ms.date: 03/29/2021
+ms.date: 07/25/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: c29b8264019669ffd954a298ce3a633c852477fa
-ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
+ms.openlocfilehash: fcb43e0956c6d1f0ef36b222dd2b718906364244
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9052513"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9195292"
 ---
 # <a name="export-segments-to-adobe-experience-platform-preview"></a>निर्यात खंड Adobe Experience Platform (पूर्व दर्शन)
 
-के एक उपयोगकर्ता के रूप में Dynamics 365 Customer Insights, आपने प्रासंगिक ऑडियंस को लक्षित करके अपने मार्केटिंग अभियानों को अधिक कुशल बनाने के लिए सेगमेंट बनाए होंगे। Customer Insights से एक सेगमेंट का उपयोग करने के लिए Adobe Experience Platform और अनुप्रयोगों जैसे Adobe अभियान मानक, आपको इस लेख में उल्लिखित कुछ चरणों का पालन करना होगा।
+उन सेगमेंट को निर्यात करें जो प्रासंगिक ऑडियंस को पर लक्षित करते हैं Adobe Experience Platform.
 
 :::image type="content" source="media/AEP-flow.png" alt-text="इस आलेख में उल्लिखित चरणों का प्रक्रिया आरेख.":::
 
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
--   Dynamics 365 Customer Insights लाइसेंस
--   Adobe Experience Platform लाइसेंस
--   Adobe Campaign Standard लाइसेंस
--   Azure ब्लॉब स्टोरेज खाता
+- एक Adobe Experience Platform लाइसेंस।
+- एक Adobe अभियान मानक लाइसेंस।
+- एक [Azure ब्लॉब संग्रहण खाता](/azure/storage/blobs/create-data-lake-storage-account) नाम और खाता कुंजी। नाम और कुंजी खोजने के लिए, देखें [Azure पोर्टल में संग्रहण खाता सेटिंग प्रबंधित करें।](/azure/storage/common/storage-account-manage)
+- एक [Azure ब्लॉब संग्रहण कंटेनर](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
 
 ## <a name="campaign-overview"></a>अभियान पूर्वावलोकन
 
@@ -40,7 +40,7 @@ ms.locfileid: "9052513"
 
 हमारे परिदृश्य में, हम मानते हैं कि ग्राहकों के ईमेल पते Customer Insights में उपलब्ध हैं और खंड के सदस्यों की पहचान करने के लिए उनकी प्रचार प्राथमिकताओं का विश्लेषण किया गया था।
 
-[ग्राहक अंतर्दृष्टि में आपके द्वारा परिभाषित खंड](segments.md) कहा जाता है **चर्नप्रोन ग्राहक** और आप इन ग्राहकों को ईमेल प्रचार भेजने की योजना बना रहे हैं।
+[Customer Insights में आपके द्वारा परिभाषित खंड](segments.md) कहा जाता है **चर्नप्रोन ग्राहक** और आप इन ग्राहकों को ईमेल प्रचार भेजने की योजना बना रहे हैं।
 
 :::image type="content" source="media/churn-prone-customers-segment.png" alt-text="ChurnProneCustomers सेगमेंट वाले सेगमेंट पेज का स्क्रीनशॉट बनाया गया है.":::
 
@@ -48,38 +48,39 @@ ms.locfileid: "9052513"
 
 ## <a name="export-your-target-audience"></a>अपनी लक्षित ऑडियंस निर्यात करें
 
-हमारे लक्ष्य ऑडिएंस की पहचान के साथ, हम Customer Insights से Azure Blob Storage खाते में निर्यात को कॉन्फ़िगर कर सकते हैं।
+हम Customer Insights से Azure Blob Storage खाते में निर्यात को कॉन्फ़िगर करेंगे।
 
-### <a name="configure-a-connection"></a>एक कनेक्शन कॉन्फ़िगर करें
+### <a name="set-up-connection-to-azure-blob-storage"></a>Azure ब्लॉब संग्रहण से कनेक्शन सेट करें
+
+[!INCLUDE [export-connection-include](includes/export-connection-admn.md)]
 
 1. **व्यवस्थापक** > **कनेक्शन** पर जाएं.
 
-1. कनेक्शन को कॉन्फ़िगर करने के लिए **कनेक्शन जोड़ें** का चयन करें और **Azure Blob संग्रहण** चुनें या **Azure Blob संग्रहण** टाइल में **सेट अप करें** का चयन करें।
-
-   :::image type="content" source="media/export-azure-blob-storage-tile.png" alt-text="Azure ब्लॉब स्टोरेज के लिए कॉन्फ़िगरेशन टाइल."::: 
+1. चुनना**कनेक्शन जोड़ें** और चुनें **Azure ब्लॉब संग्रहण**.
 
 1. **डिस्प्ले नाम** फ़ील्ड में अपने कनेक्शन को पहचानने योग्य नाम दें. कनेक्शन का नाम और प्रकार इस कनेक्शन का वर्णन करता है. हम एक नाम चुनने की सलाह देते हैं जो कनेक्शन के उद्देश्य और लक्ष्य को बताता है।
 
-1. चुनें कि इस कनेक्शन का उपयोग कौन कर सकता है. यदि आप कोई कार्रवाई नहीं करते हैं, तो व्यवस्थापक डिफ़ॉल्ट होंगे. अधिक जानकारी के लिए, देखें [योगदानकर्ताओं को निर्यात के लिए कनेक्शन का उपयोग करने की अनुमति दें](connections.md#allow-contributors-to-use-a-connection-for-exports).
+1. चुनें कि इस कनेक्शन का उपयोग कौन कर सकता है. डिफ़ॉल्ट रूप से यह केवल व्यवस्थापक हैं. अधिक जानकारी के लिए, देखें [योगदानकर्ताओं को निर्यात के लिए कनेक्शन का उपयोग करने की अनुमति दें](connections.md#allow-contributors-to-use-a-connection-for-exports).
 
 1. जहां आप अनुभाग को निर्यात करना चाहते हैं वहां अपने Blob संग्रहण खाते के लिए **अकाउंट का नाम**, **अकाउंट कुंजी** और **कंटेनर** दर्ज करें।  
-      
-   :::image type="content" source="media/azure-blob-configuration.png" alt-text="स्टोरेज खाता कॉन्फ़िगरेशन का स्क्रीनशॉट."::: 
-   
-    - Blob संग्रहण खाते का नाम और खाता कुंजी खोजने के तरीके के बारे में अधिक जानने के लिए, [Azure पोर्टल में संग्रहण खाता सेटिंग्स का प्रबंधन करें](/azure/storage/common/storage-account-manage) देखें।
-    - कंटेनर बनाने के बारे में जानने के लिए, [कंटेनर बनाएँ](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) देखें.
 
-1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें. 
+   :::image type="content" source="media/azure-blob-configuration.png" alt-text="स्टोरेज खाता कॉन्फ़िगरेशन का स्क्रीनशॉट.":::
+
+1. की समीक्षा करें [डेटा गोपनीयता और अनुपालन](connections.md#data-privacy-and-compliance) और चुनें **मैं सहमत हूं**.
+
+1. कनेक्शन पूरा करने के लिए **सहेजें** का चयन करें.
 
 ### <a name="configure-an-export"></a>एक निर्यात कॉन्फ़िगर करें
 
-यदि आपके पास इस प्रकार के कनेक्शन का एक्सेस है तो आप इस निर्यात को कॉन्फ़िगर कर सकते हैं. अधिक जानकारी के लिए, देखें [एक निर्यात को कॉन्फ़िगर करने के लिए आवश्यक अनुमतियां](export-destinations.md#set-up-a-new-export).
+[!INCLUDE [export-permission-include](includes/export-permission.md)]
 
 1. **डेटा** > **निर्यात** पर जाएँ.
 
-1. एक नया निर्यात बनाने के लिए, **निर्यात जोड़ें** का चयन करें.
+1. चुनना**निर्यात जोड़ें**.
 
-1. **निर्यात के लिए कनेक्शन** में, Azure Blob Storage अनुभाग से एक कनेक्शन का चयन करें. यदि आपको यह अनुभाग नाम नहीं दिखता है, तो इस प्रकार का कोई भी कनेक्शन आपके लिए उपलब्ध नहीं है।
+1. **निर्यात के लिए कनेक्शन** में, Azure Blob Storage अनुभाग से एक कनेक्शन का चयन करें. यदि कोई कनेक्शन उपलब्ध नहीं है तो किसी व्यवस्थापक से संपर्क करें.
+
+1. निर्यात के लिए एक नाम दर्ज करें।
 
 1. वह सेगमेंट चुनें, जिसे आप निर्यात करना चाहते हैं. इस उदाहरण में, यह **ChurnProneCustomers** है.
 
@@ -87,46 +88,49 @@ ms.locfileid: "9052513"
 
 1. **सहेजें** चुनें.
 
-निर्यात डेस्टिनेशन को सहेजने के बाद, आप इसे **डेटा** > **निर्यात** पर पाते हैं.
-
-अब आप [मांग पर सेगमेंट निर्यात कर सकते हैं](export-destinations.md#run-exports-on-demand). निर्यात भी प्रत्येक [निर्धारित रिफ्रेश के साथ चलेगा](system.md).
+[!INCLUDE [export-saving-include](includes/export-saving.md)]
 
 > [!NOTE]
 > सुनिश्चित करें कि निर्यात किए गए अनुभाग में रिकॉर्ड की संख्या आपके Adobe Campaign Standard लाइसेंस की अनुमति प्राप्त सीमा के भीतर है.
 
-निर्यात किए गए डेटा को ऊपर कॉन्फ़िगर किए गए Azure ब्लॉब स्टोरेज कंटेनर में स्टोर किया जाता है। निम्न फ़ोल्डर पाथ स्वचालित रूप से आपके कंटेनर में बनाया गया है:
+निर्यात किया गया डेटा आपके द्वारा कॉन्फ़िगर किए गए Azure ब्लॉब संग्रहण कंटेनर में संग्रहीत किया जाता है। आपके कंटेनर में निम्नलिखित फोल्डर पथ अपने आप बनेंगे:
 
-*%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv*
+- स्रोत निकायों और सिस्टम द्वारा उत्पन्न स्रोत निकायों के लिए:  
 
-उदाहरण: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/ChurnSegmentDemo/2021/02/16/1433/ChurnProneCustomers_1.csv
+  *%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv*
 
-*model.json* निर्यात किए गए निकायों के लिए *%ExportDestinationName%* स्तर पर रहता है.
+  उदाहरण: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/ChurnSegmentDemo/2021/02/16/1433/ChurnProneCustomers_1.csv
 
-उदाहरण: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/ChurnSegmentDemo/model.json
+- *model.json* निर्यात किए गए निकायों के लिए *%ExportDestinationName%* स्तर पर रहता है.
+
+  उदाहरण: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/ChurnSegmentDemo/model.json
 
 ## <a name="define-experience-data-model-xdm-in-adobe-experience-platform"></a>Adobe Experience Platform में अनुभव डेटा मॉडल (XDM) को परिभाषित करें
 
-Customer Insights से निर्यात किए गए डेटा का उपयोग करने से पहले Adobe Experience Platform, हमें अनुभव डेटा मॉडल स्कीमा को परिभाषित करने की आवश्यकता है और [रीयल-टाइम ग्राहक प्रोफ़ाइल के लिए डेटा कॉन्फ़िगर करें।](https://experienceleague.adobe.com/docs/experience-platform/profile/tutorials/dataset-configuration.html#tutorials)
+Customer Insights से निर्यात किए गए डेटा का उपयोग करने से पहले Adobe Experience Platform, अनुभव डेटा मॉडल स्कीमा को परिभाषित करें और [रीयल-टाइम ग्राहक प्रोफ़ाइल के लिए डेटा कॉन्फ़िगर करें](https://experienceleague.adobe.com/docs/experience-platform/profile/tutorials/dataset-configuration.html#tutorials).
 
 [XDM क्या है](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) जानें और [स्कीमा संरचना की मूल बातें](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schema) को समझें.
 
 ## <a name="import-data-into-adobe-experience-platform"></a>Adobe Experience Platform में डेटा आयात करें
 
-अब जबकि सब कुछ ठीक हो गया है, हमें Customer Insights से तैयार ऑडिएंस डेटा कोAdobe Experience Platform.
+Customer Insights से तैयार ऑडिएंस डेटा आयात करें Adobe Experience Platform.
 
-सबसे पहले, [एक Azure ब्लॉब स्टोरेज स्रोत कनेक्शन बनाएं](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/blob.html#getting-started).    
+1. [एक Azure ब्लॉब संग्रहण स्रोत कनेक्शन बनाएं](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/blob.html#getting-started).
 
-स्रोत कनेक्शन को परिभाषित करने के बाद, [डेटा प्रवाह कॉन्फ़िगर करें](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html#ui-tutorials) Customer Insights से सेगमेंट आउटपुट आयात करने के लिए क्लाउड स्टोरेज बैच कनेक्शन के लिए Adobe Experience Platform.
+1. [डेटा प्रवाह कॉन्फ़िगर करें](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html#ui-tutorials) Customer Insights से सेगमेंट आउटपुट आयात करने के लिए क्लाउड स्टोरेज बैच कनेक्शन के लिए Adobe Experience Platform.
 
 ## <a name="create-an-audience-in-adobe-campaign-standard"></a>Adobe Campaign Standard में ऑडियंस बनाएँ
 
-इस अभियान के लिए ईमेल भेजने हेतु, हम Adobe Campaign Standard का उपयोग करेंगे. Adobe Experience Platform में डेटा आयात करने के बाद, हमें Adobe Experience Platform में डेटा का उपयोग करते हुए Adobe Campaign Standard में [ऑडिएंस बनाना](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/get-started-profiles-and-audiences.html#permission) होगा.
+इस अभियान के लिए ईमेल भेजने हेतु, हम Adobe Campaign Standard का उपयोग करेंगे.
 
+1. [एक ऑडिएंस . बनाएं](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/get-started-profiles-and-audiences.html#permission) में Adobe में डेटा का उपयोग कर अभियान मानक Adobe Experience Platform.
 
-Adobe Experience Platform में डेटा के आधार पर दर्शकों को परिभाषित करने के लिए Adobe Campaign Standard में [अनुभाग बिल्डर का उपयोग](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/audience-destinations/aep-using-segment-builder.html) करना सीखें.
+1. [खंड निर्माता का प्रयोग करें](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/audience-destinations/aep-using-segment-builder.html) में Adobe डेटा के आधार पर ऑडिएंस परिभाषित करने के लिए अभियान मानक Adobe Experience Platform.
 
 ## <a name="create-and-send-the-email-using-adobe-campaign-standard"></a>Adobe Campaign Standard का उपयोग करके ईमेल बनाएँ और भेजें
 
 ईमेल सामग्री बनाएं और फिर अपना ईमेल [परीक्षण करें और भेजें](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/get-started-sending-messages.html#preparing-and-testing-messages).
 
 :::image type="content" source="media/contoso-sample-email.jpg" alt-text="Adobe Campaign Standard से नवीनीकरण प्रस्ताव के साथ नमूना ईमेल.":::
+
+[!INCLUDE [footer-include](includes/footer-banner.md)]

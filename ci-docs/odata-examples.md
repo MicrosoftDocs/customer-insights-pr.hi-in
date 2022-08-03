@@ -8,12 +8,12 @@ author: m-hartmann
 ms.author: mhart
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 54ba9f4e9baeb4b7021bb8c20a706bbb6eb1529f
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 8843fc04e4e6eaba0019d932c54f62561ffbdb92
+ms.sourcegitcommit: f3c12ad445d5f91a88f91a7bbc40790ebcfaa826
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9083162"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9121564"
 ---
 # <a name="odata-query-examples-for-customer-insights-apis"></a>Customer Insights API के लिए OData क्वेरी उदाहरण
 
@@ -23,7 +23,7 @@ ms.locfileid: "9083162"
 
 लक्षित परिवेशों पर काम करने के लिए आपको क्वेरी नमूनों को संशोधित करना होगा: 
 
-- {serviceRoot}:`https://api.ci.ai.dynamics.com/v1/instances/{instanceId}` कहाँ पे{instanceId} Customer Insights परिवेश का GUID है जिसे आप क्वेरी करना चाहते हैं। [ListAllInstances ऑपरेशन](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights&operation=Get-all-instances) आपको खोजने देता है{InstanceId} आपके पास पहुंच है।
+- {serviceRoot}:`https://api.ci.ai.dynamics.com/v1/instances/{instanceId}/data` कहाँ पे{instanceId} Customer Insights परिवेश का GUID है जिसे आप क्वेरी करना चाहते हैं। [ListAllInstances ऑपरेशन](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights&operation=Get-all-instances) आपको खोजने देता है{InstanceId} आपके पास पहुंच है।
 - {CID}: एकीकृत ग्राहक रिकॉर्ड का GUID। उदाहरण: `ce759201f786d590bf2134bff576c369`.
 - {AlternateKey}: डेटा स्रोत में ग्राहक रिकॉर्ड की प्राथमिक कुंजी का पहचानकर्ता। उदाहरण: `CNTID_1002`
 - {DSname}: डेटा स्रोत के निकाय नाम वाली स्ट्रिंग जो Customer Insights में समा जाती है। उदाहरण: `Website_contacts`.
@@ -39,9 +39,10 @@ ms.locfileid: "9083162"
 |वैकल्पिक कुंजी    | `{serviceRoot}/Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} eq '{AlternateKey}'`         |  एकीकृत ग्राहक इकाई में वैकल्पिक कुंजियाँ बनी रहती हैं       |
 |चुनें   | `{serviceRoot}/Customer?$select=CustomerId,FullName&$filter=customerid eq '1'`        |         |
 |इसमें    | `{serviceRoot}/Customer?$filter=CustomerId in ('{CID1}',’{CID2}’)`        |         |
-|वैकल्पिक कुंजी + In   | `Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} in ('{AlternateKey}','{AlternateKey}')`         |         |
+|वैकल्पिक कुंजी + In   | `{serviceRoot}/Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} in ('{AlternateKey}','{AlternateKey}')`         |         |
 |खोज करें  | `{serviceRoot}/Customer?$top=10&$skip=0&$search="string"`        |   खोज स्ट्रिंग के लिए शीर्ष 10 परिणाम देता है      |
 |खंड सदस्यता  | `{serviceRoot}/Customer?select=*&$filter=IsMemberOfSegment('{SegmentName}')&$top=10`     | विभाजन निकाय से पंक्तियों की एक पूर्व निर्धारित संख्या देता है।      |
+|ग्राहक के लिए खंड सदस्यता | `{serviceRoot}/Customer?$filter=CustomerId eq '{CID}'&IsMemberOfSegment('{SegmentName}')`     | ग्राहक प्रोफ़ाइल लौटाता है यदि वे दिए गए सेगमेंट के सदस्य हैं     |
 
 ## <a name="unified-activity"></a>एकीकृत गतिविधि
 

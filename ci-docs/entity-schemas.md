@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: 92d37fc0950fefcb5c2a5d26214a469d3693980d
-ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
+ms.openlocfilehash: cc65314f1b083694b60ac0a2625bea906be7272b
+ms.sourcegitcommit: ad74ace653db9a25fce4343adef7db1c9b0d8904
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9054756"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183495"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>सामान्य डेटा मॉडल में निकाय स्कीमा
 
@@ -39,9 +39,8 @@ ms.locfileid: "9054756"
 
 ## <a name="view-entities-using-the-common-data-model-entity-navigator"></a>सामान्य डेटा मॉडल निकाय नेविगेटर का उपयोग करते हुए निकायों को देखें
 
-आप [सामान्य डेटा मॉडल निकाय नेविगेटर](https://microsoft.github.io/CDM/) में निकायों को देख सकते हैं. Customer Insights निकायों और उनकी परिभाषाओं की सूची प्राप्त करने के लिए Insights Application अनुभाग से एक निकाय चुनें.
-> [!div class="mx-imgBorder"]
-> ![निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर.](media/CDM-entity-navigator.png "निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर")
+में इकाइयां देखें [सामान्य डेटा मॉडल निकाय नेविगेटर।](https://microsoft.github.io/CDM/) Customer Insights निकायों और उनकी परिभाषाओं की सूची प्राप्त करने के लिए Insights Application अनुभाग से एक निकाय चुनें.
 
+:::image type="content" source="media/CDM-entity-navigator.png" alt-text="निकाय CustomerActivity कार्य दिखाने वाला CDM निकाय नेविगेटर.":::
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]

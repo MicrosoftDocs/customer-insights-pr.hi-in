@@ -8,12 +8,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: b58532a541ee22a5e34d0af1a3334ccbd53627b2
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 3f23fe7177f931db3e3179970915d0cd3c736f87
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9082364"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9196212"
 ---
 # <a name="enrich-company-profiles-with-leadspace-preview"></a>लीडस्पेस के साथ कंपनी प्रोफाइल को समृद्ध करें (पूर्वावलोकन)
 
@@ -54,7 +54,7 @@ ms.locfileid: "9082364"
 
 1. ओवरव्यू की समीक्षा करें और फिर चुनें **अगला**.
 
-1. कनेक्शन का चयन करें। यदि कोई उपलब्ध न हो तो किसी व्यवस्थापक से संपर्क करें।
+1. कनेक्शन का चयन करें। यदि कोई कनेक्शन उपलब्ध नहीं है तो किसी व्यवस्थापक से संपर्क करें.
 
 1. **अगला** चुनें.
 

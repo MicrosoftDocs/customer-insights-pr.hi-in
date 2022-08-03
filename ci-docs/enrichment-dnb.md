@@ -9,12 +9,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 51f2e4e46aa25d10502d0feb5ea42eb7d2d637b9
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 71b35e4295e19c13edadc6548ac79715555e8183
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9082553"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9196028"
 ---
 # <a name="enrich-company-profiles-with-dun--bradstreet-preview"></a>डन एंड ब्रैडस्ट्रीट के साथ कंपनी प्रोफाइल को समृद्ध करें (पूर्वावलोकन)
 
@@ -29,7 +29,7 @@ ms.locfileid: "9082553"
 
 ## <a name="set-up-your-dun--bradstreet-project"></a>अपना डन एंड ब्रैडस्ट्रीट प्रोजेक्ट सेट करें
 
-डन एंड ब्रैडस्ट्रीट के एक लाइसेंस प्राप्त उपयोगकर्ता के रूप में, आप एक परियोजना स्थापित कर सकते हैं [डन एंड ब्रैडस्ट्रीट कनेक्ट](https://connect.dnb.com?lead_source=microsoft_audienceinsights).
+डन एंड ब्रैडस्ट्रीट के एक लाइसेंस प्राप्त उपयोगकर्ता के रूप में, आप में एक परियोजना स्थापित कर सकते हैं [डन एंड ब्रैडस्ट्रीट कनेक्ट](https://connect.dnb.com?lead_source=microsoft_audienceinsights).
 
 1. में प्रवेश करें [डन एंड ब्रैडस्ट्रीट कनेक्ट](https://connect.dnb.com?lead_source=microsoft_audienceinsights). क्रेडेंशियल पुनर्प्राप्त करने के लिए, [अपना पासवर्ड पुनर्स्थापित करें](https://sso.dnb.com/signin/forgot-password?lead_source=microsoft_audienceinsights).
 
@@ -80,7 +80,7 @@ ms.locfileid: "9082553"
 
 1. ओवरव्यू की समीक्षा करें और फिर चुनें **अगला**.
 
-1. कनेक्शन का चयन करें और पुष्टि करें। यदि कोई उपलब्ध न हो तो किसी व्यवस्थापक से संपर्क करें।
+1. कनेक्शन का चयन करें और पुष्टि करें। यदि कोई कनेक्शन उपलब्ध नहीं है तो किसी व्यवस्थापक से संपर्क करें.
 
 1. **अगला** चुनें.
 

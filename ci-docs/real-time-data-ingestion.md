@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-api-usage
 - customerInsights
-ms.openlocfilehash: 39d68011df9e4341244af627bb71f4e3635256bb
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 403cc9dbd3bddcf67f59b5cb0be936af4d268fc2
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9083183"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9195660"
 ---
 # <a name="real-time-data-ingestion-preview"></a>वास्तविक-समय डेटा अंतर्ग्रहण (पूर्वावलोकन)
 
@@ -28,7 +28,7 @@ ms.locfileid: "9083183"
 
 वास्तविक-समय अपडेट की समय सीमा होती है जिसके बाद वे डेटा स्रोत से मान को ओवरराइड नहीं करते हैं:
 
-- प्रोफाइल अपडेट को 4 घंटे तक रखा जाएगा
+- प्रोफाइल अपडेट चार घंटे तक रखा जाएगा
 - गतिविधियों को 30 दिनों तक रखा जाएगा
 
 ये मान API कॉल पैरामीटर हैं जिन्हें आप बदल सकते हैं. उनका उद्देश्य यह सुनिश्चित करना है कि आपका स्रोत डेटा आपके सत्य का स्रोत बना रहे. यदि आप चाहते हैं कि रियल-टाइम अद्यतन अधिक समय के लिए शामिल किया जाएं, तो आपको उन्हें डेटा स्रोत में जोड़ना होगा, ताकि उनको अगले शेड्यूल किए गए रीफ़्रेश के दौरान खींच लिया जाए.

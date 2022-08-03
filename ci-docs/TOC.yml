@@ -104,22 +104,26 @@
       href: enrichment-here.md
     - name: एसएफ़टीपी कस्टम आयात
       href: enrichment-SFTP-custom-import.md
-- name: एकीकृत प्रोफ़ाइलें
+- name: ग्राहक प्रोफाइल और गतिविधियां
   items:
-    - name: एकीकृत ग्राहक प्रोफाइल्स की समीक्षा करें
+    - name: ग्राहक की प्रोफाइल देखें
       href: customer-profiles.md
-    - name: एकीकृत ग्राहक प्रोफाइल्स को फ़िल्टर करें
+    - name: खोज और फ़िल्टर अनुक्रमणिका प्रबंधित करें
       href: search-filter-index.md
     - name: ग्राहक गतिविधियों को परिभाषित करें
       href: activities.md
     - name: सहमति प्रबंधन का उपयोग करें
       href: consent-management.md
+    - name: वैयक्तिकरण के लिए वेब डेटा का उपयोग करें
+      href: unknown-to-known.md
 - name: सेगमेंट
   items:
     - name: अनुभाग ओवरव्यू
       href: segments.md
-    - name: अनुभाग बनाएं
+    - name: सेगमेंट बिल्डर के साथ बनाएं
       href: segment-builder.md
+    - name: त्वरित खंडों के साथ बनाएं
+      href: segment-quick.md
     - name: मापों के आधार पर सुझाए गए अनुभाग
       href: suggested-segments.md
     - name: गतिविधि के आधार पर सुझाए गए अनुभाग
@@ -132,9 +136,9 @@
   items:
     - name: उपायों का अवलोकन
       href: measures.md
-    - name: एक नया उपाय बनाएं
+    - name: माप निर्माता के साथ बनाएं
       href: measure-builder.md
-    - name: माप टेम्पलेट का उपयोग करें
+    - name: टेम्प्लेट के साथ बनाएं
       href: measure-templates.md
 - name: पूर्वानुमान
   items:
@@ -180,6 +184,10 @@
           href: export-destinations.md
         - name: सक्रिय अभियान
           href: export-active-campaign.md
+        - name: Adobe Campaign Standard
+          href: export-adobe-campaign-standard.md
+        - name: Adobe Experience Platform
+          href: export-adobe-experience-platform.md
         - name: AdRoll
           href: export-adroll.md
         - name: Autopilot
@@ -190,10 +198,6 @@
           href: export-azure-data-lake-storage-gen2.md
         - name: Azure Synapse Analytics
           href: export-azure-synapse-analytics.md
-        - name: Adobe Campaign Standard
-          href: export-adobe-campaign-standard.md
-        - name: Adobe Experience Platform
-          href: export-adobe-experience-platform.md
         - name: टांकना
           href: export-braze.md
         - name: Campaign Monitor
@@ -228,6 +232,8 @@
           href: export-marketo.md
         - name: Microsoft विज्ञापन
           href: export-microsoft-advertising.md
+        - name: मो एंगेज
+          href: export-moengage.md
         - name: Omnisend
           href: export-omnisend.md
         - name: RollWorks
