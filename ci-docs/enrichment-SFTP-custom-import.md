@@ -1,19 +1,19 @@
 ---
 title: एसएफ़टीपी कस्टम आयात (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल को समृद्ध करें
 description: SFTP कस्टम आयात एनरिचमेंट के बारे में सामान्य जानकारी.
-ms.date: 06/10/2022
+ms.date: 08/08/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 81ef6c62240e26cb5c9475e6306e08edc7e5eb31
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 831d1d3d3045379bbc5bcdcd4b05b8a147221f31
+ms.sourcegitcommit: b1d06fe26934f12f0c5ed13e8ef1d37e52e67cc7
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195798"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "9237768"
 ---
 # <a name="enrich-customer-profiles-with-sftp-custom-import-preview"></a>एसएफ़टीपी कस्टम आयात (पूर्वावलोकन) के साथ ग्राहक प्रोफाइल को समृद्ध करें
 
@@ -85,14 +85,9 @@ SFTP सर्वर पर आयात की जाने वाली फ़
 
 1. SFTP सर्वर के लिए एक मान्य उपयोगकर्ता नाम, पासवर्ड और होस्ट URL दर्ज करें, जिस पर आयात किया जाने वाला डेटा रहता है।
 
-1. **मैं सहमत हूं** चयन करके [डेटा गोपनीयता और अनुपालन](#data-privacy-and-compliance) की समीक्षा करें और इसके लिए अपनी सहमति प्रदान करें।
+1. की समीक्षा करें [डेटा गोपनीयता और अनुपालन](connections.md#data-privacy-and-compliance) और चुनें **मैं सहमत हूं**.
 
 1. चुनना**सत्यापित करना** कॉन्फ़िगरेशन को सत्यापित करने के लिए और फिर चुनें **बचाना**.
-
-### <a name="data-privacy-and-compliance"></a>डेटा गोपनीयता और अनुपालन
-
-जब आप सक्षम करते हैं Dynamics 365 Customer Insights कस्टम आयात का उपयोग करके डेटा संचारित करने के लिए, आप अनुपालन सीमा के बाहर डेटा के हस्तांतरण की अनुमति देते हैं Dynamics 365 Customer Insights, जिसमें व्यक्तिगत डेटा जैसे संभावित संवेदनशील डेटा शामिल हैं। Microsoft आपके निर्देश पर ऐसे डेटा को स्थानांतरित करेगा, लेकिन यह सुनिश्चित करने के लिए आप ज़िम्मेदार हैं कि डेटा आपके किसी भी गोपनीयता या सुरक्षा दायित्वों को पूरा करता है। अधिक जानकारी के लिए, [Microsoft गोपनीयता कथन](https://go.microsoft.com/fwlink/?linkid=396732) देखें.
-आपका Dynamics 365 Customer Insights व्यवस्थापक इस कार्यक्षमता का उपयोग बंद करने के लिए किसी भी समय इस संवर्धन को हटा सकता है.
 
 ## <a name="configure-the-import"></a>आयात कॉन्फ़िगर करें
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: f9c9ee55f2874ae1dcaf82f2ff17ed0fbbb7804d
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 0e953cfff12df433d033717d58b28c2834468916
+ms.sourcegitcommit: 086f75136132d561cd78a4c2cb1e1933e2301f32
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196396"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9259846"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>डेटा निर्यात करें Azure Synapse Analytics (पूर्व दर्शन)
 
@@ -24,7 +24,7 @@ Azure Synapse विश्लेषण सेवा है, जो डेटा 
 > [!NOTE]
 > सुनिश्चित करें कि वर्णित सभी **भूमिका असाइनमेंट** सेट किए जाएं.
 
-- Customer Insights में, आपकाAzure Active Directory (एडी) उपयोगकर्ता खाते में एक होना चाहिए [प्रशासक की भूमिका।](permissions.md#assign-roles-and-permissions)
+- Customer Insights में, आपकाAzure Active Directory (एडी) उपयोगकर्ता खाते में एक होना चाहिए [प्रशासक की भूमिका।](permissions.md#add-users)
 
 Azure में:
 
@@ -39,6 +39,8 @@ Azure में:
 - *[Azure Synapse कार्यक्षेत्र प्रबंधित पहचान](/azure/synapse-analytics/security/synapse-workspace-managed-identity)* है **संग्रहण ब्लॉब डेटा सहयोगी** पर अनुमतियाँ Azure Data Lake Storage Gen2 खाता जहां डेटा स्थित है और से जुड़ा हुआ है Azure Synapse कार्यक्षेत्र। [ब्लॉब और क्यू डेटा तक पहुंच के लिए Azure भूमिका असाइन करने के लिए Azure पोर्टल का उपयोग करना](/azure/storage/common/storage-auth-aad-rbac-portal) और [ब्लॉब डेटा योगदानकर्ता अनुमतियां संग्रहण](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) के बारे में और अधिक जानें.
 
 - पर Azure Synapse कार्यक्षेत्र, *Customer Insights के लिए सेवा प्रिंसिपल* है **सिनैप्स एडमिनिस्ट्रेटर**[भूमिका सौंपी गई](/azure/synapse-analytics/security/how-to-set-up-access-control).
+
+- यदि आपका Customer Insights परिवेश आपके डेटा को संग्रहीत करता है [अपनाAzure Data Lake Storage](own-data-lake-storage.md), उपयोगकर्ता जो कनेक्शन सेट करता है Azure Synapse Analytics कम से कम बिल्ट-इन की जरूरत है **रीडर** डेटा लेक स्टोरेज खाते पर भूमिका। अधिक जानकारी के लिए देखें, [Azure पोर्टल का उपयोग करके Azure भूमिकाएं असाइन करें](/azure/role-based-access-control/role-assignments-portal).
 
 ## <a name="set-up-connection-to-azure-synapse"></a>से कनेक्शन सेट करें Azure Synapse
 
@@ -68,7 +70,7 @@ Azure में:
 
 1. में **निर्यात के लिए कनेक्शन** फ़ील्ड, से एक कनेक्शन चुनें Azure Synapse Analytics खंड। यदि कोई कनेक्शन उपलब्ध नहीं है तो किसी व्यवस्थापक से संपर्क करें.
 
-1. अपने निर्यात के लिए एक पहचानने योग्य **प्रदर्शन नाम** और एक **डेटाबेस नाम** प्रदान करें. निर्यात एक नया बना देगा[Azure Synapse झील डेटाबेस](/azure/synapse-analytics/database-designer/concepts-lake-database) कनेक्शन में परिभाषित कार्यक्षेत्र में।
+1. अपने निर्यात के लिए एक पहचानने योग्य **प्रदर्शन नाम** और एक **डेटाबेस नाम** प्रदान करें. निर्यात एक नया निर्माण करेगा[Azure Synapse झील डेटाबेस](/azure/synapse-analytics/database-designer/concepts-lake-database) कनेक्शन में परिभाषित कार्यक्षेत्र में।
 
 1. चुनें कि आप किन इकाइयों को निर्यात करना चाहते हैं Azure Synapse Analytics.
    > [!NOTE]

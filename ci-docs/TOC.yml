@@ -284,18 +284,20 @@
       href: connect-service-principal.md
 - name: व्यवस्थापन
   items:
-    - name: सिस्टम कॉन्फ़िगरेशन सेट अप करें
-      href: system.md
-    - name: सुरक्षा सेटिंग्स कॉन्फ़िगर करें
-      href: security-overview.md
     - name: उपयोगकर्ता अनुमतियाँ असाइन करें
       href: permissions.md
     - name: अपना स्वयं का 'Key Vault' लाएं
       href: use-azure-key-vault.md
+    - name: सुरक्षा सेटिंग्स कॉन्फ़िगर करें
+      href: security-overview.md
     - name: डायग्नोस्टिक लॉग निर्यात करें
       href: diagnostics.md
-    - name: कनेक्शन का अवलोकन
+    - name: कनेक्शन प्रबंधित करें
       href: connections.md
+    - name: शेड्यूल सिस्टम रिफ्रेश
+      href: schedule-refresh.md
+    - name: सिस्टम कॉन्फ़िगरेशन देखें
+      href: system.md
 - name: APIs
   items:
     - name: API के साथ काम करें

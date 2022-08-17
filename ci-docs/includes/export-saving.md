@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: 81a1c1118736dbd73890e1773aee1f0020c036c3
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 717a0ed5bcc55a17aca81c1bd2a0a6f34bf75c55
+ms.sourcegitcommit: 49394c7216db1ec7b754db6014b651177e82ae5b
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9199177"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "9245237"
 ---
-निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है. निर्यात हर [शेड्यूल रिफ़्रेश](../system.md#schedule-tab) के साथ चलता है. आप [मांग पर डेटा निर्यात](../export-destinations.md#run-exports-on-demand) भी कर सकते हैं.
+निर्यात को सहेजने से निर्यात तुरंत नहीं चलता है. निर्यात हर [शेड्यूल रिफ़्रेश](../schedule-refresh.md) के साथ चलता है. आप [मांग पर डेटा निर्यात](../export-destinations.md#run-exports-on-demand) भी कर सकते हैं.

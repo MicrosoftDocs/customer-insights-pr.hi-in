@@ -1,19 +1,19 @@
 ---
 title: Azure मैप्स (पूर्वावलोकन) से स्थान डेटा के साथ ग्राहक प्रोफाइल को समृद्ध करें
 description: Azure Maps प्रथम पक्ष का संवर्धन के बारे में सामान्य जानकारी.
-ms.date: 06/10/2022
+ms.date: 08/08/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: dfadc08f67beac3fded1a97e557ee9e1880664e0
-ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
+ms.openlocfilehash: f14b4fc20a9a1d8842f42f9e0e656b3d8dcddcf4
+ms.sourcegitcommit: b1d06fe26934f12f0c5ed13e8ef1d37e52e67cc7
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9052609"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "9238044"
 ---
 # <a name="enrich-customer-profiles-with-location-data-from-azure-maps-preview"></a>Azure मैप्स (पूर्वावलोकन) से स्थान डेटा के साथ ग्राहक प्रोफाइल को समृद्ध करें
 
@@ -27,7 +27,7 @@ ms.locfileid: "9052609"
 
 ## <a name="configure-the-connection-for-azure-maps"></a>Azure मानचित्र के लिए कनेक्शन कॉन्फ़िगर करें
 
-आप एक होना चाहिए [प्रशासक](permissions.md#admin) Customer Insights में और एक सक्रिय Azure मैप्स API कुंजी है।
+आप एक होना चाहिए [प्रशासक](permissions.md#admin) Customer Insights में हैं और उनके पास एक सक्रिय Azure मैप्स API कुंजी है।
 
 1. संवर्धन को कॉन्फ़िगर करते समय **कनेक्शन जोड़ें** चुनें या **व्यवस्थापक** > **कनेक्शन** पर जाएँ और Azure मानचित्र टाइल पर **सेट अप** चुनें।
 
@@ -35,14 +35,9 @@ ms.locfileid: "9052609"
 
 1. कनेक्शन के लिए एक नाम और एक मान्य Azure मैप्स API कुंजी दर्ज करें।
 
-1. **मैं सहमत हूं** चयन करके [डेटा गोपनीयता और अनुपालन](#data-privacy-and-compliance) की समीक्षा करें और इसके लिए अपनी सहमति प्रदान करें।
+1. की समीक्षा करें [डेटा गोपनीयता और अनुपालन](connections.md#data-privacy-and-compliance) और चुनें **मैं सहमत हूं**.
 
 1. चुनना**सत्यापित करना** कॉन्फ़िगरेशन को सत्यापित करने के लिए और फिर चुनें **बचाना**.
-
-### <a name="data-privacy-and-compliance"></a>डेटा गोपनीयता और अनुपालन
-
-जब आप Azure मानचित्र पर डेटा संचारित करने के लिए Dynamics 365 Customer Insights सक्षम करते हैं, तो आप Dynamics 365 Customer Insights के लिए अनुपालन सीमा के बाहर डेटा के हस्तांतरण की अनुमति देते हैं, जिसमें व्यक्तिगत डेटा जैसे संभावित संवेदनशील डेटा शामिल हैं। Microsoft आपके निर्देश पर ऐसे डेटा को स्थानांतरित करेगा, लेकिन यह सुनिश्चित करने के लिए आप ज़िम्मेदार हैं कि Azure मैप्स आपके किसी भी गोपनीयता या सुरक्षा दायित्वों को पूरा करता है। अधिक जानकारी के लिए, [Microsoft निजता कथन](https://go.microsoft.com/fwlink/?linkid=396732) पर जाएँ.
-आपका Dynamics 365 Customer Insights प्रशासक इस कार्यक्षमता का उपयोग बंद करने के लिए किसी भी समय इस एनरिचमेंट को हटा सकता है.
 
 ## <a name="configure-the-enrichment"></a>एनरिचमेंट को कॉन्फ़िगर करें
 
