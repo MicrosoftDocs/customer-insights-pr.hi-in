@@ -76,6 +76,8 @@
       href: merge-entities.md
     - name: डेटा एकीकरण की समीक्षा करें
       href: review-unification.md
+    - name: एक एकीकृत संपर्क प्रोफ़ाइल बनाएं
+      href: data-unification-contacts.md
     - name: एकीकरण सेटिंग अपडेट करें
       href: data-unification-update.md
 - name: डेटा संवर्धन

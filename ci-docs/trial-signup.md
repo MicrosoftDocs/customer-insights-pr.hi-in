@@ -8,12 +8,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.reviewer: jeffhar
 manager: shellyha
-ms.openlocfilehash: 73f12745f76ef65afcc565ffb972e755073a2834
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: fd32a3e37f4bbf57a5bd05f888fde39d32c02a82
+ms.sourcegitcommit: e5649ca0b3000cee0ca7c9eac7142cbd5f7dd2ac
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9082490"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9305606"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-customer-insights-trial"></a>मुफ़्त Dynamics 365 Customer Insights परीक्षण के लिए साइन अप करें
 
@@ -40,6 +40,6 @@ Customer Insights 30-दिन का मुफ़्त ट्रायल ऑफ�
 
 ## <a name="additional-resources"></a>अतिरिक्त संसाधन
 
-- [Microsoft Learn पर प्रशिक्षण एक्सप्लोर करें](/learn/browse/?filter-products=dynamics-dynamics-cust-insights)
+- [Customer Insights के लिए सीखने के पथ और मॉड्यूल का अन्वेषण करें](/learn/browse/?products=dynamics-cust-insights)
 - [परीक्षण FAQ](trial-faq.md)
 - [Dynamics 365 Customer Insights उत्पाद के विवरण](https://dynamics.microsoft.com/ai/customer-insights/)
