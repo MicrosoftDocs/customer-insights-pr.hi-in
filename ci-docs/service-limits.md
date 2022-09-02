@@ -1,29 +1,29 @@
 ---
 title: Customer Insights में सेवा सीमाएं
 description: Customer Insights SaaS सेवा में सीमाओं और प्रतिबंधों को समझें।
-ms.date: 05/28/2022
+ms.date: 08/30/2022
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 6d1b761a5c9f67bfdc7c5b152132c618db3ea36a
-ms.sourcegitcommit: 78ef22cd39a1ebd7525f96829cd79d95f34438b9
+ms.openlocfilehash: 421e1aa41a54a4b8c34ac27fc7c02e510d2bb588
+ms.sourcegitcommit: 624b27bb65a0de1970dc1ac436643b493f0a31cf
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8940670"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9387158"
 ---
 # <a name="service-limits-in-customer-insights"></a>Customer Insights में सेवा सीमाएं
 
-यह आलेख Customer Insights Service में उन अंतर्निहित सीमाओं का वर्णन करता है, जिन्हें सेवा की विश्वसनीयता और स्थिरता सुनिश्चित करने के लिए डिज़ाइन किया गया है. परिवर्तनों के लिए किसी भी अनुरोधों को [विचार फ़ोरम](https://go.microsoft.com/fwlink/?linkid=2074172) के माध्यम से बनाया जा सकता है.
+ Customer Insights में सेवा की विश्वसनीयता और स्थिरता सुनिश्चित करने के लिए डिज़ाइन की गई अंतर्निहित सीमाएँ हैं। परिवर्तनों के लिए किसी भी अनुरोधों को [विचार फ़ोरम](https://go.microsoft.com/fwlink/?linkid=2074172) के माध्यम से बनाया जा सकता है.
 
 ## <a name="customer-insights"></a>Customer Insights
 
 | क्षेत्र  | सीमाएँ  | नोट्स |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| खंड, उपाय और भविष्यवाणियां | 300  | की कुल संख्या[खंडों](segments.md),[पैमाने](measures.md), तथा[भविष्यवाणियों](predictions.md) संयुक्त 300 से अधिक नहीं हो सकता।  |
+| खंड, उपाय और भविष्यवाणियां | 300  | की कुल संख्या[खंडों](segments.md) ,[पैमाने](measures.md) , तथा[भविष्यवाणियों](predictions.md) संयुक्त 300 से अधिक नहीं हो सकता।  |
 | संबंध | निकाय पथों में संबंधों पर गहराई के 20 स्तर. | बिल्डर इंटरफ़ेस का उपयोग करते हुए [सेगमेंट](segments.md) या [उपाय](measures.md) बनाते समय, निकाय पथ में प्रारंभ निकाय और लक्ष्य निकाय के बीच अधिकतम 20 संबंध हो सकते हैं.  |
 
 ## <a name="fair-scheduling-of-jobs"></a>नौकरियों का उचित समय निर्धारण
