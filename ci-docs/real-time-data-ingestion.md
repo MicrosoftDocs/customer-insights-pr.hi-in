@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-api-usage
 - customerInsights
-ms.openlocfilehash: 2652e0868f5cc514ab6df9c150a9183cf95ae589
-ms.sourcegitcommit: 49394c7216db1ec7b754db6014b651177e82ae5b
+ms.openlocfilehash: dd433b57e8695891a08d6f7fdb8c87befd2e1cfa
+ms.sourcegitcommit: d7054a900f8c316804b6751e855e0fba4364914b
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "9246110"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9396063"
 ---
 # <a name="real-time-data-ingestion-preview"></a>वास्तविक-समय डेटा अंतर्ग्रहण (पूर्वावलोकन)
 
@@ -28,7 +28,7 @@ ms.locfileid: "9246110"
 
 वास्तविक-समय अपडेट की समय सीमा होती है जिसके बाद वे डेटा स्रोत से मान को ओवरराइड नहीं करते हैं:
 
-- प्रोफ़ाइल अपडेट चार घंटे तक रखे जाएंगे
+- प्रोफाइल अपडेट चार घंटे तक रखा जाएगा
 - गतिविधियों को 30 दिनों तक रखा जाएगा
 
 ये मान API कॉल पैरामीटर हैं जिन्हें आप बदल सकते हैं. उनका उद्देश्य यह सुनिश्चित करना है कि आपका स्रोत डेटा आपके सत्य का स्रोत बना रहे. यदि आप चाहते हैं कि रियल-टाइम अद्यतन अधिक समय के लिए शामिल किया जाएं, तो आपको उन्हें डेटा स्रोत में जोड़ना होगा, ताकि उनको अगले शेड्यूल किए गए रीफ़्रेश के दौरान खींच लिया जाए.
@@ -82,10 +82,5 @@ ms.locfileid: "9246110"
 आप अपने स्रोत प्रणाली के प्रारूप में या UnifiedActivity प्रारूप में गतिविधि पोस्ट कर सकते हैं. /api/instances/{instanceId}/manage/entities/UnifiedActivity पर API कॉल करके प्रारूप प्राप्त करें.
 
 मापदंड और प्रतिक्रियाओं सहित इस API के विवरण, [Customer Insights API संदर्भ](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights) पर **EntityData** अनुभाग में पाया जा सकता है. अधिक जानकारी के लिए, [Customer Insights API के साथ काम करें](apis.md) देखें.
-
-## <a name="understand-your-real-time-usage-with-telemetry"></a>टेलीमेट्री के साथ अपने वास्तविक समय के उपयोग को समझें
-
-रीयल-टाइम API के अनुरोधों की मात्रा का अवलोकन प्राप्त करें और सिस्टम के सामने आने वाली समस्याओं के बारे में जानकारी प्राप्त कर सकता है. आप [रीयल-टाइम टेलीमेट्री को एक्सेस कर सकते हैं](system.md#view-api-usage). 
-
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]

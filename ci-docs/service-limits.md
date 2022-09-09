@@ -8,12 +8,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 421e1aa41a54a4b8c34ac27fc7c02e510d2bb588
-ms.sourcegitcommit: 624b27bb65a0de1970dc1ac436643b493f0a31cf
+ms.openlocfilehash: 7f38b7d9985368fc38107f1f360f0603a7fcc8e6
+ms.sourcegitcommit: 3c7cdfc8bd83ca236e4777240e08a541dc955d34
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387158"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9411742"
 ---
 # <a name="service-limits-in-customer-insights"></a>Customer Insights में सेवा सीमाएं
 
@@ -23,7 +23,7 @@ ms.locfileid: "9387158"
 
 | क्षेत्र  | सीमाएँ  | नोट्स |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| खंड, उपाय और भविष्यवाणियां | 300  | की कुल संख्या[खंडों](segments.md) ,[पैमाने](measures.md) , तथा[भविष्यवाणियों](predictions.md) संयुक्त 300 से अधिक नहीं हो सकता।  |
+| खंड, उपाय और भविष्यवाणियां | 300  | की कुल संख्या[खंडों](segments.md),[पैमाने](measures.md), तथा[भविष्यवाणियों](predictions-overview.md) संयुक्त 300 से अधिक नहीं हो सकता।  |
 | संबंध | निकाय पथों में संबंधों पर गहराई के 20 स्तर. | बिल्डर इंटरफ़ेस का उपयोग करते हुए [सेगमेंट](segments.md) या [उपाय](measures.md) बनाते समय, निकाय पथ में प्रारंभ निकाय और लक्ष्य निकाय के बीच अधिकतम 20 संबंध हो सकते हैं.  |
 
 ## <a name="fair-scheduling-of-jobs"></a>नौकरियों का उचित समय निर्धारण

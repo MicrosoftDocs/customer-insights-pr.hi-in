@@ -160,8 +160,6 @@
           href: sentiment-analysis.md
         - name: Azure मशीन लर्निंग से कस्टम मॉडल्स का उपयोग करें
           href: custom-models.md
-        - name: आंशिक रूप से अनुपलब्ध डेटा को पूरा करें
-          href: predictions.md
     - name: नमूना गाइड्स
       items:
         - name: CLV पूर्वानुमान के लिए नमूना गाइड
