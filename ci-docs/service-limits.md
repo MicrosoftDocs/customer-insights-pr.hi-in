@@ -8,12 +8,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 7f38b7d9985368fc38107f1f360f0603a7fcc8e6
-ms.sourcegitcommit: 3c7cdfc8bd83ca236e4777240e08a541dc955d34
+ms.openlocfilehash: c3863b1a72fd92ddc87755699feda11371ec9214
+ms.sourcegitcommit: dfba60e17ae6dc1e2e3830e6365e2c1f87230afd
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9411742"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9463221"
 ---
 # <a name="service-limits-in-customer-insights"></a>Customer Insights में सेवा सीमाएं
 
@@ -25,6 +25,7 @@ ms.locfileid: "9411742"
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
 | खंड, उपाय और भविष्यवाणियां | 300  | की कुल संख्या[खंडों](segments.md),[पैमाने](measures.md), तथा[भविष्यवाणियों](predictions-overview.md) संयुक्त 300 से अधिक नहीं हो सकता।  |
 | संबंध | निकाय पथों में संबंधों पर गहराई के 20 स्तर. | बिल्डर इंटरफ़ेस का उपयोग करते हुए [सेगमेंट](segments.md) या [उपाय](measures.md) बनाते समय, निकाय पथ में प्रारंभ निकाय और लक्ष्य निकाय के बीच अधिकतम 20 संबंध हो सकते हैं.  |
+|डेटा लेना| समवर्ती मूल्यांकन के लिए Power Query डेटा स्रोत सीमित हैं। | Customer Insights में एक ही है [PowerBI.com में डेटा प्रवाह जैसी ताज़ा सीमाएँ।](/power-query/power-query-online-limits#refresh-limits) |
 
 ## <a name="fair-scheduling-of-jobs"></a>नौकरियों का उचित समय निर्धारण
 
