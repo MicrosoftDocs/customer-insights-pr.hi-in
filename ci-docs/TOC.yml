@@ -7,21 +7,21 @@
 - name: प्रशिक्षण कैटलॉग
   items:
     - name: Microsoft ग्राहक डेटा प्लेटफ़ॉर्म विशेषज्ञ के रूप में प्रमाणित करें
-      href: /learn/certifications/exams/mb-260?tab=tab-instructor-led
+      href: /certifications/exams/mb-260?tab=tab-instructor-led
     - name: Customer Insights के साथ आरंभ करें
-      href: /learn/modules/get-started-customer-data-platform/
+      href: /training/modules/get-started-customer-data-platform/
     - name: डेटा करें
-      href: /learn/modules/ingest-data-customer-insights/
+      href: /training/modules/ingest-data-customer-insights/
     - name: एकीकृत ग्राहक प्रोफ़ाइल बनाएँ
-      href: /learn/modules/unified-customer-profile/
+      href: /training/modules/unified-customer-profile/
     - name: Customer Insights के साथ काम करें
-      href: /learn/modules/working-with-customer-insights/
+      href: /training/modules/working-with-customer-insights/
     - name: डेटा समृद्ध करें और भविष्यवाणियां करें
-      href: /learn/modules/enrich-data/
+      href: /training/modules/enrich-data/
     - name: बाहरी कनेक्शन प्रबंधित करें
-      href: /learn/modules/configure-third-party-connections/
+      href: /training/modules/configure-third-party-connections/
     - name: व्यवस्थापित Customer Insights
-      href: /learn/modules/administer-customer-data-platform/
+      href: /training/modules/administer-customer-data-platform/
 - name: निःशुल्क परीक्षण
   items:
     - name: ' निःशुल्क परीक्षण के लिए साइन अप करें '
@@ -118,6 +118,8 @@
       href: consent-management.md
     - name: वैयक्तिकरण के लिए वेब डेटा का उपयोग करें
       href: unknown-to-known.md
+    - name: अज्ञात ग्राहक प्रोफ़ाइल प्रबंधित करें
+      href: manage-unknown-profiles.md
 - name: सेगमेंट
   items:
     - name: अनुभाग ओवरव्यू
