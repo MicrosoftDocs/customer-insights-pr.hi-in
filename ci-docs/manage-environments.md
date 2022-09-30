@@ -1,6 +1,6 @@
 ---
 title: परिवेशों को प्रबंधित करें
-description: एक व्यवस्थापक के रूप में मौजूदा Customer Insights परिवेशों को प्रबंधित करने का तरीका जानें।"
+description: एक व्यवस्थापक के रूप में मौजूदा Customer Insights परिवेशों को प्रबंधित करने का तरीका जानें।
 ms.date: 08/15/2022
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-about
 - customerInsights
-ms.openlocfilehash: 8b4a88bdb75c6e638a76c39d18647681ad4556d7
-ms.sourcegitcommit: 267c317e10166146c9ac2c30560c479c9a005845
+ms.openlocfilehash: 6d48f7088d722b27ca69cd591178651bdb6e2c23
+ms.sourcegitcommit: f959c85871777e5f4eab289e91b2fd114cd72153
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 08/16/2022
-ms.locfileid: "9304282"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9588814"
 ---
 # <a name="manage-environments"></a>परिवेशों को प्रबंधित करें
 
@@ -58,7 +58,7 @@ ms.locfileid: "9304282"
 
 ## <a name="reset-an-existing-environment-preview"></a>मौजूदा परिवेश को रीसेट करें (पूर्वावलोकन)
 
-किसी परिवेश के स्वामी के रूप में, यदि आप सभी कॉन्फ़िगरेशन हटाना चाहते हैं और अंतर्ग्रहीत डेटा निकालना चाहते हैं, तो परिवेश को रिक्त स्थिति में रीसेट करें.
+परिवेश के स्वामी के रूप में, यदि आप सभी कॉन्फ़िगरेशन हटाना चाहते हैं और अंतर्ग्रहीत डेटा निकालना चाहते हैं, तो परिवेश को रिक्त स्थिति में रीसेट करें.
 
 1. ऐप के हेडर में **परिवेश** पिकर का चयन करें.
 
