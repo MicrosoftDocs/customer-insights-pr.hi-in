@@ -1,7 +1,7 @@
 ---
 title: शेड्यूल सिस्टम रिफ्रेश
 description: उस समय को शेड्यूल करें जब सिस्टम को रिफ्रेश किया जाना चाहिए
-ms.date: 08/09/2022
+ms.date: 09/27/2022
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: NimrodMagen
@@ -11,19 +11,19 @@ manager: shellyha
 searchScope:
 - ci-system-schedule
 - customerInsights
-ms.openlocfilehash: 949ea071ca41127b0c45488d5d7af3f6aa4e1c35
-ms.sourcegitcommit: d7054a900f8c316804b6751e855e0fba4364914b
+ms.openlocfilehash: 4aac02b570357d2086f7a9d7340b0e4837157a0b
+ms.sourcegitcommit: be341cb69329e507f527409ac4636c18742777d2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9395958"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9610330"
 ---
 # <a name="schedule-system-refresh"></a>शेड्यूल सिस्टम रिफ्रेश
 
 अपने सभी के स्वचालित रीफ़्रेश शेड्यूल करें [अंतर्ग्रहण डेटा स्रोत।](data-sources.md) स्वचालित रिफ़्रेश यह सुनिश्चित करने में मदद करते हैं कि आपके डेटा स्रोतों से अद्यतन आपके एकीकृत ग्राहक प्रोफ़ाइल में दिखाई दें.
 
 > [!NOTE]
-> Power Query आपके द्वारा प्रबंधित डेटा स्रोत अपने स्वयं के शेड्यूल पर रीफ़्रेश होते हैं। इनमें से रिफ्रेश शेड्यूल करने के लिए Power Query डेटा स्रोत, उस विशिष्ट डेटा स्रोत पर ताज़ा सेटिंग्स कॉन्फ़िगर करें **डेटा स्रोत** पृष्ठ।
+> Power Query आपके द्वारा प्रबंधित डेटा स्रोत अपने स्वयं के शेड्यूल पर रीफ़्रेश होते हैं। इनमें से रिफ्रेश शेड्यूल करने के लिए Power Query डेटा स्रोत, उस विशिष्ट डेटा स्रोत पर ताज़ा सेटिंग्स कॉन्फ़िगर करें **डेटा स्रोत** पृष्ठ। अपस्ट्रीम डेटा रिफ्रेश शेड्यूल के साथ समय को संरेखित करें ताकि सभी रिफ्रेश एक साथ न हों।
 > :::image type="content" source="media/PPDF-edit-refresh.png" alt-text="Power Platform डेटाफ़्लो रीफ़्रेश सेटिंग.":::
 
 ## <a name="set-system-refresh-schedule"></a>सिस्टम रिफ्रेश शेड्यूल सेट करें

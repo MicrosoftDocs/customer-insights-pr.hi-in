@@ -162,6 +162,8 @@
           href: sentiment-analysis.md
         - name: Azure मशीन लर्निंग से कस्टम मॉडल्स का उपयोग करें
           href: custom-models.md
+        - name: पूर्वानुमनों के आधार पर सेगमेंट बनाएं
+          href: prediction-based-segment.md
     - name: नमूना गाइड्स
       items:
         - name: CLV पूर्वानुमान के लिए नमूना गाइड
@@ -174,10 +176,6 @@
           href: sample-guide-predict-product-recommendation.md
         - name: Azure मशीन लर्निंग के साथ प्रयोग
           href: azure-machine-learning-experiments.md
-    - name: पूर्वानुमानों को प्रबंधित करें
-      href: manage-predictions.md
-    - name: पूर्वानुमनों के आधार पर सेगमेंट बनाएं
-      href: prediction-based-segment.md
 - name: निर्यात विकल्प
   items:
     - name: निर्यात
