@@ -8,12 +8,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: f2990ad410dda0cbf952f82f3fc30b3a53a7bcd4
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 855e77055eeb24a2c6cff0d45cd23edf93cc0581
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196994"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724850"
 ---
 # <a name="export-segments-to-sendgrid-preview"></a>SendGrid को निर्यात खंड (पूर्वावलोकन)
 
@@ -29,6 +29,7 @@ ms.locfileid: "9196994"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- ब्रिंग योर ओन स्टोरेज (बीओओएस) के संयोजन में निजी लिंक समर्थित नहीं है।
 - SendGrid में कुल 100,000 ग्राहक प्रोफ़ाइल तक, जिसे पूरा होने में कुछ घंटे तक लग सकते हैं। ग्राहक प्रोफ़ाइल की संख्या जिसे आप SendGrid को निर्यात कर सकते हैं, आपके SendGrid के साथ अनुबंध पर निर्भर करता है।
 - केवल खंड।
 

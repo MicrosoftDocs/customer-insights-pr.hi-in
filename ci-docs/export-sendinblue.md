@@ -8,12 +8,12 @@ ms.topic: how-to
 author: phkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 816a3b242fadaa5a75db878adf0a76baf638e41c
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: fc4ac34c1de096e25ba6c374fe17b1da6b2f745f
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196948"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724896"
 ---
 # <a name="export-segments-to-sendinblue-preview"></a>Sendinblue में अनुभाग निर्यात करें (पूर्वावलोकन)
 
@@ -29,6 +29,7 @@ ms.locfileid: "9196948"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- ब्रिंग योर ओन स्टोरेज (बीओओएस) के संयोजन में निजी लिंक समर्थित नहीं है।
 - Sendinblue को प्रति निर्यात 1 मिलियन ग्राहक प्रोफाइल तक, जिसे पूरा होने में 90 मिनट तक का समय लग सकता है। ग्राहक प्रोफाइल की संख्या जिसे आप Sendinblue को निर्यात कर सकते हैं, Sendinblue के साथ आपके अनुबंध पर निर्भर करता है।
 - केवल खंड।
 

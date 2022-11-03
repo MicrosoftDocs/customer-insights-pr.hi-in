@@ -8,16 +8,16 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ccf10b6e3a28a75f9d1bd3d8da3bf870ebc2b1b2
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 69e2bd207c98fc2530620018bf95dd869d1798f6
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195431"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724548"
 ---
 # <a name="export-segments-to-iterable-preview"></a>सेगमेंट को Iterable में निर्यात करें (पूर्वावलोकन)
 
-एकीकृत ग्राहक प्रोफाइल के सेगमेंट को Iterable में निर्यात करें और मार्केटिंग गतिविधियों के लिए उनका उपयोग करें।
+एकीकृत ग्राहक प्रोफाइल के खंडों को Iterable में निर्यात करें और उन्हें विपणन गतिविधियों के लिए उपयोग करें।
 
 ## <a name="prerequisites"></a>पूर्वावश्यकताएँ
 
@@ -28,6 +28,7 @@ ms.locfileid: "9195431"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- ब्रिंग योर ओन स्टोरेज (बीओओएस) के संयोजन में निजी लिंक समर्थित नहीं है।
 - Iterable में 1 मिलियन ग्राहक प्रोफाइल तक, जिसे पूरा होने में 30 मिनट तक का समय लग सकता है। ग्राहक प्रोफाइल की संख्या जिसे आप Iterable को निर्यात कर सकते हैं, Iterable के साथ आपके अनुबंध पर निर्भर करता है।
 - केवल खंड।
 

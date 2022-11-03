@@ -8,12 +8,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: cabaea84e31f8fe97bc558a8dca8d93bc40f43b7
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 8f3e3378dce9177c6645b91140884ae135540243
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196074"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724988"
 ---
 # <a name="export-segments-to-dotdigital-preview"></a>सेगमेंट को DotDigital (पूर्वावलोकन) में निर्यात करें
 
@@ -28,6 +28,7 @@ ms.locfileid: "9196074"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- ब्रिंग योर ओन स्टोरेज (बीओओएस) के संयोजन में निजी लिंक समर्थित नहीं है।
 - DotDigital को प्रति निर्यात 1 मिलियन ग्राहक प्रोफाइल तक, जिसे प्रदाता पक्ष की सीमाओं के कारण पूरा होने में तीन घंटे तक का समय लग सकता है। ग्राहक प्रोफाइल की संख्या जिसे आप डॉटडिजिटल को निर्यात कर सकते हैं, डॉटडिजिटल के साथ आपके अनुबंध पर निर्भर करता है।
 - केवल खंड।
 
@@ -77,6 +78,6 @@ ms.locfileid: "9196074"
 
 [!INCLUDE [export-saving-include](includes/export-saving.md)]
 
-DotDigital में, अपने सेगमेंट ढूंढें [डॉट डिजिटल एड्रेस बुक्स](https://support.dotdigital.com/hc/articles/212211968-Creating-an-address-book).
+DotDigital में, अपने सेगमेंट खोजें [डॉट डिजिटल एड्रेस बुक्स](https://support.dotdigital.com/hc/articles/212211968-Creating-an-address-book).
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]

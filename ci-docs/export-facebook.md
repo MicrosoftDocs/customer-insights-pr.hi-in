@@ -8,12 +8,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 01be1a075db0da05dc5536aea8a33093f9a2ea13
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: c7a4b1be1c959d70fad929b56452169b40e5b592
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195016"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724599"
 ---
 # <a name="export-segments-to-facebook-ads-manager-preview"></a>निर्यात खंड Facebook विज्ञापन प्रबंधक (पूर्वावलोकन)
 
@@ -25,11 +25,13 @@ ms.locfileid: "9195016"
 
 - ए [Facebook विज्ञापन खाता](https://www.facebook.com/business/learn/lessons/step-by-step-ads-manager-account) जिसमें एक शामिल है [Facebook व्यवसायिक खाता।](https://business.facebook.com/)
 - पर व्यवस्थापक विशेषाधिकार [Facebook विज्ञापन खाता।](https://www.facebook.com/business/learn/lessons/step-by-step-ads-manager-account)
+- कस्टमर इनसाइट्स में कनेक्शन सेट करने वाले उपयोगकर्ता द्वारा कस्टम ऑडिएंस शर्तों को स्वीकार करने की आवश्यकता है।
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
 - प्रति निर्यात 10 मिलियन ग्राहक प्रोफाइल तक Facebook विज्ञापन प्रबंधक, जिसमें 90 मिनट तक लग सकते हैं।
 - केवल खंड।
+- Facebook विज्ञापन एकीकरण 25 से अधिक विज्ञापन खातों वाले उपयोगकर्ताओं का समर्थन नहीं करता है।
 - Facebook *ग्राहकू सूची* में टाइप करें [कस्टम दर्शक](https://www.facebook.com/business/help/744354708981227?id=2469097953376494) केवल।
   > [!NOTE]
   > कुछ मामलों में, आप ड्रॉपडाउन सूची में विभिन्न प्रकार के कस्टम ऑडियंस देख सकते हैं। यदि आप . के अलावा किसी अन्य प्रकार का चयन करते हैं *ग्राहकू सूची*, निर्यात विफल रहता है।

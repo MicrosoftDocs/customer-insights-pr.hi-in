@@ -8,12 +8,12 @@ author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: fd7498ecf17ef8a3a8f22dcc49ae204bef88b47f
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: a46623e609665f8031f223593a6644147e5209d8
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196580"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725080"
 ---
 # <a name="export-segments-to-google-ads-preview"></a>Google Ads (पूर्वावलोकन) में निर्यात अनुभाग
 
@@ -30,6 +30,7 @@ ms.locfileid: "9196580"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- ब्रिंग योर ओन स्टोरेज (बीओओएस) के संयोजन में निजी लिंक समर्थित नहीं है।
 - Google Ads को प्रति निर्यात 1 मिलियन ग्राहक प्रोफ़ाइल निर्यात करें, जिसे प्रदाता पक्ष की सीमाओं के कारण पूरा होने में 30 मिनट तक का समय लग सकता है।
 - केवल खंड।
 - Google Ads में मिलान में 48 घंटे तक लग सकते हैं.
@@ -69,7 +70,7 @@ ms.locfileid: "9196580"
 1. निर्यात के लिए एक नाम दर्ज करें।
 
 1. चुनें कि मौजूदा ऑडिएंस का उपयोग करना है या एक नया बनाना है:
-   - किसी मौजूदा Google Ads ऑडिएंस को अपडेट करने के लिए, अपना दर्ज करें [गूगल विज्ञापन ऑडिएंस आईडी](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns).
+   - मौजूदा Google Ads ऑडिएंस को अपडेट करने के लिए, अपना दर्ज करें [गूगल विज्ञापन ऑडिएंस आईडी](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns).
    - एक नया ऑडिएंस बनाने के लिए, Google ऑडिएंस आईडी फ़ील्ड खाली छोड़ दें। Customer Insights आपके Google Ads खाते में स्वचालित रूप से एक नया ऑडिएंस बनाएगी और निर्यात किए गए सेगमेंट के नाम का उपयोग करेगी।
 
 1. में **डेटा मिलान** अनुभाग में, निर्यात करने के लिए एक या अधिक डेटा फ़ील्ड का चयन करें, और उस फ़ील्ड का चयन करें जो Customer Insights में संबंधित डेटा फ़ील्ड का प्रतिनिधित्व करती है।

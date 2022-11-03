@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 8110eab199920ab8fc2ea15678139faf264a242a
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 81adad4caf2d4c6f792bf920b29fc7c67eef42b0
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195752"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724680"
 ---
 # <a name="export-segments-to-adroll-preview"></a>सेगमेंट को AdRoll (पूर्वावलोकन) में निर्यात करें
 
@@ -28,6 +28,7 @@ ms.locfileid: "9195752"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- ब्रिंग योर ओन स्टोरेज (बीओओएस) के संयोजन में निजी लिंक समर्थित नहीं है।
 - AdRoll को प्रति निर्यात 250,000 ग्राहक प्रोफ़ाइल तक, जिसे पूरा होने में 10 मिनट तक का समय लग सकता है। ग्राहक प्रोफ़ाइल की संख्या जिसे आप AdRoll में निर्यात कर सकते हैं, AdRoll के साथ आपके अनुबंध पर निर्भर करती है।
 - केवल खंड। एक सेगमेंट में कम से कम 100 ग्राहक प्रोफाइल होने चाहिए।
 

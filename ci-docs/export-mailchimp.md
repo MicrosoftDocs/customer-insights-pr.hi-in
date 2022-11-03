@@ -8,12 +8,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 54aec10e24b6356e2e4317cf33e740a1a086a2dd
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: d74672768afec94e899ff0aec8c118c2afcde368
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196856"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725034"
 ---
 # <a name="export-segments-to-mailchimp-preview"></a>सेगमेंट को Mailchimp (पूर्वावलोकन) में निर्यात करें
 
@@ -28,6 +28,7 @@ ms.locfileid: "9196856"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- ब्रिंग योर ओन स्टोरेज (बीओओएस) के संयोजन में निजी लिंक समर्थित नहीं है।
 - Mailchimp को प्रति निर्यात 1 मिलियन ग्राहक प्रोफ़ाइल तक, जिसमें तीन घंटे तक का समय लग सकता है। आप Mailchimp को जितने ग्राहक प्रोफ़ाइल निर्यात कर सकते हैं, वह Mailchimp के साथ आपके अनुबंध पर निर्भर करता है।
 - केवल खंड।
 

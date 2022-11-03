@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 2f52eb8196e057f934c8d2b5ac0518ce121606b6
-ms.sourcegitcommit: 003c1929f730d7d505c108aba84f6269f4c98978
+ms.openlocfilehash: a3967008ec166cb6f099659b0791f1318126c0da
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: hi-IN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9655296"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725218"
 ---
 # <a name="export-segments-to-braze-preview"></a>सेगमेंट को ब्रेज़ में निर्यात करें (पूर्वावलोकन)
 
@@ -29,6 +29,7 @@ ms.locfileid: "9655296"
 
 ## <a name="known-limitations"></a>ज्ञात सीमाएँ
 
+- ब्रिंग योर ओन स्टोरेज (बीओओएस) के संयोजन में निजी लिंक समर्थित नहीं है।
 - Braze तक 1 मिलियन ग्राहक प्रोफाइल, जिसे पूरा होने में 40 मिनट तक का समय लग सकता है। ग्राहक प्रोफाइल की संख्या जिसे आप ब्रेज़ को निर्यात कर सकते हैं, ब्रेज़ के साथ आपके अनुबंध पर निर्भर करता है।
 - केवल खंड।
 - Azure Private Link ब्रेज़ निर्यात के लिए समर्थित नहीं है।
